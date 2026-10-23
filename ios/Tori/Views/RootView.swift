@@ -71,11 +71,19 @@ struct RootView: View {
     @Environment(SettingsStore.self) private var settings
     @Environment(DataStore.self) private var data
 
-    @State private var selection: Destination = .home
+    @State private var selection: Destination
     /// Screens already opened stay alive (hidden) so a review session or a
     /// scroll position survives switching tabs.
-    @State private var visited: Set<Destination> = [.home]
+    @State private var visited: Set<Destination>
     @State private var showMore = false
+
+    init() {
+        // `-open <destination>` launches straight into a screen (UI tests, screenshots).
+        let args = ProcessInfo.processInfo.arguments
+        let start = args.firstIndex(of: "-open").flatMap { args.indices.contains($0 + 1) ? Destination(rawValue: args[$0 + 1]) : nil } ?? .home
+        _selection = State(initialValue: start)
+        _visited = State(initialValue: [start])
+    }
 
     var body: some View {
         let palette = Palette.make(settings.theme)
