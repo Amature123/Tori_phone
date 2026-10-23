@@ -75,17 +75,26 @@ struct Chip: View {
     @Environment(\.palette) private var p
 
     var body: some View {
-        Button(action: action) {
-            Text(title)
-                .font(.footnote.weight(.semibold))
-                .foregroundStyle(selected ? p.accentFg : p.text)
-                .padding(.horizontal, 14).padding(.vertical, 8)
-                .frame(minHeight: 36)
+        Button(action: action) { label }
+            .buttonStyle(PressableStyle())
+            .accessibilityAddTraits(selected ? .isSelected : [])
+    }
+
+    @ViewBuilder
+    private var label: some View {
+        let text = Text(title)
+            .font(.footnote.weight(.semibold))
+            .foregroundStyle(selected ? p.accentFg : p.text)
+            .padding(.horizontal, 14).padding(.vertical, 8)
+            .frame(minHeight: 36)
+        if #available(iOS 26.0, *) {
+            // Selected = glass tinted with the accent, otherwise clear glass.
+            text.glassEffect(selected ? .regular.tint(p.accent).interactive() : .regular.interactive(), in: Capsule())
+        } else {
+            text
                 .background(Capsule().fill(selected ? AnyShapeStyle(p.accent) : AnyShapeStyle(p.card)))
                 .overlay(Capsule().strokeBorder(selected ? Color.clear : p.hairline, lineWidth: 1))
         }
-        .buttonStyle(PressableStyle())
-        .accessibilityAddTraits(selected ? .isSelected : [])
     }
 }
 
@@ -97,38 +106,59 @@ struct GlassSegmented<Value: Hashable>: View {
     @Namespace private var thumb
 
     var body: some View {
+        if #available(iOS 26.0, *) {
+            // The thumb is a glass shape that morphs between segments (glassEffectID).
+            GlassEffectContainer(spacing: 0) { row }
+                .padding(3)
+                .background(Capsule().fill(p.text.opacity(0.06)))
+        } else {
+            row
+                .padding(3)
+                .background(Capsule().fill(p.text.opacity(0.06)))
+        }
+    }
+
+    private var row: some View {
         HStack(spacing: 2) {
             ForEach(options.indices, id: \.self) { i in
                 let option = options[i]
-                let isOn = option.value == selection
                 Button {
-                    withAnimation(.spring(response: 0.3, dampingFraction: 0.85)) { selection = option.value }
+                    withAnimation(.spring(response: 0.35, dampingFraction: 0.82)) { selection = option.value }
                 } label: {
-                    Text(option.label)
-                        .font(.footnote.weight(.semibold))
-                        .foregroundStyle(isOn ? p.text : p.muted)
-                        .frame(maxWidth: .infinity, minHeight: 34)
-                        .background {
-                            if isOn { thumbShape.matchedGeometryEffect(id: "thumb", in: thumb) }
-                        }
+                    segment(option.label, isOn: option.value == selection)
                 }
                 .buttonStyle(.plain)
-                .accessibilityAddTraits(isOn ? .isSelected : [])
+                .accessibilityAddTraits(option.value == selection ? .isSelected : [])
             }
         }
-        .padding(3)
-        .background(Capsule().fill(p.text.opacity(0.06)))
     }
 
+    /// On iOS 26 the glass goes on the label itself (the pattern Apple's container
+    /// expects), so the text stays crisp and the thumb morphs between segments.
     @ViewBuilder
-    private var thumbShape: some View {
+    private func segment(_ title: String, isOn: Bool) -> some View {
+        let label = Text(title)
+            .font(.footnote.weight(.semibold))
+            .foregroundStyle(isOn ? p.text : p.muted)
+            .frame(maxWidth: .infinity, minHeight: 34)
         if #available(iOS 26.0, *) {
-            Capsule().fill(.clear).glassEffect(.regular, in: Capsule())
+            if isOn {
+                label
+                    .glassEffect(.regular.tint(p.accent.opacity(0.12)).interactive(), in: Capsule())
+                    .glassEffectID("thumb", in: thumb)
+            } else {
+                label.contentShape(Capsule())
+            }
         } else {
-            Capsule().fill(Material.regularMaterial)
-                .overlay(Capsule().fill(p.glassStrongFill).opacity(0.7))
-                .overlay(Capsule().strokeBorder(p.edge, lineWidth: 1))
-                .shadow(color: p.shadow.opacity(0.25), radius: 5, y: 2)
+            label.background {
+                if isOn {
+                    Capsule().fill(Material.regularMaterial)
+                        .overlay(Capsule().fill(p.glassStrongFill).opacity(0.7))
+                        .overlay(Capsule().strokeBorder(p.edge, lineWidth: 1))
+                        .shadow(color: p.shadow.opacity(0.25), radius: 5, y: 2)
+                        .matchedGeometryEffect(id: "thumb", in: thumb)
+                }
+            }
         }
     }
 }

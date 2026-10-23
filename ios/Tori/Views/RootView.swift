@@ -144,7 +144,7 @@ struct RootView: View {
     private func go(_ destination: Destination) {
         visited.insert(destination)
         showMore = false
-        withAnimation(.easeOut(duration: 0.2)) { selection = destination }
+        withAnimation(.spring(response: 0.4, dampingFraction: 0.82)) { selection = destination }
     }
 
     @ViewBuilder
@@ -179,10 +179,29 @@ struct FloatingTabBar: View {
     @Environment(SettingsStore.self) private var settings
     @Environment(\.palette) private var p
 
+    @Namespace private var selectionPill
+    @Environment(\.accessibilityReduceTransparency) private var reduceTransparency
+
     private var moreActive: Bool { !Destination.tabs.contains(selection) }
 
     var body: some View {
-        HStack(spacing: 2) {
+        if #available(iOS 26.0, *), !reduceTransparency {
+            // One Liquid Glass bar; the selected tab is a second glass shape that
+            // flows from tab to tab (glassEffectID) instead of jumping.
+            GlassEffectContainer(spacing: 6) { bar }
+                .padding(.horizontal, 16)
+                .padding(.bottom, 6)
+        } else {
+            bar
+                .glass(strong: true, radius: 36)
+                .padding(.horizontal, 16)
+                .padding(.bottom, 6)
+        }
+    }
+
+    @ViewBuilder
+    private var bar: some View {
+        let row = HStack(spacing: 2) {
             ForEach(Destination.tabs) { d in
                 item(symbol: d.symbol, title: settings.t(d.titleKey), active: selection == d, id: "tab.\(d.rawValue)") {
                     select(d)
@@ -193,31 +212,49 @@ struct FloatingTabBar: View {
             }
         }
         .padding(6)
-        .glass(strong: true, radius: 36)
-        .padding(.horizontal, 16)
-        .padding(.bottom, 6)
+        if #available(iOS 26.0, *), !reduceTransparency {
+            row.glassEffect(.regular, in: Capsule())
+        } else {
+            row
+        }
     }
 
     private func item(symbol: String, title: String, active: Bool, id: String, action: @escaping () -> Void) -> some View {
-        Button(action: action) {
-            VStack(spacing: 3) {
-                Image(systemName: symbol).font(.system(size: 18, weight: .semibold))
-                Text(title).font(.system(size: 10, weight: .semibold)).lineLimit(1).minimumScaleFactor(0.7)
-            }
-            .foregroundStyle(active ? p.accent : p.muted)
-            .frame(maxWidth: .infinity, minHeight: 50)
-            .background {
-                if active {
-                    Capsule().fill(p.accent.opacity(0.14))
-                        .overlay(Capsule().strokeBorder(p.accent.opacity(0.25), lineWidth: 1))
-                }
-            }
-            .contentShape(Capsule())
+        Button(action: action) { itemLabel(symbol: symbol, title: title, active: active) }
+            .buttonStyle(.plain)
+            .accessibilityIdentifier(id)
+            .accessibilityLabel(title)
+            .accessibilityAddTraits(active ? .isSelected : [])
+    }
+
+    /// The selected tab carries its own glass on iOS 26 (a tinted capsule that
+    /// flows to the next tab), so the icon and text are never under the blur.
+    @ViewBuilder
+    private func itemLabel(symbol: String, title: String, active: Bool) -> some View {
+        let label = VStack(spacing: 3) {
+            Image(systemName: symbol).font(.system(size: 18, weight: .semibold))
+            Text(title).font(.system(size: 10, weight: .semibold)).lineLimit(1).minimumScaleFactor(0.7)
         }
-        .buttonStyle(.plain)
-        .accessibilityIdentifier(id)
-        .accessibilityLabel(title)
-        .accessibilityAddTraits(active ? .isSelected : [])
+        .foregroundStyle(active ? p.accent : p.muted)
+        .frame(maxWidth: .infinity, minHeight: 50)
+        if #available(iOS 26.0, *), !reduceTransparency {
+            if active {
+                label
+                    .glassEffect(.regular.tint(p.accent.opacity(0.3)).interactive(), in: Capsule())
+                    .glassEffectID("tab.selection", in: selectionPill)
+            } else {
+                label.contentShape(Capsule())
+            }
+        } else {
+            label
+                .background {
+                    if active {
+                        Capsule().fill(p.accent.opacity(0.14))
+                            .overlay(Capsule().strokeBorder(p.accent.opacity(0.25), lineWidth: 1))
+                    }
+                }
+                .contentShape(Capsule())
+        }
     }
 }
 
@@ -276,6 +313,19 @@ extension View {
             .scrollContentBackground(.hidden)
             .contentMargins(.bottom, 100, for: .scrollContent)
             .modifier(ClearNavigationBackground())
+            .modifier(GlassScrollEdges())
+    }
+}
+
+/// iOS 26: content fades softly under the navigation bar and the floating tab bar
+/// instead of being cut off by a hard edge.
+private struct GlassScrollEdges: ViewModifier {
+    func body(content: Content) -> some View {
+        if #available(iOS 26.0, *) {
+            content.scrollEdgeEffectStyle(.soft, for: .all)
+        } else {
+            content
+        }
     }
 }
 

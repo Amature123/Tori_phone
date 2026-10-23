@@ -145,16 +145,24 @@ struct GlassSurface: ViewModifier {
     }
 }
 
-/// Solid translucent card for long lists: no blur, for scroll performance.
+/// Card for lists and sections. On iOS 26 it is real Liquid Glass (the system
+/// caches it, so long lists stay smooth); earlier systems and Reduce Transparency
+/// get a translucent fill with no blur, for scroll performance.
 struct SolidCard: ViewModifier {
     var radius: CGFloat = Radius.card
     @Environment(\.palette) private var p
+    @Environment(\.accessibilityReduceTransparency) private var reduceTransparency
 
+    @ViewBuilder
     func body(content: Content) -> some View {
         let shape = RoundedRectangle(cornerRadius: radius, style: .continuous)
-        content
-            .background(shape.fill(p.card))
-            .overlay(shape.strokeBorder(p.hairline, lineWidth: 1))
+        if #available(iOS 26.0, *), !reduceTransparency {
+            content.glassEffect(.regular, in: shape)
+        } else {
+            content
+                .background(shape.fill(p.card))
+                .overlay(shape.strokeBorder(p.hairline, lineWidth: 1))
+        }
     }
 }
 
