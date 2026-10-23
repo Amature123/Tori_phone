@@ -67,6 +67,12 @@ extension EnvironmentValues {
     }
 }
 
+/// Widest the content column and the tab bar grow on iPad.
+enum ScreenWidth {
+    static let content: CGFloat = 820
+    static let tabBar: CGFloat = 560
+}
+
 struct RootView: View {
     @Environment(SettingsStore.self) private var settings
     @Environment(DataStore.self) private var data
@@ -109,9 +115,12 @@ struct RootView: View {
                         }
                     }
                 }
+                // On iPad the screens keep a readable column instead of stretching edge to edge.
+                .frame(maxWidth: ScreenWidth.content)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .overlay(alignment: .bottom) {
                     FloatingTabBar(selection: selection, showMore: $showMore, select: go)
+                        .frame(maxWidth: ScreenWidth.tabBar)
                 }
             }
         }

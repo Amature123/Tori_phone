@@ -8,11 +8,12 @@ enum Search {
     }
 
     static func vocab(_ list: [VocabEntry], query: String, group: String?, pos: String?,
+                      groupKey: (VocabEntry) -> String = { Japanese.groupKey($0) },
                       romaji: (VocabEntry) -> String) -> [VocabEntry] {
         let q = query.trimmingCharacters(in: .whitespacesAndNewlines)
         let folded = fold(q)
         return list.filter { v in
-            if let group, Japanese.groupKey(v) != group { return false }
+            if let group, groupKey(v) != group { return false }
             if let pos, v.pos != pos { return false }
             if q.isEmpty { return true }
             return v.kanji.contains(q) || v.kana.contains(q)

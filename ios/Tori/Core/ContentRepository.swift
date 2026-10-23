@@ -111,12 +111,19 @@ final class DataStore {
 
     // MARK: Level-scoped accessors
 
-    func vocab(_ level: Level) -> [VocabEntry] {
+    /// Every word of the level, whichever book it belongs to.
+    func allVocab(_ level: Level) -> [VocabEntry] {
         switch level {
         case .n5: content.vocabN5
         case .n4: content.vocabN4
         case .all: content.vocabN5 + content.vocabN4
         }
+    }
+
+    /// The level's words as the chosen book sees them: Tori's chapters, or the
+    /// Minna no Nihongo lessons (a word in both books appears in both).
+    func vocab(_ level: Level, book: Book) -> [VocabEntry] {
+        allVocab(level).filter(book.includes)
     }
 
     func grammar(_ level: Level) -> [GrammarPoint] {

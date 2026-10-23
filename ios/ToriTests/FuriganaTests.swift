@@ -60,7 +60,7 @@ final class FuriganaTests: XCTestCase {
     func testEveryBundledVocabWordAlignsOrFallsBackCleanly() async throws {
         let data = await DataStore()
         await data.load()
-        let words = await data.vocab(.all)
+        let words = await data.allVocab(.all)
         var aligned = 0, withKanji = 0
         for v in words where Furigana.hasKanji(v.kanji) && !v.kana.isEmpty {
             withKanji += 1

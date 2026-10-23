@@ -381,3 +381,17 @@ extension Array where Element: Identifiable {
                 i < endIndex - 1 ? { select(self[i + 1]) } : nil)
     }
 }
+
+/// Tori's chapters (default) or Minna no Nihongo lessons, for every vocabulary screen.
+struct BookPicker: View {
+    @Environment(SettingsStore.self) private var settings
+
+    var body: some View {
+        @Bindable var settings = settings
+        GlassSegmented(options: [(Book.tori, settings.t("vocab.bookTori")), (Book.minna, settings.t("vocab.bookMinna"))],
+                       selection: $settings.book)
+            .accessibilityElement(children: .contain)
+            .accessibilityLabel(settings.t("vocab.book"))
+            .accessibilityIdentifier("book.picker")
+    }
+}

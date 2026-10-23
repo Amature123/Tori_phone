@@ -12,12 +12,14 @@ final class SettingsStore {
     var lang: Lang { didSet { defaults?.set(lang.rawValue, forKey: Keys.lang) } }
     var level: Level { didSet { defaults?.set(level.rawValue, forKey: Keys.level) } }
     var theme: ThemeID { didSet { defaults?.set(theme.rawValue, forKey: Keys.theme) } }
+    /// Tori's chapters by default; Minna no Nihongo only when chosen.
+    var book: Book { didSet { defaults?.set(book.rawValue, forKey: Keys.book) } }
 
     private let defaults: UserDefaults?
     private let localizer: Localizer
 
     private enum Keys {
-        static let lang = "tori-lang", level = "tori-level", theme = "tori-theme"
+        static let lang = "tori-lang", level = "tori-level", theme = "tori-theme", book = "tori-book"
     }
 
     /// `defaults == nil` keeps settings in memory (tests / UI-test launches).
@@ -27,6 +29,7 @@ final class SettingsStore {
         lang = defaults?.string(forKey: Keys.lang).flatMap(Lang.init) ?? .vi
         level = defaults?.string(forKey: Keys.level).flatMap(Level.init) ?? .n5
         theme = defaults?.string(forKey: Keys.theme).flatMap(ThemeID.init) ?? .glass
+        book = defaults?.string(forKey: Keys.book).flatMap(Book.init) ?? .tori
     }
 
     /// Reads `lang`, so any view calling this re-renders when the language changes.

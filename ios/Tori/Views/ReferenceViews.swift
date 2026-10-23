@@ -391,6 +391,12 @@ struct SettingsView: View {
                         LevelPicker()
                         Text(settings.t("settings.levelDescription")).font(.caption).foregroundStyle(p.muted)
                     }
+                    card(settings.t("vocab.book")) {
+                        BookPicker()
+                        Text(settings.l("Mặc định là các chương của Tori. Chọn Minna no Nihongo để học theo từng bài của giáo trình đó; từ chỉ có trong Minna chỉ hiện ở đây.",
+                                        "Tori's own chapters by default. Pick Minna no Nihongo to study by that textbook's lessons; words that exist only in Minna show up there alone."))
+                            .font(.caption).foregroundStyle(p.muted)
+                    }
                     card(settings.t("ios.settings.theme")) {
                         HStack(spacing: 10) {
                             ForEach(ThemeID.allCases) { id in themeSwatch(id) }

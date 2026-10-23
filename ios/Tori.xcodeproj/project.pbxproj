@@ -25,6 +25,7 @@
 		2B0E3BE24E8536DFF3E0F305 /* radicals.json in Resources */ = {isa = PBXBuildFile; fileRef = BBF0B7FD2D2CA2C95D13681E /* radicals.json */; };
 		321458DD822C643552EA85AD /* UsageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF36402D46AD00C3EF356D3 /* UsageTests.swift */; };
 		3DFA548DE2EC380C422725C6 /* transitivity.json in Resources */ = {isa = PBXBuildFile; fileRef = 144E8C59E7B04C9BE8AD9B75 /* transitivity.json */; };
+		3E8F17A8CD745CEC81C69380 /* BookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061D74B640F55AFD1682DD04 /* BookTests.swift */; };
 		4013D792B3DD7FA7865260B3 /* ProgressStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EEEF12815219C1C2C50DFB /* ProgressStore.swift */; };
 		4099AEB65A63DE9EA9447801 /* locales in Resources */ = {isa = PBXBuildFile; fileRef = F6CC00C996E76C0057ED3A96 /* locales */; };
 		42243ED80C2653A8870C20BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74F6FBA5F9D71C59F6B9D5C /* Assets.xcassets */; };
@@ -93,6 +94,7 @@
 
 /* Begin PBXFileReference section */
 		035C0CE4DEF7EF6A5F3ADE92 /* OnyomiRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnyomiRules.swift; sourceTree = "<group>"; };
+		061D74B640F55AFD1682DD04 /* BookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTests.swift; sourceTree = "<group>"; };
 		0AF8DD30427B44CD6CEC23FB /* UsageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageView.swift; sourceTree = "<group>"; };
 		144E8C59E7B04C9BE8AD9B75 /* transitivity.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = transitivity.json; sourceTree = "<group>"; };
 		19A312D5D0ECC0223E19F47B /* CoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTests.swift; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				64DE8B7E30710A29C158CCC4 /* AccentTests.swift */,
+				061D74B640F55AFD1682DD04 /* BookTests.swift */,
 				7934E0E37B5C80CB0FE40ED0 /* ContentTests.swift */,
 				19A312D5D0ECC0223E19F47B /* CoreTests.swift */,
 				25BBB91E7301B5BF4B1D6EE5 /* FuriganaTests.swift */,
@@ -456,6 +459,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F964CD264A1A27CD80637B6 /* AccentTests.swift in Sources */,
+				3E8F17A8CD745CEC81C69380 /* BookTests.swift in Sources */,
 				C3C8D3098ABF891CAE803D9F /* ContentTests.swift in Sources */,
 				D0F3BCA22E227744906A323C /* CoreTests.swift in Sources */,
 				C46C0D1CCAC9C00D8AABCF61 /* FuriganaTests.swift in Sources */,
@@ -566,6 +570,7 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -573,7 +578,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tori.app;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -587,6 +592,7 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -594,7 +600,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tori.app;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
