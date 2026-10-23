@@ -1,7 +1,7 @@
 import SwiftUI
 
 enum Destination: String, CaseIterable, Identifiable, Hashable {
-    case home, vocab, review, grammar, verbForms, kanji, counters, homophones, settings
+    case home, vocab, review, grammar, verbForms, kanji, radicals, counters, homophones, settings
 
     var id: String { rawValue }
 
@@ -13,6 +13,7 @@ enum Destination: String, CaseIterable, Identifiable, Hashable {
         case .grammar: "text.alignleft"
         case .verbForms: "arrow.left.arrow.right"
         case .kanji: "character"
+        case .radicals: "square.grid.3x3"
         case .counters: "number"
         case .homophones: "bubble.left.and.bubble.right"
         case .settings: "slider.horizontal.3"
@@ -27,6 +28,7 @@ enum Destination: String, CaseIterable, Identifiable, Hashable {
         case .grammar: "nav.grammar"
         case .verbForms: "nav.verbForms"
         case .kanji: "nav.kanji"
+        case .radicals: "nav.radicals"
         case .counters: "nav.counters"
         case .homophones: "nav.homophones"
         case .settings: "nav.settings"
@@ -39,7 +41,7 @@ enum Destination: String, CaseIterable, Identifiable, Hashable {
     static let groups: [(titleKey: String, items: [Destination])] = [
         ("nav.groups.learn", [.home, .vocab, .review]),
         ("nav.groups.grammar", [.grammar, .verbForms]),
-        ("nav.groups.kanji", [.kanji]),
+        ("nav.groups.kanji", [.kanji, .radicals]),
         ("nav.groups.more", [.counters, .homophones, .settings]),
     ]
 }
@@ -123,6 +125,7 @@ struct RootView: View {
         case .grammar: GrammarView()
         case .verbForms: VerbFormsView()
         case .kanji: KanjiView()
+        case .radicals: RadicalsView()
         case .counters: CountersView()
         case .homophones: HomophonesView()
         case .settings: SettingsView()

@@ -36,3 +36,9 @@ final class SettingsStore {
 
     func text(_ value: LocalizedText?) -> String { value?.text(lang) ?? "" }
 }
+
+extension SettingsStore {
+    /// Inline bilingual copy for screens ported from the web app, which keeps
+    /// their text in the page (`L(vi, en)`) instead of in the locale files.
+    func l(_ vi: String, _ en: String) -> String { lang == .en ? en : vi }
+}

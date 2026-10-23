@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047F1E54ACA02F24DCBBF98B /* KanjiLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B547329555DD38988272F29 /* KanjiLibrary.swift */; };
 		05A7DA93B114B4F80A70268B /* n5 in Resources */ = {isa = PBXBuildFile; fileRef = 6B3E9561C436AE8D5169AABA /* n5 */; };
 		0F23A0430477AD29195433D2 /* n4 in Resources */ = {isa = PBXBuildFile; fileRef = 69DBBBB0D21DD544F345C300 /* n4 */; };
 		1198D6A13D362A7D7A4F7F18 /* KanjiVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCDECC12178ED3C9F0F3EDD /* KanjiVG.swift */; };
@@ -15,21 +16,27 @@
 		1B8D750455962C582A81070A /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2C4272EDBEFB95695EA59 /* SettingsStore.swift */; };
 		1DC9F527DE4174145304D7A5 /* SRS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AAB600E6D0F0DD99301E58 /* SRS.swift */; };
 		2549F966EF724EB6A193354F /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8753059530ECAB810BB8A1E /* ReviewView.swift */; };
+		2B0E3BE24E8536DFF3E0F305 /* radicals.json in Resources */ = {isa = PBXBuildFile; fileRef = BBF0B7FD2D2CA2C95D13681E /* radicals.json */; };
 		4013D792B3DD7FA7865260B3 /* ProgressStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EEEF12815219C1C2C50DFB /* ProgressStore.swift */; };
 		4099AEB65A63DE9EA9447801 /* locales in Resources */ = {isa = PBXBuildFile; fileRef = F6CC00C996E76C0057ED3A96 /* locales */; };
 		42243ED80C2653A8870C20BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74F6FBA5F9D71C59F6B9D5C /* Assets.xcassets */; };
 		628605FC9BF9E46132FAE4DF /* GrammarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5E9C992ACBFE2F13BDE26B /* GrammarView.swift */; };
+		65A41A30A8C742E63533E9DA /* onyomi-rules.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E299CCD236343892FCC72DC /* onyomi-rules.json */; };
 		7224F0649FB9EF65DEE0A483 /* ContentRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA8A63D5A3755F3D6297021 /* ContentRepository.swift */; };
 		7408FA296C7048297F8328CE /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C756A5DA35C3923BDF875A97 /* Speaker.swift */; };
 		7C8FA0126BA96197E8BE9CB4 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F670E23B0C67989ABEDFE34 /* RootView.swift */; };
 		8436E5570BDB55CAA51CA323 /* SVGPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B1F30A8F0EB88F8BA92828 /* SVGPath.swift */; };
 		8E481C7A91A7F74BE26CA19F /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7484B913A22203C9AFBD135 /* Models.swift */; };
+		9210CEE46D47AEF7C3F01871 /* kanji-readings.json in Resources */ = {isa = PBXBuildFile; fileRef = 8CE79E1009B7FF6F5673C940 /* kanji-readings.json */; };
 		A82487F2B72E360381D53146 /* ToriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1CA3A7CA5C5A6184D522B3 /* ToriApp.swift */; };
 		AB2556B3E17B14A9E4FD17B9 /* ReferenceViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB74D9924DDDD2D556DFE13 /* ReferenceViews.swift */; };
 		AD8C3889F4100450892C4B84 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3F0EE71DC1C6113DFA1E95 /* Theme.swift */; };
+		ADA51C2DCBED56CFD5D3E00A /* hanviet-dictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = FB77B7877CA2C1845065A783 /* hanviet-dictionary.json */; };
 		AE4FB7DDF42E70303E99B549 /* StrokeOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A21B5DDCE46AD176ED635E /* StrokeOrderView.swift */; };
 		B0CF3E17394EB886171965AC /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = F704A1F980EFFEE1DFDE9D56 /* Components.swift */; };
+		B1757B0931AC9ABED73C4BE4 /* RadicalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6C0AC5C8AAE5BB8DE9CD34 /* RadicalsView.swift */; };
 		B774B6DA9B1D585C6729A1A6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DD6A0002557D3827506E11 /* HomeView.swift */; };
+		B8DB3B9C3B10CAD046192689 /* KanjiLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24369B16F379E12BB7ADBD7 /* KanjiLibraryTests.swift */; };
 		BC8A866583B7A3AAC8C2B966 /* ReviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993D654517F13DEE614157EC /* ReviewModel.swift */; };
 		BF3B84710A5431F76489673A /* Romaji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DC5D6987A7C38471A9FCE5 /* Romaji.swift */; };
 		BFDC14C570D1217D060F1198 /* KanjiVGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA4116167BE71E9687373D9 /* KanjiVGTests.swift */; };
@@ -40,6 +47,7 @@
 		F0F37B298068752512830C56 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF769FC38BBF8208616AD937 /* Search.swift */; };
 		F135DE97B91B995F3E59F308 /* Japanese.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BA6FA4729231F6CB7C0053 /* Japanese.swift */; };
 		F50AE460C5886B03B47DD273 /* Localizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872F17C7441B59EAF8AA12E8 /* Localizer.swift */; };
+		FEA0564F25792C4FCF487B62 /* KanjiDetailSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C638F494A998094E679E2B2 /* KanjiDetailSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +72,7 @@
 		1EF59E611D3829E623CBB330 /* VocabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabView.swift; sourceTree = "<group>"; };
 		22AAB600E6D0F0DD99301E58 /* SRS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRS.swift; sourceTree = "<group>"; };
 		2A1CA3A7CA5C5A6184D522B3 /* ToriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToriApp.swift; sourceTree = "<group>"; };
+		4E299CCD236343892FCC72DC /* onyomi-rules.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "onyomi-rules.json"; sourceTree = "<group>"; };
 		4E3F0EE71DC1C6113DFA1E95 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		51D2C4272EDBEFB95695EA59 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
 		5AA4116167BE71E9687373D9 /* KanjiVGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiVGTests.swift; sourceTree = "<group>"; };
@@ -72,6 +81,7 @@
 		69DBBBB0D21DD544F345C300 /* n4 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = n4; path = ../src/data/n4; sourceTree = SOURCE_ROOT; };
 		6B1E334730EFD8CD1BAE7B29 /* ToriUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ToriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B3E9561C436AE8D5169AABA /* n5 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = n5; path = ../src/data/n5; sourceTree = SOURCE_ROOT; };
+		6B547329555DD38988272F29 /* KanjiLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiLibrary.swift; sourceTree = "<group>"; };
 		6FA339362A1674ACDEC3C984 /* KanjiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiView.swift; sourceTree = "<group>"; };
 		77A21B5DDCE46AD176ED635E /* StrokeOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeOrderView.swift; sourceTree = "<group>"; };
 		7934E0E37B5C80CB0FE40ED0 /* ContentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTests.swift; sourceTree = "<group>"; };
@@ -80,11 +90,16 @@
 		826007EFE927ABEB60DDB92D /* kanjivg.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = kanjivg.json; sourceTree = "<group>"; };
 		872F17C7441B59EAF8AA12E8 /* Localizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizer.swift; sourceTree = "<group>"; };
 		89BA6FA4729231F6CB7C0053 /* Japanese.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Japanese.swift; sourceTree = "<group>"; };
+		8C638F494A998094E679E2B2 /* KanjiDetailSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiDetailSheet.swift; sourceTree = "<group>"; };
+		8C6C0AC5C8AAE5BB8DE9CD34 /* RadicalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadicalsView.swift; sourceTree = "<group>"; };
+		8CE79E1009B7FF6F5673C940 /* kanji-readings.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "kanji-readings.json"; sourceTree = "<group>"; };
 		993D654517F13DEE614157EC /* ReviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewModel.swift; sourceTree = "<group>"; };
 		99DC5D6987A7C38471A9FCE5 /* Romaji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Romaji.swift; sourceTree = "<group>"; };
 		A3DD6A0002557D3827506E11 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		ABA8A63D5A3755F3D6297021 /* ContentRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRepository.swift; sourceTree = "<group>"; };
+		B24369B16F379E12BB7ADBD7 /* KanjiLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiLibraryTests.swift; sourceTree = "<group>"; };
 		B4B1F30A8F0EB88F8BA92828 /* SVGPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGPath.swift; sourceTree = "<group>"; };
+		BBF0B7FD2D2CA2C95D13681E /* radicals.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = radicals.json; sourceTree = "<group>"; };
 		BC5E9C992ACBFE2F13BDE26B /* GrammarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarView.swift; sourceTree = "<group>"; };
 		C74F6FBA5F9D71C59F6B9D5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C756A5DA35C3923BDF875A97 /* Speaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
@@ -96,6 +111,7 @@
 		F704A1F980EFFEE1DFDE9D56 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
 		F7484B913A22203C9AFBD135 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		F8753059530ECAB810BB8A1E /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
+		FB77B7877CA2C1845065A783 /* hanviet-dictionary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "hanviet-dictionary.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -113,6 +129,7 @@
 			children = (
 				ABA8A63D5A3755F3D6297021 /* ContentRepository.swift */,
 				89BA6FA4729231F6CB7C0053 /* Japanese.swift */,
+				6B547329555DD38988272F29 /* KanjiLibrary.swift */,
 				5BCDECC12178ED3C9F0F3EDD /* KanjiVG.swift */,
 				872F17C7441B59EAF8AA12E8 /* Localizer.swift */,
 				F7484B913A22203C9AFBD135 /* Models.swift */,
@@ -163,6 +180,7 @@
 			children = (
 				7934E0E37B5C80CB0FE40ED0 /* ContentTests.swift */,
 				19A312D5D0ECC0223E19F47B /* CoreTests.swift */,
+				B24369B16F379E12BB7ADBD7 /* KanjiLibraryTests.swift */,
 				5AA4116167BE71E9687373D9 /* KanjiVGTests.swift */,
 			);
 			path = ToriTests;
@@ -173,7 +191,9 @@
 			children = (
 				BC5E9C992ACBFE2F13BDE26B /* GrammarView.swift */,
 				A3DD6A0002557D3827506E11 /* HomeView.swift */,
+				8C638F494A998094E679E2B2 /* KanjiDetailSheet.swift */,
 				6FA339362A1674ACDEC3C984 /* KanjiView.swift */,
+				8C6C0AC5C8AAE5BB8DE9CD34 /* RadicalsView.swift */,
 				5BB74D9924DDDD2D556DFE13 /* ReferenceViews.swift */,
 				F8753059530ECAB810BB8A1E /* ReviewView.swift */,
 				7F670E23B0C67989ABEDFE34 /* RootView.swift */,
@@ -213,9 +233,13 @@
 		F4AC1D06D4E585B26487227D /* data */ = {
 			isa = PBXGroup;
 			children = (
+				FB77B7877CA2C1845065A783 /* hanviet-dictionary.json */,
+				8CE79E1009B7FF6F5673C940 /* kanji-readings.json */,
 				826007EFE927ABEB60DDB92D /* kanjivg.json */,
 				69DBBBB0D21DD544F345C300 /* n4 */,
 				6B3E9561C436AE8D5169AABA /* n5 */,
+				4E299CCD236343892FCC72DC /* onyomi-rules.json */,
+				BBF0B7FD2D2CA2C95D13681E /* radicals.json */,
 			);
 			path = data;
 			sourceTree = "<group>";
@@ -328,10 +352,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				42243ED80C2653A8870C20BE /* Assets.xcassets in Resources */,
+				ADA51C2DCBED56CFD5D3E00A /* hanviet-dictionary.json in Resources */,
+				9210CEE46D47AEF7C3F01871 /* kanji-readings.json in Resources */,
 				199B011B8084E91B85249EB8 /* kanjivg.json in Resources */,
 				4099AEB65A63DE9EA9447801 /* locales in Resources */,
 				0F23A0430477AD29195433D2 /* n4 in Resources */,
 				05A7DA93B114B4F80A70268B /* n5 in Resources */,
+				65A41A30A8C742E63533E9DA /* onyomi-rules.json in Resources */,
+				2B0E3BE24E8536DFF3E0F305 /* radicals.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +372,7 @@
 			files = (
 				C3C8D3098ABF891CAE803D9F /* ContentTests.swift in Sources */,
 				D0F3BCA22E227744906A323C /* CoreTests.swift in Sources */,
+				B8DB3B9C3B10CAD046192689 /* KanjiLibraryTests.swift in Sources */,
 				BFDC14C570D1217D060F1198 /* KanjiVGTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,11 +394,14 @@
 				628605FC9BF9E46132FAE4DF /* GrammarView.swift in Sources */,
 				B774B6DA9B1D585C6729A1A6 /* HomeView.swift in Sources */,
 				F135DE97B91B995F3E59F308 /* Japanese.swift in Sources */,
+				FEA0564F25792C4FCF487B62 /* KanjiDetailSheet.swift in Sources */,
+				047F1E54ACA02F24DCBBF98B /* KanjiLibrary.swift in Sources */,
 				1198D6A13D362A7D7A4F7F18 /* KanjiVG.swift in Sources */,
 				EB1F1B4802108243F4D74FD1 /* KanjiView.swift in Sources */,
 				F50AE460C5886B03B47DD273 /* Localizer.swift in Sources */,
 				8E481C7A91A7F74BE26CA19F /* Models.swift in Sources */,
 				4013D792B3DD7FA7865260B3 /* ProgressStore.swift in Sources */,
+				B1757B0931AC9ABED73C4BE4 /* RadicalsView.swift in Sources */,
 				AB2556B3E17B14A9E4FD17B9 /* ReferenceViews.swift in Sources */,
 				BC8A866583B7A3AAC8C2B966 /* ReviewModel.swift in Sources */,
 				2549F966EF724EB6A193354F /* ReviewView.swift in Sources */,

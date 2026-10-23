@@ -24,6 +24,10 @@ targets:
       - path: ../src/locales
         type: folder
       - path: ../src/data/kanjivg.json
+      - path: ../src/data/hanviet-dictionary.json
+      - path: ../src/data/kanji-readings.json
+      - path: ../src/data/radicals.json
+      - path: ../src/data/onyomi-rules.json
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.tori.app
