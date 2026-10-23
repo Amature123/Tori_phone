@@ -15,24 +15,26 @@ const ACCENT_COLORS: Record<string, string> = {
 }
 
 export function Card({ children, className = '', onClick, accent, lift = false }: CardProps) {
-  const borderColor = accent ? ACCENT_COLORS[accent] : 'var(--color-structural)'
+  const borderColor = accent
+    ? `color-mix(in srgb, ${ACCENT_COLORS[accent]} 45%, transparent)`
+    : 'var(--edge)'
   // Accent cards get a tinted shadow (40% of the accent color) instead of
   // the default ink-tinted --shadow-brutal, so the card reads as "colored"
   // without the shadow going full-opacity accent.
   const shadow = accent
-    ? `4px 4px 0px color-mix(in srgb, ${borderColor} 40%, transparent)`
+    ? `0 10px 28px -12px color-mix(in srgb, ${borderColor} 45%, transparent)`
     : 'var(--shadow-brutal)'
   const shadowHover = accent
-    ? `6px 6px 0px color-mix(in srgb, ${borderColor} 40%, transparent)`
+    ? `0 16px 36px -12px color-mix(in srgb, ${borderColor} 55%, transparent)`
     : 'var(--shadow-brutal-hover)'
 
   return (
     <div
       className={[
-        'bg-card border-3 transition-[border-color,background-color,box-shadow,transform] duration-100',
+        'bg-card border-3 transition-[border-color,background-color,box-shadow,transform] duration-150',
         accent ? 'tilt-card hover:rotate-0' : '',
         lift ? 'card-lift' : 'card-shadow',
-        onClick ? 'card-shadow-hover cursor-pointer hover:-translate-x-0.5 hover:-translate-y-0.5 active:shadow-none active:translate-x-0.5 active:translate-y-0.5' : '',
+        onClick ? 'card-shadow-hover cursor-pointer hover:-translate-y-0.5 active:scale-[0.99]' : '',
         className,
       ].join(' ')}
       style={{

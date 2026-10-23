@@ -7,47 +7,65 @@
    contract so every other layer below can stay theme-agnostic.
    ============================================================ */
 
+/* Liquid Glass: three palettes on one contract. Washi = light (indigo
+   field), Sumi = graphite-neutral light, Gold = dark. Surfaces are
+   translucent over the ambient color field (body::before); --glass* tokens
+   feed the .glass utilities below. Class names are kept so saved settings
+   and the theme picker keep working. */
 :root {
-  --tori-bg: #efe7d8;
-  --tori-bg-card: #fbf6ed;
-  --tori-bg-2: #e7ddca;
-  --tori-bg-sidebar: #eae0cf;
-  --tori-border: #2a211621;
-  --tori-hairline: #2a211612;
-  --tori-sb-border: #2a21161a;
-  --tori-text: #221b12;
-  --tori-text-muted: #635a4b;
-  --tori-dim: #726655;
-  --tori-accent: #be4327;
+  --tori-bg: #e9ecf5;
+  --tori-bg-card: rgba(255, 255, 255, 0.74);
+  --tori-bg-2: rgba(20, 24, 42, 0.06);
+  --tori-bg-sidebar: rgba(255, 255, 255, 0.52);
+  --tori-border: rgba(20, 24, 42, 0.10);
+  --tori-hairline: rgba(20, 24, 42, 0.08);
+  --tori-sb-border: rgba(255, 255, 255, 0.75);
+  --tori-text: #14182a;
+  --tori-text-muted: #5a6180;
+  --tori-dim: #5a6180;
+  --tori-accent: #4458f0;
   --tori-accent-fg: #fff;
-  --tori-accent-soft: #be43271a;
-  --tori-gold: #9c6f18;
-  --tori-jade: #2c8a62;
-  --tori-hanko: #be4327;
-  --tori-glow-1: #be432712;
-  --tori-glow-2: #b08c3c0f;
+  --tori-accent-soft: rgba(68, 88, 240, 0.12);
+  --tori-gold: #e3a008;
+  --tori-jade: #22a15a;
+  --tori-hanko: #ea4f3d;
+  --tori-blue: #4f7cf5;
   --tori-scheme: light;
-  /* Light themes: structural borders = full ink (brutalist) */
-  --tori-structural: var(--tori-text);
+  --tori-structural: rgba(20, 24, 42, 0.14);
+  /* ambient field behind the glass */
+  --s1: #b9c4ff; --s2: #ffd0c2; --s3: #bfeede; --s4: #e8d7ff;
+  /* glass */
+  --glass: rgba(255, 255, 255, 0.52);
+  --glass-strong: rgba(255, 255, 255, 0.78);
+  --edge: rgba(255, 255, 255, 0.75);
+  --hi: rgba(255, 255, 255, 0.9);
+  --glass-shadow: 0 1px 1px rgba(20, 24, 42, 0.04), 0 16px 40px -14px rgba(40, 50, 110, 0.30);
+  --track: rgba(20, 24, 42, 0.08);
 }
 
 .theme-sumi {
-  --tori-bg: #f4f2ec; --tori-bg-card: #fcfbf6; --tori-bg-2: #eae7df; --tori-bg-sidebar: #efece4;
-  --tori-border: #14110c29; --tori-hairline: #14110c14; --tori-sb-border: #14110c1f;
-  --tori-text: #14110c; --tori-text-muted: #544e46; --tori-dim: #6e675e;
-  --tori-accent: #be4327; --tori-accent-fg: #fff; --tori-accent-soft: #be432717;
-  --tori-gold: #8a6516; --tori-jade: #2c8a62; --tori-hanko: #be4327;
-  --tori-glow-1: #14110c09; --tori-glow-2: #14110c06; --tori-scheme: light;
+  --tori-bg: #eceef2; --tori-bg-card: rgba(255, 255, 255, 0.76); --tori-bg-2: rgba(20, 22, 30, 0.06);
+  --tori-bg-sidebar: rgba(255, 255, 255, 0.55);
+  --tori-text: #15171c; --tori-text-muted: #5b606b; --tori-dim: #5b606b;
+  --tori-accent: #2f6fed; --tori-accent-soft: rgba(47, 111, 237, 0.12); --tori-blue: #3f84f2;
+  --tori-structural: rgba(20, 22, 30, 0.14);
+  --s1: #cdd6e6; --s2: #e6dccf; --s3: #cfe3dc; --s4: #dcd6ea;
+  --glass-shadow: 0 1px 1px rgba(20, 22, 30, 0.04), 0 16px 40px -14px rgba(30, 40, 70, 0.26);
 }
 .theme-gold {
-  --tori-bg: #14110a; --tori-bg-card: #1f1a10; --tori-bg-2: #2a2315; --tori-bg-sidebar: #0e0c07;
-  --tori-border: #e8d6a01f; --tori-hairline: #e8d6a012; --tori-sb-border: #e8d6a017;
-  --tori-text: #f6efdc; --tori-text-muted: #b8aa83; --tori-dim: #998c69;
-  --tori-accent: #d4a843; --tori-accent-fg: #1a160c; --tori-accent-soft: #d4a84326;
-  --tori-gold: #e6c46a; --tori-jade: #5fb98a; --tori-hanko: #e2552e;
-  --tori-glow-1: #d4a8431f; --tori-glow-2: #b07a2812; --tori-scheme: dark;
-  /* Gold: borders use muted gold-tinted ink, not blinding cream-white */
-  --tori-structural: color-mix(in srgb, var(--tori-text) 28%, transparent);
+  --tori-bg: #080a14; --tori-bg-card: rgba(26, 30, 54, 0.72); --tori-bg-2: rgba(255, 255, 255, 0.07);
+  --tori-bg-sidebar: rgba(30, 34, 60, 0.50);
+  --tori-border: rgba(255, 255, 255, 0.10); --tori-hairline: rgba(255, 255, 255, 0.08); --tori-sb-border: rgba(255, 255, 255, 0.14);
+  --tori-text: #eef0fb; --tori-text-muted: #9aa2c4; --tori-dim: #9aa2c4;
+  --tori-accent: #8b9bff; --tori-accent-fg: #0b1030; --tori-accent-soft: rgba(139, 155, 255, 0.18);
+  --tori-gold: #ffd26a; --tori-jade: #52d6a1; --tori-hanko: #ff7d5c; --tori-blue: #8fb0ff;
+  --tori-scheme: dark;
+  --tori-structural: rgba(255, 255, 255, 0.16);
+  --s1: #2a3580; --s2: #6b2f3c; --s3: #14594a; --s4: #4a2d80;
+  --glass: rgba(30, 34, 60, 0.50); --glass-strong: rgba(40, 46, 84, 0.78);
+  --edge: rgba(255, 255, 255, 0.14); --hi: rgba(255, 255, 255, 0.22);
+  --glass-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 18px 44px -14px rgba(0, 0, 0, 0.7);
+  --track: rgba(255, 255, 255, 0.12);
 }
 
 /* ============================================================
@@ -63,9 +81,9 @@
   --color-surface: var(--tori-bg-2);
   --color-muted: var(--tori-text-muted);
   --color-yellow: var(--tori-gold);
-  --color-red: var(--tori-accent);
+  --color-red: var(--tori-hanko);
   --color-green: var(--tori-jade);
-  --color-blue: var(--tori-dim);
+  --color-blue: var(--tori-blue);
   --color-card: var(--tori-bg-card);
   --color-border: var(--tori-border);
   --color-accent: var(--tori-accent);
@@ -84,9 +102,9 @@
      - --font-display (headings, hero numbers) = Crimson Pro serif.
        Clean editorial serif that supports full Latin + Vietnamese. */
   --font-sans: 'Be Vietnam Pro', system-ui, sans-serif;
-  --font-display: 'Crimson Pro', Georgia, serif;
+  --font-display: 'Be Vietnam Pro', system-ui, sans-serif;
   --font-jp: 'Zen Old Mincho', 'Zen Kaku Gothic New', serif;
-  --font-mono: 'JetBrains Mono', monospace;
+  --font-mono: 'Be Vietnam Pro', system-ui, sans-serif;
 }
 
 /* ============================================================
@@ -96,13 +114,18 @@
    touch of tilt on accent cards.
    ============================================================ */
 :root {
-  --border-w: 2px;
-  --radius: 0px;
-  --radius-sm: 0px;
+  --border-w: 1px;
+  --radius: 20px;
+  --radius-sm: 14px;
   --tilt: 0deg;
-  /* Shadows use structural color so dark themes don't cast blinding white offsets */
-  --shadow-brutal: 3px 3px 0px color-mix(in srgb, var(--tori-structural) 70%, transparent);
-  --shadow-brutal-hover: 5px 5px 0px color-mix(in srgb, var(--tori-structural) 55%, transparent);
+  /* Soft elevation replaces the hard offset shadows (names kept so every
+     call site picks the new look up unchanged). */
+  --shadow-brutal: 0 1px 1px rgba(20, 24, 42, 0.04), 0 10px 28px -12px rgba(40, 50, 110, 0.28);
+  --shadow-brutal-hover: 0 1px 1px rgba(20, 24, 42, 0.05), 0 16px 36px -12px rgba(40, 50, 110, 0.36);
+}
+.theme-gold {
+  --shadow-brutal: 0 1px 1px rgba(0, 0, 0, 0.3), 0 12px 30px -12px rgba(0, 0, 0, 0.7);
+  --shadow-brutal-hover: 0 1px 1px rgba(0, 0, 0, 0.3), 0 18px 38px -12px rgba(0, 0, 0, 0.8);
 }
 
 /* border-3 is not a Tailwind v4 default - define it here.
@@ -176,9 +199,8 @@ body {
    performance nicety. */
 button, a, [role="button"] { touch-action: manipulation; }
 
-/* Ambient theme-tinted glow + paper grain, ported from Tori. Both sit at
-   z-index 0 behind app content (Layout/Sidebar are already stacked above
-   this via normal document flow, nothing else needs a z-index bump). */
+/* Ambient color field the glass floats over: soft radial blobs on a fixed
+   layer (gradients, not filter: blur, so it stays cheap while scrolling). */
 body::before {
   content: "";
   position: fixed;
@@ -186,27 +208,41 @@ body::before {
   z-index: 0;
   pointer-events: none;
   background:
-    radial-gradient(1100px 720px at 88% -8%, var(--tori-glow-1), transparent 60%),
-    radial-gradient(900px 640px at -6% 108%, var(--tori-glow-2), transparent 60%);
-}
-body::after {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: 0;
-  pointer-events: none;
-  opacity: 0.035;
-  mix-blend-mode: overlay;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+    radial-gradient(60vmax 50vmax at 8% -6%, color-mix(in srgb, var(--s1) 75%, transparent), transparent 62%),
+    radial-gradient(50vmax 44vmax at 100% 6%, color-mix(in srgb, var(--s4) 70%, transparent), transparent 60%),
+    radial-gradient(54vmax 46vmax at 92% 104%, color-mix(in srgb, var(--s2) 70%, transparent), transparent 62%),
+    radial-gradient(46vmax 40vmax at 0% 100%, color-mix(in srgb, var(--s3) 70%, transparent), transparent 60%);
 }
 
-/* The grain is a fixed, full-screen mix-blend-mode layer - iOS Safari has to
-   re-blend it against everything underneath while scrolling, which is real
-   jank on a phone for a texture that's barely visible at 3.5% opacity.
-   Touch devices get the flat paper; mouse/desktop keeps the grain. */
-@media (hover: none) {
-  body::after { display: none; }
+/* ---------- Liquid Glass surfaces ----------
+   Translucent fill + backdrop blur + bright 1px edge + top inner highlight.
+   Used on chrome (sidebar, header, drawers, modals, cards); long lists use
+   plain translucent cards with no blur. Without backdrop-filter support the
+   same fill just renders unblurred. */
+.glass {
+  background: var(--glass);
+  -webkit-backdrop-filter: blur(26px) saturate(180%);
+  backdrop-filter: blur(26px) saturate(180%);
+  border: 1px solid var(--edge);
+  box-shadow: inset 0 1px 0 var(--hi), var(--glass-shadow);
 }
+.glass-strong {
+  background: var(--glass-strong);
+  -webkit-backdrop-filter: blur(30px) saturate(180%);
+  backdrop-filter: blur(30px) saturate(180%);
+  border: 1px solid var(--edge);
+  box-shadow: inset 0 1px 0 var(--hi), var(--glass-shadow);
+}
+
+/* iOS-style label voice: sentence-weight type, no mono/caps shouting. */
+[class*="tracking-"] { letter-spacing: 0.03em; }
+.font-black { font-weight: 700; }
+
+/* "Selected / inverted" states were solid ink slabs; in glass they read as the
+   accent tint instead, so every pill, tab and header keeps one active color. */
+.bg-ink { background-color: var(--tori-accent); }
+.bg-ink.text-paper, .bg-ink .text-paper { color: var(--tori-accent-fg); }
+.border-ink { border-color: var(--tori-accent); }
 
 #root { position: relative; z-index: 1; }
 

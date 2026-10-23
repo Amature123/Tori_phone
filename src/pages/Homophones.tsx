@@ -270,7 +270,7 @@ export function Homophones() {
             {t('homophones.backToList')}
           </Button>
 
-          <div className="border-3 border-structural shadow-[6px_6px_0px_var(--color-yellow)] p-4 sm:p-8 mb-6">
+          <div className="border-3 border-structural shadow-[0_10px_26px_-12px_var(--color-yellow)] p-4 sm:p-8 mb-6">
             <div className="text-center mb-6">
               <div className="text-xs font-bold uppercase tracking-widest text-muted mb-2">
                 {selected.readings.length > 1 ? t('homophones.similarSound') : t('homophones.identicalReading')}
@@ -305,7 +305,7 @@ export function Homophones() {
       ) : (
         <>
           {/* Stats */}
-          <div className="border-3 border-structural p-6 shadow-[5px_5px_0px_var(--color-yellow)] mb-8 flex items-center gap-8">
+          <div className="border-3 border-structural p-6 shadow-[0_10px_26px_-12px_var(--color-yellow)] mb-8 flex items-center gap-8">
             <div>
               <div className="font-black text-2xl">{trueHomophones.length}</div>
               <div className="text-xs text-muted font-bold uppercase tracking-wider">{t('homophones.exactHomophones')}</div>
@@ -358,7 +358,7 @@ const GroupCard = memo(function GroupCard({ group, idx, onSelect }: { group: Sou
   return (
     <button
       onClick={() => onSelect(group)}
-      className="border-3 border-structural p-4 text-left shadow-[var(--shadow-brutal)] hover:shadow-[5px_5px_0px_var(--color-yellow)] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-[box-shadow,transform] bg-paper"
+      className="border-3 border-structural p-4 text-left shadow-[var(--shadow-brutal)] hover:shadow-[0_10px_26px_-12px_var(--color-yellow)] hover:-translate-y-0.5 transition-[box-shadow,transform] bg-paper"
     >
       <div className="flex items-start gap-3">
         <div className="text-xs font-black text-muted w-6 shrink-0 pt-1">{idx + 1}</div>

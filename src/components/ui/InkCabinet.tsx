@@ -2,9 +2,9 @@ import { useSettingsStore, type Paper, type Density } from "@/store/settings-sto
 import { useTranslation } from "@/lib/useTranslation"
 
 const THEMES: { id: Paper; ja: string; en: string; swatch: [string, string, string] }[] = [
-  { id: "washi", ja: "和紙", en: "Washi", swatch: ["#efe7d8", "#221b12", "#be4327"] },
-  { id: "sumi", ja: "墨", en: "Sumi", swatch: ["#f4f2ec", "#14110c", "#be4327"] },
-  { id: "gold", ja: "金", en: "Gold-leaf", swatch: ["#14110a", "#f6efdc", "#d4a843"] },
+  { id: "washi", ja: "和紙", en: "Glass", swatch: ["#cfd6ff", "#14182a", "#4458f0"] },
+  { id: "sumi", ja: "墨", en: "Graphite", swatch: ["#dfe3ec", "#15171c", "#2f6fed"] },
+  { id: "gold", ja: "夜", en: "Midnight", swatch: ["#0d1030", "#eef0fb", "#8b9bff"] },
 ]
 
 const DENSITIES: { id: Density; ja: string; en: string }[] = [
@@ -38,9 +38,9 @@ export function InkCabinet({ compact = false }: { compact?: boolean }) {
                 aria-pressed={active}
                 title={`${theme.en} · ${theme.ja}`}
                 className={[
-                  "relative border-2 flex items-center justify-center transition-[border-color,box-shadow] cursor-pointer",
+                  "relative border rounded-2xl flex items-center justify-center transition-[border-color,box-shadow] cursor-pointer",
                   compact ? "h-7 flex-1" : "flex-col gap-2 p-2 aspect-[4/3]",
-                  active ? "border-ink shadow-[2px_2px_0px_var(--color-ink)]" : "border-ink/20 hover:border-ink/60",
+                  active ? "border-accent shadow-[0_0_0_3px_var(--tori-accent-soft)]" : "border-ink/15 hover:border-ink/40",
                 ].join(" ")}
                 style={{ background: bg }}
               >
@@ -70,16 +70,15 @@ export function InkCabinet({ compact = false }: { compact?: boolean }) {
             <p className="font-mono text-xs font-bold uppercase tracking-widest text-muted mb-3">
               <span className="jp mr-2 text-sm normal-case">密度</span>{t('settings.inkCabinet.density')}
             </p>
-            <div className="inline-flex border-2 border-structural overflow-hidden">
-              {DENSITIES.map((d, i) => (
+            <div className="inline-flex p-0.5 gap-0.5 rounded-full bg-surface">
+              {DENSITIES.map((d) => (
                 <button
                   key={d.id}
                   type="button"
                   onClick={() => setDensity(d.id)}
                   className={[
-                    "px-4 py-2 font-mono text-xs font-bold uppercase tracking-wider cursor-pointer transition-colors",
-                    i > 0 ? "border-l-2 border-structural" : "",
-                    density === d.id ? "bg-ink text-paper" : "bg-paper hover:bg-surface",
+                    "px-4 py-2 rounded-full text-xs font-semibold cursor-pointer transition-colors",
+                    density === d.id ? "glass-strong text-ink" : "text-muted hover:text-ink",
                   ].join(" ")}
                 >
                   <span className="jp mr-1.5 normal-case">{d.ja}</span>
@@ -97,11 +96,11 @@ export function InkCabinet({ compact = false }: { compact?: boolean }) {
             <button
               type="button"
               onClick={() => setTypeSans(!typeSans)}
-              className="card-lift flex items-center gap-4 border-2 border-structural bg-paper px-5 py-4 w-full text-left cursor-pointer"
+              className="card-lift flex items-center gap-4 border border-structural rounded-2xl bg-card px-5 py-4 w-full text-left cursor-pointer"
             >
-              <span className={`relative w-11 h-6 border-2 border-structural shrink-0 ${typeSans ? "bg-accent" : "bg-surface"}`}>
+              <span className={`relative w-11 h-6 rounded-full border border-structural shrink-0 ${typeSans ? "bg-accent" : "bg-surface"}`}>
                 <span
-                  className={`absolute top-0.5 size-4 bg-paper border border-structural transition-[left] duration-200 ${
+                  className={`absolute top-0.5 size-4 rounded-full bg-white shadow transition-[left] duration-200 ${
                     typeSans ? "left-[22px]" : "left-0.5"
                   }`}
                 />

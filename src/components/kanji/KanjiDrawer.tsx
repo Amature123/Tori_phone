@@ -95,7 +95,7 @@ function NavButton({ onClick, label, children }: { onClick: () => void; label: s
       onClick={onClick}
       title={label}
       aria-label={label}
-      className="w-7 h-7 border-2 font-black text-sm leading-none cursor-pointer"
+      className="w-7 h-7 border font-black text-sm leading-none cursor-pointer"
       style={{ borderColor: DRAWER_MUTED, color: DRAWER_INK }}
     >
       {children}
@@ -173,7 +173,7 @@ function ReadingsSection({
 function HanVietBadge({ hanviet, label }: { hanviet: string; label: string }) {
   return (
     <div
-      className="flex items-center justify-center gap-2 px-4 py-2 border-2"
+      className="flex items-center justify-center gap-2 px-4 py-2 border"
       style={{ backgroundColor: "rgb(255,255,255)", borderColor: "#627d9a" }}
     >
       <span className="text-[10px] font-black uppercase tracking-widest" style={{ color: "#627d9a" }}>
@@ -372,7 +372,7 @@ export function KanjiDrawer({ char, onClose }: KanjiDrawerProps) {
         role="dialog"
         aria-modal="true"
         aria-label={displayChar ? t('kanjiDrawer.ariaLabel', { char: displayChar }) : undefined}
-        className={`fixed top-0 right-0 z-50 h-dvh w-full sm:w-[420px] border-l-3 shadow-[-6px_0px_0px_rgba(10,10,10,0.15)] transition-transform duration-300 ease-out overflow-y-auto ${
+        className={`fixed top-0 right-0 z-50 h-dvh w-full sm:w-[420px] border-l rounded-l-[28px] shadow-[-18px_0_44px_-18px_rgba(30,40,100,0.35)] transition-transform duration-300 ease-out overflow-y-auto ${
           open ? "translate-x-0" : "translate-x-full"
         } ${
           // Fully hidden once closed and emptied: no layer, no shadow raster.
@@ -419,7 +419,7 @@ export function KanjiDrawer({ char, onClose }: KanjiDrawerProps) {
               {t('kanjiDrawer.noAnimation')}
             </div>
             {radicalInfo && (
-              <div className="mb-3 border-2 p-3 text-left" style={{ borderColor: DRAWER_MUTED }}>
+              <div className="mb-3 border p-3 text-left" style={{ borderColor: DRAWER_MUTED }}>
                 <div className="text-[10px] font-black uppercase tracking-wider" style={{ color: DRAWER_MUTED }}>{t('kanjiDrawer.radicalCard')}</div>
                 <div className="text-lg font-black" style={{ color: DRAWER_INK }}>{radicalInfo.hanviet}</div>
                 {radicalInfo.meaning && <div className="text-sm font-bold" style={{ color: DRAWER_MUTED }}>{radicalInfo.meaning}</div>}
@@ -452,7 +452,7 @@ export function KanjiDrawer({ char, onClose }: KanjiDrawerProps) {
             )}
 
             {radicalInfo && (!hanviet || !meaningText) && (
-              <div className="mt-3 border-2 p-3 text-left" style={{ borderColor: DRAWER_MUTED }}>
+              <div className="mt-3 border p-3 text-left" style={{ borderColor: DRAWER_MUTED }}>
                 <div className="text-[10px] font-black uppercase tracking-wider" style={{ color: DRAWER_MUTED }}>{t('kanjiDrawer.radicalCard')}</div>
                 <div className="text-base font-black" style={{ color: DRAWER_INK }}>{radicalInfo.hanviet}</div>
                 {radicalInfo.meaning && <div className="text-xs font-bold mt-0.5" style={{ color: DRAWER_MUTED }}>{radicalInfo.meaning}</div>}
@@ -461,7 +461,7 @@ export function KanjiDrawer({ char, onClose }: KanjiDrawerProps) {
 
             <div className="flex items-center justify-center gap-2 mt-3">
               <span
-                className="px-2.5 py-1.5 border-2 font-black text-xs uppercase tracking-wider"
+                className="px-2.5 py-1.5 border font-black text-xs uppercase tracking-wider"
                 style={{ borderColor: DRAWER_HAIRLINE, color: DRAWER_MUTED }}
               >
                 {t('kanjiDrawer.strokeCount', { n: entry.strokes.length })}
@@ -470,7 +470,7 @@ export function KanjiDrawer({ char, onClose }: KanjiDrawerProps) {
                 onClick={() => setShowNumbers(v => !v)}
                 aria-pressed={showNumbers}
                 title={t('kanjiDrawer.showNumbers')}
-                className="flex items-center gap-1.5 px-3 py-1.5 border-2 rounded-[var(--radius-sm)] font-bold text-xs uppercase tracking-wider cursor-pointer transition-colors"
+                className="flex items-center gap-1.5 px-3 py-1.5 border rounded-[var(--radius-sm)] font-bold text-xs uppercase tracking-wider cursor-pointer transition-colors"
                 style={{ borderColor: showNumbers ? DRAWER_ACCENT : DRAWER_MUTED, color: showNumbers ? DRAWER_ACCENT : DRAWER_INK }}
               >
                 123
@@ -478,7 +478,7 @@ export function KanjiDrawer({ char, onClose }: KanjiDrawerProps) {
               <button
                 onClick={() => setReplayKey(k => k + 1)}
                 title={t('kanjiDrawer.replay')}
-                className="flex items-center gap-1.5 px-3 py-1.5 border-2 rounded-[var(--radius-sm)] font-bold text-xs uppercase tracking-wider cursor-pointer transition-colors"
+                className="flex items-center gap-1.5 px-3 py-1.5 border rounded-[var(--radius-sm)] font-bold text-xs uppercase tracking-wider cursor-pointer transition-colors"
                 style={{ borderColor: DRAWER_MUTED, color: DRAWER_INK }}
                 onMouseEnter={e => { e.currentTarget.style.backgroundColor = "#f4f2ec" }}
                 onMouseLeave={e => { e.currentTarget.style.backgroundColor = "transparent" }}
@@ -499,7 +499,7 @@ export function KanjiDrawer({ char, onClose }: KanjiDrawerProps) {
                       key={r.id}
                       to="/rules#on-yomi"
                       onClick={onClose}
-                      className="px-2 py-1 border-2 text-xs font-bold"
+                      className="px-2 py-1 border text-xs font-bold"
                       style={{ borderColor: DRAWER_ORANGE, color: DRAWER_ORANGE }}
                     >
                       {r.vi} → {r.ja}
@@ -512,7 +512,7 @@ export function KanjiDrawer({ char, onClose }: KanjiDrawerProps) {
             {groupedComponents.length > 0 && (
               <div className="mt-5">
                 <div className="text-xs font-black uppercase tracking-wider mb-2" style={{ color: DRAWER_MUTED }}>{t('kanjiDrawer.componentsTitle')}</div>
-                <div className="flex flex-wrap gap-1.5 p-2 border-2" style={{ backgroundColor: "rgb(255,255,255)", borderColor: DRAWER_HAIRLINE }}>
+                <div className="flex flex-wrap gap-1.5 p-2 border" style={{ backgroundColor: "rgb(255,255,255)", borderColor: DRAWER_HAIRLINE }}>
                   {groupedComponents.map((g, gi) => {
                     const name = radicalNames[g.element]
                     // bothu.pdf name first; a non-radical component that is
@@ -525,7 +525,7 @@ export function KanjiDrawer({ char, onClose }: KanjiDrawerProps) {
                       <span
                         key={g.element}
                         title={tooltip || undefined}
-                        className="group inline-flex items-center gap-1 px-2 py-1 border-2 text-sm font-bold jp cursor-pointer transition-colors"
+                        className="group inline-flex items-center gap-1 px-2 py-1 border text-sm font-bold jp cursor-pointer transition-colors"
                         style={{ borderColor: color, color }}
                         onMouseEnter={() => setHoverElement(g.element)}
                         onMouseLeave={() => setHoverElement(null)}
@@ -538,7 +538,7 @@ export function KanjiDrawer({ char, onClose }: KanjiDrawerProps) {
                   })}
                 </div>
                 {graphNodes.length > 0 && (
-                  <div className="mt-3 border-2 p-2" style={{ borderColor: DRAWER_HAIRLINE }}>
+                  <div className="mt-3 border p-2" style={{ borderColor: DRAWER_HAIRLINE }}>
                     <div className="text-[10px] font-black uppercase tracking-wider mb-1" style={{ color: DRAWER_MUTED }}>{t('kanjiDrawer.graphTitle')}</div>
                     <ComponentGraph
                       char={displayChar ?? ""}

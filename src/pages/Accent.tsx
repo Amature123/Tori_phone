@@ -79,7 +79,7 @@ export function Accent() {
         onChange={e => setQuery(e.target.value)}
         placeholder={t("accent.placeholder")}
         autoFocus
-        className="jp w-full px-4 py-3 border-3 border-structural font-bold text-base bg-paper focus:outline-none focus:shadow-[2px_2px_0px_var(--color-blue)]"
+        className="jp w-full px-4 py-3 border-3 border-structural font-bold text-base bg-paper focus:outline-none focus:shadow-[0_10px_26px_-12px_var(--color-blue)]"
       />
 
       <div className="mt-4 text-xs font-bold uppercase tracking-wider text-muted">

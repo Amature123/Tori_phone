@@ -33,7 +33,7 @@ export function Counters() {
         <h1 className="text-[clamp(2rem,8vw,3rem)] font-black tracking-tighter">{localize(data.title)}</h1>
         <p className="text-muted font-bold text-sm mt-3 max-w-2xl leading-relaxed">{localize(data.intro)}</p>
         <div className="flex items-center gap-2 mt-4">
-          <span className="inline-block w-3.5 h-3.5 border-2 border-structural bg-red/20 shrink-0" />
+          <span className="inline-block w-3.5 h-3.5 border border-structural bg-red/20 shrink-0" />
           <span className="text-xs font-bold text-muted">{t('counters.exceptionLegend')}</span>
         </div>
       </div>
@@ -53,7 +53,7 @@ export function Counters() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {data.bigNumberExamples.map((ex, i) => (
-              <div key={i} className="border-2 border-structural rounded-[var(--radius-sm)] bg-paper p-4">
+              <div key={i} className="border border-structural rounded-[var(--radius-sm)] bg-paper p-4">
                 <div className="jp text-xl font-black flex items-center gap-1.5">
                   {ex.kanji}
                   <SpeakButton text={ex.kana} />
@@ -80,7 +80,7 @@ function CounterTable({ category, accent, columnLabels, localize }: { category: 
         <div className="flex items-baseline justify-between gap-2">
           <h3 className="font-black text-sm uppercase tracking-wide">{localize(category.shortTitle)}</h3>
           {category.counter && (
-            <span className="jp text-sm font-black shrink-0 border-2 border-structural rounded-[var(--radius-sm)] bg-paper px-1.5 py-0.5">
+            <span className="jp text-sm font-black shrink-0 border border-structural rounded-[var(--radius-sm)] bg-paper px-1.5 py-0.5">
               {category.counter}{category.counterKana ? ` ・ ${category.counterKana}` : ''}
             </span>
           )}

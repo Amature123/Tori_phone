@@ -6,11 +6,11 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 const variants: Record<string, string> = {
-  primary:   'bg-ink text-paper hover:bg-ink',
-  secondary: 'bg-card text-ink',
-  yellow:    'bg-yellow text-ink',
-  red:       'bg-accent text-accent-fg',
-  green:     'bg-green text-paper',
+  primary:   'bg-accent text-accent-fg border-transparent',
+  secondary: 'glass text-ink',
+  yellow:    'bg-yellow text-paper border-transparent',
+  red:       'bg-red text-white border-transparent',
+  green:     'bg-green text-white border-transparent',
   ghost:     'bg-transparent text-ink border-transparent shadow-none hover:bg-surface',
 }
 
@@ -27,12 +27,12 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         ref={ref}
         className={[
           'inline-flex items-center justify-center gap-2',
-          'border-3 border-structural',
-          'font-mono font-bold uppercase tracking-wider',
+          'rounded-full border border-structural',
+          'font-semibold tracking-wide',
           'shadow-[var(--shadow-brutal)]',
-          'transition-[color,background-color,border-color,box-shadow,transform,opacity] duration-100',
-          'hover:shadow-[var(--shadow-brutal-hover)] hover:-translate-x-0.5 hover:-translate-y-0.5',
-          'active:shadow-none active:translate-x-0.5 active:translate-y-0.5',
+          'transition-[color,background-color,border-color,box-shadow,transform,opacity] duration-150',
+          'hover:shadow-[var(--shadow-brutal-hover)] hover:-translate-y-px',
+          'active:scale-[0.97] active:shadow-none',
           'cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed disabled:pointer-events-none',
           variants[variant],
           sizes[size],

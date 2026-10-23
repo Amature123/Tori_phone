@@ -59,7 +59,7 @@ export function FormationMatrix({ rules }: FormationMatrixProps) {
             <tr key={i} className={i > 0 ? 'border-t-2 border-structural' : ''}>
               <td className="sticky left-0 bg-paper px-3 py-2.5 border-r-2 border-structural whitespace-nowrap">
                 <span
-                  className="inline-block text-xs font-black px-2 py-0.5 border-2 border-structural rounded-[var(--radius-sm)]"
+                  className="inline-block text-xs font-black px-2 py-0.5 border border-structural rounded-[var(--radius-sm)]"
                   style={{ backgroundColor: POS_COLOR[rule.pos], color: rule.pos === 'noun' ? 'var(--color-ink)' : 'var(--color-paper)' }}
                 >
                   {POS_LABEL[lang][rule.pos]}
@@ -79,7 +79,7 @@ export function FormationMatrix({ rules }: FormationMatrixProps) {
         </tbody>
       </table>
     </div>
-    <details className="mt-3 border-2 border-structural bg-surface">
+    <details className="mt-3 border border-structural bg-surface">
       <summary className="cursor-pointer select-none px-3 py-2 text-xs font-black">
         {lang === 'vi' ? 'Giải thích các thuật ngữ trong bảng' : 'What the labels in this table mean'}
       </summary>

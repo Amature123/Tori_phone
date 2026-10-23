@@ -20,10 +20,10 @@ const colors: Record<string, string> = {
 export function PosTag({ pos, verbGroup }: PosTagProps) {
   const bg = colors[pos] ?? 'var(--color-muted)'
   const label = getPosLabel(pos, verbGroup)
-  const textColor = pos === 'noun' ? 'var(--color-ink)' : 'var(--color-paper)'
+  const textColor = pos === 'noun' ? '#3a2a00' : pos === 'expression' || pos === 'conjunction' ? 'var(--color-paper)' : '#fff'
   return (
     <span
-      className="font-mono inline-block text-xs font-bold uppercase tracking-widest px-2 py-0.5 border-2 border-structural rounded-[var(--radius-sm)]"
+      className="font-mono inline-block text-xs font-bold uppercase tracking-widest px-2.5 py-0.5 rounded-full shadow-[inset_0_1px_0_rgba(255,255,255,0.35)]"
       style={{ backgroundColor: bg, color: textColor }}
     >
       {label}

@@ -29,7 +29,7 @@ export function NotesAndTrapsCallout({ pitfalls, onJumpTo, patternById }: NotesA
           >
             <div className="flex items-center gap-2 mb-1.5">
               <span
-                className={`text-[10px] font-black uppercase tracking-widest px-1.5 py-0.5 border-2 rounded-[var(--radius-sm)] ${
+                className={`text-[10px] font-black uppercase tracking-widest px-1.5 py-0.5 border rounded-[var(--radius-sm)] ${
                   critical ? 'border-paper/40 text-paper' : 'border-red text-red'
                 }`}
               >

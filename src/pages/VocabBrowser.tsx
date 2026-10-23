@@ -217,7 +217,7 @@ export function VocabBrowser() {
             value={rawSearch}
             onChange={e => setRawSearch(e.target.value)}
             placeholder={t("vocab.searchPlaceholder")}
-            className="flex-1 min-w-[200px] px-4 py-2 border-3 border-structural font-sans font-bold text-sm bg-paper focus:outline-none focus:shadow-[2px_2px_0px_var(--color-blue)]"
+            className="flex-1 min-w-[200px] px-4 py-2 border-3 border-structural font-sans font-bold text-sm bg-paper focus:outline-none focus:shadow-[0_10px_26px_-12px_var(--color-blue)]"
           />
           <select
             value={book}
@@ -387,7 +387,7 @@ function VocabModal({
               onClick={onPrev}
               disabled={!hasPrev}
               title={t("vocab.prevWord")}
-              className="w-11 h-11 border-2 border-structural font-black text-lg flex items-center justify-center hover:bg-paper disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+              className="w-11 h-11 border border-structural font-black text-lg flex items-center justify-center hover:bg-paper disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
             >
               ‹
             </button>
@@ -398,7 +398,7 @@ function VocabModal({
               onClick={onNext}
               disabled={!hasNext}
               title={t("vocab.nextWord")}
-              className="w-11 h-11 border-2 border-structural font-black text-lg flex items-center justify-center hover:bg-paper disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+              className="w-11 h-11 border border-structural font-black text-lg flex items-center justify-center hover:bg-paper disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
             >
               ›
             </button>

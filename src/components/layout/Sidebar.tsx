@@ -10,6 +10,7 @@ import { InkCabinet } from "@/components/ui/InkCabinet"
 import { useTranslation } from "@/lib/useTranslation"
 import { useVocab } from "@/data/vocab"
 import { prefetchRoute } from "@/lib/routes"
+import { NavIcon } from "./icons"
 
 interface NavItem { to: string; label: string; kana: string; key: string }
 
@@ -84,7 +85,9 @@ export function Sidebar({ open, onClose }: SidebarProps) {
   return (
     <aside
       className={[
-        "fixed lg:static inset-y-0 left-0 z-40 w-64 max-w-[85vw] h-dvh overflow-y-auto border-r-3 flex flex-col",
+        "glass-strong fixed lg:static inset-y-0 left-0 z-40 w-64 max-w-[85vw] h-dvh overflow-y-auto flex flex-col",
+        // Floating glass panel on desktop, flush edge-to-edge drawer on mobile.
+        "rounded-r-[28px] lg:rounded-[28px] lg:m-3 lg:h-[calc(100dvh-1.5rem)]",
         // will-change keeps the drawer on its own compositor layer, so its
         // slide-out keeps running smoothly while the page being navigated to
         // is still mounting on the main thread.
@@ -92,8 +95,6 @@ export function Sidebar({ open, onClose }: SidebarProps) {
         open ? "translate-x-0" : "-translate-x-full",
       ].join(" ")}
       style={{
-        background: 'var(--tori-bg-sidebar)',
-        borderColor: 'var(--tori-sb-border)',
         // Landscape on a notched iPhone can put the notch/rounded corner
         // over the drawer's left edge - no-op in portrait (inset is 0).
         paddingLeft: 'env(safe-area-inset-left)',
@@ -102,7 +103,7 @@ export function Sidebar({ open, onClose }: SidebarProps) {
       {/* Logo - extra top padding on mobile covers the drawer sitting flush
           against the top edge, under the iPhone notch/Dynamic Island. */}
       <div
-        className="border-b-3 border-structural p-5"
+        className="border-b border-structural p-5"
         style={{ paddingTop: "max(1.25rem, env(safe-area-inset-top))" }}
       >
         <div className="flex items-center justify-between gap-2">
@@ -117,7 +118,7 @@ export function Sidebar({ open, onClose }: SidebarProps) {
             </span>
             <div className="flex flex-col min-w-0">
               <span className="font-mono text-xs font-black uppercase tracking-widest text-ink group-hover:text-accent transition-colors whitespace-nowrap">
-                [ TORI ]
+                TORI
               </span>
               <span className="text-[9px] font-mono font-bold uppercase tracking-wider text-muted opacity-70 whitespace-nowrap">
                 JLPT N5 / N4
@@ -128,7 +129,7 @@ export function Sidebar({ open, onClose }: SidebarProps) {
             type="button"
             onClick={onClose}
             aria-label="Close menu"
-            className="lg:hidden w-8 h-8 border-2 border-structural flex items-center justify-center shrink-0 cursor-pointer font-mono text-base font-bold leading-none hover:bg-surface"
+            className="lg:hidden w-8 h-8 rounded-full bg-surface flex items-center justify-center shrink-0 cursor-pointer text-base font-bold leading-none hover:bg-border"
           >
             ×
           </button>
@@ -140,13 +141,13 @@ export function Sidebar({ open, onClose }: SidebarProps) {
       </div>
 
       {/* Ink cabinet - compact theme picker + RAW/NEO toggle */}
-      <div className="border-b-3 border-structural p-3">
+      <div className="border-b border-structural p-3">
         <InkCabinet compact />
       </div>
 
       {/* Due alert */}
       {due > 0 && (
-        <div className="border-b-3 border-structural p-3 bg-accent text-accent-fg flex items-center gap-2">
+        <div className="m-3 rounded-2xl p-3 bg-accent text-accent-fg flex items-center gap-2 shadow-[var(--shadow-brutal)]">
           <span className="font-display text-lg">{due}</span>
           <span className="font-mono text-xs font-bold uppercase tracking-wider">{t('sidebar.cardsDueNow')}</span>
         </div>
@@ -171,13 +172,14 @@ export function Sidebar({ open, onClose }: SidebarProps) {
                 onPointerEnter={() => prefetchRoute(to)}
                 className={({ isActive }) =>
                   [
-                    "nav-item flex items-baseline gap-2.5 px-3 py-2 border-3 transition-[color,background-color,border-color,transform,box-shadow] duration-100",
+                    "nav-item flex items-center gap-2.5 px-3 py-2 min-h-10 rounded-xl border border-transparent transition-[color,background-color,box-shadow,transform] duration-150",
                     isActive
-                      ? "border-ink bg-ink text-paper shadow-none translate-x-0.5 translate-y-0.5"
-                      : "border-transparent hover:border-structural hover:shadow-[var(--shadow-brutal)] hover:-translate-x-0.5 hover:-translate-y-0.5",
+                      ? "bg-card text-accent font-semibold shadow-[inset_0_1px_0_var(--hi),0_2px_8px_-3px_rgba(40,50,110,0.3)]"
+                      : "hover:bg-surface",
                   ].join(" ")
                 }
               >
+                <NavIcon name={key} />
                 <span className="font-black text-sm leading-tight shrink-0">
                   <Furigana kanji={label} kana={kana} />
                 </span>
@@ -189,14 +191,14 @@ export function Sidebar({ open, onClose }: SidebarProps) {
       </nav>
 
       {/* Mini stats */}
-      <div className="border-t-3 border-structural p-4 grid grid-cols-2 gap-2">
+      <div className="border-t border-structural p-4 grid grid-cols-2 gap-2">
         {[
           { label: t('common.stats.total'), val: stats?.total ?? '–' },
           { label: t('common.stats.mastered'), val: stats?.mastered ?? '–' },
           { label: t('common.stats.review'), val: stats?.review ?? '–' },
           { label: t('common.stats.new'), val: stats?.new ?? '–' },
         ].map(({ label, val }) => (
-          <div key={label} className="bg-card border-2 border-structural rounded-[var(--radius-sm)] p-2 text-center">
+          <div key={label} className="bg-card border border-structural rounded-2xl p-2 text-center">
             <div className="font-display text-lg">{val}</div>
             <div className="font-mono text-xs uppercase tracking-wider text-muted">{label}</div>
           </div>
