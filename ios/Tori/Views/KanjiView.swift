@@ -8,7 +8,7 @@ struct KanjiView: View {
     @State private var query = ""
     @State private var selected: SelectedGroup?
 
-    private struct SelectedGroup: Identifiable {
+    fileprivate struct SelectedGroup: Identifiable {
         let group: KanjiGroup
         let chapter: Int
         let src: LevelSource
@@ -21,6 +21,7 @@ struct KanjiView: View {
             .map { c in (c, c.chapter.groups.filter { Search.kanjiGroup($0, matches: query) }) }
             .filter { !$0.1.isEmpty }
         let total = visible.reduce(0) { $0 + $1.1.count }
+        let flat = visible.flatMap { c, groups in groups.map { SelectedGroup(group: $0, chapter: c.chapter.chapter, src: c.src) } }
 
         NavigationStack {
             ScrollView {
@@ -52,7 +53,7 @@ struct KanjiView: View {
             .searchable(text: $query, placement: .navigationBarDrawer(displayMode: .always),
                         prompt: settings.t("kanji.searchPlaceholder"))
             .sheet(item: $selected) { s in
-                KanjiGroupSheet(group: s.group, chapter: s.chapter)
+                KanjiGroupSheet(group: s.group, chapter: s.chapter, list: flat) { selected = $0 }
                     .presentationDetents([.large])
                     .presentationCornerRadius(Radius.sheet)
                     .toriSheetBackground()
@@ -86,6 +87,8 @@ private struct KanjiTile: View {
 struct KanjiGroupSheet: View {
     let group: KanjiGroup
     let chapter: Int
+    fileprivate var list: [KanjiView.SelectedGroup] = []
+    fileprivate var select: (KanjiView.SelectedGroup) -> Void = { _ in }
     @Environment(SettingsStore.self) private var settings
     @Environment(\.palette) private var p
     @Environment(\.dismiss) private var dismiss
@@ -130,6 +133,13 @@ struct KanjiGroupSheet: View {
                 }
             }
             .padding(16)
+        }
+        .id(group.id)
+        .safeAreaInset(edge: .bottom) {
+            if let current = list.first(where: { $0.group.id == group.id }),
+               let pg = list.pager(around: current, select: select) {
+                DetailPager(position: pg.position, total: list.count, prev: pg.prev, next: pg.next)
+            }
         }
     }
 

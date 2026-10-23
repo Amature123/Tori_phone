@@ -51,7 +51,7 @@ struct VocabView: View {
                         prompt: settings.t("vocab.searchPlaceholder"))
             .onChange(of: settings.level) { group = nil; pos = nil }
             .sheet(item: $selected) { v in
-                VocabDetailView(entry: v)
+                VocabDetailView(entry: v, list: filtered) { selected = $0 }
                     .presentationDetents([.large])
                     .presentationCornerRadius(Radius.sheet)
                     .toriSheetBackground()
@@ -129,6 +129,8 @@ private struct VocabRow: View {
 
 struct VocabDetailView: View {
     let entry: VocabEntry
+    var list: [VocabEntry] = []
+    var select: (VocabEntry) -> Void = { _ in }
     @Environment(SettingsStore.self) private var settings
     @Environment(DataStore.self) private var data
     @Environment(\.palette) private var p
@@ -199,6 +201,12 @@ struct VocabDetailView: View {
                 }
             }
             .padding(16)
+        }
+        .id(entry.id)
+        .safeAreaInset(edge: .bottom) {
+            if let pg = list.pager(around: entry, select: select) {
+                DetailPager(position: pg.position, total: list.count, prev: pg.prev, next: pg.next)
+            }
         }
     }
 }

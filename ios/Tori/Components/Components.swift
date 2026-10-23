@@ -344,3 +344,48 @@ struct PitchAccentView: View {
         }
     }
 }
+
+// MARK: - Detail pager
+
+/// Previous / next controls for a detail sheet that walks a list.
+struct DetailPager: View {
+    let position: Int
+    let total: Int
+    let prev: (() -> Void)?
+    let next: (() -> Void)?
+    @Environment(\.palette) private var p
+
+    var body: some View {
+        HStack(spacing: 12) {
+            step("chevron.left", label: "Previous", id: "pager.prev", action: prev)
+            Text("\(position) / \(total)")
+                .font(.footnote.weight(.semibold).monospacedDigit())
+                .foregroundStyle(p.muted)
+                .frame(minWidth: 72)
+            step("chevron.right", label: "Next", id: "pager.next", action: next)
+        }
+        .padding(.vertical, 8)
+        .frame(maxWidth: .infinity)
+    }
+
+    private func step(_ symbol: String, label: String, id: String, action: (() -> Void)?) -> some View {
+        Button { action?() } label: {
+            Image(systemName: symbol).font(.system(size: 16, weight: .bold)).frame(width: 28, height: 24)
+        }
+        .buttonStyle(.toriGlass)
+        .disabled(action == nil)
+        .opacity(action == nil ? 0.4 : 1)
+        .accessibilityLabel(label)
+        .accessibilityIdentifier(id)
+    }
+}
+
+extension Array where Element: Identifiable {
+    /// Neighbours of `item` for a pager: position is 1-based.
+    func pager(around item: Element, select: @escaping (Element) -> Void) -> (position: Int, prev: (() -> Void)?, next: (() -> Void)?)? {
+        guard let i = firstIndex(where: { $0.id == item.id }) else { return nil }
+        return (i + 1,
+                i > startIndex ? { select(self[i - 1]) } : nil,
+                i < endIndex - 1 ? { select(self[i + 1]) } : nil)
+    }
+}
