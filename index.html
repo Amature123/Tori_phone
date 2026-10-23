@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=5" />
+    <!-- viewport-fit=cover lets the CSS below read env(safe-area-inset-*) so
+         the mobile header/drawer sit clear of the iPhone notch/Dynamic
+         Island and side curves in landscape, instead of being tucked under
+         them. maximum-scale/user-scalable stay default (1.0, allowed) --
+         pinch-zoom is left enabled; only per-input auto-zoom is handled
+         separately (see index.css's 16px mobile input rule). -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#efe7d8" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <!-- "Add to Home Screen" on iOS: standalone chrome, no browser UI. -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Tori" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=5" />
+    <link rel="manifest" href="/manifest.webmanifest?v=5" />
+    <title>TORI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Crimson+Pro:wght@400;600;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Zen+Old+Mincho:wght@400;600;700;900&family=JetBrains+Mono:wght@400;500;700&display=swap&subset=vietnamese" rel="stylesheet" />
+  </head>
+  <body>
+    <script>
+      (function () {
+        try {
+          var h = document.documentElement;
+
+          // Migrate the old Kotodori settings blob forward, once, before
+          // anything reads 'tori-settings'.
+          var oldSettings = localStorage.getItem('kotodori-settings');
+          if (oldSettings && !localStorage.getItem('tori-settings')) {
+            localStorage.setItem('tori-settings', oldSettings);
+          }
+
+          var saved = JSON.parse(localStorage.getItem('tori-settings') || 'null');
+          var state = saved && saved.state;
+
+          // Paper theme
+          var paper = state && state.paper;
+          if (paper === 'sumi' || paper === 'gold') h.classList.add('theme-' + paper);
+
+          // Density
+          var density = state && state.density;
+          if (density && density !== 'normal') h.classList.add('density-' + density);
+
+          // Typeface
+          if (state && state.typeSans) h.classList.add('type-sans');
+        } catch (e) {
+          // Ignore
+        }
+      })();
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,10927 @@
+{
+  "韓": {
+    "on": [
+      "カン"
+    ],
+    "kun": [
+      "いげた",
+      "から"
+    ],
+    "meanings": {
+      "vi": "Hàn Quốc",
+      "en": "Korea"
+    }
+  },
+  "教": {
+    "on": [
+      "キョウ"
+    ],
+    "kun": [
+      "おし.える",
+      "おそ.わる"
+    ],
+    "meanings": {
+      "vi": "dạy, giáo lý, tín ngưỡng",
+      "en": "teach, faith, doctrine"
+    }
+  },
+  "師": {
+    "on": [
+      "シ"
+    ],
+    "kun": [
+      "いくさ"
+    ],
+    "meanings": {
+      "vi": "thầy, chuyên gia, quân đội",
+      "en": "expert, teacher, master, model, exemplar, army (incl. counter), war"
+    }
+  },
+  "願": {
+    "on": [
+      "ガン"
+    ],
+    "kun": [
+      "-ねがい",
+      "ねが.う"
+    ],
+    "meanings": {
+      "vi": "nguyện, mong ước, thỉnh cầu",
+      "en": "petition, request, vow, wish, hope"
+    }
+  },
+  "失": {
+    "on": [
+      "シツ"
+    ],
+    "kun": [
+      "う.せる",
+      "うしな.う"
+    ],
+    "meanings": {
+      "vi": "mất, sai lầm, thiệt hại",
+      "en": "lose, error, fault, disadvantage, loss"
+    }
+  },
+  "礼": {
+    "on": [
+      "ライ",
+      "レイ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "lễ, chào, cảm ơn",
+      "en": "salute, bow, ceremony, thanks, remuneration"
+    }
+  },
+  "丈": {
+    "on": [
+      "ジョウ"
+    ],
+    "kun": [
+      "たけ",
+      "だけ"
+    ],
+    "meanings": {
+      "vi": "chiều dài, chiều cao, độ đo",
+      "en": "length, ten shaku, measure, Mr., Ms., height, stature, all (one has), only, that's all, merely"
+    }
+  },
+  "夜": {
+    "on": [
+      "ヤ"
+    ],
+    "kun": [
+      "よ",
+      "よる"
+    ],
+    "meanings": {
+      "vi": "đêm, tối",
+      "en": "night, evening"
+    }
+  },
+  "仕": {
+    "on": [
+      "シ",
+      "ジ"
+    ],
+    "kun": [
+      "つか.える"
+    ],
+    "meanings": {
+      "vi": "phụng sự, làm quan, phục vụ",
+      "en": "attend, doing, official, serve"
+    }
+  },
+  "事": {
+    "on": [
+      "ジ",
+      "ズ"
+    ],
+    "kun": [
+      "こと",
+      "つか.う",
+      "つか.える"
+    ],
+    "meanings": {
+      "vi": "việc, sự việc, công việc",
+      "en": "matter, thing, fact, business, reason, possibly"
+    }
+  },
+  "図": {
+    "on": [
+      "ズ",
+      "ト"
+    ],
+    "kun": [
+      "え",
+      "はか.る"
+    ],
+    "meanings": {
+      "vi": "bản đồ, hình vẽ, kế hoạch",
+      "en": "map, drawing, plan, extraordinary, audacious"
+    }
+  },
+  "館": {
+    "on": [
+      "カン"
+    ],
+    "kun": [
+      "たて",
+      "やかた"
+    ],
+    "meanings": {
+      "vi": "tòa nhà, quán, dinh thự",
+      "en": "building, mansion, large building, palace"
+    }
+  },
+  "郵": {
+    "on": [
+      "ユウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "bưu điện, thư tín",
+      "en": "mail, stagecoach stop"
+    }
+  },
+  "局": {
+    "on": [
+      "キョク"
+    ],
+    "kun": [
+      "つぼね"
+    ],
+    "meanings": {
+      "vi": "cục, sở, tình thế",
+      "en": "bureau, board, office, affair, conclusion, court lady, lady-in-waiting, her apartment"
+    }
+  },
+  "院": {
+    "on": [
+      "イン"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "viện, học viện, đền",
+      "en": "Inst., institution, temple, mansion, school"
+    }
+  },
+  "銀": {
+    "on": [
+      "ギン"
+    ],
+    "kun": [
+      "しろがね"
+    ],
+    "meanings": {
+      "vi": "bạc",
+      "en": "silver"
+    }
+  },
+  "字": {
+    "on": [
+      "ジ"
+    ],
+    "kun": [
+      "-な",
+      "あざ",
+      "あざな"
+    ],
+    "meanings": {
+      "vi": "chữ, ký tự",
+      "en": "character, letter, word, section of village"
+    }
+  },
+  "違": {
+    "on": [
+      "イ"
+    ],
+    "kun": [
+      "-ちが.える",
+      "たが.う",
+      "たが.える",
+      "ちが.い",
+      "ちが.う",
+      "ちが.える"
+    ],
+    "meanings": {
+      "vi": "khác biệt, sai khác",
+      "en": "difference, differ"
+    }
+  },
+  "辞": {
+    "on": [
+      "ジ"
+    ],
+    "kun": [
+      "いな.む",
+      "や.める"
+    ],
+    "meanings": {
+      "vi": "từ chức, lời nói, từ ngữ",
+      "en": "resign, word, term, expression"
+    }
+  },
+  "帳": {
+    "on": [
+      "チョウ"
+    ],
+    "kun": [
+      "とばり"
+    ],
+    "meanings": {
+      "vi": "sổ, tập, màn",
+      "en": "notebook, account book, album, curtain, veil, net, tent"
+    }
+  },
+  "市": {
+    "on": [
+      "シ"
+    ],
+    "kun": [
+      "いち"
+    ],
+    "meanings": {
+      "vi": "chợ, thành phố, thị trấn",
+      "en": "market, city, town"
+    }
+  },
+  "役": {
+    "on": [
+      "エキ",
+      "ヤク"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "nhiệm vụ, vai trò, chức vụ",
+      "en": "duty, war, campaign, drafted labor, office, service, role"
+    }
+  },
+  "曜": {
+    "on": [
+      "ヨウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "ngày trong tuần",
+      "en": "weekday"
+    }
+  },
+  "当": {
+    "on": [
+      "トウ"
+    ],
+    "kun": [
+      "あ.たり",
+      "あ.たる",
+      "あ.て",
+      "あ.てる",
+      "まさ.に",
+      "まさ.にべし"
+    ],
+    "meanings": {
+      "vi": "đúng, trúng, thích hợp",
+      "en": "hit, right, appropriate, himself"
+    }
+  },
+  "昨": {
+    "on": [
+      "サク"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "hôm qua, trước đây",
+      "en": "yesterday, previous"
+    }
+  },
+  "誕": {
+    "on": [
+      "タン"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "sinh ra, sinh nhật",
+      "en": "nativity, be born, declension, lie, be arbitrary"
+    }
+  },
+  "指": {
+    "on": [
+      "シ"
+    ],
+    "kun": [
+      "-さ.し",
+      "さ.す",
+      "ゆび"
+    ],
+    "meanings": {
+      "vi": "ngón tay, chỉ, chỉ ra",
+      "en": "finger, point to, indicate, put into, play (chess), measure (ruler)"
+    }
+  },
+  "輪": {
+    "on": [
+      "リン"
+    ],
+    "kun": [
+      "わ"
+    ],
+    "meanings": {
+      "vi": "bánh xe, vòng, vòng tròn",
+      "en": "wheel, ring, circle, link, loop, counter for wheels and flowers"
+    }
+  },
+  "晴": {
+    "on": [
+      "セイ"
+    ],
+    "kun": [
+      "-ば.れ",
+      "は.らす",
+      "は.れ",
+      "は.れ-",
+      "は.れる"
+    ],
+    "meanings": {
+      "vi": "quang đãng, tạnh",
+      "en": "clear up"
+    }
+  },
+  "曇": {
+    "on": [
+      "ドン"
+    ],
+    "kun": [
+      "くも.る"
+    ],
+    "meanings": {
+      "vi": "nhiều mây, âm u",
+      "en": "cloudy weather, cloud up"
+    }
+  },
+  "誰": {
+    "on": [
+      "スイ"
+    ],
+    "kun": [
+      "た",
+      "たれ",
+      "だれ"
+    ],
+    "meanings": {
+      "vi": "ai",
+      "en": "who, someone, somebody"
+    }
+  },
+  "鍵": {
+    "on": [
+      "ケン"
+    ],
+    "kun": [
+      "かぎ"
+    ],
+    "meanings": {
+      "vi": "chìa khóa",
+      "en": "key"
+    }
+  },
+  "傘": {
+    "on": [
+      "サン"
+    ],
+    "kun": [
+      "かさ"
+    ],
+    "meanings": {
+      "vi": "cái ô, dù",
+      "en": "umbrella"
+    }
+  },
+  "菓": {
+    "on": [
+      "カ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "bánh kẹo, trái cây",
+      "en": "candy, cakes, fruit"
+    }
+  },
+  "豆": {
+    "on": [
+      "ズ",
+      "トウ"
+    ],
+    "kun": [
+      "まめ",
+      "まめ-"
+    ],
+    "meanings": {
+      "vi": "đậu, hạt đậu",
+      "en": "beans, pea, midget"
+    }
+  },
+  "職": {
+    "on": [
+      "ショク",
+      "ソク"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "chức vụ, nghề nghiệp",
+      "en": "post, employment, work"
+    }
+  },
+  "作": {
+    "on": [
+      "サ",
+      "サク"
+    ],
+    "kun": [
+      "-づく.り",
+      "つく.り",
+      "つく.る"
+    ],
+    "meanings": {
+      "vi": "làm, chế tạo, sản xuất",
+      "en": "make, production, prepare, build"
+    }
+  },
+  "昔": {
+    "on": [
+      "シャク",
+      "セキ"
+    ],
+    "kun": [
+      "むかし"
+    ],
+    "meanings": {
+      "vi": "ngày xưa, thời xưa",
+      "en": "once upon a time, antiquity, old times"
+    }
+  },
+  "部": {
+    "on": [
+      "ブ"
+    ],
+    "kun": [
+      "-べ"
+    ],
+    "meanings": {
+      "vi": "bộ phận, phòng ban, phần",
+      "en": "section, bureau, dept, class, copy, part, portion, counter for copies of a newspaper or magazine"
+    }
+  },
+  "屋": {
+    "on": [
+      "オク"
+    ],
+    "kun": [
+      "や"
+    ],
+    "meanings": {
+      "vi": "nhà, mái nhà, cửa hàng",
+      "en": "roof, house, shop, dealer, seller"
+    }
+  },
+  "最": {
+    "on": [
+      "サイ",
+      "シュ"
+    ],
+    "kun": [
+      "つま",
+      "もっと.も"
+    ],
+    "meanings": {
+      "vi": "nhất, tột cùng",
+      "en": "utmost, most, extreme"
+    }
+  },
+  "悪": {
+    "on": [
+      "アク",
+      "オ"
+    ],
+    "kun": [
+      "-にく.い",
+      "あ.し",
+      "ああ",
+      "いずくに",
+      "いずくんぞ",
+      "にく.い",
+      "にく.む",
+      "わる-",
+      "わる.い"
+    ],
+    "meanings": {
+      "vi": "xấu, ác, tồi tệ",
+      "en": "bad, vice, rascal, false, evil, wrong"
+    }
+  },
+  "狭": {
+    "on": [
+      "キョウ",
+      "コウ"
+    ],
+    "kun": [
+      "さ",
+      "せば.まる",
+      "せば.める",
+      "せま.い"
+    ],
+    "meanings": {
+      "vi": "chật hẹp, hẹp",
+      "en": "cramped, narrow, contract, tight"
+    }
+  },
+  "寒": {
+    "on": [
+      "カン"
+    ],
+    "kun": [
+      "さむ.い"
+    ],
+    "meanings": {
+      "vi": "lạnh",
+      "en": "cold"
+    }
+  },
+  "忙": {
+    "on": [
+      "ボウ",
+      "モウ"
+    ],
+    "kun": [
+      "いそが.しい",
+      "うれえるさま",
+      "おそ.れる",
+      "せわ.しい"
+    ],
+    "meanings": {
+      "vi": "bận rộn",
+      "en": "busy, occupied, restless"
+    }
+  },
+  "暇": {
+    "on": [
+      "カ"
+    ],
+    "kun": [
+      "いとま",
+      "ひま"
+    ],
+    "meanings": {
+      "vi": "thời gian rảnh, nghỉ phép",
+      "en": "spare time, rest, leisure, time, leave of absence"
+    }
+  },
+  "複": {
+    "on": [
+      "フク"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "trùng, gấp đôi, phức tạp",
+      "en": "duplicate, double, compound, multiple"
+    }
+  },
+  "雑": {
+    "on": [
+      "ザツ",
+      "ゾウ"
+    ],
+    "kun": [
+      "まじ.える",
+      "まじ.る"
+    ],
+    "meanings": {
+      "vi": "hỗn tạp, lộn xộn",
+      "en": "miscellaneous"
+    }
+  },
+  "簡": {
+    "on": [
+      "カン",
+      "ケン"
+    ],
+    "kun": [
+      "えら.ぶ",
+      "ふだ"
+    ],
+    "meanings": {
+      "vi": "đơn giản, ngắn gọn",
+      "en": "simplicity, brevity"
+    }
+  },
+  "単": {
+    "on": [
+      "タン"
+    ],
+    "kun": [
+      "ひとえ"
+    ],
+    "meanings": {
+      "vi": "đơn giản, đơn, chỉ",
+      "en": "simple, one, single, merely"
+    }
+  },
+  "有": {
+    "on": [
+      "ウ",
+      "ユウ"
+    ],
+    "kun": [
+      "あ.る"
+    ],
+    "meanings": {
+      "vi": "có, sở hữu, tồn tại",
+      "en": "possess, have, exist, happen, occur, approx"
+    }
+  },
+  "静": {
+    "on": [
+      "ジョウ",
+      "セイ"
+    ],
+    "kun": [
+      "しず-",
+      "しず.か",
+      "しず.まる",
+      "しず.める"
+    ],
+    "meanings": {
+      "vi": "yên tĩnh",
+      "en": "quiet"
+    }
+  },
+  "丁": {
+    "on": [
+      "チ",
+      "チョウ",
+      "チン",
+      "テイ",
+      "トウ"
+    ],
+    "kun": [
+      "ひのと"
+    ],
+    "meanings": {
+      "vi": "khu phố, đơn vị đếm, chẵn",
+      "en": "street, ward, town, counter for guns, tools, leaves or cakes of something, even number, 4th calendar sign"
+    }
+  },
+  "寧": {
+    "on": [
+      "ネイ"
+    ],
+    "kun": [
+      "むし.ろ"
+    ],
+    "meanings": {
+      "vi": "yên ổn, thà rằng",
+      "en": "rather, preferably, peaceful, quiet, tranquility"
+    }
+  },
+  "全": {
+    "on": [
+      "ゼン"
+    ],
+    "kun": [
+      "すべ.て",
+      "まった.く"
+    ],
+    "meanings": {
+      "vi": "toàn bộ, hoàn toàn",
+      "en": "whole, entire, all, complete, fulfill"
+    }
+  },
+  "活": {
+    "on": [
+      "カツ"
+    ],
+    "kun": [
+      "い.かす",
+      "い.きる",
+      "い.ける"
+    ],
+    "meanings": {
+      "vi": "sống, hoạt động, sinh động",
+      "en": "lively, resuscitation, being helped, living"
+    }
+  },
+  "授": {
+    "on": [
+      "ジュ"
+    ],
+    "kun": [
+      "さず.かる",
+      "さず.ける"
+    ],
+    "meanings": {
+      "vi": "truyền đạt, dạy, trao tặng",
+      "en": "impart, instruct, grant, confer"
+    }
+  },
+  "業": {
+    "on": [
+      "ギョウ",
+      "ゴウ"
+    ],
+    "kun": [
+      "わざ"
+    ],
+    "meanings": {
+      "vi": "nghề nghiệp, sự nghiệp",
+      "en": "business, vocation, arts, performance"
+    }
+  },
+  "楽": {
+    "on": [
+      "ガク",
+      "ゴウ",
+      "ラク"
+    ],
+    "kun": [
+      "この.む",
+      "たの.しい",
+      "たの.しむ"
+    ],
+    "meanings": {
+      "vi": "âm nhạc, vui vẻ, thoải mái",
+      "en": "music, comfort, ease"
+    }
+  },
+  "寂": {
+    "on": [
+      "ジャク",
+      "セキ"
+    ],
+    "kun": [
+      "さび",
+      "さび.しい",
+      "さび.れる",
+      "さみ.しい"
+    ],
+    "meanings": {
+      "vi": "cô đơn, tịch mịch",
+      "en": "loneliness, quietly, mellow, mature, death of a priest"
+    }
+  },
+  "辛": {
+    "on": [
+      "シン"
+    ],
+    "kun": [
+      "-づら.い",
+      "かのと",
+      "から.い",
+      "つら.い"
+    ],
+    "meanings": {
+      "vi": "cay, đắng, gian khổ",
+      "en": "spicy, bitter, hot, acrid"
+    }
+  },
+  "面": {
+    "on": [
+      "ベン",
+      "メン"
+    ],
+    "kun": [
+      "おも",
+      "おもて",
+      "つら"
+    ],
+    "meanings": {
+      "vi": "mặt, mặt nạ, bề mặt",
+      "en": "mask, face, features, surface"
+    }
+  },
+  "難": {
+    "on": [
+      "ナン"
+    ],
+    "kun": [
+      "-がた.い",
+      "-にく.い",
+      "かた.い",
+      "むずか.しい",
+      "むつか.しい",
+      "むづか.しい"
+    ],
+    "meanings": {
+      "vi": "khó khăn, tai nạn, khuyết điểm",
+      "en": "difficult, impossible, trouble, accident, defect"
+    }
+  },
+  "素": {
+    "on": [
+      "ス",
+      "ソ"
+    ],
+    "kun": [
+      "もと"
+    ],
+    "meanings": {
+      "vi": "nguyên tố, cơ bản, mộc mạc",
+      "en": "elementary, principle, naked, uncovered"
+    }
+  },
+  "敵": {
+    "on": [
+      "テキ"
+    ],
+    "kun": [
+      "あだ",
+      "かたき",
+      "かな.う"
+    ],
+    "meanings": {
+      "vi": "kẻ thù, đối thủ",
+      "en": "enemy, foe, opponent"
+    }
+  },
+  "議": {
+    "on": [
+      "ギ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "bàn bạc, thảo luận, nghị",
+      "en": "deliberation, consultation, debate, consideration"
+    }
+  },
+  "変": {
+    "on": [
+      "ヘン"
+    ],
+    "kun": [
+      "か.える",
+      "か.わり",
+      "か.わる"
+    ],
+    "meanings": {
+      "vi": "thay đổi, kỳ lạ, bất thường",
+      "en": "unusual, change, strange"
+    }
+  },
+  "頭": {
+    "on": [
+      "ズ",
+      "ト",
+      "トウ"
+    ],
+    "kun": [
+      "-がしら",
+      "あたま",
+      "かしら",
+      "かぶり"
+    ],
+    "meanings": {
+      "vi": "đầu",
+      "en": "head, counter for large animals"
+    }
+  },
+  "場": {
+    "on": [
+      "ジョウ",
+      "チョウ"
+    ],
+    "kun": [
+      "ば"
+    ],
+    "meanings": {
+      "vi": "nơi, địa điểm, sân",
+      "en": "location, place"
+    }
+  },
+  "残": {
+    "on": [
+      "サン",
+      "ザン"
+    ],
+    "kun": [
+      "そこな.う",
+      "のこ.す",
+      "のこ.り",
+      "のこ.る"
+    ],
+    "meanings": {
+      "vi": "còn lại, số dư",
+      "en": "remainder, leftover, balance"
+    }
+  },
+  "念": {
+    "on": [
+      "ネン"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "ý niệm, mong muốn, chú ý",
+      "en": "wish, sense, idea, thought, feeling, desire, attention"
+    }
+  },
+  "富": {
+    "on": [
+      "フ",
+      "フウ"
+    ],
+    "kun": [
+      "と.む",
+      "とみ"
+    ],
+    "meanings": {
+      "vi": "giàu có, phong phú",
+      "en": "wealth, enrich, abundant"
+    }
+  },
+  "士": {
+    "on": [
+      "シ"
+    ],
+    "kun": [
+      "さむらい"
+    ],
+    "meanings": {
+      "vi": "sĩ, học giả, võ sĩ",
+      "en": "gentleman, scholar, samurai, samurai radical (no. 33)"
+    }
+  },
+  "建": {
+    "on": [
+      "ケン",
+      "コン"
+    ],
+    "kun": [
+      "-だ.て",
+      "た.つ",
+      "た.て",
+      "た.てる"
+    ],
+    "meanings": {
+      "vi": "xây dựng",
+      "en": "build"
+    }
+  },
+  "赤": {
+    "on": [
+      "シャク",
+      "セキ"
+    ],
+    "kun": [
+      "あか",
+      "あか-",
+      "あか.い",
+      "あか.らむ",
+      "あか.らめる"
+    ],
+    "meanings": {
+      "vi": "đỏ",
+      "en": "red"
+    }
+  },
+  "優": {
+    "on": [
+      "ウ",
+      "ユウ"
+    ],
+    "kun": [
+      "すぐ.れる",
+      "まさ.る",
+      "やさ.しい"
+    ],
+    "meanings": {
+      "vi": "dịu dàng, ưu tú, diễn viên",
+      "en": "tenderness, excel, surpass, actor, superiority, gentleness"
+    }
+  },
+  "恋": {
+    "on": [
+      "レン"
+    ],
+    "kun": [
+      "こ.う",
+      "こい",
+      "こい.しい"
+    ],
+    "meanings": {
+      "vi": "yêu, tình yêu, nhớ nhung",
+      "en": "romance, in love, yearn for, miss, darling"
+    }
+  },
+  "験": {
+    "on": [
+      "ケン",
+      "ゲン"
+    ],
+    "kun": [
+      "あかし",
+      "しるし",
+      "ため.す",
+      "ためし"
+    ],
+    "meanings": {
+      "vi": "kiểm chứng, thí nghiệm, hiệu quả",
+      "en": "verification, effect, testing"
+    }
+  },
+  "祭": {
+    "on": [
+      "サイ"
+    ],
+    "kun": [
+      "まつ.り",
+      "まつ.る",
+      "まつり"
+    ],
+    "meanings": {
+      "vi": "lễ hội, cúng tế, thờ phụng",
+      "en": "ritual, offer prayers, celebrate, deify, enshrine, worship"
+    }
+  },
+  "型": {
+    "on": [
+      "ケイ"
+    ],
+    "kun": [
+      "-がた",
+      "かた"
+    ],
+    "meanings": {
+      "vi": "khuôn, kiểu, loại",
+      "en": "mould, type, model"
+    }
+  },
+  "美": {
+    "on": [
+      "ビ",
+      "ミ"
+    ],
+    "kun": [
+      "うつく.しい"
+    ],
+    "meanings": {
+      "vi": "đẹp, cái đẹp",
+      "en": "beauty, beautiful"
+    }
+  },
+  "容": {
+    "on": [
+      "ヨウ"
+    ],
+    "kun": [
+      "い.れる"
+    ],
+    "meanings": {
+      "vi": "chứa đựng, hình dáng, dung mạo",
+      "en": "contain, form, looks"
+    }
+  },
+  "庭": {
+    "on": [
+      "テイ"
+    ],
+    "kun": [
+      "にわ"
+    ],
+    "meanings": {
+      "vi": "sân, vườn",
+      "en": "courtyard, garden, yard"
+    }
+  },
+  "机": {
+    "on": [
+      "キ"
+    ],
+    "kun": [
+      "つくえ"
+    ],
+    "meanings": {
+      "vi": "bàn",
+      "en": "desk, table"
+    }
+  },
+  "椅": {
+    "on": [
+      "イ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "ghế",
+      "en": "chair"
+    }
+  },
+  "棚": {
+    "on": [
+      "ホウ"
+    ],
+    "kun": [
+      "-だな",
+      "たな"
+    ],
+    "meanings": {
+      "vi": "kệ, giá đỡ",
+      "en": "shelf, ledge, rack, mount, mantle, trellis"
+    }
+  },
+  "財": {
+    "on": [
+      "サイ",
+      "ザイ",
+      "ゾク"
+    ],
+    "kun": [
+      "たから"
+    ],
+    "meanings": {
+      "vi": "tài sản, tiền của",
+      "en": "property, money, wealth, assets"
+    }
+  },
+  "布": {
+    "on": [
+      "フ",
+      "ホ"
+    ],
+    "kun": [
+      "きれ",
+      "し.く",
+      "ぬの"
+    ],
+    "meanings": {
+      "vi": "vải, phân phát",
+      "en": "linen, cloth, spread, distribute"
+    }
+  },
+  "箱": {
+    "on": [
+      "ソウ"
+    ],
+    "kun": [
+      "はこ"
+    ],
+    "meanings": {
+      "vi": "hộp, thùng",
+      "en": "box, chest, case, bin, railway car"
+    }
+  },
+  "真": {
+    "on": [
+      "シン"
+    ],
+    "kun": [
+      "ま",
+      "ま-",
+      "まこと"
+    ],
+    "meanings": {
+      "vi": "thật, chân thực",
+      "en": "true, reality, Buddhist sect"
+    }
+  },
+  "横": {
+    "on": [
+      "オウ"
+    ],
+    "kun": [
+      "よこ"
+    ],
+    "meanings": {
+      "vi": "ngang, bên cạnh, vô lý",
+      "en": "sideways, side, horizontal, width, woof, unreasonable, perverse"
+    }
+  },
+  "隣": {
+    "on": [
+      "リン"
+    ],
+    "kun": [
+      "とな.る",
+      "となり"
+    ],
+    "meanings": {
+      "vi": "hàng xóm, lân cận",
+      "en": "neighboring"
+    }
+  },
+  "消": {
+    "on": [
+      "ショウ"
+    ],
+    "kun": [
+      "き.える",
+      "け.す"
+    ],
+    "meanings": {
+      "vi": "tắt, dập tắt, hủy bỏ",
+      "en": "extinguish, blow out, turn off, neutralize, cancel"
+    }
+  },
+  "階": {
+    "on": [
+      "カイ"
+    ],
+    "kun": [
+      "きざはし"
+    ],
+    "meanings": {
+      "vi": "tầng, bậc thang",
+      "en": "storey, stair, counter for storeys of a building"
+    }
+  },
+  "画": {
+    "on": [
+      "エ",
+      "カイ",
+      "カク",
+      "ガ"
+    ],
+    "kun": [
+      "えが.く",
+      "かぎ.る",
+      "かく.する",
+      "はか.る",
+      "はかりごと"
+    ],
+    "meanings": {
+      "vi": "nét vẽ, bức tranh",
+      "en": "brush-stroke, picture"
+    }
+  },
+  "室": {
+    "on": [
+      "シツ"
+    ],
+    "kun": [
+      "むろ"
+    ],
+    "meanings": {
+      "vi": "phòng, buồng",
+      "en": "room, apartment, chamber, greenhouse, cellar"
+    }
+  },
+  "堂": {
+    "on": [
+      "ドウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "sảnh, nhà",
+      "en": "public chamber, hall"
+    }
+  },
+  "務": {
+    "on": [
+      "ム"
+    ],
+    "kun": [
+      "つと.める"
+    ],
+    "meanings": {
+      "vi": "nhiệm vụ, công việc",
+      "en": "task, duties"
+    }
+  },
+  "窓": {
+    "on": [
+      "ス",
+      "ソウ"
+    ],
+    "kun": [
+      "けむだし",
+      "てんまど",
+      "まど"
+    ],
+    "meanings": {
+      "vi": "cửa sổ",
+      "en": "window, pane"
+    }
+  },
+  "課": {
+    "on": [
+      "カ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "bài học, chương, phòng ban",
+      "en": "chapter, lesson, section, department, division, counter for chapters (of a book)"
+    }
+  },
+  "猫": {
+    "on": [
+      "ビョウ"
+    ],
+    "kun": [
+      "ねこ"
+    ],
+    "meanings": {
+      "vi": "mèo",
+      "en": "cat"
+    }
+  },
+  "怖": {
+    "on": [
+      "フ",
+      "ホ"
+    ],
+    "kun": [
+      "お.じる",
+      "おそ.れる",
+      "こわ.い",
+      "こわ.がる"
+    ],
+    "meanings": {
+      "vi": "sợ hãi, đáng sợ",
+      "en": "dreadful, be frightened, fearful"
+    }
+  },
+  "憩": {
+    "on": [
+      "ケイ"
+    ],
+    "kun": [
+      "いこ.い",
+      "いこ.う"
+    ],
+    "meanings": {
+      "vi": "nghỉ ngơi, thư giãn",
+      "en": "recess, rest, relax, repose"
+    }
+  },
+  "温": {
+    "on": [
+      "オン"
+    ],
+    "kun": [
+      "あたた.か",
+      "あたた.かい",
+      "あたた.まる",
+      "あたた.める",
+      "ぬく"
+    ],
+    "meanings": {
+      "vi": "ấm",
+      "en": "warm"
+    }
+  },
+  "泉": {
+    "on": [
+      "セン"
+    ],
+    "kun": [
+      "いずみ"
+    ],
+    "meanings": {
+      "vi": "suối, mạch nước",
+      "en": "spring, fountain"
+    }
+  },
+  "袋": {
+    "on": [
+      "タイ",
+      "ダイ"
+    ],
+    "kun": [
+      "ふくろ"
+    ],
+    "meanings": {
+      "vi": "túi, bao",
+      "en": "sack, bag, pouch"
+    }
+  },
+  "達": {
+    "on": [
+      "タツ",
+      "ダ"
+    ],
+    "kun": [
+      "-たち"
+    ],
+    "meanings": {
+      "vi": "đạt được, đến, hoàn thành",
+      "en": "accomplished, reach, arrive, attain"
+    }
+  },
+  "歳": {
+    "on": [
+      "サイ",
+      "セイ"
+    ],
+    "kun": [
+      "とし",
+      "とせ",
+      "よわい"
+    ],
+    "meanings": {
+      "vi": "tuổi, năm",
+      "en": "year-end, age, occasion, opportunity"
+    }
+  },
+  "勢": {
+    "on": [
+      "セイ",
+      "ゼイ"
+    ],
+    "kun": [
+      "いきお.い",
+      "はずみ"
+    ],
+    "meanings": {
+      "vi": "thế lực, sức mạnh, quân lực",
+      "en": "forces, energy, military strength"
+    }
+  },
+  "匹": {
+    "on": [
+      "ヒツ"
+    ],
+    "kun": [
+      "ひき"
+    ],
+    "meanings": {
+      "vi": "con (đếm động vật nhỏ), tấm vải",
+      "en": "equal, head, counter for small animals, roll of cloth"
+    }
+  },
+  "申": {
+    "on": [
+      "シン"
+    ],
+    "kun": [
+      "さる",
+      "もう.し-",
+      "もう.す"
+    ],
+    "meanings": {
+      "vi": "thưa, trình bày, tuổi Thân",
+      "en": "have the honor to, sign of the monkey, 3-5PM, ninth sign of Chinese zodiac"
+    }
+  },
+  "訳": {
+    "on": [
+      "ヤク"
+    ],
+    "kun": [
+      "わけ"
+    ],
+    "meanings": {
+      "vi": "dịch, lý do, hoàn cảnh",
+      "en": "translate, reason, circumstance, case"
+    }
+  },
+  "調": {
+    "on": [
+      "チョウ"
+    ],
+    "kun": [
+      "しら.べ",
+      "しら.べる",
+      "ととの.う",
+      "ととの.える"
+    ],
+    "meanings": {
+      "vi": "điều tra, điều chỉnh, giai điệu",
+      "en": "tune, tone, meter, key (music), writing style, prepare, exorcise, investigate, harmonize, mediate"
+    }
+  },
+  "遊": {
+    "on": [
+      "ユ",
+      "ユウ"
+    ],
+    "kun": [
+      "あそ.ばす",
+      "あそ.ぶ"
+    ],
+    "meanings": {
+      "vi": "chơi, du ngoạn",
+      "en": "play"
+    }
+  },
+  "寝": {
+    "on": [
+      "シン"
+    ],
+    "kun": [
+      "い.ぬ",
+      "ね.かす",
+      "ね.る",
+      "みたまや",
+      "や.める"
+    ],
+    "meanings": {
+      "vi": "ngủ, nằm, giường",
+      "en": "lie down, sleep, rest, bed, remain unsold"
+    }
+  },
+  "起": {
+    "on": [
+      "キ"
+    ],
+    "kun": [
+      "お.きる",
+      "お.こす",
+      "お.こる",
+      "おこ.す",
+      "た.つ"
+    ],
+    "meanings": {
+      "vi": "thức dậy, dậy, dấy lên",
+      "en": "rouse, wake up, get up"
+    }
+  },
+  "疲": {
+    "on": [
+      "ヒ"
+    ],
+    "kun": [
+      "-づか.れ",
+      "つか.らす",
+      "つか.れる"
+    ],
+    "meanings": {
+      "vi": "mệt mỏi",
+      "en": "exhausted, tire, weary"
+    }
+  },
+  "実": {
+    "on": [
+      "シツ",
+      "ジツ"
+    ],
+    "kun": [
+      "まこと",
+      "み",
+      "みち.る",
+      "みの",
+      "みの.る"
+    ],
+    "meanings": {
+      "vi": "thực, sự thật, quả",
+      "en": "reality, truth, seed, fruit, nut"
+    }
+  },
+  "寮": {
+    "on": [
+      "リョウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "ký túc xá, nhà trọ",
+      "en": "dormitory, hostel, villa, tea pavillion"
+    }
+  },
+  "写": {
+    "on": [
+      "シャ",
+      "ジャ"
+    ],
+    "kun": [
+      "うつ-",
+      "うつ.し",
+      "うつ.す",
+      "うつ.る"
+    ],
+    "meanings": {
+      "vi": "sao chép, chụp ảnh, mô tả",
+      "en": "copy, be photographed, describe"
+    }
+  },
+  "再": {
+    "on": [
+      "サ",
+      "サイ"
+    ],
+    "kun": [
+      "ふたた.び"
+    ],
+    "meanings": {
+      "vi": "lại, lần nữa",
+      "en": "again, twice, second time"
+    }
+  },
+  "紅": {
+    "on": [
+      "ク",
+      "コウ"
+    ],
+    "kun": [
+      "あか.い",
+      "くれない",
+      "べに"
+    ],
+    "meanings": {
+      "vi": "đỏ thắm, hồng",
+      "en": "crimson, deep red"
+    }
+  },
+  "寿": {
+    "on": [
+      "シュウ",
+      "ジュ",
+      "ス"
+    ],
+    "kun": [
+      "ことぶ.く",
+      "ことぶき",
+      "ことほ.ぐ"
+    ],
+    "meanings": {
+      "vi": "trường thọ, chúc mừng",
+      "en": "longevity, congratulations, one's natural life"
+    }
+  },
+  "司": {
+    "on": [
+      "シ"
+    ],
+    "kun": [
+      "つかさど.る"
+    ],
+    "meanings": {
+      "vi": "quản lý, quan chức, cai quản",
+      "en": "director, official, govt office, rule, administer"
+    }
+  },
+  "昼": {
+    "on": [
+      "チュウ"
+    ],
+    "kun": [
+      "ひる"
+    ],
+    "meanings": {
+      "vi": "ban ngày, buổi trưa",
+      "en": "daytime, noon"
+    }
+  },
+  "産": {
+    "on": [
+      "サン"
+    ],
+    "kun": [
+      "う.まれる",
+      "う.む",
+      "うぶ-",
+      "む.す"
+    ],
+    "meanings": {
+      "vi": "sản xuất, sinh sản, sinh con",
+      "en": "products, bear, give birth, yield, childbirth, native, property"
+    }
+  },
+  "族": {
+    "on": [
+      "ゾク"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "gia tộc, dân tộc",
+      "en": "tribe, family"
+    }
+  },
+  "誌": {
+    "on": [
+      "シ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "tạp chí, ghi chép",
+      "en": "document, records"
+    }
+  },
+  "靴": {
+    "on": [
+      "カ"
+    ],
+    "kun": [
+      "くつ"
+    ],
+    "meanings": {
+      "vi": "giày",
+      "en": "shoes"
+    }
+  },
+  "眠": {
+    "on": [
+      "ミン"
+    ],
+    "kun": [
+      "ねむ.い",
+      "ねむ.る"
+    ],
+    "meanings": {
+      "vi": "ngủ, buồn ngủ",
+      "en": "sleep, die, sleepy"
+    }
+  },
+  "持": {
+    "on": [
+      "ジ"
+    ],
+    "kun": [
+      "-も.ち",
+      "も.つ",
+      "も.てる"
+    ],
+    "meanings": {
+      "vi": "cầm, giữ, có",
+      "en": "hold, have"
+    }
+  },
+  "夏": {
+    "on": [
+      "カ",
+      "ガ",
+      "ゲ"
+    ],
+    "kun": [
+      "なつ"
+    ],
+    "meanings": {
+      "vi": "mùa hè",
+      "en": "summer"
+    }
+  },
+  "盆": {
+    "on": [
+      "ボン"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "chậu, khay, lễ Vu Lan",
+      "en": "basin, lantern festival, tray"
+    }
+  },
+  "末": {
+    "on": [
+      "バツ",
+      "マツ"
+    ],
+    "kun": [
+      "うら",
+      "うれ",
+      "すえ"
+    ],
+    "meanings": {
+      "vi": "cuối, đầu mút, bột",
+      "en": "end, close, tip, powder, posterity"
+    }
+  },
+  "服": {
+    "on": [
+      "フク"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "quần áo, phục tùng",
+      "en": "clothing, admit, obey, discharge"
+    }
+  },
+  "紙": {
+    "on": [
+      "シ"
+    ],
+    "kun": [
+      "かみ"
+    ],
+    "meanings": {
+      "vi": "giấy",
+      "en": "paper"
+    }
+  },
+  "冊": {
+    "on": [
+      "サク",
+      "サツ"
+    ],
+    "kun": [
+      "ふみ"
+    ],
+    "meanings": {
+      "vi": "cuốn, quyển (sách)",
+      "en": "tome, counter for books, volume"
+    }
+  },
+  "枚": {
+    "on": [
+      "バイ",
+      "マイ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "tờ, tấm (đếm vật phẳng mỏng)",
+      "en": "sheet of..., counter for flat thin objects or sheets"
+    }
+  },
+  "杯": {
+    "on": [
+      "ハイ"
+    ],
+    "kun": [
+      "さかずき"
+    ],
+    "meanings": {
+      "vi": "chén, ly, cốc",
+      "en": "counter for cupfuls, wine glass, glass, toast"
+    }
+  },
+  "個": {
+    "on": [
+      "カ",
+      "コ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "cái, chiếc (đơn vị đếm)",
+      "en": "individual, counter for articles"
+    }
+  },
+  "腹": {
+    "on": [
+      "フク"
+    ],
+    "kun": [
+      "はら"
+    ],
+    "meanings": {
+      "vi": "bụng",
+      "en": "abdomen, belly, stomach"
+    }
+  },
+  "欲": {
+    "on": [
+      "ヨク"
+    ],
+    "kun": [
+      "ほ.しい",
+      "ほっ.する"
+    ],
+    "meanings": {
+      "vi": "ham muốn, khao khát, dục vọng",
+      "en": "longing, covetousness, greed, passion, desire, craving"
+    }
+  },
+  "緒": {
+    "on": [
+      "ショ",
+      "チョ"
+    ],
+    "kun": [
+      "いとぐち",
+      "お"
+    ],
+    "meanings": {
+      "vi": "dây, mối, khởi đầu, tâm trạng",
+      "en": "thong, beginning, inception, end, cord, strap, mental or emotional state"
+    }
+  },
+  "初": {
+    "on": [
+      "ショ"
+    ],
+    "kun": [
+      "-そ.める",
+      "-ぞ.め",
+      "うい-",
+      "はじ.め",
+      "はじ.めて",
+      "はつ",
+      "はつ-"
+    ],
+    "meanings": {
+      "vi": "lần đầu, khởi đầu",
+      "en": "first time, beginning"
+    }
+  },
+  "冗": {
+    "on": [
+      "ジョウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "thừa, vô ích, dài dòng",
+      "en": "superfluous, uselessness"
+    }
+  },
+  "談": {
+    "on": [
+      "ダン"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "bàn bạc, trò chuyện",
+      "en": "discuss, talk"
+    }
+  },
+  "機": {
+    "on": [
+      "キ"
+    ],
+    "kun": [
+      "はた"
+    ],
+    "meanings": {
+      "vi": "máy móc, cơ hội, máy bay",
+      "en": "loom, mechanism, machine, airplane, opportunity, potency, efficacy, occasion"
+    }
+  },
+  "械": {
+    "on": [
+      "カイ"
+    ],
+    "kun": [
+      "かせ"
+    ],
+    "meanings": {
+      "vi": "máy móc, dụng cụ",
+      "en": "contraption, fetter, machine, instrument"
+    }
+  },
+  "供": {
+    "on": [
+      "キョウ",
+      "ク",
+      "クウ",
+      "グ"
+    ],
+    "kun": [
+      "-ども",
+      "そな.える",
+      "とも"
+    ],
+    "meanings": {
+      "vi": "cung cấp, dâng, đi kèm",
+      "en": "submit, offer, present, serve (meal), accompany"
+    }
+  },
+  "符": {
+    "on": [
+      "フ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "dấu hiệu, bùa, ký hiệu",
+      "en": "token, sign, mark, tally, charm"
+    }
+  },
+  "撮": {
+    "on": [
+      "サツ"
+    ],
+    "kun": [
+      "-ど.り",
+      "つま.む",
+      "と.る"
+    ],
+    "meanings": {
+      "vi": "chụp ảnh",
+      "en": "snapshot, take pictures"
+    }
+  },
+  "散": {
+    "on": [
+      "サン"
+    ],
+    "kun": [
+      "-ち.らす",
+      "ち.らかす",
+      "ち.らかる",
+      "ち.らす",
+      "ち.らばる",
+      "ち.る",
+      "ばら",
+      "ばら.ける"
+    ],
+    "meanings": {
+      "vi": "phân tán, tiêu tán, rải rác",
+      "en": "scatter, disperse, spend, squander"
+    }
+  },
+  "留": {
+    "on": [
+      "リュウ",
+      "ル"
+    ],
+    "kun": [
+      "と.まる",
+      "と.める",
+      "とど.まる",
+      "とど.める",
+      "るうぶる"
+    ],
+    "meanings": {
+      "vi": "giữ lại, buộc, dừng, ngừng",
+      "en": "detain, fasten, halt, stop"
+    }
+  },
+  "橋": {
+    "on": [
+      "キョウ"
+    ],
+    "kun": [
+      "はし"
+    ],
+    "meanings": {
+      "vi": "cầu",
+      "en": "bridge"
+    }
+  },
+  "故": {
+    "on": [
+      "コ"
+    ],
+    "kun": [
+      "ふる.い",
+      "もと",
+      "ゆえ"
+    ],
+    "meanings": {
+      "vi": "lý do, cố ý, cố (người đã mất)",
+      "en": "happenstance, especially, intentionally, reason, cause, circumstances, the late, therefore, consequently"
+    }
+  },
+  "郷": {
+    "on": [
+      "キョウ",
+      "ゴウ"
+    ],
+    "kun": [
+      "さと"
+    ],
+    "meanings": {
+      "vi": "quê hương, làng quê",
+      "en": "home town, village, native place, district"
+    }
+  },
+  "銭": {
+    "on": [
+      "セン",
+      "ゼン"
+    ],
+    "kun": [
+      "すき",
+      "ぜに"
+    ],
+    "meanings": {
+      "vi": "tiền xu, tiền",
+      "en": "coin, .01 yen, money"
+    }
+  },
+  "湯": {
+    "on": [
+      "トウ"
+    ],
+    "kun": [
+      "ゆ"
+    ],
+    "meanings": {
+      "vi": "nước nóng, suối nước nóng",
+      "en": "hot water, bath, hot spring"
+    }
+  },
+  "器": {
+    "on": [
+      "キ"
+    ],
+    "kun": [
+      "うつわ"
+    ],
+    "meanings": {
+      "vi": "dụng cụ, đồ chứa, tài năng",
+      "en": "utensil, vessel, receptacle, implement, instrument, ability, container, tool, set"
+    }
+  },
+  "幹": {
+    "on": [
+      "カン"
+    ],
+    "kun": [
+      "みき"
+    ],
+    "meanings": {
+      "vi": "thân cây, cốt lõi, năng lực",
+      "en": "tree trunk, main part, talent, capability"
+    }
+  },
+  "線": {
+    "on": [
+      "セン"
+    ],
+    "kun": [
+      "すじ"
+    ],
+    "meanings": {
+      "vi": "đường kẻ, tuyến",
+      "en": "line, track"
+    }
+  },
+  "飛": {
+    "on": [
+      "ヒ"
+    ],
+    "kun": [
+      "-と.ばす",
+      "と.ばす",
+      "と.ぶ"
+    ],
+    "meanings": {
+      "vi": "bay, bỏ qua",
+      "en": "fly, skip (pages), scatter"
+    }
+  },
+  "々": {
+    "on": [],
+    "kun": [],
+    "meanings": {
+      "vi": "",
+      "en": ""
+    }
+  },
+  "弾": {
+    "on": [
+      "タン",
+      "ダン"
+    ],
+    "kun": [
+      "-ひ.き",
+      "ただ.す",
+      "たま",
+      "はじ.きゆみ",
+      "はじ.く",
+      "はじ.ける",
+      "はず.む",
+      "ひ.く"
+    ],
+    "meanings": {
+      "vi": "đạn, bật, gảy (đàn)",
+      "en": "bullet, twang, flip, snap"
+    }
+  },
+  "絵": {
+    "on": [
+      "エ",
+      "カイ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "tranh, hình vẽ",
+      "en": "picture, drawing, painting, sketch"
+    }
+  },
+  "数": {
+    "on": [
+      "サク",
+      "シュ",
+      "ス",
+      "スウ",
+      "ソク"
+    ],
+    "kun": [
+      "かず",
+      "かぞ.える",
+      "しばしば",
+      "せ.める",
+      "わずらわ.しい"
+    ],
+    "meanings": {
+      "vi": "số, số lượng",
+      "en": "number, strength, fate, law, figures"
+    }
+  },
+  "卓": {
+    "on": [
+      "タク"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "cao siêu, bàn, xuất sắc",
+      "en": "eminent, table, desk, high"
+    }
+  },
+  "球": {
+    "on": [
+      "キュウ"
+    ],
+    "kun": [
+      "たま"
+    ],
+    "meanings": {
+      "vi": "quả bóng, hình cầu",
+      "en": "ball, sphere"
+    }
+  },
+  "青": {
+    "on": [
+      "ショウ",
+      "セイ"
+    ],
+    "kun": [
+      "あお",
+      "あお-",
+      "あお.い"
+    ],
+    "meanings": {
+      "vi": "xanh (lam)",
+      "en": "blue, green"
+    }
+  },
+  "緑": {
+    "on": [
+      "リョク",
+      "ロク"
+    ],
+    "kun": [
+      "みどり"
+    ],
+    "meanings": {
+      "vi": "xanh lục",
+      "en": "green"
+    }
+  },
+  "甘": {
+    "on": [
+      "カン"
+    ],
+    "kun": [
+      "あま.い",
+      "あま.える",
+      "あま.やかす",
+      "うま.い"
+    ],
+    "meanings": {
+      "vi": "ngọt, nuông chiều",
+      "en": "sweet, coax, pamper, be content, sugary"
+    }
+  },
+  "嫌": {
+    "on": [
+      "ケン",
+      "ゲン"
+    ],
+    "kun": [
+      "いや",
+      "きら.い",
+      "きら.う"
+    ],
+    "meanings": {
+      "vi": "ghét, không thích",
+      "en": "dislike, detest, hate"
+    }
+  },
+  "得": {
+    "on": [
+      "トク"
+    ],
+    "kun": [
+      "う.る",
+      "え.る"
+    ],
+    "meanings": {
+      "vi": "được, thu được, lợi ích",
+      "en": "gain, get, find, earn, acquire, can, may, able to, profit, advantage, benefit"
+    }
+  },
+  "意": {
+    "on": [
+      "イ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "ý, ý nghĩa, ý định",
+      "en": "idea, mind, heart, taste, thought, desire, care, liking"
+    }
+  },
+  "苦": {
+    "on": [
+      "ク"
+    ],
+    "kun": [
+      "-ぐる.しい",
+      "くる.しい",
+      "くる.しむ",
+      "くる.しめる",
+      "にが.い",
+      "にが.る"
+    ],
+    "meanings": {
+      "vi": "khổ, đau khổ, khó khăn",
+      "en": "suffering, trial, worry, hardship, feel bitter, scowl"
+    }
+  },
+  "算": {
+    "on": [
+      "サン"
+    ],
+    "kun": [
+      "そろ"
+    ],
+    "meanings": {
+      "vi": "tính toán, số",
+      "en": "calculate, divining, number, abacus, probability"
+    }
+  },
+  "特": {
+    "on": [
+      "トク"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "đặc biệt",
+      "en": "special"
+    }
+  },
+  "祖": {
+    "on": [
+      "ソ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "tổ tiên, người sáng lập",
+      "en": "ancestor, pioneer, founder"
+    }
+  },
+  "背": {
+    "on": [
+      "ハイ"
+    ],
+    "kun": [
+      "せ",
+      "せい",
+      "そむ.く",
+      "そむ.ける"
+    ],
+    "meanings": {
+      "vi": "lưng, chiều cao, phản bội",
+      "en": "stature, height, back, behind, disobey, defy, go back on, rebel"
+    }
+  },
+  "鼻": {
+    "on": [
+      "ビ"
+    ],
+    "kun": [
+      "はな"
+    ],
+    "meanings": {
+      "vi": "mũi",
+      "en": "nose, snout"
+    }
+  },
+  "景": {
+    "on": [
+      "ケイ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "cảnh, phong cảnh",
+      "en": "scenery, view"
+    }
+  },
+  "身": {
+    "on": [
+      "シン"
+    ],
+    "kun": [
+      "み"
+    ],
+    "meanings": {
+      "vi": "thân, bản thân, thân phận",
+      "en": "somebody, person, one's station in life"
+    }
+  },
+  "低": {
+    "on": [
+      "テイ"
+    ],
+    "kun": [
+      "ひく.い",
+      "ひく.まる",
+      "ひく.める"
+    ],
+    "meanings": {
+      "vi": "thấp, hạ thấp",
+      "en": "lower, short, humble"
+    }
+  },
+  "無": {
+    "on": [
+      "ブ",
+      "ム"
+    ],
+    "kun": [
+      "な.い"
+    ],
+    "meanings": {
+      "vi": "không, vô",
+      "en": "nothingness, none, ain't, nothing, nil, not"
+    }
+  },
+  "趣": {
+    "on": [
+      "シュ"
+    ],
+    "kun": [
+      "おもむ.く",
+      "おもむき"
+    ],
+    "meanings": {
+      "vi": "ý vị, thú vị, xu hướng",
+      "en": "purport, gist, elegance, interest, proceed to, tend, become"
+    }
+  },
+  "夢": {
+    "on": [
+      "ボウ",
+      "ム"
+    ],
+    "kun": [
+      "くら.い",
+      "ゆめ",
+      "ゆめ.みる"
+    ],
+    "meanings": {
+      "vi": "giấc mơ, ảo tưởng",
+      "en": "dream, vision, illusion"
+    }
+  },
+  "記": {
+    "on": [
+      "キ"
+    ],
+    "kun": [
+      "しる.す"
+    ],
+    "meanings": {
+      "vi": "ghi chép, ký sự",
+      "en": "scribe, account, narrative"
+    }
+  },
+  "港": {
+    "on": [
+      "コウ"
+    ],
+    "kun": [
+      "みなと"
+    ],
+    "meanings": {
+      "vi": "cảng",
+      "en": "harbor"
+    }
+  },
+  "描": {
+    "on": [
+      "ビョウ"
+    ],
+    "kun": [
+      "えが.く",
+      "か.く"
+    ],
+    "meanings": {
+      "vi": "phác họa, vẽ, miêu tả",
+      "en": "sketch, compose, write, draw, paint"
+    }
+  },
+  "登": {
+    "on": [
+      "ショウ",
+      "チョウ",
+      "ト",
+      "トウ",
+      "ドウ"
+    ],
+    "kun": [
+      "あ.がる",
+      "のぼ.る"
+    ],
+    "meanings": {
+      "vi": "leo lên, đăng",
+      "en": "ascend, climb up"
+    }
+  },
+  "片": {
+    "on": [
+      "ヘン"
+    ],
+    "kun": [
+      "かた",
+      "かた-"
+    ],
+    "meanings": {
+      "vi": "mảnh, phiến, một bên",
+      "en": "one-sided, leaf, sheet, right-side kata radical (no. 91)"
+    }
+  },
+  "付": {
+    "on": [
+      "フ"
+    ],
+    "kun": [
+      "-つ.き",
+      "-つ.け",
+      "-つ.ける",
+      "-つき",
+      "-づ.き",
+      "-づ.く",
+      "-づ.け",
+      "-づ.ける",
+      "-づき",
+      "-づけ",
+      "つ.き",
+      "つ.く",
+      "つ.け",
+      "つ.け-",
+      "つ.ける"
+    ],
+    "meanings": {
+      "vi": "đính kèm, gắn vào",
+      "en": "adhere, attach, refer to, append"
+    }
+  },
+  "育": {
+    "on": [
+      "イク"
+    ],
+    "kun": [
+      "そだ.ち",
+      "そだ.つ",
+      "そだ.てる",
+      "はぐく.む"
+    ],
+    "meanings": {
+      "vi": "nuôi dưỡng, giáo dục",
+      "en": "bring up, grow up, raise, rear"
+    }
+  },
+  "集": {
+    "on": [
+      "シュウ"
+    ],
+    "kun": [
+      "あつ.まる",
+      "あつ.める",
+      "つど.う"
+    ],
+    "meanings": {
+      "vi": "tập hợp, tụ tập",
+      "en": "gather, meet, congregate, swarm, flock"
+    }
+  },
+  "浴": {
+    "on": [
+      "ヨク"
+    ],
+    "kun": [
+      "あ.びせる",
+      "あ.びる"
+    ],
+    "meanings": {
+      "vi": "tắm",
+      "en": "bathe, be favored with, bask in"
+    }
+  },
+  "汚": {
+    "on": [
+      "オ"
+    ],
+    "kun": [
+      "きたな.い",
+      "けが.す",
+      "けが.らわしい",
+      "けが.れる",
+      "よご.す",
+      "よご.れる"
+    ],
+    "meanings": {
+      "vi": "bẩn, ô nhiễm, nhơ nhuốc",
+      "en": "dirty, pollute, disgrace, rape, defile"
+    }
+  },
+  "死": {
+    "on": [
+      "シ"
+    ],
+    "kun": [
+      "し.に-",
+      "し.ぬ"
+    ],
+    "meanings": {
+      "vi": "chết, cái chết",
+      "en": "death, die"
+    }
+  },
+  "約": {
+    "on": [
+      "ヤク"
+    ],
+    "kun": [
+      "つづ.まる",
+      "つづ.める",
+      "つづま.やか"
+    ],
+    "meanings": {
+      "vi": "hứa hẹn, khoảng chừng",
+      "en": "promise, approximately, shrink"
+    }
+  },
+  "束": {
+    "on": [
+      "ソク"
+    ],
+    "kun": [
+      "たば",
+      "たば.ねる",
+      "つか",
+      "つか.ねる"
+    ],
+    "meanings": {
+      "vi": "bó, buộc, quản lý",
+      "en": "bundle, sheaf, ream, tie in bundles, govern, manage, control"
+    }
+  },
+  "歯": {
+    "on": [
+      "シ"
+    ],
+    "kun": [
+      "は",
+      "よわ.い",
+      "よわい",
+      "よわい.する"
+    ],
+    "meanings": {
+      "vi": "răng",
+      "en": "tooth, cog"
+    }
+  },
+  "磨": {
+    "on": [
+      "マ"
+    ],
+    "kun": [
+      "す.る",
+      "みが.く"
+    ],
+    "meanings": {
+      "vi": "mài, đánh bóng, chải (răng)",
+      "en": "grind, polish, scour, improve, brush (teeth)"
+    }
+  },
+  "終": {
+    "on": [
+      "シュウ"
+    ],
+    "kun": [
+      "-お.わる",
+      "お.える",
+      "お.わる",
+      "おわ.る",
+      "つい",
+      "つい.に"
+    ],
+    "meanings": {
+      "vi": "kết thúc",
+      "en": "end, finish"
+    }
+  },
+  "準": {
+    "on": [
+      "ジュン"
+    ],
+    "kun": [
+      "じゅん.じる",
+      "じゅん.ずる",
+      "なぞら.える",
+      "のり",
+      "ひと.しい",
+      "みずもり"
+    ],
+    "meanings": {
+      "vi": "chuẩn bị, tương ứng, bán-",
+      "en": "semi-, correspond to, proportionate to, conform, imitate"
+    }
+  },
+  "備": {
+    "on": [
+      "ビ"
+    ],
+    "kun": [
+      "そな.える",
+      "そな.わる",
+      "つぶさ.に"
+    ],
+    "meanings": {
+      "vi": "chuẩn bị, trang bị",
+      "en": "equip, provision, preparation"
+    }
+  },
+  "掃": {
+    "on": [
+      "シュ",
+      "ソウ"
+    ],
+    "kun": [
+      "は.く"
+    ],
+    "meanings": {
+      "vi": "quét, chải",
+      "en": "sweep, brush"
+    }
+  },
+  "除": {
+    "on": [
+      "ジ",
+      "ジョ"
+    ],
+    "kun": [
+      "-よ.け",
+      "のぞ.く"
+    ],
+    "meanings": {
+      "vi": "loại trừ, xóa bỏ, chia (toán)",
+      "en": "exclude, division (x/3), remove, abolish, cancel, except"
+    }
+  },
+  "曲": {
+    "on": [
+      "キョク"
+    ],
+    "kun": [
+      "くま",
+      "ま.がる",
+      "ま.げる"
+    ],
+    "meanings": {
+      "vi": "cong, uốn, bản nhạc",
+      "en": "bend, music, melody, composition, pleasure, injustice, fault, curve, crooked, perverse, lean"
+    }
+  },
+  "着": {
+    "on": [
+      "ジャク",
+      "チャク"
+    ],
+    "kun": [
+      "き.せる",
+      "き.る",
+      "つ.く",
+      "つ.ける"
+    ],
+    "meanings": {
+      "vi": "mặc, đến nơi, bộ (quần áo)",
+      "en": "don, arrive, wear, counter for suits of clothing"
+    }
+  },
+  "遅": {
+    "on": [
+      "チ"
+    ],
+    "kun": [
+      "おく.らす",
+      "おく.れる",
+      "おそ.い"
+    ],
+    "meanings": {
+      "vi": "chậm, muộn, trễ",
+      "en": "slow, late, back, later"
+    }
+  },
+  "慣": {
+    "on": [
+      "カン"
+    ],
+    "kun": [
+      "な.らす",
+      "な.れる"
+    ],
+    "meanings": {
+      "vi": "quen, thói quen",
+      "en": "accustomed, get used to, become experienced"
+    }
+  },
+  "卒": {
+    "on": [
+      "シュツ",
+      "ソツ"
+    ],
+    "kun": [
+      "お.える",
+      "お.わる",
+      "そっ.する",
+      "ついに",
+      "にわか"
+    ],
+    "meanings": {
+      "vi": "tốt nghiệp, binh lính",
+      "en": "graduate, soldier, private, die"
+    }
+  },
+  "席": {
+    "on": [
+      "セキ"
+    ],
+    "kun": [
+      "むしろ"
+    ],
+    "meanings": {
+      "vi": "chỗ ngồi, ghế",
+      "en": "seat, mat, occasion, place"
+    }
+  },
+  "両": {
+    "on": [
+      "リョウ"
+    ],
+    "kun": [
+      "てる",
+      "ふたつ"
+    ],
+    "meanings": {
+      "vi": "cả hai, lượng (tiền cổ), toa xe",
+      "en": "both, old Japanese coin, counter for carriages (e.g., in a train), two"
+    }
+  },
+  "呂": {
+    "on": [
+      "リョ",
+      "ロ"
+    ],
+    "kun": [
+      "せぼね"
+    ],
+    "meanings": {
+      "vi": "xương sống, họ Lữ",
+      "en": "spine, backbone"
+    }
+  },
+  "急": {
+    "on": [
+      "キュウ"
+    ],
+    "kun": [
+      "いそ.ぎ",
+      "いそ.ぐ",
+      "せ.く"
+    ],
+    "meanings": {
+      "vi": "gấp, khẩn cấp, đột ngột",
+      "en": "hurry, emergency, sudden, steep"
+    }
+  },
+  "予": {
+    "on": [
+      "シャ",
+      "ヨ"
+    ],
+    "kun": [
+      "あらかじ.め"
+    ],
+    "meanings": {
+      "vi": "trước, dự (trước)",
+      "en": "beforehand, previous, myself, I"
+    }
+  },
+  "練": {
+    "on": [
+      "レン"
+    ],
+    "kun": [
+      "ね.り",
+      "ね.る"
+    ],
+    "meanings": {
+      "vi": "luyện tập, rèn luyện",
+      "en": "practice, gloss, train, drill, polish, refine"
+    }
+  },
+  "習": {
+    "on": [
+      "シュウ",
+      "ジュ"
+    ],
+    "kun": [
+      "なら.い",
+      "なら.う"
+    ],
+    "meanings": {
+      "vi": "học, luyện tập",
+      "en": "learn"
+    }
+  },
+  "様": {
+    "on": [
+      "ショウ",
+      "ヨウ"
+    ],
+    "kun": [
+      "さま",
+      "さん"
+    ],
+    "meanings": {
+      "vi": "cách thức, dáng vẻ, kiểu",
+      "en": "Esq., way, manner, situation, polite suffix"
+    }
+  },
+  "乾": {
+    "on": [
+      "カン",
+      "ケン"
+    ],
+    "kun": [
+      "いぬい",
+      "かわ.かす",
+      "かわ.く",
+      "ひ.る",
+      "ほ.す"
+    ],
+    "meanings": {
+      "vi": "khô, khô hạn",
+      "en": "drought, dry, desiccate, drink up, heaven, emperor"
+    }
+  },
+  "頑": {
+    "on": [
+      "ガン"
+    ],
+    "kun": [
+      "かたく.な"
+    ],
+    "meanings": {
+      "vi": "cứng đầu, ngoan cố",
+      "en": "stubborn, foolish, firmly"
+    }
+  },
+  "張": {
+    "on": [
+      "チョウ"
+    ],
+    "kun": [
+      "-は.り",
+      "-ば.り",
+      "は.る"
+    ],
+    "meanings": {
+      "vi": "căng, trải rộng, dựng (lều)",
+      "en": "counter for bows & stringed instruments, stretch, spread, put up (tent)"
+    }
+  },
+  "界": {
+    "on": [
+      "カイ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "thế giới, ranh giới",
+      "en": "world, boundary"
+    }
+  },
+  "告": {
+    "on": [
+      "コク"
+    ],
+    "kun": [
+      "つ.げる"
+    ],
+    "meanings": {
+      "vi": "báo, thông báo",
+      "en": "revelation, tell, inform, announce"
+    }
+  },
+  "格": {
+    "on": [
+      "カク",
+      "キャク",
+      "コウ",
+      "ゴウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "cách thức, địa vị, tư cách",
+      "en": "status, rank, capacity, character, case (law, grammar)"
+    }
+  },
+  "資": {
+    "on": [
+      "シ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "tài sản, vốn, tư liệu",
+      "en": "assets, resources, capital, funds, data, be conducive to, contribute to"
+    }
+  },
+  "薬": {
+    "on": [
+      "ヤク"
+    ],
+    "kun": [
+      "くすり"
+    ],
+    "meanings": {
+      "vi": "thuốc, dược phẩm",
+      "en": "medicine, chemical, enamel, gunpowder, benefit"
+    }
+  },
+  "洗": {
+    "on": [
+      "セン"
+    ],
+    "kun": [
+      "あら.う"
+    ],
+    "meanings": {
+      "vi": "rửa, giặt",
+      "en": "wash, inquire into, probe"
+    }
+  },
+  "吸": {
+    "on": [
+      "キュウ"
+    ],
+    "kun": [
+      "す.う"
+    ],
+    "meanings": {
+      "vi": "hút, hít",
+      "en": "suck, imbibe, inhale, sip"
+    }
+  },
+  "回": {
+    "on": [
+      "エ",
+      "カイ"
+    ],
+    "kun": [
+      "-まわ.し",
+      "-まわ.す",
+      "-まわ.り",
+      "-まわ.る",
+      "か.える",
+      "まわ.し-",
+      "まわ.す",
+      "まわ.る",
+      "もとお.る"
+    ],
+    "meanings": {
+      "vi": "lần, vòng, quay",
+      "en": "-times, round, game, revolve, counter for occurrences"
+    }
+  },
+  "乗": {
+    "on": [
+      "ショウ",
+      "ジョウ"
+    ],
+    "kun": [
+      "-の.り",
+      "の.せる",
+      "の.る"
+    ],
+    "meanings": {
+      "vi": "cưỡi, lên (xe), nhân (toán)",
+      "en": "ride, power, multiplication, record, counter for vehicles, board, mount, join"
+    }
+  },
+  "注": {
+    "on": [
+      "チュウ"
+    ],
+    "kun": [
+      "さ.す",
+      "そそ.ぐ",
+      "つ.ぐ"
+    ],
+    "meanings": {
+      "vi": "rót, chú ý, chú thích",
+      "en": "pour, irrigate, shed (tears), flow into, concentrate on, notes, comment, annotate"
+    }
+  },
+  "絶": {
+    "on": [
+      "ゼツ"
+    ],
+    "kun": [
+      "た.える",
+      "た.つ",
+      "た.やす"
+    ],
+    "meanings": {
+      "vi": "đoạn tuyệt, cắt đứt, tuyệt đối",
+      "en": "discontinue, sever, cut off, abstain, interrupt, suppress, be beyond, without match, peerless, unparalleled"
+    }
+  },
+  "対": {
+    "on": [
+      "タイ",
+      "ツイ"
+    ],
+    "kun": [
+      "あいて",
+      "こた.える",
+      "そろ.い",
+      "つれあ.い",
+      "なら.ぶ",
+      "むか.う"
+    ],
+    "meanings": {
+      "vi": "đối diện, so sánh, đối",
+      "en": "vis-a-vis, opposite, even, equal, versus, anti-, compare"
+    }
+  },
+  "置": {
+    "on": [
+      "チ"
+    ],
+    "kun": [
+      "-お.き",
+      "お.く"
+    ],
+    "meanings": {
+      "vi": "đặt, để, bố trí",
+      "en": "placement, put, set, deposit, leave behind, keep, employ, pawn"
+    }
+  },
+  "探": {
+    "on": [
+      "タン"
+    ],
+    "kun": [
+      "さが.す",
+      "さぐ.る"
+    ],
+    "meanings": {
+      "vi": "tìm kiếm, dò tìm",
+      "en": "grope, search, look for"
+    }
+  },
+  "降": {
+    "on": [
+      "コウ",
+      "ゴ"
+    ],
+    "kun": [
+      "お.りる",
+      "お.ろす",
+      "くだ.す",
+      "くだ.る",
+      "ふ.り",
+      "ふ.る"
+    ],
+    "meanings": {
+      "vi": "xuống, rơi, đầu hàng",
+      "en": "descend, precipitate, fall, surrender"
+    }
+  },
+  "走": {
+    "on": [
+      "ソウ"
+    ],
+    "kun": [
+      "はし.る"
+    ],
+    "meanings": {
+      "vi": "chạy",
+      "en": "run"
+    }
+  },
+  "泣": {
+    "on": [
+      "キュウ"
+    ],
+    "kun": [
+      "な.く"
+    ],
+    "meanings": {
+      "vi": "khóc",
+      "en": "cry, weep, moan"
+    }
+  },
+  "笑": {
+    "on": [
+      "ショウ"
+    ],
+    "kun": [
+      "え.む",
+      "わら.う"
+    ],
+    "meanings": {
+      "vi": "cười",
+      "en": "laugh"
+    }
+  },
+  "続": {
+    "on": [
+      "キョウ",
+      "コウ",
+      "ショク",
+      "ゾク"
+    ],
+    "kun": [
+      "つぐ.ない",
+      "つづ.く",
+      "つづ.ける"
+    ],
+    "meanings": {
+      "vi": "tiếp tục, liên tục",
+      "en": "continue, series, sequel"
+    }
+  },
+  "吹": {
+    "on": [
+      "スイ"
+    ],
+    "kun": [
+      "ふ.く"
+    ],
+    "meanings": {
+      "vi": "thổi, phả ra",
+      "en": "blow, breathe, puff, emit, smoke"
+    }
+  },
+  "揺": {
+    "on": [
+      "ヨウ"
+    ],
+    "kun": [
+      "うご.く",
+      "ゆ.さぶる",
+      "ゆ.すぶる",
+      "ゆ.する",
+      "ゆ.らぐ",
+      "ゆ.る",
+      "ゆ.るぐ",
+      "ゆ.れる"
+    ],
+    "meanings": {
+      "vi": "lắc, rung, đung đưa",
+      "en": "swing, shake, sway, rock, tremble, vibrate"
+    }
+  },
+  "独": {
+    "on": [
+      "トク",
+      "ドク"
+    ],
+    "kun": [
+      "ひと.り"
+    ],
+    "meanings": {
+      "vi": "đơn độc, một mình, nước Đức",
+      "en": "single, alone, spontaneously, Germany"
+    }
+  },
+  "瓶": {
+    "on": [
+      "ビン"
+    ],
+    "kun": [
+      "かめ",
+      "へい"
+    ],
+    "meanings": {
+      "vi": "chai, lọ, bình",
+      "en": "bottle, vial, jar, jug, vat, urn"
+    }
+  },
+  "桜": {
+    "on": [
+      "オウ",
+      "ヨウ"
+    ],
+    "kun": [
+      "さくら"
+    ],
+    "meanings": {
+      "vi": "hoa anh đào",
+      "en": "cherry"
+    }
+  },
+  "落": {
+    "on": [
+      "ラク"
+    ],
+    "kun": [
+      "お.ち",
+      "お.ちる",
+      "お.とす"
+    ],
+    "meanings": {
+      "vi": "rơi, rụng, làng",
+      "en": "fall, drop, come down, village, hamlet"
+    }
+  },
+  "周": {
+    "on": [
+      "シュウ"
+    ],
+    "kun": [
+      "まわ.り"
+    ],
+    "meanings": {
+      "vi": "chu vi, vòng quanh",
+      "en": "circumference, circuit, lap"
+    }
+  },
+  "陽": {
+    "on": [
+      "ヨウ"
+    ],
+    "kun": [
+      "ひ"
+    ],
+    "meanings": {
+      "vi": "ánh nắng, dương (âm dương)",
+      "en": "sunshine, yang principle, positive, male, heaven, daytime"
+    }
+  },
+  "床": {
+    "on": [
+      "ショウ"
+    ],
+    "kun": [
+      "とこ",
+      "ゆか"
+    ],
+    "meanings": {
+      "vi": "giường, sàn nhà",
+      "en": "bed, counter for beds, floor, padding, tatami"
+    }
+  },
+  "咲": {
+    "on": [
+      "ショウ"
+    ],
+    "kun": [
+      "-ざき",
+      "さ.く"
+    ],
+    "meanings": {
+      "vi": "nở hoa",
+      "en": "blossom, bloom"
+    }
+  },
+  "濡": {
+    "on": [
+      "ジュ",
+      "ニュ"
+    ],
+    "kun": [
+      "うるお.い",
+      "うるお.う",
+      "うるお.す",
+      "ぬ.らす",
+      "ぬ.れる",
+      "ぬら.す",
+      "ぬれ.る"
+    ],
+    "meanings": {
+      "vi": "ướt, ẩm",
+      "en": "get wet, damp, make love"
+    }
+  },
+  "割": {
+    "on": [
+      "カツ"
+    ],
+    "kun": [
+      "さ.く",
+      "わ.り",
+      "わ.る",
+      "わ.れる",
+      "わり"
+    ],
+    "meanings": {
+      "vi": "tỷ lệ, chia, cắt",
+      "en": "proportion, comparatively, divide, cut, separate, split"
+    }
+  },
+  "破": {
+    "on": [
+      "ハ"
+    ],
+    "kun": [
+      "やぶ.る",
+      "やぶ.れる",
+      "わ.れる"
+    ],
+    "meanings": {
+      "vi": "phá vỡ, xé rách, phá hủy",
+      "en": "rend, rip, tear, break, destroy, defeat, frustrate"
+    }
+  },
+  "倒": {
+    "on": [
+      "トウ"
+    ],
+    "kun": [
+      "-だお.れ",
+      "さかさ",
+      "さかさま",
+      "さかしま",
+      "たお.す",
+      "たお.れる"
+    ],
+    "meanings": {
+      "vi": "đổ, sụp đổ, lật đổ",
+      "en": "overthrow, fall, collapse, drop, break down"
+    }
+  },
+  "結": {
+    "on": [
+      "ケチ",
+      "ケツ"
+    ],
+    "kun": [
+      "むす.ぶ",
+      "ゆ.う",
+      "ゆ.わえる"
+    ],
+    "meanings": {
+      "vi": "buộc, kết nối, kết hợp",
+      "en": "tie, bind, contract, join, organize, do up hair, fasten"
+    }
+  },
+  "婚": {
+    "on": [
+      "コン"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "hôn nhân, kết hôn",
+      "en": "marriage"
+    }
+  },
+  "仲": {
+    "on": [
+      "チュウ"
+    ],
+    "kun": [
+      "なか"
+    ],
+    "meanings": {
+      "vi": "quan hệ, trung gian",
+      "en": "go-between, relationship"
+    }
+  },
+  "労": {
+    "on": [
+      "ロウ"
+    ],
+    "kun": [
+      "いた.ずき",
+      "いたわ.る",
+      "つか.れる",
+      "ねぎら",
+      "ねぎら.う",
+      "ろう.する"
+    ],
+    "meanings": {
+      "vi": "lao động, khó nhọc",
+      "en": "labor, thank for, reward for, toil, trouble"
+    }
+  },
+  "俺": {
+    "on": [
+      "エン"
+    ],
+    "kun": [
+      "おれ",
+      "われ"
+    ],
+    "meanings": {
+      "vi": "tôi (nam giới)",
+      "en": "I, myself"
+    }
+  },
+  "制": {
+    "on": [
+      "セイ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "chế độ, quy tắc",
+      "en": "system, law, rule"
+    }
+  },
+  "触": {
+    "on": [
+      "ショク"
+    ],
+    "kun": [
+      "さわ",
+      "さわ.る",
+      "ふ.れる"
+    ],
+    "meanings": {
+      "vi": "chạm, tiếp xúc, cảm nhận",
+      "en": "contact, touch, feel, hit, proclaim, announce, conflict"
+    }
+  },
+  "取": {
+    "on": [
+      "シュ"
+    ],
+    "kun": [
+      "-ど.り",
+      "と.り",
+      "と.り-",
+      "と.る",
+      "とり"
+    ],
+    "meanings": {
+      "vi": "lấy, cầm lấy",
+      "en": "take, fetch, take up"
+    }
+  },
+  "覚": {
+    "on": [
+      "カク"
+    ],
+    "kun": [
+      "おぼ.える",
+      "さ.ます",
+      "さ.める",
+      "さと.る"
+    ],
+    "meanings": {
+      "vi": "nhớ, học thuộc, tỉnh ngộ",
+      "en": "memorize, learn, remember, awake, sober up"
+    }
+  },
+  "退": {
+    "on": [
+      "タイ"
+    ],
+    "kun": [
+      "しりぞ.く",
+      "しりぞ.ける",
+      "ど.く",
+      "の.く",
+      "の.ける",
+      "ひ.く"
+    ],
+    "meanings": {
+      "vi": "lui, rút lui, từ chức",
+      "en": "retreat, withdraw, retire, resign, repel, expel, reject"
+    }
+  },
+  "連": {
+    "on": [
+      "レン"
+    ],
+    "kun": [
+      "-づ.れ",
+      "つ.れる",
+      "つら.なる",
+      "つら.ねる"
+    ],
+    "meanings": {
+      "vi": "liên kết, dẫn theo, nhóm",
+      "en": "take along, lead, join, connect, party, gang, clique"
+    }
+  },
+  "絡": {
+    "on": [
+      "ラク"
+    ],
+    "kun": [
+      "から.まる",
+      "から.む"
+    ],
+    "meanings": {
+      "vi": "quấn quanh, liên lạc",
+      "en": "entwine, coil around, get caught in"
+    }
+  },
+  "参": {
+    "on": [
+      "サン",
+      "シン"
+    ],
+    "kun": [
+      "まい-",
+      "まい.る",
+      "まじわる",
+      "みつ"
+    ],
+    "meanings": {
+      "vi": "tham gia, thăm viếng",
+      "en": "nonplussed, three (in documents), going, coming, visiting, visit, be defeated, die, be madly in love, participate, take part in"
+    }
+  },
+  "加": {
+    "on": [
+      "カ"
+    ],
+    "kun": [
+      "くわ.える",
+      "くわ.わる"
+    ],
+    "meanings": {
+      "vi": "thêm, cộng, gia nhập",
+      "en": "add, addition, increase, join, include, Canada"
+    }
+  },
+  "構": {
+    "on": [
+      "コウ"
+    ],
+    "kun": [
+      "かま.う",
+      "かま.える"
+    ],
+    "meanings": {
+      "vi": "cấu tạo, xây dựng, tư thế",
+      "en": "posture, stance, appearance, build, set up"
+    }
+  },
+  "商": {
+    "on": [
+      "ショウ"
+    ],
+    "kun": [
+      "あきな.う"
+    ],
+    "meanings": {
+      "vi": "buôn bán, thương nhân",
+      "en": "make a deal, selling, dealing in, merchant"
+    }
+  },
+  "輩": {
+    "on": [
+      "ハイ"
+    ],
+    "kun": [
+      "-ばら",
+      "ともがら",
+      "やかい",
+      "やから"
+    ],
+    "meanings": {
+      "vi": "bạn bè, đồng bọn, lứa",
+      "en": "comrade, fellow, people, companions"
+    }
+  },
+  "迷": {
+    "on": [
+      "メイ"
+    ],
+    "kun": [
+      "まよ.う"
+    ],
+    "meanings": {
+      "vi": "lạc, mê muội, nghi ngờ",
+      "en": "astray, be perplexed, in doubt, lost, err, illusion"
+    }
+  },
+  "惑": {
+    "on": [
+      "ワク"
+    ],
+    "kun": [
+      "まど.う"
+    ],
+    "meanings": {
+      "vi": "mê hoặc, bối rối",
+      "en": "beguile, delusion, perplexity"
+    }
+  },
+  "拭": {
+    "on": [
+      "シキ",
+      "ショク"
+    ],
+    "kun": [
+      "ぬぐ.う",
+      "ふ.く"
+    ],
+    "meanings": {
+      "vi": "lau, chùi",
+      "en": "wipe, mop, swab"
+    }
+  },
+  "助": {
+    "on": [
+      "ジョ"
+    ],
+    "kun": [
+      "す.ける",
+      "すけ",
+      "たす.かる",
+      "たす.ける"
+    ],
+    "meanings": {
+      "vi": "giúp đỡ, cứu giúp",
+      "en": "help, rescue, assist"
+    }
+  },
+  "並": {
+    "on": [
+      "ヘイ",
+      "ホウ"
+    ],
+    "kun": [
+      "な.み",
+      "なみ",
+      "なら.びに",
+      "なら.ぶ",
+      "なら.べる"
+    ],
+    "meanings": {
+      "vi": "xếp hàng, ngang hàng, cùng",
+      "en": "row, and, besides, as well as, line up, rank with, rival, equal"
+    }
+  },
+  "届": {
+    "on": [
+      "カイ"
+    ],
+    "kun": [
+      "-とど.け",
+      "とど.く",
+      "とど.ける"
+    ],
+    "meanings": {
+      "vi": "gửi đến, thông báo, đến nơi",
+      "en": "deliver, reach, arrive, report, notify, forward"
+    }
+  },
+  "忘": {
+    "on": [
+      "ボウ"
+    ],
+    "kun": [
+      "わす.れる"
+    ],
+    "meanings": {
+      "vi": "quên",
+      "en": "forget"
+    }
+  },
+  "確": {
+    "on": [
+      "カク",
+      "コウ"
+    ],
+    "kun": [
+      "たし.か",
+      "たし.かめる"
+    ],
+    "meanings": {
+      "vi": "chắc chắn, xác nhận",
+      "en": "assurance, firm, tight, hard, solid, confirm, clear, evident"
+    }
+  },
+  "認": {
+    "on": [
+      "ニン"
+    ],
+    "kun": [
+      "したた.める",
+      "みと.める"
+    ],
+    "meanings": {
+      "vi": "công nhận, nhận thức",
+      "en": "acknowledge, witness, discern, recognize, appreciate, believe"
+    }
+  },
+  "腕": {
+    "on": [
+      "ワン"
+    ],
+    "kun": [
+      "うで"
+    ],
+    "meanings": {
+      "vi": "cánh tay, tài năng",
+      "en": "arm, ability, talent"
+    }
+  },
+  "式": {
+    "on": [
+      "シキ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "nghi thức, kiểu, công thức",
+      "en": "style, ceremony, rite, function, method, system, form, expression"
+    }
+  },
+  "果": {
+    "on": [
+      "カ"
+    ],
+    "kun": [
+      "-は.たす",
+      "-は.てる",
+      "は.たす",
+      "は.て",
+      "は.てる",
+      "はた.す"
+    ],
+    "meanings": {
+      "vi": "quả, kết quả, hoàn thành",
+      "en": "fruit, reward, carry out, achieve, complete, end, finish, succeed"
+    }
+  },
+  "彼": {
+    "on": [
+      "ヒ"
+    ],
+    "kun": [
+      "か.の",
+      "かの",
+      "かれ"
+    ],
+    "meanings": {
+      "vi": "anh ấy, người đó",
+      "en": "he, that, the"
+    }
+  },
+  "氏": {
+    "on": [
+      "シ"
+    ],
+    "kun": [
+      "-うじ",
+      "うじ"
+    ],
+    "meanings": {
+      "vi": "họ, dòng họ",
+      "en": "family name, surname, clan"
+    }
+  },
+  "焼": {
+    "on": [
+      "ショウ"
+    ],
+    "kun": [
+      "-や.き",
+      "や.き",
+      "や.き-",
+      "や.く",
+      "や.ける"
+    ],
+    "meanings": {
+      "vi": "nướng, đốt, cháy",
+      "en": "bake, burning"
+    }
+  },
+  "払": {
+    "on": [
+      "ヒツ",
+      "フツ",
+      "ホツ"
+    ],
+    "kun": [
+      "-はら.い",
+      "-ばら.い",
+      "はら.う"
+    ],
+    "meanings": {
+      "vi": "trả (tiền), quét dọn",
+      "en": "pay, clear out, prune, banish, dispose of"
+    }
+  },
+  "褒": {
+    "on": [
+      "ホウ"
+    ],
+    "kun": [
+      "ほ.める"
+    ],
+    "meanings": {
+      "vi": "khen ngợi",
+      "en": "praise, extol"
+    }
+  },
+  "案": {
+    "on": [
+      "アン"
+    ],
+    "kun": [
+      "つくえ"
+    ],
+    "meanings": {
+      "vi": "kế hoạch, đề án, ý tưởng",
+      "en": "plan, suggestion, draft, ponder, fear, proposition, idea, expectation, worry, table, bench"
+    }
+  },
+  "応": {
+    "on": [
+      "-ノウ",
+      "オウ",
+      "ヨウ"
+    ],
+    "kun": [
+      "あた.る",
+      "こた.える",
+      "まさに"
+    ],
+    "meanings": {
+      "vi": "đáp ứng, trả lời, ứng",
+      "en": "apply, answer, yes, OK, reply, accept"
+    }
+  },
+  "援": {
+    "on": [
+      "エン"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "giúp đỡ, viện trợ",
+      "en": "abet, help, save"
+    }
+  },
+  "配": {
+    "on": [
+      "ハイ"
+    ],
+    "kun": [
+      "くば.る"
+    ],
+    "meanings": {
+      "vi": "phân phát, phối, vợ/chồng",
+      "en": "distribute, spouse, exile, rationing"
+    }
+  },
+  "招": {
+    "on": [
+      "ショウ"
+    ],
+    "kun": [
+      "まね.く"
+    ],
+    "meanings": {
+      "vi": "mời, vẫy gọi",
+      "en": "beckon, invite, summon, engage"
+    }
+  },
+  "完": {
+    "on": [
+      "カン"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "hoàn thành, hoàn chỉnh",
+      "en": "perfect, completion, end"
+    }
+  },
+  "成": {
+    "on": [
+      "ジョウ",
+      "セイ"
+    ],
+    "kun": [
+      "-な.す",
+      "な.す",
+      "な.る"
+    ],
+    "meanings": {
+      "vi": "trở thành, thành công",
+      "en": "turn into, become, get, grow, elapse, reach"
+    }
+  },
+  "必": {
+    "on": [
+      "ヒツ"
+    ],
+    "kun": [
+      "かなら.ず"
+    ],
+    "meanings": {
+      "vi": "tất yếu, chắc chắn",
+      "en": "invariably, certain, inevitable"
+    }
+  },
+  "札": {
+    "on": [
+      "サツ"
+    ],
+    "kun": [
+      "ふだ"
+    ],
+    "meanings": {
+      "vi": "nhãn, tiền giấy, thẻ",
+      "en": "tag, paper money, counter for bonds, placard, bid"
+    }
+  },
+  "以": {
+    "on": [
+      "イ"
+    ],
+    "kun": [
+      "もっ.て"
+    ],
+    "meanings": {
+      "vi": "bằng, vì, so với",
+      "en": "by means of, because, in view of, compared with"
+    }
+  },
+  "細": {
+    "on": [
+      "サイ"
+    ],
+    "kun": [
+      "こま.か",
+      "こま.かい",
+      "ほそ.い",
+      "ほそ.る"
+    ],
+    "meanings": {
+      "vi": "nhỏ, mảnh, chi tiết",
+      "en": "dainty, get thin, taper, slender, narrow, detailed, precise"
+    }
+  },
+  "要": {
+    "on": [
+      "ヨウ"
+    ],
+    "kun": [
+      "い.る",
+      "かなめ"
+    ],
+    "meanings": {
+      "vi": "cần thiết, điểm chính, yếu tố",
+      "en": "need, main point, essence, pivot, key to"
+    }
+  },
+  "渇": {
+    "on": [
+      "カツ"
+    ],
+    "kun": [
+      "かわ.く"
+    ],
+    "meanings": {
+      "vi": "khát, khô cạn",
+      "en": "thirst, dry up, parch"
+    }
+  },
+  "困": {
+    "on": [
+      "コン"
+    ],
+    "kun": [
+      "こま.る"
+    ],
+    "meanings": {
+      "vi": "khó khăn, bối rối",
+      "en": "quandary, become distressed, annoyed"
+    }
+  },
+  "営": {
+    "on": [
+      "エイ"
+    ],
+    "kun": [
+      "いとな.み",
+      "いとな.む"
+    ],
+    "meanings": {
+      "vi": "kinh doanh, điều hành",
+      "en": "camp, perform, build, conduct (business)"
+    }
+  },
+  "預": {
+    "on": [
+      "ヨ"
+    ],
+    "kun": [
+      "あず.かる",
+      "あず.ける"
+    ],
+    "meanings": {
+      "vi": "gửi (tiền/đồ), ký thác",
+      "en": "deposit, custody, leave with, entrust to"
+    }
+  },
+  "類": {
+    "on": [
+      "ルイ"
+    ],
+    "kun": [
+      "たぐ.い"
+    ],
+    "meanings": {
+      "vi": "loại, chủng loại",
+      "en": "sort, kind, variety, class, genus"
+    }
+  },
+  "込": {
+    "on": [],
+    "kun": [
+      "-こ.み",
+      "-こ.む",
+      "こ.み",
+      "こ.む",
+      "こ.める"
+    ],
+    "meanings": {
+      "vi": "đông đúc, bao gồm",
+      "en": "crowded, mixture, in bulk, included, (kokuji)"
+    }
+  },
+  "洋": {
+    "on": [
+      "ヨウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "đại dương, phương Tây",
+      "en": "ocean, sea, foreign, Western style"
+    }
+  },
+  "弁": {
+    "on": [
+      "ヘン",
+      "ベン"
+    ],
+    "kun": [
+      "あらそ.う",
+      "かんむり",
+      "はなびら",
+      "わ.ける",
+      "わきま.える"
+    ],
+    "meanings": {
+      "vi": "van, phương ngữ, biện luận",
+      "en": "valve, petal, braid, speech, dialect, discrimination, dispose of, distinguish, conical cap"
+    }
+  },
+  "用": {
+    "on": [
+      "ヨウ"
+    ],
+    "kun": [
+      "もち.いる"
+    ],
+    "meanings": {
+      "vi": "sử dụng, việc, dùng",
+      "en": "utilize, business, service, use, employ"
+    }
+  },
+  "飼": {
+    "on": [
+      "シ"
+    ],
+    "kun": [
+      "か.う"
+    ],
+    "meanings": {
+      "vi": "nuôi (thú vật)",
+      "en": "domesticate, raise, keep, feed"
+    }
+  },
+  "了": {
+    "on": [
+      "リョウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "hoàn thành, xong",
+      "en": "complete, finish"
+    }
+  },
+  "解": {
+    "on": [
+      "カイ",
+      "ゲ"
+    ],
+    "kun": [
+      "さと.る",
+      "と.かす",
+      "と.く",
+      "と.ける",
+      "ほど.く",
+      "ほど.ける",
+      "わか.る"
+    ],
+    "meanings": {
+      "vi": "hiểu, giải thích, tháo gỡ",
+      "en": "unravel, notes, key, explanation, understanding, untie, undo, solve, answer, cancel, absolve, explain, minute"
+    }
+  },
+  "販": {
+    "on": [
+      "ハン"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "buôn bán, kinh doanh",
+      "en": "marketing, sell, trade"
+    }
+  },
+  "健": {
+    "on": [
+      "ケン"
+    ],
+    "kun": [
+      "すこ.やか"
+    ],
+    "meanings": {
+      "vi": "khỏe mạnh, sức khỏe",
+      "en": "healthy, health, strength, persistence"
+    }
+  },
+  "康": {
+    "on": [
+      "コウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "an khang, yên ổn",
+      "en": "ease, peace"
+    }
+  },
+  "診": {
+    "on": [
+      "シン"
+    ],
+    "kun": [
+      "み.る"
+    ],
+    "meanings": {
+      "vi": "khám bệnh, chẩn đoán",
+      "en": "checkup, seeing, diagnose, examine"
+    }
+  },
+  "断": {
+    "on": [
+      "ダン"
+    ],
+    "kun": [
+      "ことわ.る",
+      "さだ.める",
+      "た.つ"
+    ],
+    "meanings": {
+      "vi": "cắt đứt, từ chối, quyết đoán",
+      "en": "severance, decline, refuse, apologize, warn, dismiss, prohibit, decision, judgement, cutting"
+    }
+  },
+  "懸": {
+    "on": [
+      "ケ",
+      "ケン"
+    ],
+    "kun": [
+      "か.かる",
+      "か.ける"
+    ],
+    "meanings": {
+      "vi": "treo, phụ thuộc, xa cách",
+      "en": "state of suspension, hang, depend, consult, distant, far apart"
+    }
+  },
+  "命": {
+    "on": [
+      "ミョウ",
+      "メイ"
+    ],
+    "kun": [
+      "いのち"
+    ],
+    "meanings": {
+      "vi": "mạng sống, số phận, mệnh lệnh",
+      "en": "fate, command, decree, destiny, life, appoint"
+    }
+  },
+  "宅": {
+    "on": [
+      "タク"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "nhà, nhà riêng",
+      "en": "home, house, residence, our house, my husband"
+    }
+  },
+  "冷": {
+    "on": [
+      "レイ"
+    ],
+    "kun": [
+      "さ.ます",
+      "さ.める",
+      "つめ.たい",
+      "ひ.える",
+      "ひ.や",
+      "ひ.やかす",
+      "ひ.やす",
+      "ひ.ややか"
+    ],
+    "meanings": {
+      "vi": "lạnh, mát",
+      "en": "cool, cold (beer, person), chill"
+    }
+  },
+  "蔵": {
+    "on": [
+      "ソウ",
+      "ゾウ"
+    ],
+    "kun": [
+      "おさ.める",
+      "かく.れる",
+      "くら"
+    ],
+    "meanings": {
+      "vi": "kho, cất giữ, sở hữu",
+      "en": "storehouse, hide, own, have, possess"
+    }
+  },
+  "庫": {
+    "on": [
+      "ク",
+      "コ"
+    ],
+    "kun": [
+      "くら"
+    ],
+    "meanings": {
+      "vi": "kho",
+      "en": "warehouse, storehouse"
+    }
+  },
+  "暮": {
+    "on": [
+      "ボ"
+    ],
+    "kun": [
+      "く.らす",
+      "く.れる"
+    ],
+    "meanings": {
+      "vi": "buổi tối, sinh sống, trải qua",
+      "en": "evening, twilight, season's end, livelihood, make a living, spend time"
+    }
+  },
+  "喫": {
+    "on": [
+      "キツ"
+    ],
+    "kun": [
+      "の.む"
+    ],
+    "meanings": {
+      "vi": "ăn, uống, hút (thuốc)",
+      "en": "consume, eat, drink, smoke, receive (a blow)"
+    }
+  },
+  "伝": {
+    "on": [
+      "テン",
+      "デン"
+    ],
+    "kun": [
+      "-づた.い",
+      "つた.う",
+      "つた.える",
+      "つた.わる",
+      "つだ.う",
+      "つて"
+    ],
+    "meanings": {
+      "vi": "truyền đạt, truyền thống",
+      "en": "transmit, go along, walk along, follow, report, communicate, legend, tradition"
+    }
+  },
+  "給": {
+    "on": [
+      "キュウ"
+    ],
+    "kun": [
+      "-たま.え",
+      "たま.う",
+      "たも.う"
+    ],
+    "meanings": {
+      "vi": "lương, cấp phát, ban cho",
+      "en": "salary, wage, gift, allow, grant, bestow on"
+    }
+  },
+  "値": {
+    "on": [
+      "チ"
+    ],
+    "kun": [
+      "ね",
+      "あたい"
+    ],
+    "meanings": {
+      "vi": "giá trị, giá cả",
+      "en": "price, cost, value"
+    }
+  },
+  "段": {
+    "on": [
+      "ダン",
+      "タン"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "cấp bậc, bậc thang, đoạn",
+      "en": "grade, steps, stairs"
+    }
+  },
+  "賃": {
+    "on": [
+      "チン"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "tiền công, cước phí, tiền thuê",
+      "en": "fare, fee, hire, rent, wages, charge"
+    }
+  },
+  "代": {
+    "on": [
+      "タイ",
+      "ダイ"
+    ],
+    "kun": [
+      "-が.わり",
+      "-がわ.り",
+      "か.える",
+      "か.わり",
+      "か.わる",
+      "かわ.り",
+      "かわ.る",
+      "しろ",
+      "よ"
+    ],
+    "meanings": {
+      "vi": "thay thế, thời đại, thế hệ",
+      "en": "substitute, change, convert, replace, period, age, counter for decades of ages, eras, etc., generation, charge, rate, fee"
+    }
+  },
+  "現": {
+    "on": [
+      "ゲン"
+    ],
+    "kun": [
+      "あらわ.す",
+      "あらわ.れる",
+      "うつ.つ",
+      "うつつ"
+    ],
+    "meanings": {
+      "vi": "hiện tại, thực tế",
+      "en": "present, existing, actual"
+    }
+  },
+  "額": {
+    "on": [
+      "ガク"
+    ],
+    "kun": [
+      "ひたい"
+    ],
+    "meanings": {
+      "vi": "trán, số tiền, khung tranh",
+      "en": "forehead, tablet, plaque, framed picture, sum, amount, volume"
+    }
+  },
+  "守": {
+    "on": [
+      "シュ",
+      "ス"
+    ],
+    "kun": [
+      "まも.る",
+      "まも.り",
+      "もり",
+      "-もり",
+      "かみ"
+    ],
+    "meanings": {
+      "vi": "bảo vệ, canh giữ, tuân thủ",
+      "en": "guard, protect, defend, obey"
+    }
+  },
+  "客": {
+    "on": [
+      "カク",
+      "キャク"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "khách",
+      "en": "guest, visitor, customer, client"
+    }
+  },
+  "邪": {
+    "on": [
+      "ジャ"
+    ],
+    "kun": [
+      "よこし.ま"
+    ],
+    "meanings": {
+      "vi": "tà, gian ác",
+      "en": "wicked, injustice, wrong"
+    }
+  },
+  "羨": {
+    "on": [
+      "セン",
+      "エン"
+    ],
+    "kun": [
+      "うらや.む",
+      "あまり"
+    ],
+    "meanings": {
+      "vi": "ghen tị, thèm muốn",
+      "en": "envious, be jealous, covet"
+    }
+  },
+  "形": {
+    "on": [
+      "ギョウ",
+      "ケイ"
+    ],
+    "kun": [
+      "-がた",
+      "かた",
+      "かたち",
+      "なり"
+    ],
+    "meanings": {
+      "vi": "hình dạng, hình thức",
+      "en": "shape, form, style"
+    }
+  },
+  "越": {
+    "on": [
+      "エツ",
+      "オツ"
+    ],
+    "kun": [
+      "こ.す",
+      "-こ.す",
+      "-ご.し",
+      "こ.える",
+      "-ご.え"
+    ],
+    "meanings": {
+      "vi": "vượt qua, di chuyển, Việt Nam",
+      "en": "surpass, cross over, move to, exceed, Vietnam"
+    }
+  },
+  "文": {
+    "on": [
+      "ブン",
+      "モン"
+    ],
+    "kun": [
+      "あや",
+      "ふみ"
+    ],
+    "meanings": {
+      "vi": "câu văn, văn chương",
+      "en": "sentence, literature, style, art, decoration, figures, plan, literary radical (no. 67)"
+    }
+  },
+  "貿": {
+    "on": [
+      "ボウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "mậu dịch, thương mại",
+      "en": "trade, exchange"
+    }
+  },
+  "易": {
+    "on": [
+      "イ",
+      "エキ"
+    ],
+    "kun": [
+      "やさ.しい",
+      "やす.い"
+    ],
+    "meanings": {
+      "vi": "dễ dàng, đơn giản, bói toán",
+      "en": "easy, ready to, simple, fortune-telling, divination"
+    }
+  },
+  "幸": {
+    "on": [
+      "コウ"
+    ],
+    "kun": [
+      "さいわ.い",
+      "さち",
+      "しあわ.せ"
+    ],
+    "meanings": {
+      "vi": "hạnh phúc, may mắn",
+      "en": "happiness, blessing, fortune"
+    }
+  },
+  "折": {
+    "on": [
+      "シャク",
+      "セツ"
+    ],
+    "kun": [
+      "-お.り",
+      "お.り",
+      "お.る",
+      "お.れる",
+      "おり"
+    ],
+    "meanings": {
+      "vi": "gấp, bẻ gãy, khuất phục",
+      "en": "fold, break, fracture, bend, yield, submit"
+    }
+  },
+  "板": {
+    "on": [
+      "ハン",
+      "バン"
+    ],
+    "kun": [
+      "いた"
+    ],
+    "meanings": {
+      "vi": "tấm ván, bảng",
+      "en": "plank, board, plate, stage"
+    }
+  },
+  "壁": {
+    "on": [
+      "ヘキ"
+    ],
+    "kun": [
+      "かべ"
+    ],
+    "meanings": {
+      "vi": "tường, vách",
+      "en": "wall, lining (stomach), fence"
+    }
+  },
+  "房": {
+    "on": [
+      "ボウ"
+    ],
+    "kun": [
+      "ふさ"
+    ],
+    "meanings": {
+      "vi": "phòng, buồng, múi (cam)",
+      "en": "tassel, tuft, fringe, bunch, lock (hair), segment (orange), house, room"
+    }
+  },
+  "換": {
+    "on": [
+      "カン"
+    ],
+    "kun": [
+      "-か.える",
+      "か.える",
+      "か.わる"
+    ],
+    "meanings": {
+      "vi": "đổi, trao đổi, thay thế",
+      "en": "interchange, period, change, convert, replace, renew"
+    }
+  },
+  "暖": {
+    "on": [
+      "ダン",
+      "ノン"
+    ],
+    "kun": [
+      "あたた.か",
+      "あたた.かい",
+      "あたた.まる",
+      "あたた.める"
+    ],
+    "meanings": {
+      "vi": "ấm áp",
+      "en": "warmth"
+    }
+  },
+  "定": {
+    "on": [
+      "ジョウ",
+      "テイ"
+    ],
+    "kun": [
+      "さだ.か",
+      "さだ.まる",
+      "さだ.める"
+    ],
+    "meanings": {
+      "vi": "quyết định, ấn định",
+      "en": "determine, fix, establish, decide"
+    }
+  },
+  "植": {
+    "on": [
+      "ショク"
+    ],
+    "kun": [
+      "う.える",
+      "う.わる"
+    ],
+    "meanings": {
+      "vi": "trồng (cây)",
+      "en": "plant"
+    }
+  },
+  "術": {
+    "on": [
+      "ジュツ"
+    ],
+    "kun": [
+      "すべ"
+    ],
+    "meanings": {
+      "vi": "kỹ thuật, nghệ thuật, thuật",
+      "en": "art, technique, skill, means, trick, resources, magic"
+    }
+  },
+  "粧": {
+    "on": [
+      "ショウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "trang điểm, làm đẹp",
+      "en": "cosmetics, adorn (one's person)"
+    }
+  },
+  "法": {
+    "on": [
+      "ハッ",
+      "フラン",
+      "ホウ",
+      "ホッ"
+    ],
+    "kun": [
+      "のり"
+    ],
+    "meanings": {
+      "vi": "phương pháp, luật, pháp",
+      "en": "method, law, rule, principle, model, system"
+    }
+  },
+  "律": {
+    "on": [
+      "リツ",
+      "リチ",
+      "レツ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "luật lệ, quy tắc, nhịp điệu",
+      "en": "rhythm, law, regulation, gauge, control"
+    }
+  },
+  "感": {
+    "on": [
+      "カン"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "cảm xúc, cảm giác",
+      "en": "emotion, feeling, sensation"
+    }
+  },
+  "声": {
+    "on": [
+      "セイ",
+      "ショウ"
+    ],
+    "kun": [
+      "こえ",
+      "こわ-"
+    ],
+    "meanings": {
+      "vi": "giọng nói, tiếng",
+      "en": "voice"
+    }
+  },
+  "材": {
+    "on": [
+      "ザイ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "vật liệu, gỗ, nguyên liệu, tài năng",
+      "en": "lumber, log, timber, wood, materials, ingredients, talent"
+    }
+  },
+  "恥": {
+    "on": [
+      "チ"
+    ],
+    "kun": [
+      "は.じる",
+      "はじ",
+      "は.じらう",
+      "は.ずかしい"
+    ],
+    "meanings": {
+      "vi": "xấu hổ, hổ thẹn",
+      "en": "shame, dishonor"
+    }
+  },
+  "組": {
+    "on": [
+      "ソ"
+    ],
+    "kun": [
+      "-ぐみ",
+      "く.む",
+      "くみ"
+    ],
+    "meanings": {
+      "vi": "tổ, nhóm, kết hợp",
+      "en": "association, braid, plait, construct, assemble, unite, cooperate, grapple"
+    }
+  },
+  "詳": {
+    "on": [
+      "ショウ"
+    ],
+    "kun": [
+      "くわ.しい",
+      "つまび.らか"
+    ],
+    "meanings": {
+      "vi": "chi tiết, tường tận",
+      "en": "detailed, full, minute, accurate, well-informed"
+    }
+  },
+  "熱": {
+    "on": [
+      "ネツ"
+    ],
+    "kun": [
+      "あつ.い"
+    ],
+    "meanings": {
+      "vi": "nhiệt, sốt, đam mê",
+      "en": "heat, temperature, fever, mania, passion"
+    }
+  },
+  "症": {
+    "on": [
+      "ショウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "triệu chứng, bệnh",
+      "en": "symptoms, illness"
+    }
+  },
+  "逆": {
+    "on": [
+      "ギャク",
+      "ゲキ"
+    ],
+    "kun": [
+      "さか",
+      "さか.さ",
+      "さか.らう"
+    ],
+    "meanings": {
+      "vi": "ngược lại, đảo ngược",
+      "en": "inverted, reverse, opposite, wicked"
+    }
+  },
+  "税": {
+    "on": [
+      "ゼイ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "thuế",
+      "en": "tax, duty"
+    }
+  },
+  "費": {
+    "on": [
+      "ヒ"
+    ],
+    "kun": [
+      "つい.やす",
+      "つい.える"
+    ],
+    "meanings": {
+      "vi": "chi phí, tiêu tốn",
+      "en": "expense, cost, spend, consume, waste"
+    }
+  },
+  "逃": {
+    "on": [
+      "トウ"
+    ],
+    "kun": [
+      "に.げる",
+      "に.がす",
+      "のが.す",
+      "のが.れる"
+    ],
+    "meanings": {
+      "vi": "chạy trốn, trốn tránh",
+      "en": "escape, flee, shirk, evade, set free"
+    }
+  },
+  "統": {
+    "on": [
+      "トウ"
+    ],
+    "kun": [
+      "す.べる"
+    ],
+    "meanings": {
+      "vi": "thống nhất, cai trị",
+      "en": "overall, relationship, ruling, governing"
+    }
+  },
+  "的": {
+    "on": [
+      "テキ"
+    ],
+    "kun": [
+      "まと"
+    ],
+    "meanings": {
+      "vi": "mục tiêu, đích, đuôi tính từ",
+      "en": "bull's eye, mark, target, object, adjective ending"
+    }
+  },
+  "句": {
+    "on": [
+      "ク"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "câu, cụm từ, đoạn văn",
+      "en": "phrase, clause, sentence, passage, paragraph, counter for haiku"
+    }
+  },
+  "痩": {
+    "on": [
+      "ソウ",
+      "チュウ",
+      "シュウ",
+      "シュ"
+    ],
+    "kun": [
+      "や.せる"
+    ],
+    "meanings": {
+      "vi": "gầy, ốm",
+      "en": "get thin"
+    }
+  },
+  "築": {
+    "on": [
+      "チク"
+    ],
+    "kun": [
+      "きず.く"
+    ],
+    "meanings": {
+      "vi": "xây dựng, kiến tạo",
+      "en": "fabricate, build, construct"
+    }
+  },
+  "嘘": {
+    "on": [
+      "キョ",
+      "コ"
+    ],
+    "kun": [
+      "うそ",
+      "ふ.く"
+    ],
+    "meanings": {
+      "vi": "lời nói dối",
+      "en": "lie, falsehood"
+    }
+  },
+  "咳": {
+    "on": [
+      "カイ",
+      "ガイ"
+    ],
+    "kun": [
+      "せ.く",
+      "しわぶ.く",
+      "せき",
+      "しわぶき"
+    ],
+    "meanings": {
+      "vi": "ho",
+      "en": "cough, clear throat"
+    }
+  },
+  "戦": {
+    "on": [
+      "セン"
+    ],
+    "kun": [
+      "いくさ",
+      "たたか.う",
+      "おのの.く",
+      "そよ.ぐ",
+      "わなな.く"
+    ],
+    "meanings": {
+      "vi": "chiến tranh, trận đấu",
+      "en": "war, battle, match"
+    }
+  },
+  "争": {
+    "on": [
+      "ソウ"
+    ],
+    "kun": [
+      "あらそ.う",
+      "いか.でか"
+    ],
+    "meanings": {
+      "vi": "tranh chấp, tranh luận",
+      "en": "contend, dispute, argue"
+    }
+  },
+  "偉": {
+    "on": [
+      "イ"
+    ],
+    "kun": [
+      "えら.い"
+    ],
+    "meanings": {
+      "vi": "vĩ đại, đáng khâm phục",
+      "en": "admirable, greatness, remarkable, conceited, famous, excellent"
+    }
+  },
+  "驚": {
+    "on": [
+      "キョウ"
+    ],
+    "kun": [
+      "おどろ.く",
+      "おどろ.かす"
+    ],
+    "meanings": {
+      "vi": "kinh ngạc, ngạc nhiên",
+      "en": "wonder, be surprised, frightened, amazed"
+    }
+  },
+  "掛": {
+    "on": [
+      "カイ",
+      "ケイ"
+    ],
+    "kun": [
+      "か.ける",
+      "-か.ける",
+      "か.け",
+      "-か.け",
+      "-が.け",
+      "か.かる",
+      "-か.かる",
+      "-が.かる",
+      "か.かり",
+      "-が.かり",
+      "かかり",
+      "-がかり"
+    ],
+    "meanings": {
+      "vi": "treo, gọi (điện), phụ thuộc",
+      "en": "hang, suspend, depend, arrive at, tax, pour"
+    }
+  },
+  "障": {
+    "on": [
+      "ショウ"
+    ],
+    "kun": [
+      "さわ.る"
+    ],
+    "meanings": {
+      "vi": "cản trở, gây hại",
+      "en": "hinder, hurt, harm"
+    }
+  },
+  "骨": {
+    "on": [
+      "コツ"
+    ],
+    "kun": [
+      "ほね"
+    ],
+    "meanings": {
+      "vi": "xương, khung",
+      "en": "skeleton, bone, remains, frame"
+    }
+  },
+  "酔": {
+    "on": [
+      "スイ"
+    ],
+    "kun": [
+      "よ.う",
+      "よ.い",
+      "よ"
+    ],
+    "meanings": {
+      "vi": "say, say xỉn",
+      "en": "drunk, feel sick, poisoned, elated, spellbound"
+    }
+  },
+  "燃": {
+    "on": [
+      "ネン"
+    ],
+    "kun": [
+      "も.える",
+      "も.やす",
+      "も.す"
+    ],
+    "meanings": {
+      "vi": "cháy, đốt",
+      "en": "burn, blaze, glow"
+    }
+  },
+  "滑": {
+    "on": [
+      "カツ",
+      "コツ"
+    ],
+    "kun": [
+      "すべ.る",
+      "なめ.らか"
+    ],
+    "meanings": {
+      "vi": "trơn trượt, trượt",
+      "en": "slippery, slide, slip, fail exam"
+    }
+  },
+  "納": {
+    "on": [
+      "ノウ",
+      "ナッ",
+      "ナ",
+      "ナン",
+      "トウ"
+    ],
+    "kun": [
+      "おさ.める",
+      "-おさ.める",
+      "おさ.まる"
+    ],
+    "meanings": {
+      "vi": "nộp, thu, cất giữ",
+      "en": "settlement, obtain, reap, pay, supply, store"
+    }
+  },
+  "睡": {
+    "on": [
+      "スイ"
+    ],
+    "kun": [
+      "ねむ.る",
+      "ねむ.い"
+    ],
+    "meanings": {
+      "vi": "buồn ngủ, ngủ",
+      "en": "drowsy, sleep, die"
+    }
+  },
+  "駄": {
+    "on": [
+      "ダ",
+      "タ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "vô ích, tầm thường",
+      "en": "burdensome, pack horse, horse load, send by horse, trivial, worthless"
+    }
+  },
+  "領": {
+    "on": [
+      "リョウ"
+    ],
+    "kun": [
+      "えり"
+    ],
+    "meanings": {
+      "vi": "lãnh thổ, lãnh địa, cai quản",
+      "en": "jurisdiction, dominion, territory, fief, reign"
+    }
+  },
+  "奨": {
+    "on": [
+      "ショウ",
+      "ソウ"
+    ],
+    "kun": [
+      "すす.める"
+    ],
+    "meanings": {
+      "vi": "khuyến khích, cổ vũ",
+      "en": "exhort, urge, encourage"
+    }
+  },
+  "受": {
+    "on": [
+      "ジュ"
+    ],
+    "kun": [
+      "う.ける",
+      "-う.け",
+      "う.かる"
+    ],
+    "meanings": {
+      "vi": "nhận, chịu, tiếp nhận",
+      "en": "accept, undergo, answer (phone), take, get, catch, receive"
+    }
+  },
+  "警": {
+    "on": [
+      "ケイ"
+    ],
+    "kun": [
+      "いまし.める"
+    ],
+    "meanings": {
+      "vi": "cảnh báo, cảnh sát",
+      "en": "admonish, commandment"
+    }
+  },
+  "察": {
+    "on": [
+      "サツ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "suy đoán, xét đoán, quan sát",
+      "en": "guess, presume, surmise, judge, understand"
+    }
+  },
+  "論": {
+    "on": [
+      "ロン"
+    ],
+    "kun": [
+      "あげつら.う"
+    ],
+    "meanings": {
+      "vi": "luận, tranh luận",
+      "en": "argument, discourse"
+    }
+  },
+  "講": {
+    "on": [
+      "コウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "giảng, bài giảng, hiệp hội",
+      "en": "lecture, club, association"
+    }
+  },
+  "義": {
+    "on": [
+      "ギ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "chính nghĩa, đạo lý, ý nghĩa",
+      "en": "righteousness, justice, morality, honor, loyalty, meaning"
+    }
+  },
+  "蓋": {
+    "on": [
+      "ガイ",
+      "カイ",
+      "コウ"
+    ],
+    "kun": [
+      "ふた",
+      "けだ.し",
+      "おお.う",
+      "かさ",
+      "かこう"
+    ],
+    "meanings": {
+      "vi": "nắp, che đậy",
+      "en": "cover, lid, flap"
+    }
+  },
+  "缶": {
+    "on": [
+      "カン"
+    ],
+    "kun": [
+      "かま"
+    ],
+    "meanings": {
+      "vi": "lon, hộp thiếc",
+      "en": "tin can, container, jar radical (no. 121)"
+    }
+  },
+  "充": {
+    "on": [
+      "ジュウ"
+    ],
+    "kun": [
+      "あ.てる",
+      "み.たす"
+    ],
+    "meanings": {
+      "vi": "lấp đầy, phân bổ",
+      "en": "allot, fill"
+    }
+  },
+  "証": {
+    "on": [
+      "ショウ"
+    ],
+    "kun": [
+      "あかし"
+    ],
+    "meanings": {
+      "vi": "bằng chứng, chứng nhận",
+      "en": "evidence, proof, certificate"
+    }
+  },
+  "疑": {
+    "on": [
+      "ギ"
+    ],
+    "kun": [
+      "うたが.う"
+    ],
+    "meanings": {
+      "vi": "nghi ngờ, nghi vấn",
+      "en": "doubt, distrust, be suspicious, question"
+    }
+  },
+  "駐": {
+    "on": [
+      "チュウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "đóng quân, cư trú",
+      "en": "stop-over, reside in, resident"
+    }
+  },
+  "価": {
+    "on": [
+      "カ",
+      "ケ"
+    ],
+    "kun": [
+      "あたい"
+    ],
+    "meanings": {
+      "vi": "giá trị, giá cả",
+      "en": "value, price"
+    }
+  },
+  "筆": {
+    "on": [
+      "ヒツ"
+    ],
+    "kun": [
+      "ふで"
+    ],
+    "meanings": {
+      "vi": "bút lông, chữ viết",
+      "en": "writing brush, writing, painting brush, handwriting"
+    }
+  },
+  "離": {
+    "on": [
+      "リ"
+    ],
+    "kun": [
+      "はな.れる",
+      "はな.す"
+    ],
+    "meanings": {
+      "vi": "tách rời, ly khai",
+      "en": "detach, separation, disjoin, digress"
+    }
+  },
+  "塾": {
+    "on": [
+      "ジュク"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "trường luyện thi, lớp học thêm",
+      "en": "cram school, private school"
+    }
+  },
+  "技": {
+    "on": [
+      "ギ"
+    ],
+    "kun": [
+      "わざ"
+    ],
+    "meanings": {
+      "vi": "kỹ năng, kỹ thuật, tài nghệ",
+      "en": "skill, art, craft, ability, feat, performance, vocation, arts"
+    }
+  },
+  "悲": {
+    "on": [
+      "ヒ"
+    ],
+    "kun": [
+      "かな.しい",
+      "かな.しむ"
+    ],
+    "meanings": {
+      "vi": "buồn, bi thương",
+      "en": "grieve, sad, deplore, regret"
+    }
+  },
+  "迎": {
+    "on": [
+      "ゲイ"
+    ],
+    "kun": [
+      "むか.える"
+    ],
+    "meanings": {
+      "vi": "đón tiếp, chào đón",
+      "en": "welcome, meet, greet"
+    }
+  },
+  "保": {
+    "on": [
+      "ホ",
+      "ホウ"
+    ],
+    "kun": [
+      "たも.つ"
+    ],
+    "meanings": {
+      "vi": "bảo vệ, đảm bảo, duy trì",
+      "en": "protect, guarantee, keep, preserve, sustain, support"
+    }
+  },
+  "険": {
+    "on": [
+      "ケン"
+    ],
+    "kun": [
+      "けわ.しい"
+    ],
+    "meanings": {
+      "vi": "hiểm trở, nguy hiểm",
+      "en": "precipitous, inaccessible place, impregnable position, steep place, sharp eyes"
+    }
+  },
+  "満": {
+    "on": [
+      "バン",
+      "マン"
+    ],
+    "kun": [
+      "み.たす",
+      "み.ちる",
+      "み.つ"
+    ],
+    "meanings": {
+      "vi": "đầy, đầy đủ, thỏa mãn",
+      "en": "full, fullness, enough, satisfy"
+    }
+  },
+  "答": {
+    "on": [
+      "トウ"
+    ],
+    "kun": [
+      "こた.える",
+      "こた.え"
+    ],
+    "meanings": {
+      "vi": "trả lời, đáp án",
+      "en": "solution, answer"
+    }
+  },
+  "泊": {
+    "on": [
+      "ハク"
+    ],
+    "kun": [
+      "と.まる",
+      "と.める"
+    ],
+    "meanings": {
+      "vi": "ở qua đêm, trọ lại, neo đậu",
+      "en": "overnight stay, put up at, ride at anchor"
+    }
+  },
+  "隠": {
+    "on": [
+      "イン",
+      "オン"
+    ],
+    "kun": [
+      "かく.す",
+      "かく.し",
+      "かく.れる",
+      "よ.る"
+    ],
+    "meanings": {
+      "vi": "che giấu, ẩn náu",
+      "en": "conceal, hide, cover"
+    }
+  },
+  "筋": {
+    "on": [
+      "キン"
+    ],
+    "kun": [
+      "すじ"
+    ],
+    "meanings": {
+      "vi": "cơ bắp, gân, cốt truyện",
+      "en": "muscle, sinew, tendon, fiber, plot, plan, descent"
+    }
+  },
+  "次": {
+    "on": [
+      "ジ",
+      "シ"
+    ],
+    "kun": [
+      "つ.ぐ",
+      "つぎ"
+    ],
+    "meanings": {
+      "vi": "tiếp theo, thứ tự",
+      "en": "next, order, sequence"
+    }
+  },
+  "玄": {
+    "on": [
+      "ゲン"
+    ],
+    "kun": [
+      "くろ",
+      "くろ.い"
+    ],
+    "meanings": {
+      "vi": "huyền bí, sâu xa",
+      "en": "mysterious, occultness, black, deep, profound"
+    }
+  },
+  "関": {
+    "on": [
+      "カン"
+    ],
+    "kun": [
+      "せき",
+      "-ぜき",
+      "かか.わる",
+      "からくり",
+      "かんぬき"
+    ],
+    "meanings": {
+      "vi": "liên quan, cửa ải, quan hệ",
+      "en": "connection, barrier, gateway, involve, concerning"
+    }
+  },
+  "宝": {
+    "on": [
+      "ホウ"
+    ],
+    "kun": [
+      "たから"
+    ],
+    "meanings": {
+      "vi": "kho báu, châu báu",
+      "en": "treasure, wealth, valuables"
+    }
+  },
+  "危": {
+    "on": [
+      "キ"
+    ],
+    "kun": [
+      "あぶ.ない",
+      "あや.うい",
+      "あや.ぶむ"
+    ],
+    "meanings": {
+      "vi": "nguy hiểm, sợ hãi",
+      "en": "dangerous, fear, uneasy"
+    }
+  },
+  "根": {
+    "on": [
+      "コン"
+    ],
+    "kun": [
+      "ね",
+      "-ね"
+    ],
+    "meanings": {
+      "vi": "rễ, gốc",
+      "en": "root, radical, head (pimple)"
+    }
+  },
+  "由": {
+    "on": [
+      "ユ",
+      "ユイ",
+      "ユウ"
+    ],
+    "kun": [
+      "よ.る",
+      "よし"
+    ],
+    "meanings": {
+      "vi": "lý do, nguyên do",
+      "en": "wherefore, a reason"
+    }
+  },
+  "葉": {
+    "on": [
+      "ヨウ"
+    ],
+    "kun": [
+      "は"
+    ],
+    "meanings": {
+      "vi": "lá, mảnh",
+      "en": "leaf, plane, lobe, needle, blade, spear, counter for flat things, fragment, piece"
+    }
+  },
+  "角": {
+    "on": [
+      "カク"
+    ],
+    "kun": [
+      "かど",
+      "つの"
+    ],
+    "meanings": {
+      "vi": "góc, sừng",
+      "en": "angle, corner, square, horn, antlers"
+    }
+  },
+  "貯": {
+    "on": [
+      "チョ"
+    ],
+    "kun": [
+      "た.める",
+      "たくわ.える"
+    ],
+    "meanings": {
+      "vi": "tiết kiệm, tích trữ",
+      "en": "savings, store, lay in, keep, wear mustache"
+    }
+  },
+  "億": {
+    "on": [
+      "オク"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "trăm triệu (đơn vị số)",
+      "en": "hundred million, 10**8"
+    }
+  },
+  "側": {
+    "on": [
+      "ソク"
+    ],
+    "kun": [
+      "かわ",
+      "がわ",
+      "そば"
+    ],
+    "meanings": {
+      "vi": "bên, phía, mặt",
+      "en": "side, lean, oppose, regret"
+    }
+  },
+  "進": {
+    "on": [
+      "シン"
+    ],
+    "kun": [
+      "すす.む",
+      "すす.める"
+    ],
+    "meanings": {
+      "vi": "tiến lên, tiến bộ",
+      "en": "advance, proceed, progress, promote"
+    }
+  },
+  "欠": {
+    "on": [
+      "ケツ",
+      "ケン"
+    ],
+    "kun": [
+      "か.ける",
+      "か.く"
+    ],
+    "meanings": {
+      "vi": "thiếu, khiếm khuyết",
+      "en": "lack, gap, fail, yawning radical (no. 76)"
+    }
+  },
+  "航": {
+    "on": [
+      "コウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "hàng hải, bay, đi thuyền",
+      "en": "navigate, sail, cruise, fly"
+    }
+  },
+  "際": {
+    "on": [
+      "サイ"
+    ],
+    "kun": [
+      "-ぎわ",
+      "きわ"
+    ],
+    "meanings": {
+      "vi": "dịp, lúc, ranh giới",
+      "en": "occasion, side, edge, verge, dangerous, adventurous, indecent, time, when"
+    }
+  },
+  "刺": {
+    "on": [
+      "シ"
+    ],
+    "kun": [
+      "さ.さる",
+      "さ.し",
+      "さ.す",
+      "さし",
+      "とげ"
+    ],
+    "meanings": {
+      "vi": "gai, đâm, chích",
+      "en": "thorn, pierce, stab, prick, sting, calling card"
+    }
+  },
+  "敬": {
+    "on": [
+      "ケイ",
+      "キョウ"
+    ],
+    "kun": [
+      "うやま.う"
+    ],
+    "meanings": {
+      "vi": "kính trọng, tôn kính",
+      "en": "awe, respect, honor, revere"
+    }
+  },
+  "直": {
+    "on": [
+      "チョク",
+      "ジキ",
+      "ジカ"
+    ],
+    "kun": [
+      "ただ.ちに",
+      "なお.す",
+      "-なお.す",
+      "なお.る",
+      "なお.き",
+      "す.ぐ"
+    ],
+    "meanings": {
+      "vi": "thẳng, ngay lập tức, sửa chữa",
+      "en": "straightaway, honesty, frankness, fix, repair"
+    }
+  },
+  "存": {
+    "on": [
+      "ソン",
+      "ゾン"
+    ],
+    "kun": [
+      "ながら.える",
+      "あ.る",
+      "たも.つ",
+      "と.う"
+    ],
+    "meanings": {
+      "vi": "tồn tại, cho rằng, biết",
+      "en": "exist, suppose, be aware of, believe, feel"
+    }
+  },
+  "覧": {
+    "on": [
+      "ラン"
+    ],
+    "kun": [
+      "み.る"
+    ],
+    "meanings": {
+      "vi": "xem, duyệt",
+      "en": "perusal, see"
+    }
+  },
+  "召": {
+    "on": [
+      "ショウ"
+    ],
+    "kun": [
+      "め.す"
+    ],
+    "meanings": {
+      "vi": "triệu tập, gọi đến",
+      "en": "seduce, call, send for, wear, put on, ride in, buy, eat, drink, catch (cold)"
+    }
+  },
+  "伺": {
+    "on": [
+      "シ"
+    ],
+    "kun": [
+      "うかが.う"
+    ],
+    "meanings": {
+      "vi": "thăm hỏi, hỏi thăm (khiêm nhường)",
+      "en": "pay respects, visit, ask, inquire, question, implore"
+    }
+  },
+  "叶": {
+    "on": [
+      "キョウ"
+    ],
+    "kun": [
+      "かな.える",
+      "かな.う"
+    ],
+    "meanings": {
+      "vi": "thực hiện được, đáp ứng",
+      "en": "grant, answer"
+    }
+  },
+  "砂": {
+    "on": [
+      "サ",
+      "シャ"
+    ],
+    "kun": [
+      "すな"
+    ],
+    "meanings": {
+      "vi": "cát",
+      "en": "sand"
+    }
+  },
+  "糖": {
+    "on": [
+      "トウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "đường (thực phẩm)",
+      "en": "sugar"
+    }
+  },
+  "乳": {
+    "on": [
+      "ニュウ"
+    ],
+    "kun": [
+      "ち",
+      "ちち"
+    ],
+    "meanings": {
+      "vi": "sữa",
+      "en": "milk, breasts"
+    }
+  },
+  "淹": {
+    "on": [
+      "エン"
+    ],
+    "kun": [
+      "い.れる"
+    ],
+    "meanings": {
+      "vi": "ngâm, thấm, nán lại",
+      "en": "dip, soak, immerse, stop, linger"
+    }
+  },
+  "塩": {
+    "on": [
+      "エン"
+    ],
+    "kun": [
+      "しお"
+    ],
+    "meanings": {
+      "vi": "muối",
+      "en": "salt"
+    }
+  },
+  "路": {
+    "on": [
+      "ル",
+      "ロ"
+    ],
+    "kun": [
+      "-じ",
+      "みち"
+    ],
+    "meanings": {
+      "vi": "đường, lối đi",
+      "en": "path, route, road, distance"
+    }
+  },
+  "郊": {
+    "on": [
+      "コウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "ngoại ô, vùng quê",
+      "en": "outskirts, suburbs, rural area"
+    }
+  },
+  "豚": {
+    "on": [
+      "トン"
+    ],
+    "kun": [
+      "ぶた"
+    ],
+    "meanings": {
+      "vi": "lợn, thịt lợn",
+      "en": "pork, pig"
+    }
+  },
+  "績": {
+    "on": [
+      "セキ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "thành tích, công trạng",
+      "en": "exploits, achievements, unreeling cocoons"
+    }
+  },
+  "踏": {
+    "on": [
+      "トウ"
+    ],
+    "kun": [
+      "ふ.む",
+      "ふ.まえる"
+    ],
+    "meanings": {
+      "vi": "giẫm, đạp, bước",
+      "en": "step, trample, carry through, appraise, evade payment"
+    }
+  },
+  "濯": {
+    "on": [
+      "タク"
+    ],
+    "kun": [
+      "すす.ぐ",
+      "ゆす.ぐ"
+    ],
+    "meanings": {
+      "vi": "giặt giũ, rửa",
+      "en": "laundry, wash, pour on, rinse"
+    }
+  },
+  "雷": {
+    "on": [
+      "ライ"
+    ],
+    "kun": [
+      "かみなり",
+      "いかずち",
+      "いかづち"
+    ],
+    "meanings": {
+      "vi": "sấm, sét",
+      "en": "thunder, lightning bolt"
+    }
+  },
+  "差": {
+    "on": [
+      "サ"
+    ],
+    "kun": [
+      "さ.し",
+      "さ.す"
+    ],
+    "meanings": {
+      "vi": "khác biệt, chênh lệch",
+      "en": "distinction, difference, variation, discrepancy, margin, balance"
+    }
+  },
+  "震": {
+    "on": [
+      "シン"
+    ],
+    "kun": [
+      "ふる.う",
+      "ふる.える",
+      "ふる.わせる",
+      "ふる.わす"
+    ],
+    "meanings": {
+      "vi": "rung động, chấn động",
+      "en": "quake, shake, tremble, quiver, shiver"
+    }
+  },
+  "報": {
+    "on": [
+      "ホウ"
+    ],
+    "kun": [
+      "むく.いる"
+    ],
+    "meanings": {
+      "vi": "báo cáo, tin tức, báo đáp",
+      "en": "report, news, reward, retribution"
+    }
+  },
+  "興": {
+    "on": [
+      "コウ",
+      "キョウ"
+    ],
+    "kun": [
+      "おこ.る",
+      "おこ.す"
+    ],
+    "meanings": {
+      "vi": "hưng thịnh, hứng thú",
+      "en": "entertain, revive, retrieve, interest, pleasure"
+    }
+  },
+  "沸": {
+    "on": [
+      "フツ"
+    ],
+    "kun": [
+      "わ.く",
+      "わ.かす"
+    ],
+    "meanings": {
+      "vi": "sôi, sục sôi",
+      "en": "seethe, boil, ferment, uproar, breed"
+    }
+  },
+  "帽": {
+    "on": [
+      "ボウ",
+      "モウ"
+    ],
+    "kun": [
+      "ずきん",
+      "おお.う"
+    ],
+    "meanings": {
+      "vi": "mũ",
+      "en": "cap, headgear"
+    }
+  },
+  "抜": {
+    "on": [
+      "バツ",
+      "ハツ",
+      "ハイ"
+    ],
+    "kun": [
+      "ぬ.く",
+      "-ぬ.く",
+      "ぬ.き",
+      "ぬ.ける",
+      "ぬ.かす",
+      "ぬ.かる"
+    ],
+    "meanings": {
+      "vi": "rút ra, nhổ, bỏ sót",
+      "en": "slip out, extract, pull out, pilfer, quote, remove, omit"
+    }
+  },
+  "締": {
+    "on": [
+      "テイ"
+    ],
+    "kun": [
+      "し.まる",
+      "し.まり",
+      "し.める",
+      "-し.め",
+      "-じ.め"
+    ],
+    "meanings": {
+      "vi": "thắt chặt, khóa, buộc",
+      "en": "tighten, tie, shut, lock, fasten"
+    }
+  },
+  "汗": {
+    "on": [
+      "カン"
+    ],
+    "kun": [
+      "あせ"
+    ],
+    "meanings": {
+      "vi": "mồ hôi",
+      "en": "sweat, perspire"
+    }
+  },
+  "腰": {
+    "on": [
+      "ヨウ"
+    ],
+    "kun": [
+      "こし"
+    ],
+    "meanings": {
+      "vi": "eo, hông",
+      "en": "loins, hips, waist, low wainscoting"
+    }
+  },
+  "混": {
+    "on": [
+      "コン"
+    ],
+    "kun": [
+      "ま.じる",
+      "-ま.じり",
+      "ま.ざる",
+      "ま.ぜる",
+      "こ.む"
+    ],
+    "meanings": {
+      "vi": "trộn lẫn, hỗn loạn",
+      "en": "mix, blend, confuse"
+    }
+  },
+  "和": {
+    "on": [
+      "オ",
+      "カ",
+      "ワ"
+    ],
+    "kun": [
+      "あ.える",
+      "なご.む",
+      "なご.やか",
+      "やわ.らぐ",
+      "やわ.らげる"
+    ],
+    "meanings": {
+      "vi": "hòa hợp, hòa bình, kiểu Nhật",
+      "en": "harmony, Japanese style, peace, soften, Japan"
+    }
+  },
+  "相": {
+    "on": [
+      "ショウ",
+      "ソウ"
+    ],
+    "kun": [
+      "あい-"
+    ],
+    "meanings": {
+      "vi": "tương hỗ, lẫn nhau, tướng mạo",
+      "en": "inter-, mutual, together, each other, minister of state, councillor, aspect, phase, physiognomy"
+    }
+  },
+  "撲": {
+    "on": [
+      "ボク"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "đấm, đánh, va chạm",
+      "en": "slap, strike, hit, beat, tell, speak"
+    }
+  },
+  "契": {
+    "on": [
+      "ケイ"
+    ],
+    "kun": [
+      "ちぎ.る"
+    ],
+    "meanings": {
+      "vi": "khế ước, cam kết, thề",
+      "en": "pledge, promise, vow"
+    }
+  },
+  "救": {
+    "on": [
+      "キュウ"
+    ],
+    "kun": [
+      "すく.う"
+    ],
+    "meanings": {
+      "vi": "cứu, cứu giúp",
+      "en": "salvation, save, help, rescue, reclaim"
+    }
+  },
+  "平": {
+    "on": [
+      "ヒョウ",
+      "ビョウ",
+      "ヘイ"
+    ],
+    "kun": [
+      "たい.ら",
+      "たい.らげる",
+      "ひら"
+    ],
+    "meanings": {
+      "vi": "bằng phẳng, hòa bình",
+      "en": "even, flat, peace"
+    }
+  },
+  "誘": {
+    "on": [
+      "ユウ"
+    ],
+    "kun": [
+      "さそ.う",
+      "いざな.う"
+    ],
+    "meanings": {
+      "vi": "dụ dỗ, mời gọi, quyến rũ",
+      "en": "entice, lead, tempt, invite, ask, call for, seduce, allure"
+    }
+  },
+  "将": {
+    "on": [
+      "ショウ",
+      "ソウ"
+    ],
+    "kun": [
+      "はた",
+      "ひきい.る",
+      "まさ",
+      "まさ.に",
+      "もって"
+    ],
+    "meanings": {
+      "vi": "tướng lĩnh, sắp, sẽ",
+      "en": "leader, commander, general, admiral, or, and again, soon, from now on, just about"
+    }
+  },
+  "神": {
+    "on": [
+      "シン",
+      "ジン"
+    ],
+    "kun": [
+      "かみ",
+      "かん-",
+      "こう-"
+    ],
+    "meanings": {
+      "vi": "thần, tâm hồn",
+      "en": "gods, mind, soul"
+    }
+  },
+  "季": {
+    "on": [
+      "キ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "mùa",
+      "en": "seasons"
+    }
+  },
+  "節": {
+    "on": [
+      "セツ",
+      "セチ"
+    ],
+    "kun": [
+      "ふし",
+      "-ぶし",
+      "のっと"
+    ],
+    "meanings": {
+      "vi": "đốt, mùa, tiết, điều khoản",
+      "en": "node, season, period, occasion, verse, clause, stanza, honor, joint, knuckle, knob, knot, tune, melody"
+    }
+  },
+  "表": {
+    "on": [
+      "ヒョウ"
+    ],
+    "kun": [
+      "おもて",
+      "-おもて",
+      "あらわ.す",
+      "あらわ.れる",
+      "あら.わす"
+    ],
+    "meanings": {
+      "vi": "bề mặt, bảng biểu",
+      "en": "surface, table, chart, diagram"
+    }
+  },
+  "春": {
+    "on": [
+      "シュン"
+    ],
+    "kun": [
+      "はる"
+    ],
+    "meanings": {
+      "vi": "mùa xuân",
+      "en": "springtime, spring (season)"
+    }
+  },
+  "冬": {
+    "on": [
+      "トウ"
+    ],
+    "kun": [
+      "ふゆ"
+    ],
+    "meanings": {
+      "vi": "mùa đông",
+      "en": "winter"
+    }
+  },
+  "信": {
+    "on": [
+      "シン"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "niềm tin, tín nhiệm",
+      "en": "faith, truth, fidelity, trust"
+    }
+  },
+  "選": {
+    "on": [
+      "セン"
+    ],
+    "kun": [
+      "えら.ぶ",
+      "え.る",
+      "よ.る"
+    ],
+    "meanings": {
+      "vi": "chọn lựa, bầu cử",
+      "en": "elect, select, choose, prefer"
+    }
+  },
+  "僚": {
+    "on": [
+      "リョウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "đồng nghiệp, quan lại",
+      "en": "colleague, official, companion"
+    }
+  },
+  "看": {
+    "on": [
+      "カン"
+    ],
+    "kun": [
+      "み.る"
+    ],
+    "meanings": {
+      "vi": "trông coi, xem",
+      "en": "watch over, see"
+    }
+  },
+  "護": {
+    "on": [
+      "ゴ"
+    ],
+    "kun": [
+      "まも.る"
+    ],
+    "meanings": {
+      "vi": "bảo vệ, giữ gìn",
+      "en": "safeguard, protect"
+    }
+  },
+  "寄": {
+    "on": [
+      "キ"
+    ],
+    "kun": [
+      "-よ.り",
+      "よ.せる",
+      "よ.る"
+    ],
+    "meanings": {
+      "vi": "đến gần, gửi, tụ tập",
+      "en": "draw near, stop in, bring near, gather, collect, send, forward"
+    }
+  },
+  "甥": {
+    "on": [
+      "セイ",
+      "ソウ",
+      "ショウ"
+    ],
+    "kun": [
+      "おい",
+      "むこ"
+    ],
+    "meanings": {
+      "vi": "cháu trai (gọi theo cô/dì/chú/bác)",
+      "en": "nephew"
+    }
+  },
+  "姪": {
+    "on": [
+      "テツ",
+      "チツ",
+      "ジチ",
+      "イツ",
+      "イチ"
+    ],
+    "kun": [
+      "めい",
+      "おい"
+    ],
+    "meanings": {
+      "vi": "cháu gái (gọi theo cô/dì/chú/bác)",
+      "en": "niece"
+    }
+  },
+  "徒": {
+    "on": [
+      "ト"
+    ],
+    "kun": [
+      "いたずら",
+      "あだ"
+    ],
+    "meanings": {
+      "vi": "đi bộ, môn đồ, vô ích",
+      "en": "on foot, junior, emptiness, vanity, futility, uselessness, ephemeral thing, gang, set, party, people"
+    }
+  },
+  "息": {
+    "on": [
+      "ソク"
+    ],
+    "kun": [
+      "いき"
+    ],
+    "meanings": {
+      "vi": "hơi thở, con trai, nghỉ ngơi",
+      "en": "breath, respiration, son, interest (on money), rest, coming to an end"
+    }
+  },
+  "娘": {
+    "on": [
+      "ジョウ"
+    ],
+    "kun": [
+      "むすめ",
+      "こ"
+    ],
+    "meanings": {
+      "vi": "con gái",
+      "en": "daughter, girl"
+    }
+  },
+  "厳": {
+    "on": [
+      "ゲン",
+      "ゴン"
+    ],
+    "kun": [
+      "おごそ.か",
+      "きび.しい",
+      "いか.めしい",
+      "いつくし"
+    ],
+    "meanings": {
+      "vi": "nghiêm khắc, nghiêm ngặt",
+      "en": "stern, strictness, severity, rigidity"
+    }
+  },
+  "痛": {
+    "on": [
+      "ツウ"
+    ],
+    "kun": [
+      "いた.い",
+      "いた.む",
+      "いた.ましい",
+      "いた.める"
+    ],
+    "meanings": {
+      "vi": "đau, đau đớn",
+      "en": "pain, hurt, damage, bruise"
+    }
+  },
+  "薄": {
+    "on": [
+      "ハク"
+    ],
+    "kun": [
+      "うす.い",
+      "うす-",
+      "-うす",
+      "うす.める",
+      "うす.まる",
+      "うす.らぐ",
+      "うす.ら-",
+      "うす.れる",
+      "すすき"
+    ],
+    "meanings": {
+      "vi": "mỏng, nhạt, loãng",
+      "en": "dilute, thin, weak (tea), pampas grass"
+    }
+  },
+  "厚": {
+    "on": [
+      "コウ"
+    ],
+    "kun": [
+      "あつ.い",
+      "あか"
+    ],
+    "meanings": {
+      "vi": "dày, hậu hĩnh, tử tế",
+      "en": "thick, heavy, rich, kind, cordial, brazen, shameless"
+    }
+  },
+  "級": {
+    "on": [
+      "キュウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "lớp, cấp bậc",
+      "en": "class, rank, grade"
+    }
+  },
+  "返": {
+    "on": [
+      "ヘン"
+    ],
+    "kun": [
+      "かえ.す",
+      "-かえ.す",
+      "かえ.る",
+      "-かえ.る"
+    ],
+    "meanings": {
+      "vi": "trả lại, đáp lại",
+      "en": "return, answer, fade, repay"
+    }
+  },
+  "功": {
+    "on": [
+      "コウ",
+      "ク"
+    ],
+    "kun": [
+      "いさお"
+    ],
+    "meanings": {
+      "vi": "thành tựu, công lao",
+      "en": "achievement, merits, success, honor, credit"
+    }
+  },
+  "敗": {
+    "on": [
+      "ハイ"
+    ],
+    "kun": [
+      "やぶ.れる"
+    ],
+    "meanings": {
+      "vi": "thất bại, thua",
+      "en": "failure, defeat, reversal"
+    }
+  },
+  "怪": {
+    "on": [
+      "カイ",
+      "ケ"
+    ],
+    "kun": [
+      "あや.しい",
+      "あや.しむ"
+    ],
+    "meanings": {
+      "vi": "kỳ lạ, ma quái, đáng ngờ",
+      "en": "suspicious, mystery, apparition"
+    }
+  },
+  "我": {
+    "on": [
+      "ガ"
+    ],
+    "kun": [
+      "われ",
+      "わ",
+      "わ.が-",
+      "わが-"
+    ],
+    "meanings": {
+      "vi": "cái tôi, bản thân, ích kỷ",
+      "en": "ego, I, selfish, our, oneself"
+    }
+  },
+  "勝": {
+    "on": [
+      "ショウ"
+    ],
+    "kun": [
+      "か.つ",
+      "-が.ち",
+      "まさ.る",
+      "すぐ.れる",
+      "かつ"
+    ],
+    "meanings": {
+      "vi": "chiến thắng, thắng",
+      "en": "victory, win, prevail, excel"
+    }
+  },
+  "亡": {
+    "on": [
+      "ボウ",
+      "モウ"
+    ],
+    "kun": [
+      "な.い",
+      "な.き-",
+      "ほろ.びる",
+      "ほろ.ぶ",
+      "ほろ.ぼす"
+    ],
+    "meanings": {
+      "vi": "chết, mất, quá cố",
+      "en": "deceased, the late, dying, perish"
+    }
+  },
+  "別": {
+    "on": [
+      "ベツ"
+    ],
+    "kun": [
+      "わか.れる",
+      "わ.ける"
+    ],
+    "meanings": {
+      "vi": "riêng biệt, khác, đặc biệt",
+      "en": "separate, branch off, diverge, fork, another, extra, specially"
+    }
+  },
+  "負": {
+    "on": [
+      "フ"
+    ],
+    "kun": [
+      "ま.ける",
+      "ま.かす",
+      "お.う"
+    ],
+    "meanings": {
+      "vi": "thua, âm (số), gánh chịu",
+      "en": "defeat, negative, -, minus, bear, owe, assume a responsibility"
+    }
+  },
+  "似": {
+    "on": [
+      "ジ"
+    ],
+    "kun": [
+      "に.る",
+      "ひ.る"
+    ],
+    "meanings": {
+      "vi": "giống, tương tự, bắt chước",
+      "en": "becoming, resemble, counterfeit, imitate, suitable"
+    }
+  },
+  "塗": {
+    "on": [
+      "ト"
+    ],
+    "kun": [
+      "ぬ.る",
+      "ぬ.り",
+      "まみ.れる"
+    ],
+    "meanings": {
+      "vi": "sơn, quét, bôi",
+      "en": "paint, plaster, daub, smear, coating"
+    }
+  },
+  "壊": {
+    "on": [
+      "カイ",
+      "エ"
+    ],
+    "kun": [
+      "こわ.す",
+      "こわ.れる",
+      "やぶ.る"
+    ],
+    "meanings": {
+      "vi": "phá hủy, phá vỡ",
+      "en": "demolition, break, destroy"
+    }
+  },
+  "捨": {
+    "on": [
+      "シャ"
+    ],
+    "kun": [
+      "す.てる"
+    ],
+    "meanings": {
+      "vi": "vứt bỏ, từ bỏ",
+      "en": "discard, throw away, abandon, resign, reject, sacrifice"
+    }
+  },
+  "緊": {
+    "on": [
+      "キン"
+    ],
+    "kun": [
+      "し.める",
+      "し.まる"
+    ],
+    "meanings": {
+      "vi": "căng thẳng, khẩn cấp, chặt chẽ",
+      "en": "tense, solid, hard, reliable, tight"
+    }
+  },
+  "貼": {
+    "on": [
+      "テン",
+      "チョウ"
+    ],
+    "kun": [
+      "は.る",
+      "つ.く"
+    ],
+    "meanings": {
+      "vi": "dán, đắp",
+      "en": "stick, paste, apply"
+    }
+  },
+  "飾": {
+    "on": [
+      "ショク"
+    ],
+    "kun": [
+      "かざ.る",
+      "かざ.り"
+    ],
+    "meanings": {
+      "vi": "trang trí, tô điểm",
+      "en": "decorate, ornament, adorn, embellish"
+    }
+  },
+  "輸": {
+    "on": [
+      "シュ",
+      "ユ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "vận chuyển, thua kém",
+      "en": "transport, send, be inferior"
+    }
+  },
+  "履": {
+    "on": [
+      "リ"
+    ],
+    "kun": [
+      "は.く"
+    ],
+    "meanings": {
+      "vi": "thực hiện, giày dép, mang (giày)",
+      "en": "perform, complete, footgear, shoes, boots, put on (the feet)"
+    }
+  },
+  "巻": {
+    "on": [
+      "カン",
+      "ケン"
+    ],
+    "kun": [
+      "ま.く",
+      "まき",
+      "ま.き"
+    ],
+    "meanings": {
+      "vi": "cuộn, tập, quyển",
+      "en": "scroll, volume, book, part, roll up, wind up, tie, coil, counter for texts (or book scrolls)"
+    }
+  },
+  "被": {
+    "on": [
+      "ヒ"
+    ],
+    "kun": [
+      "こうむ.る",
+      "おお.う",
+      "かぶ.る",
+      "かぶ.せる"
+    ],
+    "meanings": {
+      "vi": "chịu (tác động), phủ lên, bị",
+      "en": "incur, cover, veil, brood over, shelter, wear, put on, be exposed (film), receiving"
+    }
+  },
+  "増": {
+    "on": [
+      "ゾウ"
+    ],
+    "kun": [
+      "ま.す",
+      "ま.し",
+      "ふ.える",
+      "ふ.やす"
+    ],
+    "meanings": {
+      "vi": "tăng, gia tăng",
+      "en": "increase, add, augment, gain, promote"
+    }
+  },
+  "減": {
+    "on": [
+      "ゲン"
+    ],
+    "kun": [
+      "へ.る",
+      "へ.らす"
+    ],
+    "meanings": {
+      "vi": "giảm, giảm bớt",
+      "en": "dwindle, decrease, reduce, decline, curtail, get hungry"
+    }
+  },
+  "喜": {
+    "on": [
+      "キ"
+    ],
+    "kun": [
+      "よろこ.ぶ",
+      "よろこ.ばす"
+    ],
+    "meanings": {
+      "vi": "vui mừng, hoan hỷ",
+      "en": "rejoice, take pleasure in"
+    }
+  },
+  "盗": {
+    "on": [
+      "トウ"
+    ],
+    "kun": [
+      "ぬす.む",
+      "ぬす.み"
+    ],
+    "meanings": {
+      "vi": "trộm cắp, ăn cắp",
+      "en": "steal, rob, pilfer"
+    }
+  },
+  "諦": {
+    "on": [
+      "テイ",
+      "タイ"
+    ],
+    "kun": [
+      "あきら.める",
+      "つまびらか",
+      "まこと"
+    ],
+    "meanings": {
+      "vi": "từ bỏ, chân lý",
+      "en": "truth, clarity, abandon, give up"
+    }
+  },
+  "録": {
+    "on": [
+      "ロク"
+    ],
+    "kun": [
+      "しる.す",
+      "と.る"
+    ],
+    "meanings": {
+      "vi": "ghi chép, ghi âm",
+      "en": "record"
+    }
+  },
+  "流": {
+    "on": [
+      "リュウ",
+      "ル"
+    ],
+    "kun": [
+      "-なが.す",
+      "なが.す",
+      "なが.れ",
+      "なが.れる"
+    ],
+    "meanings": {
+      "vi": "dòng chảy, trôi chảy, lưu",
+      "en": "current, a sink, flow, forfeit"
+    }
+  },
+  "傷": {
+    "on": [
+      "ショウ"
+    ],
+    "kun": [
+      "きず",
+      "いた.む",
+      "いた.める"
+    ],
+    "meanings": {
+      "vi": "vết thương, tổn thương",
+      "en": "wound, hurt, injure, impair, pain, injury, cut, gash, scar, weak point"
+    }
+  },
+  "禁": {
+    "on": [
+      "キン"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "cấm, cấm đoán",
+      "en": "prohibition, ban, forbid"
+    }
+  },
+  "避": {
+    "on": [
+      "ヒ"
+    ],
+    "kun": [
+      "さ.ける",
+      "よ.ける"
+    ],
+    "meanings": {
+      "vi": "tránh né, né tránh",
+      "en": "evade, avoid, avert, ward off, shirk, shun"
+    }
+  },
+  "延": {
+    "on": [
+      "エン"
+    ],
+    "kun": [
+      "の.びる",
+      "の.べる",
+      "の.べ",
+      "の.ばす"
+    ],
+    "meanings": {
+      "vi": "kéo dài, trì hoãn",
+      "en": "prolong, stretching"
+    }
+  },
+  "検": {
+    "on": [
+      "ケン"
+    ],
+    "kun": [
+      "しら.べる"
+    ],
+    "meanings": {
+      "vi": "kiểm tra, điều tra",
+      "en": "examination, investigate"
+    }
+  },
+  "索": {
+    "on": [
+      "サク"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "dây thừng, tìm kiếm",
+      "en": "cord, rope, searching, inquiring"
+    }
+  },
+  "祝": {
+    "on": [
+      "シュク",
+      "シュウ"
+    ],
+    "kun": [
+      "いわ.う"
+    ],
+    "meanings": {
+      "vi": "chúc mừng, ăn mừng",
+      "en": "celebrate, congratulate"
+    }
+  },
+  "翻": {
+    "on": [
+      "ホン",
+      "ハン"
+    ],
+    "kun": [
+      "ひるがえ.る",
+      "ひるがえ.す"
+    ],
+    "meanings": {
+      "vi": "lật, phiên dịch, thay đổi",
+      "en": "flip, turn over, wave, flutter, change (mind)"
+    }
+  },
+  "叱": {
+    "on": [
+      "シツ",
+      "シチ",
+      "カ"
+    ],
+    "kun": [
+      "しか.る"
+    ],
+    "meanings": {
+      "vi": "mắng, quở trách",
+      "en": "scold, reprove"
+    }
+  },
+  "怒": {
+    "on": [
+      "ド",
+      "ヌ"
+    ],
+    "kun": [
+      "いか.る",
+      "おこ.る"
+    ],
+    "meanings": {
+      "vi": "tức giận, giận dữ",
+      "en": "angry, be offended"
+    }
+  },
+  "催": {
+    "on": [
+      "サイ"
+    ],
+    "kun": [
+      "もよう.す",
+      "もよお.す"
+    ],
+    "meanings": {
+      "vi": "tổ chức, thúc giục",
+      "en": "sponsor, hold (a meeting), give (a dinner)"
+    }
+  },
+  "煙": {
+    "on": [
+      "エン"
+    ],
+    "kun": [
+      "けむ.る",
+      "けむり",
+      "けむ.い"
+    ],
+    "meanings": {
+      "vi": "khói",
+      "en": "smoke"
+    }
+  },
+  "賛": {
+    "on": [
+      "サン"
+    ],
+    "kun": [
+      "たす.ける",
+      "たた.える"
+    ],
+    "meanings": {
+      "vi": "tán thành, khen ngợi, đồng ý",
+      "en": "approve, praise, title or inscription on picture, assist, agree with"
+    }
+  },
+  "踊": {
+    "on": [
+      "ヨウ"
+    ],
+    "kun": [
+      "おど.る"
+    ],
+    "meanings": {
+      "vi": "nhảy múa",
+      "en": "jump, dance, leap, skip"
+    }
+  },
+  "放": {
+    "on": [
+      "ホウ"
+    ],
+    "kun": [
+      "はな.す",
+      "-っぱな.し",
+      "はな.つ",
+      "はな.れる",
+      "こ.く",
+      "ほう.る"
+    ],
+    "meanings": {
+      "vi": "thả, phóng thích, phát ra",
+      "en": "set free, release, fire, shoot, emit, banish, liberate"
+    }
+  },
+  "渡": {
+    "on": [
+      "ト"
+    ],
+    "kun": [
+      "わた.る",
+      "-わた.る",
+      "わた.す"
+    ],
+    "meanings": {
+      "vi": "vượt qua, đưa cho, băng qua",
+      "en": "transit, ford, ferry, cross, import, deliver, diameter, migrate"
+    }
+  },
+  "就": {
+    "on": [
+      "シュウ",
+      "ジュ"
+    ],
+    "kun": [
+      "つ.く",
+      "つ.ける"
+    ],
+    "meanings": {
+      "vi": "đảm nhận, tựu, về việc",
+      "en": "concerning, settle, take position, depart, study, per"
+    }
+  },
+  "整": {
+    "on": [
+      "セイ"
+    ],
+    "kun": [
+      "ととの.える",
+      "ととの.う"
+    ],
+    "meanings": {
+      "vi": "sắp xếp, chỉnh đốn",
+      "en": "organize, arranging, tune, tone, meter, key (music)"
+    }
+  },
+  "向": {
+    "on": [
+      "コウ"
+    ],
+    "kun": [
+      "-む.き",
+      "-む.け",
+      "む.い",
+      "む.かい",
+      "む.かう",
+      "む.く",
+      "む.ける",
+      "む.こう",
+      "む.こう-",
+      "むか.い",
+      "むこ"
+    ],
+    "meanings": {
+      "vi": "hướng về, đối mặt",
+      "en": "yonder, facing, beyond, confront, defy, tend toward, approach"
+    }
+  },
+  "戻": {
+    "on": [
+      "レイ"
+    ],
+    "kun": [
+      "もど.す",
+      "もど.る"
+    ],
+    "meanings": {
+      "vi": "trở về, quay lại",
+      "en": "re-, return, revert, resume, restore, go backwards"
+    }
+  },
+  "修": {
+    "on": [
+      "シュウ",
+      "シュ"
+    ],
+    "kun": [
+      "おさ.める",
+      "おさ.まる"
+    ],
+    "meanings": {
+      "vi": "tu dưỡng, tu học, sửa chữa",
+      "en": "discipline, conduct oneself well, study, master"
+    }
+  },
+  "支": {
+    "on": [
+      "シ"
+    ],
+    "kun": [
+      "ささ.える",
+      "つか.える",
+      "か.う"
+    ],
+    "meanings": {
+      "vi": "chi nhánh, hỗ trợ",
+      "en": "branch, support, sustain, branch radical (no. 65)"
+    }
+  },
+  "剥": {
+    "on": [
+      "ハク",
+      "ホク"
+    ],
+    "kun": [
+      "へ.ぐ",
+      "へず.る",
+      "む.く",
+      "む.ける",
+      "は.がれる",
+      "は.ぐ",
+      "は.げる",
+      "は.がす"
+    ],
+    "meanings": {
+      "vi": "bóc, lột, phai màu",
+      "en": "come off, peel, fade, discolor"
+    }
+  },
+  "復": {
+    "on": [
+      "フク"
+    ],
+    "kun": [
+      "また"
+    ],
+    "meanings": {
+      "vi": "khôi phục, trở lại",
+      "en": "restore, return to, revert, resume"
+    }
+  },
+  "拾": {
+    "on": [
+      "シュウ",
+      "ジュウ"
+    ],
+    "kun": [
+      "ひろ.う"
+    ],
+    "meanings": {
+      "vi": "nhặt, thu lượm",
+      "en": "pick up, gather, find, go on foot, ten"
+    }
+  },
+  "経": {
+    "on": [
+      "ケイ",
+      "キョウ",
+      "キン"
+    ],
+    "kun": [
+      "へ.る",
+      "た.つ",
+      "たていと",
+      "はか.る",
+      "のり"
+    ],
+    "meanings": {
+      "vi": "kinh (sách), trải qua, kinh tuyến",
+      "en": "sutra, longitude, pass thru, expire, warp"
+    }
+  },
+  "頼": {
+    "on": [
+      "ライ"
+    ],
+    "kun": [
+      "たの.む",
+      "たの.もしい",
+      "たよ.る"
+    ],
+    "meanings": {
+      "vi": "tin cậy, nhờ vả",
+      "en": "trust, request"
+    }
+  },
+  "慢": {
+    "on": [
+      "マン"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "kiêu ngạo, lười biếng",
+      "en": "ridicule, laziness"
+    }
+  },
+  "過": {
+    "on": [
+      "カ"
+    ],
+    "kun": [
+      "す.ぎる",
+      "す.ごす",
+      "あやま.ち",
+      "あやま.つ",
+      "よぎ.る",
+      "よ.ぎる"
+    ],
+    "meanings": {
+      "vi": "vượt quá, sai lầm, quá",
+      "en": "overdo, exceed, go beyond, error"
+    }
+  },
+  "購": {
+    "on": [
+      "コウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "mua, đặt mua",
+      "en": "subscription, buy"
+    }
+  },
+  "任": {
+    "on": [
+      "ニン"
+    ],
+    "kun": [
+      "まか.せる",
+      "まか.す"
+    ],
+    "meanings": {
+      "vi": "trách nhiệm, bổ nhiệm, giao phó",
+      "en": "responsibility, duty, term, entrust to, appoint"
+    }
+  },
+  "舞": {
+    "on": [
+      "ブ"
+    ],
+    "kun": [
+      "-ま.う",
+      "ま.う",
+      "まい"
+    ],
+    "meanings": {
+      "vi": "múa, nhảy múa",
+      "en": "dance, flit, circle, wheel"
+    }
+  },
+  "押": {
+    "on": [
+      "オウ"
+    ],
+    "kun": [
+      "お.さえる",
+      "お.し-",
+      "お.す",
+      "お.っ-",
+      "おさ.える"
+    ],
+    "meanings": {
+      "vi": "đẩy, ấn, đóng dấu",
+      "en": "push, stop, check, subdue, attach, seize, weight, shove, press, seal, do in spite of"
+    }
+  },
+  "許": {
+    "on": [
+      "キョ"
+    ],
+    "kun": [
+      "ゆる.す",
+      "もと"
+    ],
+    "meanings": {
+      "vi": "cho phép, chấp thuận",
+      "en": "permit, approve"
+    }
+  },
+  "謝": {
+    "on": [
+      "シャ"
+    ],
+    "kun": [
+      "あやま.る"
+    ],
+    "meanings": {
+      "vi": "xin lỗi, cảm ơn, từ chối",
+      "en": "apologize, thank, refuse"
+    }
+  },
+  "測": {
+    "on": [
+      "ソク"
+    ],
+    "kun": [
+      "はか.る"
+    ],
+    "meanings": {
+      "vi": "đo lường, dự đoán",
+      "en": "fathom, plan, scheme, measure"
+    }
+  },
+  "希": {
+    "on": [
+      "キ",
+      "ケ"
+    ],
+    "kun": [
+      "まれ",
+      "こいねが.う"
+    ],
+    "meanings": {
+      "vi": "hy vọng, hiếm, mong cầu",
+      "en": "hope, beg, request, pray, beseech, Greece, dilute (acid), rare, few, phenomenal"
+    }
+  },
+  "望": {
+    "on": [
+      "ボウ",
+      "モウ"
+    ],
+    "kun": [
+      "のぞ.む",
+      "もち"
+    ],
+    "meanings": {
+      "vi": "hy vọng, mong muốn, kỳ vọng",
+      "en": "ambition, full moon, hope, desire, aspire to, expect"
+    }
+  },
+  "想": {
+    "on": [
+      "ソ",
+      "ソウ"
+    ],
+    "kun": [
+      "おも.う"
+    ],
+    "meanings": {
+      "vi": "suy nghĩ, ý tưởng",
+      "en": "idea, thought, conception, think"
+    }
+  },
+  "像": {
+    "on": [
+      "ゾウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "tượng, hình ảnh",
+      "en": "statue, picture, image, figure, portrait"
+    }
+  },
+  "祈": {
+    "on": [
+      "キ"
+    ],
+    "kun": [
+      "いの.る"
+    ],
+    "meanings": {
+      "vi": "cầu nguyện, cầu chúc",
+      "en": "pray, wish"
+    }
+  },
+  "紹": {
+    "on": [
+      "ショウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "giới thiệu, kế thừa, giúp đỡ",
+      "en": "introduce, inherit, help"
+    }
+  },
+  "介": {
+    "on": [
+      "カイ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "trung gian, giới thiệu, can dự",
+      "en": "jammed in, shellfish, mediate, concern oneself with"
+    }
+  },
+  "僕": {
+    "on": [
+      "ボク"
+    ],
+    "kun": [
+      "しもべ"
+    ],
+    "meanings": {
+      "vi": "tôi (nam), người hầu, đầy tớ",
+      "en": "me, I (male), servant, manservant"
+    }
+  },
+  "典": {
+    "on": [
+      "テン",
+      "デン"
+    ],
+    "kun": [
+      "のり",
+      "ふみ"
+    ],
+    "meanings": {
+      "vi": "điển, từ điển, nghi lễ",
+      "en": "code, ceremony, law, rule"
+    }
+  },
+  "源": {
+    "on": [
+      "ゲン"
+    ],
+    "kun": [
+      "みなもと"
+    ],
+    "meanings": {
+      "vi": "nguồn, căn nguyên",
+      "en": "source, origin"
+    }
+  },
+  "河": {
+    "on": [
+      "カ"
+    ],
+    "kun": [
+      "かわ"
+    ],
+    "meanings": {
+      "vi": "sông lớn",
+      "en": "river"
+    }
+  },
+  "城": {
+    "on": [
+      "ジョウ",
+      "セイ"
+    ],
+    "kun": [
+      "しろ"
+    ],
+    "meanings": {
+      "vi": "lâu đài, thành",
+      "en": "castle"
+    }
+  },
+  "改": {
+    "on": [
+      "カイ"
+    ],
+    "kun": [
+      "あらた.まる",
+      "あらた.める"
+    ],
+    "meanings": {
+      "vi": "cải cách, sửa đổi",
+      "en": "reformation, change, modify, mend, renew, examine, inspect, search"
+    }
+  },
+  "炭": {
+    "on": [
+      "タン"
+    ],
+    "kun": [
+      "すみ"
+    ],
+    "meanings": {
+      "vi": "than",
+      "en": "charcoal, coal"
+    }
+  },
+  "岸": {
+    "on": [
+      "ガン"
+    ],
+    "kun": [
+      "きし"
+    ],
+    "meanings": {
+      "vi": "bờ (biển, sông)",
+      "en": "beach"
+    }
+  },
+  "情": {
+    "on": [
+      "ジョウ",
+      "セイ"
+    ],
+    "kun": [
+      "なさ.け"
+    ],
+    "meanings": {
+      "vi": "tình cảm, thông tin",
+      "en": "feelings, emotion, passion, sympathy, circumstances, facts"
+    }
+  },
+  "貴": {
+    "on": [
+      "キ"
+    ],
+    "kun": [
+      "たっと.い",
+      "たっと.ぶ",
+      "とうと.い",
+      "とうと.ぶ"
+    ],
+    "meanings": {
+      "vi": "quý giá, cao quý",
+      "en": "precious, value, prize, esteem, honor"
+    }
+  },
+  "観": {
+    "on": [
+      "カン"
+    ],
+    "kun": [
+      "しめ.す",
+      "み.る"
+    ],
+    "meanings": {
+      "vi": "quan sát, tham quan",
+      "en": "outlook, look, appearance, condition, view"
+    }
+  },
+  "詞": {
+    "on": [
+      "シ"
+    ],
+    "kun": [
+      "ことば"
+    ],
+    "meanings": {
+      "vi": "từ, lời, ca từ",
+      "en": "part of speech, words, poetry"
+    }
+  },
+  "専": {
+    "on": [
+      "セン"
+    ],
+    "kun": [
+      "もっぱ.ら"
+    ],
+    "meanings": {
+      "vi": "chuyên môn, độc quyền",
+      "en": "specialty, exclusive, mainly, solely"
+    }
+  },
+  "舎": {
+    "on": [
+      "シャ",
+      "セキ"
+    ],
+    "kun": [
+      "やど.る"
+    ],
+    "meanings": {
+      "vi": "nhà, ký túc xá",
+      "en": "cottage, inn, hut, house, mansion"
+    }
+  },
+  "干": {
+    "on": [
+      "カン"
+    ],
+    "kun": [
+      "-ぼ.し",
+      "ひ.る",
+      "ほ.し-",
+      "ほ.す"
+    ],
+    "meanings": {
+      "vi": "phơi khô, cạn",
+      "en": "dry, parch, ebb, recede, interfere, intercede"
+    }
+  },
+  "居": {
+    "on": [
+      "キョ",
+      "コ"
+    ],
+    "kun": [
+      "-い",
+      "い.る",
+      "お.る"
+    ],
+    "meanings": {
+      "vi": "ở, cư trú",
+      "en": "reside, to be, exist, live with"
+    }
+  },
+  "紀": {
+    "on": [
+      "キ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "thế kỷ, kỷ cương",
+      "en": "chronicle, account, narrative, history, annals, geologic period"
+    }
+  },
+  "奇": {
+    "on": [
+      "キ"
+    ],
+    "kun": [
+      "あや.しい",
+      "く.しき",
+      "くし",
+      "めずら.しい"
+    ],
+    "meanings": {
+      "vi": "kỳ lạ, hiếm có",
+      "en": "strange, strangeness, curiosity"
+    }
+  },
+  "状": {
+    "on": [
+      "ジョウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "tình trạng, thư từ",
+      "en": "status quo, conditions, circumstances, form, appearance"
+    }
+  },
+  "州": {
+    "on": [
+      "シュウ",
+      "ス"
+    ],
+    "kun": [
+      "す"
+    ],
+    "meanings": {
+      "vi": "châu, bang",
+      "en": "state, province"
+    }
+  },
+  "極": {
+    "on": [
+      "キョク",
+      "ゴク"
+    ],
+    "kun": [
+      "-ぎ.め",
+      "き.まる",
+      "き.める",
+      "きわ.まり",
+      "きわ.まる",
+      "きわ.み",
+      "きわ.める"
+    ],
+    "meanings": {
+      "vi": "cực điểm, vô cùng",
+      "en": "extreme, pole, extremely, very, highly, most, end, settlement, conclusion, highest rank"
+    }
+  },
+  "姓": {
+    "on": [
+      "ショウ",
+      "セイ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "họ (tên)",
+      "en": "surname"
+    }
+  },
+  "戸": {
+    "on": [
+      "コ"
+    ],
+    "kun": [
+      "と"
+    ],
+    "meanings": {
+      "vi": "cửa, hộ gia đình",
+      "en": "door, counter for houses, door radical (no. 63)"
+    }
+  },
+  "蒸": {
+    "on": [
+      "ジョウ",
+      "セイ"
+    ],
+    "kun": [
+      "む.す",
+      "む.らす",
+      "む.れる"
+    ],
+    "meanings": {
+      "vi": "hấp, bốc hơi",
+      "en": "steam, heat, sultry, foment, get musty"
+    }
+  },
+  "貨": {
+    "on": [
+      "カ"
+    ],
+    "kun": [
+      "たから"
+    ],
+    "meanings": {
+      "vi": "hàng hóa, tiền tệ",
+      "en": "freight, goods, property"
+    }
+  },
+  "架": {
+    "on": [
+      "カ"
+    ],
+    "kun": [
+      "か.かる",
+      "か.ける"
+    ],
+    "meanings": {
+      "vi": "giá đỡ, bắc cầu",
+      "en": "erect, frame, mount, support, shelf, construct"
+    }
+  },
+  "列": {
+    "on": [
+      "レ",
+      "レツ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "hàng, dãy, đoàn tàu",
+      "en": "file, row, rank, tier, column"
+    }
+  },
+  "災": {
+    "on": [
+      "サイ"
+    ],
+    "kun": [
+      "わざわ.い"
+    ],
+    "meanings": {
+      "vi": "tai họa, thiên tai",
+      "en": "disaster, calamity, woe, curse, evil"
+    }
+  },
+  "崩": {
+    "on": [
+      "ホウ"
+    ],
+    "kun": [
+      "-くず.れ",
+      "くず.す",
+      "くず.れる"
+    ],
+    "meanings": {
+      "vi": "sụp đổ, lở",
+      "en": "crumble, die, demolish, level"
+    }
+  },
+  "能": {
+    "on": [
+      "ノウ"
+    ],
+    "kun": [
+      "あた.う",
+      "よ.く"
+    ],
+    "meanings": {
+      "vi": "năng lực, tài năng",
+      "en": "ability, talent, skill, capacity"
+    }
+  },
+  "辱": {
+    "on": [
+      "ジョク"
+    ],
+    "kun": [
+      "はずかし.める"
+    ],
+    "meanings": {
+      "vi": "sỉ nhục, tủi hổ",
+      "en": "embarrass, humiliate, shame"
+    }
+  },
+  "鮮": {
+    "on": [
+      "セン"
+    ],
+    "kun": [
+      "あざ.やか"
+    ],
+    "meanings": {
+      "vi": "tươi, rực rỡ",
+      "en": "fresh, vivid, clear, brilliant, Korea"
+    }
+  },
+  "鼓": {
+    "on": [
+      "コ"
+    ],
+    "kun": [
+      "つづみ"
+    ],
+    "meanings": {
+      "vi": "cái trống",
+      "en": "drum, beat, rouse, muster"
+    }
+  },
+  "衣": {
+    "on": [
+      "イ",
+      "エ"
+    ],
+    "kun": [
+      "-ぎ",
+      "きぬ",
+      "ころも"
+    ],
+    "meanings": {
+      "vi": "áo, y phục",
+      "en": "garment, clothes, dressing"
+    }
+  },
+  "刊": {
+    "on": [
+      "カン"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "xuất bản, ấn hành",
+      "en": "publish, carve, engrave"
+    }
+  },
+  "綿": {
+    "on": [
+      "メン"
+    ],
+    "kun": [
+      "わた"
+    ],
+    "meanings": {
+      "vi": "bông, vải bông",
+      "en": "cotton"
+    }
+  },
+  "積": {
+    "on": [
+      "セキ"
+    ],
+    "kun": [
+      "-づ.み",
+      "つ.む",
+      "つ.もり",
+      "つ.もる"
+    ],
+    "meanings": {
+      "vi": "tích lũy, chất đống",
+      "en": "volume, product (x*y), acreage, contents, pile up, stack, load, amass"
+    }
+  },
+  "庁": {
+    "on": [
+      "チョウ",
+      "テイ"
+    ],
+    "kun": [
+      "やくしょ"
+    ],
+    "meanings": {
+      "vi": "cơ quan, cục, sở",
+      "en": "government office"
+    }
+  },
+  "操": {
+    "on": [
+      "サン",
+      "ソウ"
+    ],
+    "kun": [
+      "あやつ.る",
+      "みさお"
+    ],
+    "meanings": {
+      "vi": "thao tác, điều khiển",
+      "en": "maneuver, manipulate, operate, steer, chastity, virginity, fidelity"
+    }
+  },
+  "系": {
+    "on": [
+      "ケイ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "hệ thống, dòng dõi",
+      "en": "lineage, system"
+    }
+  },
+  "阪": {
+    "on": [
+      "ハン"
+    ],
+    "kun": [
+      "さか"
+    ],
+    "meanings": {
+      "vi": "sườn dốc (Osaka)",
+      "en": "heights, slope"
+    }
+  },
+  "戚": {
+    "on": [
+      "セキ",
+      "ソク"
+    ],
+    "kun": [
+      "いた.む",
+      "うれ.える",
+      "みうち"
+    ],
+    "meanings": {
+      "vi": "họ hàng, thân thích",
+      "en": "grieve, relatives"
+    }
+  },
+  "孫": {
+    "on": [
+      "ソン"
+    ],
+    "kun": [
+      "まご"
+    ],
+    "meanings": {
+      "vi": "cháu (nội, ngoại)",
+      "en": "grandchild, descendants"
+    }
+  },
+  "端": {
+    "on": [
+      "タン"
+    ],
+    "kun": [
+      "-ばた",
+      "は",
+      "はし",
+      "はた",
+      "はな"
+    ],
+    "meanings": {
+      "vi": "đầu mút, mép, cạnh",
+      "en": "edge, origin, end, point, border, verge, cape"
+    }
+  },
+  "笛": {
+    "on": [
+      "テキ"
+    ],
+    "kun": [
+      "ふえ"
+    ],
+    "meanings": {
+      "vi": "ống sáo, còi",
+      "en": "flute, clarinet, pipe, whistle, bagpipe, piccolo"
+    }
+  },
+  "齢": {
+    "on": [
+      "レイ"
+    ],
+    "kun": [
+      "とし",
+      "よわい"
+    ],
+    "meanings": {
+      "vi": "tuổi tác",
+      "en": "age"
+    }
+  },
+  "提": {
+    "on": [
+      "ダイ",
+      "チョウ",
+      "テイ"
+    ],
+    "kun": [
+      "さ.げる"
+    ],
+    "meanings": {
+      "vi": "đề xuất, xách, mang",
+      "en": "propose, take along, carry in hand"
+    }
+  },
+  "津": {
+    "on": [
+      "シン"
+    ],
+    "kun": [
+      "つ"
+    ],
+    "meanings": {
+      "vi": "bến cảng, sóng thần",
+      "en": "haven, port, harbor, ferry"
+    }
+  },
+  "識": {
+    "on": [
+      "シキ"
+    ],
+    "kun": [
+      "し.る",
+      "しる.す"
+    ],
+    "meanings": {
+      "vi": "kiến thức, nhận thức",
+      "en": "discriminating, know, write"
+    }
+  },
+  "候": {
+    "on": [
+      "コウ"
+    ],
+    "kun": [
+      "そうろう"
+    ],
+    "meanings": {
+      "vi": "khí hậu, mùa, triệu chứng",
+      "en": "climate, season, weather, wait for, expect"
+    }
+  },
+  "墳": {
+    "on": [
+      "フン"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "ngôi mộ cổ",
+      "en": "tomb, mound"
+    }
+  },
+  "皮": {
+    "on": [
+      "ヒ"
+    ],
+    "kun": [
+      "かわ"
+    ],
+    "meanings": {
+      "vi": "da, vỏ",
+      "en": "pelt, skin, hide, leather, skin radical (no. 107)"
+    }
+  },
+  "沢": {
+    "on": [
+      "タク"
+    ],
+    "kun": [
+      "うるお.い",
+      "うるお.す",
+      "さわ",
+      "つや"
+    ],
+    "meanings": {
+      "vi": "đầm lầy, dồi dào, bóng bẩy",
+      "en": "swamp, marsh, brilliance, grace"
+    }
+  },
+  "渉": {
+    "on": [
+      "ショウ"
+    ],
+    "kun": [
+      "わた.る"
+    ],
+    "meanings": {
+      "vi": "liên quan, đàm phán",
+      "en": "ford, go cross, transit, ferry, import, involve"
+    }
+  },
+  "等": {
+    "on": [
+      "トウ"
+    ],
+    "kun": [
+      "-ら",
+      "など",
+      "ひと.しい"
+    ],
+    "meanings": {
+      "vi": "v.v., hạng, cấp, bình đẳng",
+      "en": "etc., and so forth, class (first), quality, equal, similar"
+    }
+  },
+  "掌": {
+    "on": [
+      "ショウ"
+    ],
+    "kun": [
+      "たなごころ",
+      "てのひら"
+    ],
+    "meanings": {
+      "vi": "lòng bàn tay",
+      "en": "palm of hand, rule, administer, conduct"
+    }
+  },
+  "派": {
+    "on": [
+      "ハ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "phái, cử đi",
+      "en": "faction, group, party, clique, sect, school"
+    }
+  },
+  "礁": {
+    "on": [
+      "ショウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "đá ngầm, rạn san hô",
+      "en": "reef, sunken rock"
+    }
+  },
+  "峡": {
+    "on": [
+      "キョウ",
+      "コウ"
+    ],
+    "kun": [
+      "はざま"
+    ],
+    "meanings": {
+      "vi": "eo biển, hẻm núi",
+      "en": "gorge, ravine"
+    }
+  },
+  "示": {
+    "on": [
+      "シ",
+      "ジ"
+    ],
+    "kun": [
+      "しめ.す"
+    ],
+    "meanings": {
+      "vi": "chỉ thị, cho thấy",
+      "en": "show, indicate, point out, express, display"
+    }
+  },
+  "殺": {
+    "on": [
+      "サイ",
+      "サツ",
+      "セツ"
+    ],
+    "kun": [
+      "-ごろ.し",
+      "あや.める",
+      "ころ.す",
+      "そ.ぐ"
+    ],
+    "meanings": {
+      "vi": "giết, sát hại",
+      "en": "kill, murder, butcher, slice off, split, diminish, reduce, spoil"
+    }
+  },
+  "占": {
+    "on": [
+      "セン"
+    ],
+    "kun": [
+      "うらな.う",
+      "し.める"
+    ],
+    "meanings": {
+      "vi": "chiếm, bói toán",
+      "en": "fortune-telling, divining, forecasting, occupy, hold, have, get, take"
+    }
+  },
+  "快": {
+    "on": [
+      "カイ"
+    ],
+    "kun": [
+      "こころよ.い"
+    ],
+    "meanings": {
+      "vi": "dễ chịu, sảng khoái",
+      "en": "cheerful, pleasant, agreeable, comfortable"
+    }
+  },
+  "蔑": {
+    "on": [
+      "ベツ"
+    ],
+    "kun": [
+      "くらい",
+      "さげす.む",
+      "ないがしろ",
+      "なみ.する"
+    ],
+    "meanings": {
+      "vi": "khinh miệt, coi thường",
+      "en": "ignore, despise, neglect, ridicule"
+    }
+  },
+  "造": {
+    "on": [
+      "ゾウ"
+    ],
+    "kun": [
+      "-づく.り",
+      "つく.り",
+      "つく.る"
+    ],
+    "meanings": {
+      "vi": "chế tạo, xây dựng",
+      "en": "create, make, structure, physique"
+    }
+  },
+  "印": {
+    "on": [
+      "イン"
+    ],
+    "kun": [
+      "-じるし",
+      "しる.す",
+      "しるし"
+    ],
+    "meanings": {
+      "vi": "con dấu, dấu hiệu, Ấn Độ",
+      "en": "stamp, seal, mark, imprint, symbol, emblem, trademark, evidence, souvenir, India"
+    }
+  },
+  "収": {
+    "on": [
+      "シュウ"
+    ],
+    "kun": [
+      "おさ.まる",
+      "おさ.める"
+    ],
+    "meanings": {
+      "vi": "thu nhận, cất giữ",
+      "en": "income, obtain, reap, pay, supply, store"
+    }
+  },
+  "視": {
+    "on": [
+      "シ"
+    ],
+    "kun": [
+      "み.る"
+    ],
+    "meanings": {
+      "vi": "nhìn, thị sát",
+      "en": "inspection, regard as, see, look at"
+    }
+  },
+  "伎": {
+    "on": [
+      "キ",
+      "ギ"
+    ],
+    "kun": [
+      "わざ",
+      "わざおぎ"
+    ],
+    "meanings": {
+      "vi": "kỹ nghệ (Kabuki)",
+      "en": "deed, skill"
+    }
+  },
+  "標": {
+    "on": [
+      "ヒョウ"
+    ],
+    "kun": [
+      "しるし",
+      "しるべ"
+    ],
+    "meanings": {
+      "vi": "biển báo, mục tiêu",
+      "en": "signpost, seal, mark, stamp, imprint, symbol, emblem, trademark, evidence, souvenir, target"
+    }
+  },
+  "率": {
+    "on": [
+      "シュツ",
+      "ソツ",
+      "リツ"
+    ],
+    "kun": [
+      "ひき.いる"
+    ],
+    "meanings": {
+      "vi": "tỷ lệ, dẫn đầu",
+      "en": "ratio, rate, proportion, %, factor, lead, spearhead, command"
+    }
+  },
+  "閣": {
+    "on": [
+      "カク"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "nội các, lầu, gác",
+      "en": "tower, tall building, palace"
+    }
+  },
+  "雄": {
+    "on": [
+      "ユウ"
+    ],
+    "kun": [
+      "お-",
+      "おす",
+      "おん"
+    ],
+    "meanings": {
+      "vi": "con đực, anh hùng",
+      "en": "masculine, male, hero, leader, superiority, excellence"
+    }
+  },
+  "脈": {
+    "on": [
+      "ミャク"
+    ],
+    "kun": [
+      "すじ"
+    ],
+    "meanings": {
+      "vi": "mạch máu, dãy núi",
+      "en": "vein, pulse, hope"
+    }
+  },
+  "嫁": {
+    "on": [
+      "カ"
+    ],
+    "kun": [
+      "い.く",
+      "とつ.ぐ",
+      "ゆ.く",
+      "よめ"
+    ],
+    "meanings": {
+      "vi": "cô dâu, lấy chồng",
+      "en": "marry into, bride"
+    }
+  },
+  "岳": {
+    "on": [
+      "ガク"
+    ],
+    "kun": [
+      "たけ"
+    ],
+    "meanings": {
+      "vi": "núi cao",
+      "en": "point, peak, mountain"
+    }
+  },
+  "粉": {
+    "on": [
+      "フン"
+    ],
+    "kun": [
+      "こ",
+      "こな",
+      "デシメートル"
+    ],
+    "meanings": {
+      "vi": "bột, phấn",
+      "en": "flour, powder, dust"
+    }
+  },
+  "圏": {
+    "on": [
+      "ケン"
+    ],
+    "kun": [
+      "かこ.い"
+    ],
+    "meanings": {
+      "vi": "phạm vi, khu vực",
+      "en": "sphere, circle, radius, range"
+    }
+  },
+  "欧": {
+    "on": [
+      "オウ"
+    ],
+    "kun": [
+      "うた.う",
+      "は.く"
+    ],
+    "meanings": {
+      "vi": "châu Âu",
+      "en": "Europe"
+    }
+  },
+  "民": {
+    "on": [
+      "ミン"
+    ],
+    "kun": [
+      "たみ"
+    ],
+    "meanings": {
+      "vi": "người dân, dân tộc",
+      "en": "people, nation, subjects"
+    }
+  },
+  "遣": {
+    "on": [
+      "ケン"
+    ],
+    "kun": [
+      "-つか.い",
+      "-づか.い",
+      "つか.う",
+      "つか.わす",
+      "や.る"
+    ],
+    "meanings": {
+      "vi": "cử đi, phái đi",
+      "en": "dispatch, despatch, send, give, donate, do, undertake"
+    }
+  },
+  "壇": {
+    "on": [
+      "タン",
+      "ダン"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "bục, đàn, bồn hoa",
+      "en": "podium, stage, rostrum, terrace"
+    }
+  },
+  "沿": {
+    "on": [
+      "エン"
+    ],
+    "kun": [
+      "-ぞ.い",
+      "そ.う"
+    ],
+    "meanings": {
+      "vi": "dọc theo",
+      "en": "run alongside, follow along, run along, lie along"
+    }
+  },
+  "斎": {
+    "on": [
+      "サイ"
+    ],
+    "kun": [
+      "い.む",
+      "いつ.く",
+      "いわ.う",
+      "つつし.む",
+      "とき",
+      "ものいみ"
+    ],
+    "meanings": {
+      "vi": "phòng đọc sách, chay tịnh",
+      "en": "purification, Buddhist food, room, worship, avoid, alike"
+    }
+  },
+  "暦": {
+    "on": [
+      "リャク",
+      "レキ"
+    ],
+    "kun": [
+      "こよみ"
+    ],
+    "meanings": {
+      "vi": "lịch (tính ngày tháng)",
+      "en": "calendar, almanac"
+    }
+  },
+  "裂": {
+    "on": [
+      "レツ"
+    ],
+    "kun": [
+      "-ぎ.れ",
+      "さ.く",
+      "さ.ける"
+    ],
+    "meanings": {
+      "vi": "xé rách, nứt",
+      "en": "split, rend, tear"
+    }
+  },
+  "程": {
+    "on": [
+      "テイ"
+    ],
+    "kun": [
+      "-ほど",
+      "ほど"
+    ],
+    "meanings": {
+      "vi": "mức độ, khoảng, trình độ",
+      "en": "extent, degree, law, formula, distance, limits, amount"
+    }
+  },
+  "圧": {
+    "on": [
+      "アツ",
+      "エン",
+      "オウ"
+    ],
+    "kun": [
+      "お.さえる",
+      "お.す",
+      "おさ.える",
+      "へ.す"
+    ],
+    "meanings": {
+      "vi": "áp lực, nén",
+      "en": "pressure, push, overwhelm, oppress, dominate"
+    }
+  },
+  "券": {
+    "on": [
+      "ケン"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "vé, phiếu",
+      "en": "ticket"
+    }
+  },
+  "評": {
+    "on": [
+      "ヒョウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "đánh giá, phê bình",
+      "en": "evaluate, criticism, comment"
+    }
+  },
+  "析": {
+    "on": [
+      "セキ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "phân tích",
+      "en": "chop, divide, tear, analyze"
+    }
+  },
+  "則": {
+    "on": [
+      "ソク"
+    ],
+    "kun": [
+      "すなわち",
+      "のっと.る",
+      "のり"
+    ],
+    "meanings": {
+      "vi": "quy tắc, luật lệ",
+      "en": "rule, law, follow, based on, model after"
+    }
+  },
+  "跡": {
+    "on": [
+      "セキ"
+    ],
+    "kun": [
+      "あと"
+    ],
+    "meanings": {
+      "vi": "dấu vết, di tích",
+      "en": "tracks, mark, print, impression"
+    }
+  },
+  "籍": {
+    "on": [
+      "セキ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "hộ tịch, sổ sách",
+      "en": "enroll, domiciliary register, membership"
+    }
+  },
+  "彙": {
+    "on": [
+      "イ"
+    ],
+    "kun": [
+      "はりねずみ"
+    ],
+    "meanings": {
+      "vi": "loại, tập hợp (từ vựng)",
+      "en": "same kind, collect, classify, category, hedgehog"
+    }
+  },
+  "順": {
+    "on": [
+      "ジュン"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "thứ tự, thuận lợi",
+      "en": "obey, order, turn, right, docility, occasion"
+    }
+  },
+  "皇": {
+    "on": [
+      "オウ",
+      "コウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "hoàng đế, Thiên hoàng",
+      "en": "emperor"
+    }
+  },
+  "協": {
+    "on": [
+      "キョウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "hợp tác, hiệp lực",
+      "en": "co-, cooperation"
+    }
+  },
+  "徳": {
+    "on": [
+      "トク"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "đạo đức, công đức",
+      "en": "benevolence, virtue, goodness, commanding respect"
+    }
+  },
+  "舗": {
+    "on": [
+      "ホ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "cửa hàng, trải đường",
+      "en": "shop, store, pave"
+    }
+  },
+  "境": {
+    "on": [
+      "キョウ",
+      "ケイ"
+    ],
+    "kun": [
+      "さかい"
+    ],
+    "meanings": {
+      "vi": "biên giới, hoàn cảnh",
+      "en": "boundary, border, region"
+    }
+  },
+  "雀": {
+    "on": [
+      "サク",
+      "シャク",
+      "ジャク",
+      "ジャン"
+    ],
+    "kun": [
+      "すずめ"
+    ],
+    "meanings": {
+      "vi": "chim sẻ",
+      "en": "sparrow"
+    }
+  },
+  "鹸": {
+    "on": [
+      "カン",
+      "ケン",
+      "セン"
+    ],
+    "kun": [
+      "あ.く"
+    ],
+    "meanings": {
+      "vi": "xà phòng, kiềm",
+      "en": "saltiness"
+    }
+  },
+  "承": {
+    "on": [
+      "ショウ"
+    ],
+    "kun": [
+      "うけたまわ.る"
+    ],
+    "meanings": {
+      "vi": "đồng ý, tiếp nhận",
+      "en": "acquiesce, hear, listen to, be informed, receive"
+    }
+  },
+  "芋": {
+    "on": [],
+    "kun": [
+      "いも"
+    ],
+    "meanings": {
+      "vi": "khoai, củ từ",
+      "en": "taro, yam, tuber"
+    }
+  },
+  "垣": {
+    "on": [
+      "エン"
+    ],
+    "kun": [
+      "かき"
+    ],
+    "meanings": {
+      "vi": "hàng rào",
+      "en": "hedge, fence, wall"
+    }
+  },
+  "刻": {
+    "on": [
+      "コク"
+    ],
+    "kun": [
+      "きざ.む"
+    ],
+    "meanings": {
+      "vi": "khắc, chạm trổ, thời khắc",
+      "en": "engrave, cut fine, chop, hash, mince, time, carving"
+    }
+  },
+  "瓜": {
+    "on": [
+      "カ",
+      "ケ"
+    ],
+    "kun": [
+      "うり"
+    ],
+    "meanings": {
+      "vi": "quả dưa",
+      "en": "melon"
+    }
+  },
+  "丼": {
+    "on": [
+      "ショウ",
+      "セイ",
+      "タン",
+      "トン"
+    ],
+    "kun": [
+      "どんぶり"
+    ],
+    "meanings": {
+      "vi": "bát tô, cơm bát (donburi)",
+      "en": "bowl, bowl of food"
+    }
+  },
+  "碗": {
+    "on": [
+      "ワン"
+    ],
+    "kun": [
+      "こばち"
+    ],
+    "meanings": {
+      "vi": "bát ăn cơm, chén",
+      "en": "porcelain bowl, tea cup"
+    }
+  },
+  "檎": {
+    "on": [
+      "キン",
+      "ゴ",
+      "ゴン"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "quả táo (ringo)",
+      "en": "apple"
+    }
+  },
+  "因": {
+    "on": [
+      "イン"
+    ],
+    "kun": [
+      "よ.る"
+    ],
+    "meanings": {
+      "vi": "nguyên nhân",
+      "en": "cause, factor, be associated with, depend on, be limited to"
+    }
+  },
+  "箸": {
+    "on": [
+      "チョ",
+      "チャク"
+    ],
+    "kun": [
+      "はし"
+    ],
+    "meanings": {
+      "vi": "đũa",
+      "en": "chopsticks"
+    }
+  },
+  "借": {
+    "on": [
+      "シャク"
+    ],
+    "kun": [
+      "か.りる"
+    ],
+    "meanings": {
+      "vi": "mượn, thuê",
+      "en": "borrow, rent"
+    }
+  },
+  "座": {
+    "on": [
+      "ザ"
+    ],
+    "kun": [
+      "すわ.る"
+    ],
+    "meanings": {
+      "vi": "ngồi, chỗ ngồi",
+      "en": "squat, seat, cushion, gathering, sit"
+    }
+  },
+  "鉛": {
+    "on": [
+      "エン"
+    ],
+    "kun": [
+      "なまり"
+    ],
+    "meanings": {
+      "vi": "chì",
+      "en": "lead"
+    }
+  },
+  "掲": {
+    "on": [
+      "ケイ"
+    ],
+    "kun": [
+      "かか.げる"
+    ],
+    "meanings": {
+      "vi": "treo, đăng, nêu lên",
+      "en": "put up (a notice), put up, hoist, display, hang out, publish, describe"
+    }
+  },
+  "虹": {
+    "on": [
+      "コウ"
+    ],
+    "kun": [
+      "にじ"
+    ],
+    "meanings": {
+      "vi": "cầu vồng",
+      "en": "rainbow"
+    }
+  },
+  "扇": {
+    "on": [
+      "セン"
+    ],
+    "kun": [
+      "おうぎ"
+    ],
+    "meanings": {
+      "vi": "quạt",
+      "en": "fan, folding fan"
+    }
+  },
+  "紺": {
+    "on": [
+      "コン"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "xanh đậm, xanh navy",
+      "en": "dark blue, navy"
+    }
+  },
+  "接": {
+    "on": [
+      "セツ",
+      "ショウ"
+    ],
+    "kun": [
+      "つ.ぐ"
+    ],
+    "meanings": {
+      "vi": "tiếp xúc, nối",
+      "en": "touch, contact, adjoin, piece together"
+    }
+  },
+  "巾": {
+    "on": [
+      "キン",
+      "フク"
+    ],
+    "kun": [
+      "おお.い",
+      "ちきり",
+      "きれ"
+    ],
+    "meanings": {
+      "vi": "khăn, vải",
+      "en": "towel, hanging scroll, width, cloth radical (no. 50)"
+    }
+  },
+  "停": {
+    "on": [
+      "テイ"
+    ],
+    "kun": [
+      "と.める",
+      "と.まる"
+    ],
+    "meanings": {
+      "vi": "dừng",
+      "en": "halt, stopping"
+    }
+  },
+  "量": {
+    "on": [
+      "リョウ"
+    ],
+    "kun": [
+      "はか.る"
+    ],
+    "meanings": {
+      "vi": "lượng, đo",
+      "en": "quantity, measure, weight, amount, consider, estimate, surmise"
+    }
+  },
+  "替": {
+    "on": [
+      "タイ"
+    ],
+    "kun": [
+      "か.える",
+      "か.え-",
+      "か.わる"
+    ],
+    "meanings": {
+      "vi": "thay đổi, thay thế",
+      "en": "exchange, spare, substitute, per-"
+    }
+  },
+  "坂": {
+    "on": [
+      "ハン"
+    ],
+    "kun": [
+      "さか"
+    ],
+    "meanings": {
+      "vi": "dốc, con dốc",
+      "en": "slope, incline, hill"
+    }
+  },
+  "首": {
+    "on": [
+      "シュ"
+    ],
+    "kun": [
+      "くび"
+    ],
+    "meanings": {
+      "vi": "cổ, đầu",
+      "en": "neck, counter for songs and poems"
+    }
+  },
+  "普": {
+    "on": [
+      "フ"
+    ],
+    "kun": [
+      "あまね.く",
+      "あまねし"
+    ],
+    "meanings": {
+      "vi": "phổ biến, rộng rãi",
+      "en": "universal, wide(ly), generally, Prussia"
+    }
+  },
+  "甲": {
+    "on": [
+      "コウ",
+      "カン"
+    ],
+    "kun": [
+      "きのえ"
+    ],
+    "meanings": {
+      "vi": "giáp, loại A, mu bàn chân",
+      "en": "armor, high (voice), A grade, first class, former, instep, carapace"
+    }
+  },
+  "賀": {
+    "on": [
+      "ガ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "chúc mừng, vui mừng",
+      "en": "congratulations, joy"
+    }
+  },
+  "穴": {
+    "on": [
+      "ケツ"
+    ],
+    "kun": [
+      "あな"
+    ],
+    "meanings": {
+      "vi": "lỗ, hang",
+      "en": "hole, aperture, slit, cave, den"
+    }
+  },
+  "奈": {
+    "on": [
+      "ナ",
+      "ナイ",
+      "ダイ"
+    ],
+    "kun": [
+      "いかん",
+      "からなし"
+    ],
+    "meanings": {
+      "vi": "Nại (Nara)",
+      "en": "Nara, what?"
+    }
+  },
+  "鹿": {
+    "on": [
+      "ロク"
+    ],
+    "kun": [
+      "しか",
+      "か"
+    ],
+    "meanings": {
+      "vi": "hươu, nai",
+      "en": "deer"
+    }
+  },
+  "侍": {
+    "on": [
+      "ジ",
+      "シ"
+    ],
+    "kun": [
+      "さむらい",
+      "はべ.る"
+    ],
+    "meanings": {
+      "vi": "võ sĩ samurai, hầu hạ",
+      "en": "waiter, samurai, wait upon, serve"
+    }
+  },
+  "象": {
+    "on": [
+      "ショウ",
+      "ゾウ"
+    ],
+    "kun": [
+      "かたど.る"
+    ],
+    "meanings": {
+      "vi": "voi, hình dạng, hiện tượng",
+      "en": "elephant, pattern after, imitate, image, shape, sign (of the times)"
+    }
+  },
+  "卵": {
+    "on": [
+      "ラン"
+    ],
+    "kun": [
+      "たまご"
+    ],
+    "meanings": {
+      "vi": "trứng",
+      "en": "egg, ovum, spawn, roe"
+    }
+  },
+  "封": {
+    "on": [
+      "フウ",
+      "ホウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "phong, niêm phong",
+      "en": "seal, closing"
+    }
+  },
+  "筒": {
+    "on": [
+      "トウ"
+    ],
+    "kun": [
+      "つつ"
+    ],
+    "meanings": {
+      "vi": "ống, hình trụ",
+      "en": "cylinder, pipe, tube, gun barrel, sleeve"
+    }
+  },
+  "涼": {
+    "on": [
+      "リョウ"
+    ],
+    "kun": [
+      "すず.しい",
+      "すず.む",
+      "すず.やか",
+      "うす.い",
+      "ひや.す",
+      "まことに"
+    ],
+    "meanings": {
+      "vi": "mát mẻ, mát",
+      "en": "refreshing, nice and cool"
+    }
+  },
+  "祇": {
+    "on": [
+      "ギ",
+      "キ",
+      "シ"
+    ],
+    "kun": [
+      "くにつかみ",
+      "ただ",
+      "まさに"
+    ],
+    "meanings": {
+      "vi": "thần đất, thần linh",
+      "en": "national or local god, peaceful, great"
+    }
+  },
+  "香": {
+    "on": [
+      "コウ",
+      "キョウ"
+    ],
+    "kun": [
+      "か",
+      "かお.り",
+      "かお.る"
+    ],
+    "meanings": {
+      "vi": "hương, mùi thơm",
+      "en": "incense, smell, perfume"
+    }
+  },
+  "釣": {
+    "on": [
+      "チョウ"
+    ],
+    "kun": [
+      "つ.る",
+      "つ.り",
+      "つ.り-"
+    ],
+    "meanings": {
+      "vi": "câu cá",
+      "en": "angling, fish, catch, allure, ensnare"
+    }
+  },
+  "呼": {
+    "on": [
+      "コ"
+    ],
+    "kun": [
+      "よ.ぶ"
+    ],
+    "meanings": {
+      "vi": "gọi, mời",
+      "en": "call, call out to, invite"
+    }
+  },
+  "製": {
+    "on": [
+      "セイ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "chế tạo, sản xuất",
+      "en": "made in..., manufacture"
+    }
+  },
+  "皆": {
+    "on": [
+      "カイ"
+    ],
+    "kun": [
+      "みな",
+      "みんな"
+    ],
+    "meanings": {
+      "vi": "mọi người, tất cả",
+      "en": "all, everything"
+    }
+  },
+  "幌": {
+    "on": [
+      "コウ"
+    ],
+    "kun": [
+      "ほろ",
+      "とばり"
+    ],
+    "meanings": {
+      "vi": "mui, tấm che",
+      "en": "canopy, awning, hood, curtain"
+    }
+  },
+  "脱": {
+    "on": [
+      "ダツ"
+    ],
+    "kun": [
+      "ぬ.ぐ",
+      "ぬ.げる"
+    ],
+    "meanings": {
+      "vi": "cởi, thoát khỏi",
+      "en": "undress, removing, escape from, get rid of, be left out, take off"
+    }
+  },
+  "葛": {
+    "on": [
+      "カツ",
+      "カチ"
+    ],
+    "kun": [
+      "つづら",
+      "くず"
+    ],
+    "meanings": {
+      "vi": "sắn dây",
+      "en": "arrowroot, kudzu"
+    }
+  },
+  "君": {
+    "on": [
+      "クン"
+    ],
+    "kun": [
+      "きみ",
+      "-ぎみ"
+    ],
+    "meanings": {
+      "vi": "bạn, anh, quân chủ",
+      "en": "mister, you, ruler, male name suffix"
+    }
+  },
+  "久": {
+    "on": [
+      "キュウ",
+      "ク"
+    ],
+    "kun": [
+      "ひさ.しい"
+    ],
+    "meanings": {
+      "vi": "lâu, lâu dài",
+      "en": "long time, old story"
+    }
+  },
+  "姫": {
+    "on": [
+      "キ"
+    ],
+    "kun": [
+      "ひめ",
+      "ひめ-"
+    ],
+    "meanings": {
+      "vi": "công chúa",
+      "en": "princess"
+    }
+  },
+  "吉": {
+    "on": [
+      "キチ",
+      "キツ"
+    ],
+    "kun": [
+      "よし"
+    ],
+    "meanings": {
+      "vi": "may mắn, tốt lành",
+      "en": "good luck, joy, congratulations"
+    }
+  },
+  "眼": {
+    "on": [
+      "ガン",
+      "ゲン"
+    ],
+    "kun": [
+      "まなこ",
+      "め"
+    ],
+    "meanings": {
+      "vi": "mắt, nhãn cầu",
+      "en": "eyeball"
+    }
+  },
+  "鏡": {
+    "on": [
+      "キョウ",
+      "ケイ"
+    ],
+    "kun": [
+      "かがみ"
+    ],
+    "meanings": {
+      "vi": "gương",
+      "en": "mirror, speculum, barrel-head, round rice-cake offering"
+    }
+  },
+  "団": {
+    "on": [
+      "ダン",
+      "トン"
+    ],
+    "kun": [
+      "かたまり",
+      "まる.い"
+    ],
+    "meanings": {
+      "vi": "nhóm, đoàn thể",
+      "en": "group, association"
+    }
+  },
+  "聖": {
+    "on": [
+      "セイ",
+      "ショウ"
+    ],
+    "kun": [
+      "ひじり"
+    ],
+    "meanings": {
+      "vi": "thánh, bậc hiền triết",
+      "en": "holy, saint, sage, master, priest"
+    }
+  },
+  "隆": {
+    "on": [
+      "リュウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "thịnh vượng, cao",
+      "en": "hump, high, noble, prosperity"
+    }
+  },
+  "勤": {
+    "on": [
+      "キン",
+      "ゴン"
+    ],
+    "kun": [
+      "つと.める",
+      "-づと.め",
+      "つと.まる",
+      "いそ.しむ"
+    ],
+    "meanings": {
+      "vi": "làm việc, chăm chỉ",
+      "en": "diligence, become employed, serve"
+    }
+  },
+  "己": {
+    "on": [
+      "コ",
+      "キ"
+    ],
+    "kun": [
+      "おのれ",
+      "つちのと",
+      "な"
+    ],
+    "meanings": {
+      "vi": "bản thân",
+      "en": "self"
+    }
+  },
+  "鶴": {
+    "on": [
+      "カク"
+    ],
+    "kun": [
+      "つる"
+    ],
+    "meanings": {
+      "vi": "con hạc",
+      "en": "crane, stork"
+    }
+  },
+  "焦": {
+    "on": [
+      "ショウ"
+    ],
+    "kun": [
+      "こ.げる",
+      "こ.がす",
+      "こ.がれる",
+      "あせ.る",
+      "じ.れる",
+      "じ.らす"
+    ],
+    "meanings": {
+      "vi": "cháy, sốt ruột",
+      "en": "char, hurry, impatient, irritate, burn, scorch, singe"
+    }
+  },
+  "鍋": {
+    "on": [
+      "カ"
+    ],
+    "kun": [
+      "なべ"
+    ],
+    "meanings": {
+      "vi": "nồi",
+      "en": "pot, pan, kettle"
+    }
+  },
+  "肌": {
+    "on": [
+      "キ"
+    ],
+    "kun": [
+      "はだ"
+    ],
+    "meanings": {
+      "vi": "da, làn da",
+      "en": "texture, skin, body, grain"
+    }
+  },
+  "環": {
+    "on": [
+      "カン"
+    ],
+    "kun": [
+      "わ"
+    ],
+    "meanings": {
+      "vi": "vòng, vòng tròn",
+      "en": "ring, circle, loop"
+    }
+  },
+  "期": {
+    "on": [
+      "キ",
+      "ゴ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "thời kỳ, kỳ hạn",
+      "en": "period, time, date, term"
+    }
+  },
+  "携": {
+    "on": [
+      "ケイ"
+    ],
+    "kun": [
+      "たずさ.える",
+      "たずさ.わる"
+    ],
+    "meanings": {
+      "vi": "mang theo, cầm tay",
+      "en": "portable, carry (in hand), armed with, bring along"
+    }
+  },
+  "帯": {
+    "on": [
+      "タイ"
+    ],
+    "kun": [
+      "お.びる",
+      "おび"
+    ],
+    "meanings": {
+      "vi": "dây đai, vùng",
+      "en": "sash, belt, obi, zone, region"
+    }
+  },
+  "溺": {
+    "on": [
+      "デキ",
+      "ジョウ",
+      "ニョウ"
+    ],
+    "kun": [
+      "いばり",
+      "おぼ.れる"
+    ],
+    "meanings": {
+      "vi": "chết đuối, đắm chìm",
+      "en": "drown, indulge"
+    }
+  },
+  "挨": {
+    "on": [
+      "アイ"
+    ],
+    "kun": [
+      "ひら.く"
+    ],
+    "meanings": {
+      "vi": "tiến lại gần, đẩy ra",
+      "en": "approach, draw near, push open"
+    }
+  },
+  "拶": {
+    "on": [
+      "サツ"
+    ],
+    "kun": [
+      "せま.る"
+    ],
+    "meanings": {
+      "vi": "kề sát, đến gần",
+      "en": "be imminent, draw close"
+    }
+  },
+  "包": {
+    "on": [
+      "ホウ"
+    ],
+    "kun": [
+      "つつ.む",
+      "くる.む"
+    ],
+    "meanings": {
+      "vi": "gói, bọc",
+      "en": "wrap, pack up, cover, conceal"
+    }
+  },
+  "芝": {
+    "on": [
+      "シ"
+    ],
+    "kun": [
+      "しば"
+    ],
+    "meanings": {
+      "vi": "cỏ, bãi cỏ",
+      "en": "turf, lawn"
+    }
+  },
+  "肩": {
+    "on": [
+      "ケン"
+    ],
+    "kun": [
+      "かた"
+    ],
+    "meanings": {
+      "vi": "vai",
+      "en": "shoulder"
+    }
+  },
+  "捜": {
+    "on": [
+      "ソウ",
+      "シュ",
+      "シュウ"
+    ],
+    "kun": [
+      "さが.す"
+    ],
+    "meanings": {
+      "vi": "tìm kiếm",
+      "en": "search, look for, locate"
+    }
+  },
+  "宇": {
+    "on": [
+      "ウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "mái nhà, vũ trụ",
+      "en": "eaves, roof, house, heaven"
+    }
+  },
+  "宙": {
+    "on": [
+      "チュウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "không trung, vũ trụ",
+      "en": "mid-air, air, space, sky, memorization, interval of time"
+    }
+  },
+  "波": {
+    "on": [
+      "ハ"
+    ],
+    "kun": [
+      "なみ"
+    ],
+    "meanings": {
+      "vi": "sóng",
+      "en": "waves, billows, Poland"
+    }
+  },
+  "例": {
+    "on": [
+      "レイ"
+    ],
+    "kun": [
+      "たと.える"
+    ],
+    "meanings": {
+      "vi": "ví dụ, thông lệ",
+      "en": "example, custom, usage, precedent"
+    }
+  },
+  "噛": {
+    "on": [
+      "コウ",
+      "ゴウ"
+    ],
+    "kun": [
+      "か.む",
+      "か.じる"
+    ],
+    "meanings": {
+      "vi": "nhai, cắn",
+      "en": "chew, bite, gnaw"
+    }
+  },
+  "枝": {
+    "on": [
+      "シ"
+    ],
+    "kun": [
+      "えだ"
+    ],
+    "meanings": {
+      "vi": "cành",
+      "en": "bough, branch, twig, limb, counter for branches"
+    }
+  },
+  "網": {
+    "on": [
+      "モウ"
+    ],
+    "kun": [
+      "あみ"
+    ],
+    "meanings": {
+      "vi": "lưới, mạng",
+      "en": "netting, network"
+    }
+  },
+  "針": {
+    "on": [
+      "シン"
+    ],
+    "kun": [
+      "はり"
+    ],
+    "meanings": {
+      "vi": "kim, cây kim",
+      "en": "needle, pin, staple, stinger"
+    }
+  },
+  "沈": {
+    "on": [
+      "チン",
+      "ジン"
+    ],
+    "kun": [
+      "しず.む",
+      "しず.める"
+    ],
+    "meanings": {
+      "vi": "chìm, lắng xuống",
+      "en": "sink, be submerged, subside, be depressed, aloes"
+    }
+  },
+  "廊": {
+    "on": [
+      "ロウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "hành lang",
+      "en": "corridor, hall, tower"
+    }
+  },
+  "隅": {
+    "on": [
+      "グウ"
+    ],
+    "kun": [
+      "すみ"
+    ],
+    "meanings": {
+      "vi": "góc",
+      "en": "corner, nook"
+    }
+  },
+  "非": {
+    "on": [
+      "ヒ"
+    ],
+    "kun": [
+      "あら.ず"
+    ],
+    "meanings": {
+      "vi": "phi, không, sai trái",
+      "en": "un-, mistake, negative, injustice, non-"
+    }
+  },
+  "常": {
+    "on": [
+      "ジョウ"
+    ],
+    "kun": [
+      "つね",
+      "とこ-"
+    ],
+    "meanings": {
+      "vi": "thường, luôn luôn",
+      "en": "usual, ordinary, normal, common, regular, continually, always, long-lasting"
+    }
+  },
+  "懐": {
+    "on": [
+      "カイ",
+      "エ"
+    ],
+    "kun": [
+      "ふところ",
+      "なつ.かしい",
+      "なつ.かしむ",
+      "なつ.く",
+      "なつ.ける",
+      "なず.ける",
+      "いだ.く",
+      "おも.う"
+    ],
+    "meanings": {
+      "vi": "nhớ nhung, ngực, túi",
+      "en": "feelings, heart, yearn, miss someone, become attached to, bosom, breast, pocket"
+    }
+  },
+  "灯": {
+    "on": [
+      "トウ"
+    ],
+    "kun": [
+      "ひ",
+      "ほ-",
+      "ともしび",
+      "とも.す",
+      "あかり"
+    ],
+    "meanings": {
+      "vi": "đèn",
+      "en": "lamp, a light, light, counter for lights"
+    }
+  },
+  "展": {
+    "on": [
+      "テン"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "triển khai, mở rộng",
+      "en": "unfold, expand"
+    }
+  },
+  "葬": {
+    "on": [
+      "ソウ"
+    ],
+    "kun": [
+      "ほうむ.る"
+    ],
+    "meanings": {
+      "vi": "chôn cất, tang lễ",
+      "en": "interment, bury, shelve"
+    }
+  },
+  "沖": {
+    "on": [
+      "チュウ"
+    ],
+    "kun": [
+      "おき",
+      "おきつ",
+      "ちゅう.する",
+      "わく"
+    ],
+    "meanings": {
+      "vi": "ngoài khơi",
+      "en": "open sea, offing, rise high into sky"
+    }
+  },
+  "縄": {
+    "on": [
+      "ジョウ"
+    ],
+    "kun": [
+      "なわ",
+      "ただ.す"
+    ],
+    "meanings": {
+      "vi": "dây thừng",
+      "en": "straw rope, cord"
+    }
+  },
+  "胃": {
+    "on": [
+      "イ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "dạ dày",
+      "en": "stomach, paunch, crop, craw"
+    }
+  },
+  "牡": {
+    "on": [
+      "ボ",
+      "ボウ"
+    ],
+    "kun": [
+      "おす",
+      "お-",
+      "おん-"
+    ],
+    "meanings": {
+      "vi": "đực",
+      "en": "male"
+    }
+  },
+  "愛": {
+    "on": [
+      "アイ"
+    ],
+    "kun": [
+      "いと.しい",
+      "かな.しい",
+      "め.でる",
+      "お.しむ",
+      "まな"
+    ],
+    "meanings": {
+      "vi": "yêu, tình yêu",
+      "en": "love, affection, favourite"
+    }
+  },
+  "騒": {
+    "on": [
+      "ソウ"
+    ],
+    "kun": [
+      "さわ.ぐ",
+      "うれい",
+      "さわ.がしい"
+    ],
+    "meanings": {
+      "vi": "ồn ào, náo động",
+      "en": "boisterous, make noise, clamor, disturb, excite"
+    }
+  },
+  "投": {
+    "on": [
+      "トウ"
+    ],
+    "kun": [
+      "な.げる",
+      "-な.げ"
+    ],
+    "meanings": {
+      "vi": "ném, đầu tư",
+      "en": "throw, discard, abandon, launch into, join, invest in, hurl, give up, sell at a loss"
+    }
+  },
+  "規": {
+    "on": [
+      "キ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "quy tắc, tiêu chuẩn",
+      "en": "standard, measure"
+    }
+  },
+  "徐": {
+    "on": [
+      "ジョ"
+    ],
+    "kun": [
+      "おもむ.ろに"
+    ],
+    "meanings": {
+      "vi": "từ từ, chậm rãi",
+      "en": "gradually, slowly, deliberately, gently"
+    }
+  },
+  "募": {
+    "on": [
+      "ボ"
+    ],
+    "kun": [
+      "つの.る"
+    ],
+    "meanings": {
+      "vi": "tuyển mộ, quyên góp",
+      "en": "recruit, campaign, gather (contributions), enlist, grow violent"
+    }
+  },
+  "罰": {
+    "on": [
+      "バツ",
+      "バチ",
+      "ハツ"
+    ],
+    "kun": [
+      "ばっ.する"
+    ],
+    "meanings": {
+      "vi": "phạt, hình phạt",
+      "en": "penalty, punishment"
+    }
+  },
+  "矢": {
+    "on": [
+      "シ"
+    ],
+    "kun": [
+      "や"
+    ],
+    "meanings": {
+      "vi": "mũi tên",
+      "en": "dart, arrow"
+    }
+  },
+  "載": {
+    "on": [
+      "サイ"
+    ],
+    "kun": [
+      "の.せる",
+      "の.る"
+    ],
+    "meanings": {
+      "vi": "chở, đăng tải",
+      "en": "ride, board, get on, place, spread, 10**44, record, publish"
+    }
+  },
+  "適": {
+    "on": [
+      "テキ"
+    ],
+    "kun": [
+      "かな.う"
+    ],
+    "meanings": {
+      "vi": "thích hợp, phù hợp",
+      "en": "suitable, occasional, rare, qualified, capable"
+    }
+  },
+  "煮": {
+    "on": [
+      "シャ"
+    ],
+    "kun": [
+      "に.る",
+      "-に",
+      "に.える",
+      "に.やす"
+    ],
+    "meanings": {
+      "vi": "nấu, luộc",
+      "en": "boil, cook"
+    }
+  },
+  "可": {
+    "on": [
+      "カ",
+      "コク"
+    ],
+    "kun": [
+      "-べ.き",
+      "-べ.し"
+    ],
+    "meanings": {
+      "vi": "có thể, khả dĩ, chấp thuận",
+      "en": "can, passable, approval"
+    }
+  },
+  "設": {
+    "on": [
+      "セツ"
+    ],
+    "kun": [
+      "もう.ける"
+    ],
+    "meanings": {
+      "vi": "thiết lập, chuẩn bị",
+      "en": "establishment, provision, prepare"
+    }
+  },
+  "炊": {
+    "on": [
+      "スイ"
+    ],
+    "kun": [
+      "た.く",
+      "-だ.き"
+    ],
+    "meanings": {
+      "vi": "nấu cơm, thổi nấu",
+      "en": "cook, boil"
+    }
+  },
+  "志": {
+    "on": [
+      "シ"
+    ],
+    "kun": [
+      "シリング",
+      "こころざ.す",
+      "こころざし"
+    ],
+    "meanings": {
+      "vi": "ý chí, hoài bão",
+      "en": "intention, plan, resolve, aspire, motive, hopes, shilling"
+    }
+  },
+  "朱": {
+    "on": [
+      "シュ"
+    ],
+    "kun": [
+      "あけ"
+    ],
+    "meanings": {
+      "vi": "đỏ son",
+      "en": "vermilion, cinnabar, scarlet, red, bloody"
+    }
+  },
+  "鑑": {
+    "on": [
+      "カン"
+    ],
+    "kun": [
+      "かんが.みる",
+      "かがみ"
+    ],
+    "meanings": {
+      "vi": "mẫu, gương soi, rút kinh nghiệm",
+      "en": "specimen, take warning from, learn from"
+    }
+  },
+  "腐": {
+    "on": [
+      "フ"
+    ],
+    "kun": [
+      "くさ.る",
+      "-くさ.る",
+      "くさ.れる",
+      "くさ.れ",
+      "くさ.らす",
+      "くさ.す"
+    ],
+    "meanings": {
+      "vi": "thối rữa, hư hỏng",
+      "en": "rot, decay, sour"
+    }
+  },
+  "剣": {
+    "on": [
+      "ケン"
+    ],
+    "kun": [
+      "つるぎ"
+    ],
+    "meanings": {
+      "vi": "kiếm",
+      "en": "sabre, sword, blade, clock hand"
+    }
+  },
+  "柔": {
+    "on": [
+      "ジュウ",
+      "ニュウ"
+    ],
+    "kun": [
+      "やわ.らか",
+      "やわ.らかい",
+      "やわ",
+      "やわ.ら"
+    ],
+    "meanings": {
+      "vi": "mềm, dịu dàng",
+      "en": "tender, weakness, gentleness, softness"
+    }
+  },
+  "珍": {
+    "on": [
+      "チン"
+    ],
+    "kun": [
+      "めずら.しい",
+      "たから"
+    ],
+    "meanings": {
+      "vi": "hiếm, lạ",
+      "en": "rare, curious, strange"
+    }
+  },
+  "汽": {
+    "on": [
+      "キ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "hơi nước",
+      "en": "vapor, steam"
+    }
+  },
+  "泥": {
+    "on": [
+      "デイ",
+      "ナイ",
+      "デ",
+      "ニ"
+    ],
+    "kun": [
+      "どろ",
+      "なず.む"
+    ],
+    "meanings": {
+      "vi": "bùn",
+      "en": "mud, mire, adhere to, be attached to"
+    }
+  },
+  "棒": {
+    "on": [
+      "ボウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "gậy, que",
+      "en": "rod, stick, cane, pole, club, line"
+    }
+  },
+  "官": {
+    "on": [
+      "カン"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "quan, chính phủ",
+      "en": "bureaucrat, the government, organ"
+    }
+  },
+  "仏": {
+    "on": [
+      "ブツ",
+      "フツ"
+    ],
+    "kun": [
+      "ほとけ"
+    ],
+    "meanings": {
+      "vi": "Phật, nước Pháp",
+      "en": "Buddha, the dead, France"
+    }
+  },
+  "江": {
+    "on": [
+      "コウ"
+    ],
+    "kun": [
+      "え"
+    ],
+    "meanings": {
+      "vi": "vịnh, cửa sông",
+      "en": "creek, inlet, bay"
+    }
+  },
+  "遺": {
+    "on": [
+      "イ",
+      "ユイ"
+    ],
+    "kun": [
+      "のこ.す"
+    ],
+    "meanings": {
+      "vi": "để lại, di sản",
+      "en": "bequeath, leave behind, reserve"
+    }
+  },
+  "豪": {
+    "on": [
+      "ゴウ"
+    ],
+    "kun": [
+      "えら.い"
+    ],
+    "meanings": {
+      "vi": "hào kiệt, mạnh mẽ, nước Úc",
+      "en": "overpowering, great, powerful, excelling, Australia"
+    }
+  },
+  "華": {
+    "on": [
+      "カ",
+      "ケ"
+    ],
+    "kun": [
+      "はな"
+    ],
+    "meanings": {
+      "vi": "hoa lệ, hoa",
+      "en": "splendor, flower, petal, shine, luster, ostentatious, showy, gay, gorgeous"
+    }
+  },
+  "彫": {
+    "on": [
+      "チョウ"
+    ],
+    "kun": [
+      "ほ.る",
+      "-ぼ.り"
+    ],
+    "meanings": {
+      "vi": "chạm khắc",
+      "en": "carve, engrave, chisel"
+    }
+  },
+  "照": {
+    "on": [
+      "ショウ"
+    ],
+    "kun": [
+      "て.る",
+      "て.らす",
+      "て.れる"
+    ],
+    "meanings": {
+      "vi": "chiếu sáng, đối chiếu",
+      "en": "illuminate, shine, compare, bashful"
+    }
+  },
+  "宮": {
+    "on": [
+      "キュウ",
+      "グウ",
+      "ク",
+      "クウ"
+    ],
+    "kun": [
+      "みや"
+    ],
+    "meanings": {
+      "vi": "cung điện, đền thần đạo",
+      "en": "Shinto shrine, constellations, palace, princess"
+    }
+  },
+  "爆": {
+    "on": [
+      "バク"
+    ],
+    "kun": [
+      "は.ぜる"
+    ],
+    "meanings": {
+      "vi": "nổ, bom",
+      "en": "bomb, burst open, pop, split"
+    }
+  },
+  "双": {
+    "on": [
+      "ソウ"
+    ],
+    "kun": [
+      "ふた",
+      "たぐい",
+      "ならぶ",
+      "ふたつ"
+    ],
+    "meanings": {
+      "vi": "đôi, cặp",
+      "en": "pair, set, comparison, counter for pairs"
+    }
+  },
+  "魔": {
+    "on": [
+      "マ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "ma quỷ, phù thủy",
+      "en": "witch, demon, evil spirit"
+    }
+  },
+  "硬": {
+    "on": [
+      "コウ"
+    ],
+    "kun": [
+      "かた.い"
+    ],
+    "meanings": {
+      "vi": "cứng",
+      "en": "stiff, hard"
+    }
+  },
+  "途": {
+    "on": [
+      "ト"
+    ],
+    "kun": [
+      "みち"
+    ],
+    "meanings": {
+      "vi": "đường, hành trình",
+      "en": "route, way, road"
+    }
+  },
+  "到": {
+    "on": [
+      "トウ"
+    ],
+    "kun": [
+      "いた.る"
+    ],
+    "meanings": {
+      "vi": "đến, đạt tới",
+      "en": "arrival, proceed, reach, attain, result in"
+    }
+  },
+  "裏": {
+    "on": [
+      "リ"
+    ],
+    "kun": [
+      "うら"
+    ],
+    "meanings": {
+      "vi": "mặt trái, phía sau",
+      "en": "back, amidst, in, reverse, inside, palm, sole, rear, lining, wrong side"
+    }
+  },
+  "章": {
+    "on": [
+      "ショウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "chương, huy hiệu",
+      "en": "badge, chapter, composition, poem, design"
+    }
+  },
+  "崎": {
+    "on": [
+      "キ"
+    ],
+    "kun": [
+      "さき",
+      "さい",
+      "みさき"
+    ],
+    "meanings": {
+      "vi": "mũi đất",
+      "en": "promontory, cape, spit"
+    }
+  },
+  "仙": {
+    "on": [
+      "セン",
+      "セント"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "tiên, ẩn sĩ",
+      "en": "hermit, wizard, cent"
+    }
+  },
+  "件": {
+    "on": [
+      "ケン"
+    ],
+    "kun": [
+      "くだん"
+    ],
+    "meanings": {
+      "vi": "vụ việc, sự việc",
+      "en": "affair, case, matter, item"
+    }
+  },
+  "犯": {
+    "on": [
+      "ハン",
+      "ボン"
+    ],
+    "kun": [
+      "おか.す"
+    ],
+    "meanings": {
+      "vi": "phạm, tội phạm",
+      "en": "crime, sin, offense"
+    }
+  },
+  "猿": {
+    "on": [
+      "エン"
+    ],
+    "kun": [
+      "さる"
+    ],
+    "meanings": {
+      "vi": "khỉ",
+      "en": "monkey"
+    }
+  },
+  "幼": {
+    "on": [
+      "ヨウ"
+    ],
+    "kun": [
+      "おさな.い"
+    ],
+    "meanings": {
+      "vi": "nhỏ, ấu thơ",
+      "en": "infancy, childhood"
+    }
+  },
+  "稚": {
+    "on": [
+      "チ",
+      "ジ"
+    ],
+    "kun": [
+      "いとけない",
+      "おさない",
+      "おくて",
+      "おでる"
+    ],
+    "meanings": {
+      "vi": "non nớt, ấu trĩ",
+      "en": "immature, young"
+    }
+  },
+  "管": {
+    "on": [
+      "カン"
+    ],
+    "kun": [
+      "くだ"
+    ],
+    "meanings": {
+      "vi": "ống, quản lý",
+      "en": "pipe, tube, wind instrument, drunken talk, control, jurisdiction"
+    }
+  },
+  "陸": {
+    "on": [
+      "リク",
+      "ロク"
+    ],
+    "kun": [
+      "おか"
+    ],
+    "meanings": {
+      "vi": "đất liền, lục địa",
+      "en": "land, six"
+    }
+  },
+  "栓": {
+    "on": [
+      "セン"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "nút, chốt",
+      "en": "plug, bolt, cork, bung, stopper"
+    }
+  },
+  "詰": {
+    "on": [
+      "キツ",
+      "キチ"
+    ],
+    "kun": [
+      "つ.める",
+      "つ.め",
+      "-づ.め",
+      "つ.まる",
+      "つ.む"
+    ],
+    "meanings": {
+      "vi": "nhét đầy, trách mắng",
+      "en": "packed, close, pressed, reprove, rebuke, blame"
+    }
+  },
+  "査": {
+    "on": [
+      "サ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "điều tra",
+      "en": "investigate"
+    }
+  },
+  "濃": {
+    "on": [
+      "ノウ"
+    ],
+    "kun": [
+      "こ.い"
+    ],
+    "meanings": {
+      "vi": "đậm, đặc",
+      "en": "concentrated, thick, dark, undiluted"
+    }
+  },
+  "涙": {
+    "on": [
+      "ルイ",
+      "レイ"
+    ],
+    "kun": [
+      "なみだ"
+    ],
+    "meanings": {
+      "vi": "nước mắt",
+      "en": "tears, sympathy"
+    }
+  },
+  "御": {
+    "on": [
+      "ギョ",
+      "ゴ"
+    ],
+    "kun": [
+      "おん-",
+      "お-",
+      "み-"
+    ],
+    "meanings": {
+      "vi": "kính ngữ, điều khiển",
+      "en": "honorable, manipulate, govern"
+    }
+  },
+  "倍": {
+    "on": [
+      "バイ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "gấp đôi, lần",
+      "en": "double, twice, times, fold"
+    }
+  },
+  "序": {
+    "on": [
+      "ジョ"
+    ],
+    "kun": [
+      "つい.で",
+      "ついで"
+    ],
+    "meanings": {
+      "vi": "lời tựa, thứ tự",
+      "en": "preface, beginning, order, precedence, occasion, chance, incidentally"
+    }
+  },
+  "縁": {
+    "on": [
+      "エン",
+      "-ネン"
+    ],
+    "kun": [
+      "ふち",
+      "ふち.どる",
+      "ゆかり",
+      "よすが",
+      "へり",
+      "えにし"
+    ],
+    "meanings": {
+      "vi": "duyên, quan hệ, mép",
+      "en": "affinity, relation, connection, edge, border, verge, brink"
+    }
+  },
+  "位": {
+    "on": [
+      "イ"
+    ],
+    "kun": [
+      "くらい",
+      "ぐらい"
+    ],
+    "meanings": {
+      "vi": "vị trí, cấp bậc",
+      "en": "rank, grade, throne, crown, about, some"
+    }
+  },
+  "悩": {
+    "on": [
+      "ノウ"
+    ],
+    "kun": [
+      "なや.む",
+      "なや.ます",
+      "なや.ましい",
+      "なやみ"
+    ],
+    "meanings": {
+      "vi": "phiền muộn, lo lắng",
+      "en": "trouble, worry, in pain, distress, illness"
+    }
+  },
+  "慌": {
+    "on": [
+      "コウ"
+    ],
+    "kun": [
+      "あわ.てる",
+      "あわ.ただしい"
+    ],
+    "meanings": {
+      "vi": "hoảng hốt, vội vàng",
+      "en": "disconcerted, be confused, lose one's head"
+    }
+  },
+  "昇": {
+    "on": [
+      "ショウ"
+    ],
+    "kun": [
+      "のぼ.る"
+    ],
+    "meanings": {
+      "vi": "bay lên, thăng",
+      "en": "rise up"
+    }
+  },
+  "胞": {
+    "on": [
+      "ホウ"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "bào, bọc nhau thai",
+      "en": "placenta, sac, sheath"
+    }
+  },
+  "賞": {
+    "on": [
+      "ショウ"
+    ],
+    "kun": [
+      "ほ.める"
+    ],
+    "meanings": {
+      "vi": "giải thưởng, khen ngợi",
+      "en": "prize, reward, praise"
+    }
+  },
+  "演": {
+    "on": [
+      "エン"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "biểu diễn",
+      "en": "performance, act, play, render, stage"
+    }
+  },
+  "拝": {
+    "on": [
+      "ハイ"
+    ],
+    "kun": [
+      "おが.む",
+      "おろが.む"
+    ],
+    "meanings": {
+      "vi": "lạy, thờ phụng",
+      "en": "worship, adore, pray to"
+    }
+  },
+  "博": {
+    "on": [
+      "ハク",
+      "バク"
+    ],
+    "kun": [],
+    "meanings": {
+      "vi": "bác sĩ, rộng, triển lãm",
+      "en": "Dr., command, esteem, win acclaim, Ph.D., exposition, fair"
+    }
+  }
+}

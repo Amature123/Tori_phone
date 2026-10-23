@@ -1,0 +1,210 @@
+#!/usr/bin/env node
+// Grammar Expansion V2 -- validation script.
+//
+// `npm run build` passing is NOT a sufficient check here: every new field
+// is optional, so a malformed or empty record type-checks fine and just
+// renders blank. This script asserts real content per record, and (most
+// importantly) that every cross-reference id used anywhere
+// (relatedGrammar / opposingGrammar / notesAndPitfalls[].relatedGrammarId)
+// actually resolves to a real grammar point -- invented ids are the bug
+// most likely to ship silently.
+//
+// Usage: node scripts/validate-grammar.mjs [--strict]
+//   --strict  also fail on records that haven't been enriched yet
+//             (empty richExamples/formationRules/pragmatics/notesAndPitfalls).
+//             Without it, unmigrated/not-yet-enriched records are reported
+//             as a summary count only (expected during incremental rollout).
+import { readFileSync } from 'node:fs'
+import { fileURLToPath } from 'node:url'
+import path from 'node:path'
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
+const strict = process.argv.includes('--strict')
+
+const n5 = JSON.parse(readFileSync(path.join(__dirname, '../src/data/n5/grammar.json'), 'utf-8'))
+const n4 = JSON.parse(readFileSync(path.join(__dirname, '../src/data/n4/grammar.json'), 'utf-8'))
+const all = [...n5, ...n4]
+const allIds = new Set(all.map(g => g.id))
+
+const KANJI_RE = /[一-鿿]/
+const GRAMMAR_ID_RE = /g_\d+(?:_\d+)*/g
+const errors = []
+
+// The UI (LinkifiedText) turns any "g_XXX" mention inside pitfall
+// descriptions / example contextualExplanation into a clickable jump link
+// resolved via this same id set -- an unknown id there would silently
+// render as dead/raw text instead of a link.
+function checkInlineGrammarRefs(text, label) {
+  if (!text) return
+  for (const m of text.matchAll(GRAMMAR_ID_RE)) {
+    if (!allIds.has(m[0])) errors.push(`${label}: inline reference to unknown id "${m[0]}"`)
+  }
+}
+let unenriched = 0
+let enrichedCount = 0
+
+for (const g of all) {
+  const has = {
+    // >= 2, not > 0: migration scaffolds richExamples[0] from the legacy
+    // `examples` entry (empty kana/romaji/contextualExplanation), so a
+    // record that only has that scaffold must NOT read as "populated" --
+    // otherwise every unenriched record would trip the partial-enrichment
+    // check below the moment it merely exists.
+    richExamples: Array.isArray(g.richExamples) && g.richExamples.length >= 2,
+    formationRules: Array.isArray(g.formationRules) && g.formationRules.length > 0,
+    pragmatics: !!g.pragmatics && Array.isArray(g.pragmatics.tones) && g.pragmatics.tones.length > 0,
+  }
+  const isEnriched = has.richExamples && has.formationRules && has.pragmatics
+  const anyPopulated = has.richExamples || has.formationRules || has.pragmatics
+
+  if (!isEnriched) {
+    unenriched++
+    // A record with SOME but not all of the three enrichment fields filled
+    // in is worse than an untouched one -- it reads as "not started" in the
+    // summary count above while actually being half-written. Always flag
+    // this, even outside --strict.
+    if (anyPopulated) {
+      errors.push(`${g.id}: partially enriched (richExamples:${has.richExamples} formationRules:${has.formationRules} pragmatics:${has.pragmatics}) -- finish or revert`)
+    }
+    if (!strict) continue
+  } else {
+    enrichedCount++
+  }
+
+  // -- richExamples content checks --
+  if (Array.isArray(g.richExamples)) {
+    if (isEnriched && g.richExamples.length < 4) {
+      errors.push(`${g.id}: only ${g.richExamples.length} richExamples (expected >= 4)`)
+    }
+    g.richExamples.forEach((ex, i) => {
+      const label = `${g.id}.richExamples[${i}]`
+      for (const field of ['ja', 'kana', 'romaji', 'vi', 'en']) {
+        if (!ex[field] || !String(ex[field]).trim()) errors.push(`${label}: missing/empty "${field}"`)
+      }
+      if (!ex.contextualExplanation?.vi?.trim()) errors.push(`${label}: missing contextualExplanation.vi`)
+      if (!ex.contextualExplanation?.en?.trim()) errors.push(`${label}: missing contextualExplanation.en`)
+      if (!ex.category) errors.push(`${label}: missing category`)
+      checkInlineGrammarRefs(ex.contextualExplanation?.vi, `${label}.contextualExplanation.vi`)
+      checkInlineGrammarRefs(ex.contextualExplanation?.en, `${label}.contextualExplanation.en`)
+      // Every enriched example is authored with full ruby markup (a
+      // deliberate all-or-nothing call -- see scripts/enrich-data/golden-sample.mjs
+      // header -- so the Furigana toggle never silently no-ops on some
+      // examples of an enriched point but not others).
+      if (isEnriched && ex.ja && KANJI_RE.test(ex.ja) && !ex.jaRuby) {
+        errors.push(`${label}: "ja" contains kanji but "jaRuby" is missing`)
+      }
+      // Hand-authored <ruby> HTML is exactly the kind of thing a typo slips
+      // into unnoticed (stray space breaking a closing tag, a dropped
+      // character, mismatched tag counts) -- verify structurally: stripping
+      // all <rt>/<rp> reading annotations and the <ruby></ruby> wrapper tags
+      // themselves must reconstruct `ja` exactly, character for character.
+      if (ex.jaRuby) {
+        const stripped = ex.jaRuby
+          .replace(/<rt>.*?<\/rt>/g, '')
+          .replace(/<rp>.*?<\/rp>/g, '')
+          .replace(/<\/?ruby>/g, '')
+        if (stripped !== ex.ja) {
+          errors.push(`${label}: jaRuby does not reconstruct to "ja" when stripped -- got "${stripped}" vs "${ex.ja}"`)
+        }
+      }
+    })
+  }
+
+  // -- cross-reference integrity --
+  for (const id of g.relatedGrammar || []) {
+    if (!allIds.has(id)) errors.push(`${g.id}: relatedGrammar references unknown id "${id}"`)
+  }
+  for (const id of g.opposingGrammar || []) {
+    if (!allIds.has(id)) errors.push(`${g.id}: opposingGrammar references unknown id "${id}"`)
+  }
+  // Same id in both lists renders the same cross-reference chip twice under
+  // two different headings in the drawer -- pick one relationship per pair.
+  for (const id of g.relatedGrammar || []) {
+    if ((g.opposingGrammar || []).includes(id)) {
+      errors.push(`${g.id}: id "${id}" appears in both relatedGrammar and opposingGrammar`)
+    }
+  }
+  for (const pitfall of g.notesAndPitfalls || []) {
+    // Identify the pitfall in error messages by its English title regardless
+    // of whether title itself is well-formed yet -- avoids every other check
+    // on a malformed title also printing "[object Object]".
+    const titleLabel = typeof pitfall.title === 'string' ? pitfall.title : (pitfall.title?.en || pitfall.title?.vi || '?')
+    if (pitfall.relatedGrammarId && !allIds.has(pitfall.relatedGrammarId)) {
+      errors.push(`${g.id}: notesAndPitfalls relatedGrammarId references unknown id "${pitfall.relatedGrammarId}"`)
+    }
+    if (typeof pitfall.title === 'string') {
+      errors.push(`${g.id}: notesAndPitfalls "${titleLabel}" title is a plain string, not a {vi, en} pair`)
+    } else if (!pitfall.title?.vi?.trim() || !pitfall.title?.en?.trim()) {
+      errors.push(`${g.id}: notesAndPitfalls "${titleLabel}" missing title vi or en`)
+    }
+    if (!pitfall.description?.vi?.trim() || !pitfall.description?.en?.trim()) {
+      errors.push(`${g.id}: notesAndPitfalls "${titleLabel}" missing description vi/en`)
+    }
+    checkInlineGrammarRefs(pitfall.title?.vi, `${g.id}.notesAndPitfalls["${titleLabel}"].title.vi`)
+    checkInlineGrammarRefs(pitfall.title?.en, `${g.id}.notesAndPitfalls["${titleLabel}"].title.en`)
+    checkInlineGrammarRefs(pitfall.description?.vi, `${g.id}.notesAndPitfalls["${titleLabel}"].description.vi`)
+    checkInlineGrammarRefs(pitfall.description?.en, `${g.id}.notesAndPitfalls["${titleLabel}"].description.en`)
+  }
+
+  // -- formationRules content checks --
+  for (const rule of g.formationRules || []) {
+    if (!rule.pos || !rule.form || !rule.exampleStr) {
+      errors.push(`${g.id}: formationRules entry missing pos/form/exampleStr`)
+    }
+  }
+
+  // -- pragmatics content checks --
+  // intent/speakerStance/emotionalNuance must be bilingual {vi, en} pairs,
+  // like every other content field -- a bare string here means the UI's
+  // Vietnamese-labeled section would show English content unconditionally.
+  if (g.pragmatics) {
+    for (const field of ['intent', 'speakerStance', 'emotionalNuance']) {
+      const val = g.pragmatics[field]
+      if (val === undefined) continue
+      if (typeof val === 'string') {
+        errors.push(`${g.id}: pragmatics.${field} is a plain string, not a {vi, en} pair`)
+      } else if (!val?.vi?.trim() || !val?.en?.trim()) {
+        errors.push(`${g.id}: pragmatics.${field} missing vi or en`)
+      }
+    }
+  }
+}
+
+// -- chapter summaries (GrammarCategory.summary) --
+// Not part of `grammar.json` -- read from the categories files separately.
+// Optional per category (rolled out incrementally, like every other V2
+// field), but a category that HAS a summary must have it fully formed:
+// tsc can't catch a half-authored bilingual field any more than it can for
+// GrammarPoint's own optional fields.
+const n5Categories = JSON.parse(readFileSync(path.join(__dirname, '../src/data/n5/grammar-categories.json'), 'utf-8')).categories
+const n4Categories = JSON.parse(readFileSync(path.join(__dirname, '../src/data/n4/grammar-categories.json'), 'utf-8')).categories
+const allCategories = [...n5Categories, ...n4Categories]
+let summarized = 0
+for (const c of allCategories) {
+  if (!c.summary) continue
+  summarized++
+  const label = `category "${c.slug}"`
+  if (!c.summary.vi?.trim() || !c.summary.en?.trim()) {
+    errors.push(`${label}: summary missing vi or en`)
+  }
+  checkInlineGrammarRefs(c.summary.vi, `${label}.summary.vi`)
+  checkInlineGrammarRefs(c.summary.en, `${label}.summary.en`)
+  ;(c.summary.examples || []).forEach((ex, i) => {
+    const exLabel = `${label}.summary.examples[${i}]`
+    for (const field of ['pattern', 'ja', 'kana', 'vi', 'en']) {
+      if (!ex[field] || !String(ex[field]).trim()) errors.push(`${exLabel}: missing/empty "${field}"`)
+    }
+  })
+}
+
+console.log(`${all.length} total grammar points (${n5.length} N5 + ${n4.length} N4)`)
+console.log(`${enrichedCount} fully enriched, ${unenriched} not yet enriched`)
+console.log(`${summarized}/${allCategories.length} chapters have a summary`)
+
+if (errors.length) {
+  console.log(`\n${errors.length} validation error(s):`)
+  for (const e of errors) console.log(`  - ${e}`)
+  process.exit(1)
+} else {
+  console.log('No validation errors.')
+}

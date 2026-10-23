@@ -1,0 +1,349 @@
+{
+  "common": {
+    "all": "All",
+    "chapterN": "Chapter {n}",
+    "close": "Close",
+    "examples": "Examples",
+    "filters": "Filters",
+    "wordsCount": "{n} words",
+    "playPronunciation": "Play pronunciation of {text}",
+    "speechUnavailable": "Speech playback isn't available on this device",
+    "stats": {
+      "total": "Total",
+      "new": "New",
+      "learning": "Learning",
+      "review": "Review",
+      "mastered": "Mastered"
+    }
+  },
+  "pos": {
+    "noun": "Noun",
+    "verb-group1": "Verb (Group 1)",
+    "verb-group2": "Verb (Group 2)",
+    "verb-group3": "Verb (Group 3)",
+    "adj-i": "i-Adjective",
+    "adj-na": "na-Adjective",
+    "adverb": "Adverb",
+    "pronoun": "Pronoun",
+    "conjunction": "Conjunction",
+    "expression": "Expression",
+    "interjection": "Interjection",
+    "suffix": "Suffix",
+    "determiner": "Determiner",
+    "unknown": "Unknown"
+  },
+  "nav": {
+    "radicals": "Radicals",
+    "lookup": "Kanji lookup",
+    "rules": "Kanji rules",
+    "home": "Home",
+    "vocabulary": "Vocabulary",
+    "review": "Review",
+    "grammar": "Grammar",
+    "verbForms": "Verb Forms",
+    "transitivity": "Transitivity",
+    "usage": "Word usage",
+    "kanji": "Kanji",
+    "accent": "Pitch accent",
+    "counters": "Counters",
+    "homophones": "Homophones",
+    "settings": "Settings",
+    "groups": {
+      "learn": "Study",
+      "grammar": "Grammar",
+      "kanji": "Kanji",
+      "more": "More"
+    }
+  },
+  "sidebar": {
+    "cardsDueNow": "cards due now"
+  },
+  "dashboard": {
+    "subtitle": "{level} study log",
+    "cardsDue": "Cards Due",
+    "reviewNow": "Review Now",
+    "allDone": "No cards due",
+    "newWords": "New Words",
+    "learnNew": "Learn New",
+    "grammarPoints": "Grammar Points",
+    "studyGrammar": "Study Grammar"
+  },
+  "review": {
+    "title": "Review",
+    "chooseScope": "Choose review scope",
+    "vocabTab": "Vocabulary",
+    "kanjiTab": "Kanji",
+    "kanjiModeN5Only": "Kanji mode is N5-only",
+    "chapterLabel": "Chapter",
+    "categoryLabel": "Category",
+    "chapterCategoryLabel": "Chapter / Category",
+    "minnaLabel": "Minna no Nihongo lesson",
+    "posLabel": "Word Type",
+    "countLabel": "Count",
+    "wordsSuffix": "words",
+    "due": "due",
+    "wordsInScope": "words in scope",
+    "kanjiInScope": "kanji in scope",
+    "willReview": "will review",
+    "noMatchWords": "No words match this filter.",
+    "noMatchKanji": "No kanji match this filter.",
+    "start": "Start Review",
+    "changeFilter": "Change filter",
+    "whatMeaning": "What does this mean?",
+    "howRead": "How do you read this?",
+    "whatWord": "What word?",
+    "tapReveal": "Tap to reveal",
+    "showAnswer": "Show Answer",
+    "spaceHint": "(Space / Enter)",
+    "chapterBadge": "Chapter {n}",
+    "done": "Done!",
+    "wordsReviewed": "words reviewed",
+    "kanjiReviewed": "kanji reviewed",
+    "continueReview": "Continue",
+    "homeBtn": "Home",
+    "rating": {
+      "forgot": "Forgot",
+      "remembered": "Remembered"
+    },
+    "kanjiQuestion": "How is this word read, and what does it mean?",
+    "sameGroup": "Same kanji group as",
+    "siblingWords": "Related words"
+  },
+  "vocab": {
+    "searchPlaceholder": "Search kanji, kana, meaning...",
+    "allChapters": "All chapters",
+    "allCategories": "All categories",
+    "allChaptersCategories": "All chapters/categories",
+    "allPos": "All POS",
+    "book": "Textbook",
+    "bookTori": "Tori chapters",
+    "bookMinna": "Minna no Nihongo",
+    "allLessons": "All lessons",
+    "lessonN": "Minna lesson {n}",
+    "unknownChapter": "Unknown chapter",
+    "prevWord": "Previous word (←)",
+    "nextWord": "Next word (→)",
+    "homophones": "Homophones",
+    "pitch": {
+      "label": "Pitch accent",
+      "types": {
+        "heiban": "Heiban",
+        "atamadaka": "Atamadaka",
+        "nakadaka": "Nakadaka",
+        "odaka": "Odaka"
+      }
+    }
+  },
+  "accent": {
+    "title": "Pitch accent dictionary",
+    "intro": "Look up how a Japanese word is pronounced: where the pitch drops, or whether it stays flat. Search by kanji or kana.",
+    "placeholder": "Type a word, e.g. 箸 / はし / ハシ",
+    "loading": "Loading dictionary...",
+    "loadFailed": "Could not load the dictionary.",
+    "entries": "{n} headwords",
+    "resultCount": "Showing {n} (max {max})",
+    "credit": "Data: Kanjium pitch accent dataset (CC BY-SA), compiled from NHK's accent dictionary and Wadoku."
+  },
+  "grammar": {
+    "searchPlaceholder": "Search patterns, meaning, romaji, tags...",
+    "tips": "Study tips",
+    "countOfTotal": "{filtered} / {total} patterns",
+    "learnedProgress": "{n} / {total} learned",
+    "markLearned": "Mark as learned",
+    "learned": "Learned",
+    "filterByVerbForm": "Filter by verb form",
+    "filterByTone": "Filter by tone",
+    "clearFilter": "Clear filter",
+    "noResults": "No patterns found.",
+    "selectPrompt": "Select a pattern",
+    "hoverHint": "or hover a card for a quick look",
+    "formation": {
+      "title": "Formation",
+      "pos": "Part of speech",
+      "form": "Form",
+      "example": "Example"
+    },
+    "notes": {
+      "title": "Notes & common mistakes",
+      "type": {
+        "false_friend": "False friend",
+        "common_mistake": "Common mistake",
+        "nuance_trap": "Nuance trap"
+      }
+    },
+    "examples": {
+      "richTitle": "Examples",
+      "explain": "Explain",
+      "showFurigana": "Furigana",
+      "showRomaji": "Romaji",
+      "category": {
+        "standard": "Standard",
+        "casual": "Casual",
+        "polite": "Polite",
+        "negative": "Negative",
+        "question": "Question",
+        "edge_case": "Edge case"
+      }
+    },
+    "pragmatics": {
+      "title": "How it feels",
+      "intent": "Intent",
+      "stance": "Speaker stance",
+      "nuance": "Emotional nuance"
+    },
+    "tone": {
+      "formal": "Formal",
+      "casual": "Casual",
+      "polite": "Polite",
+      "written": "Written",
+      "spoken": "Spoken",
+      "keigo": "Keigo",
+      "neutral": "Neutral"
+    },
+    "related": "Related grammar",
+    "opposing": "Contrasts with",
+    "chapterSummary": {
+      "title": "Chapter summary",
+      "examplesTitle": "Comparative examples"
+    }
+  },
+  "verbForms": {
+    "subtitle": "Verb Forms, Verb Conjugation Cheat Sheet",
+    "groupAll": "All groups",
+    "groupNeg": "Negative",
+    "groupN": "Group {n}",
+    "masuEnding": "Masu ending",
+    "sentenceExamples": "Example sentences",
+    "exceptions": "Exceptions",
+    "relatedGrammar": "Related grammar",
+    "cheatSheet": "Quick Cheat Sheet",
+    "keyExceptions": "Key exceptions to remember"
+  },
+  "transitivity": {
+    "subtitle": "Transitive & Intransitive Verb Pairs",
+    "transitive": "Transitive, takes を",
+    "intransitive": "Intransitive, takes が",
+    "transitiveTag": "他動詞",
+    "intransitiveTag": "自動詞",
+    "transitiveExplain": "An agent deliberately acts on an object marked with を. The sentence names who or what caused the action.",
+    "intransitiveExplain": "The subject, marked with が, changes or ends up in a state by itself, no agent is named. Often the more tactful choice, since it avoids assigning blame.",
+    "exampleTransitiveCaption": "Someone opened the window. (names the agent)",
+    "exampleIntransitiveCaption": "The window is open. (no agent named)",
+    "chapterTieIn": "Chapter 19 · How this connects to てある / ている / ておく",
+    "teAruNote": "Transitive verb + てある, with が: describes a resultant state someone deliberately created. Implies purpose.",
+    "teIruNote": "Intransitive verb + ている: just describes the current state. Doesn't necessarily imply anyone's intent.",
+    "teOkuNote": "Transitive verb + ておく: describes the preparatory ACTION itself (\"do it in advance/for later\"), from the doer's point of view, not covered as its own grammar point yet, but built from the same transitive verb as てある.",
+    "chapterTieInFooter": "N4 chapter 19 (自動詞と他動詞) is exactly this contrast: Nを+他動詞 vs N（は／が）+自動詞, then てある layered onto the transitive verb for a deliberate resultant state. Tap a pattern below to jump to its full entry in Grammar.",
+    "patternsTitle": "Recognize the pattern",
+    "clearPatternFilter": "Clear filter",
+    "irregular": "No shared pattern",
+    "searchPlaceholder": "Search kanji, kana, meaning...",
+    "noResults": "No verb pairs match this search."
+  },
+  "usage": {
+    "subtitle": "For when your language has one word but Japanese has several, or when you are unsure which particle to use. Pick a topic below.",
+    "tabs": {
+      "synonyms": "Similar words",
+      "particles": "Which particle goes with the verb",
+      "auxiliary": "Adding meaning to a verb"
+    },
+    "intro": {
+      "synonyms": "Words that translate to the same Vietnamese/English gloss but split on use-case in Japanese, which one you reach for depends on the object, the body part, or the register, not the dictionary meaning.",
+      "particles": "A verb's particle is often fixed by the verb itself, not by logic borrowed from English, these are the strict pairings and exceptions worth memorizing as fixed chunks, including a few で/を surprises.",
+      "auxiliary": "Auxiliary verbs riding on the て-form add a layer of nuance, completion, regret, trial, preparation, direction, on top of the main verb's plain meaning."
+    },
+    "searchPlaceholder": "Search kanji, kana, pattern, meaning...",
+    "noResults": "Nothing matches this search.",
+    "trapLabel": "Common trap",
+    "compareWith": "Compare with"
+  },
+  "kanji": {
+    "searchPlaceholder": "Search kanji, words, Sino-Vietnamese, meaning...",
+    "groupsCount": "{n} leading-kanji groups",
+    "noResults": "No kanji found.",
+    "viewStrokeAnim": "View stroke animation",
+    "unknownReading": "Reading unknown",
+    "prevGroup": "Previous group (←)",
+    "nextGroup": "Next group (→)",
+    "relatedWords": "Related words"
+  },
+  "counters": {
+    "columns": {
+      "number": "Number",
+      "kanji": "Kanji",
+      "kana": "Hiragana",
+      "romaji": "Romaji",
+      "meaning": "Meaning",
+      "note": "Note"
+    },
+    "bigExamplesTitle": "Real examples with larger numbers",
+    "exceptionLegend": "Red cells: irregular / sound-changed readings worth memorizing"
+  },
+  "homophones": {
+    "title": "Homophones",
+    "subtitle": "Words that sound the same or similar",
+    "backToList": "Back to list",
+    "similarSound": "Similar sound",
+    "identicalReading": "Identical reading",
+    "normalized": "(normalized: {reading})",
+    "wordsShareSound": "{n} words share this sound",
+    "revealAll": "Reveal all",
+    "nextGroup": "Next group",
+    "exactHomophones": "Exact homophones",
+    "soundAlikes": "Sound-alikes (long vowel variants)",
+    "randomChallenge": "Random challenge",
+    "wordsCount": "{n} words"
+  },
+  "kanjiDrawer": {
+    "back": "Back",
+    "prev": "Previous kanji",
+    "next": "Next kanji",
+    "showNumbers": "Show stroke numbers",
+    "graphTitle": "Component diagram (tap to dive in)",
+    "rulesTitle": "Sound rules",
+    "radicalCard": "Radical",
+    "close": "Close",
+    "replay": "Replay",
+    "componentsTitle": "Radicals / components",
+    "noAnimation": "No stroke animation available for this character yet.",
+    "loadingStrokes": "Loading stroke order…",
+    "hanvietLabel": "Sino-Vietnamese",
+    "strokeCount": "{n} strokes",
+    "meaning": "Meaning",
+    "ariaLabel": "Stroke animation for {char}",
+    "positions": {
+      "left": "left",
+      "right": "right",
+      "top": "top",
+      "bottom": "bottom",
+      "kamae": "enclosing",
+      "kamaec": "enclosing",
+      "nyo": "corner-enclosing",
+      "nyoc": "corner-enclosing",
+      "tare": "drooping",
+      "tarec": "drooping"
+    }
+  },
+  "settings": {
+    "description": "Paper, density, typeface, language, and JLPT level, all saved to this device only.",
+    "paperTitle": "Paper & structure",
+    "paperDescription": "Nine paper tones, each with a RAW (sharp, thin-bordered) and NEO (rounded, thick-bordered) structural mode.",
+    "languageTitle": "Language",
+    "languageDescription": "Switches UI chrome, nav, buttons, headers. Vocabulary/grammar meanings follow this too where translated.",
+    "levelTitle": "JLPT level",
+    "levelDescription": "Scopes Vocabulary, Grammar, Verb Forms, Kanji, Review, and Homophones to N5, N4, or both combined (Transitivity and Usage's own content stays fixed, but their related-grammar links follow it too). Counters stays N5-only (no N4 source material yet).",
+    "voiceTitle": "Voice pronunciation",
+    "voiceDescription": "The speaker buttons throughout the app read words and sentences aloud with this browser's / device's built-in Japanese voice (the most natural one available is picked automatically).",
+    "voiceStatusFound": "Using voice: {name}",
+    "voiceStatusDefault": "Using the device default voice (no dedicated Japanese voice found)",
+    "inkCabinet": {
+      "readingInPrefix": "You're reading this in",
+      "readingInSuffix": ". It stays chosen everywhere, saved on this device only.",
+      "density": "Density",
+      "densityDescription": "Changes the spacing and base type size across every screen.",
+      "typeface": "Typeface",
+      "typefaceToggle": "Use the sans face everywhere",
+      "typefaceDescription": "Headings and Japanese default to a Mincho serif. Turn this on for one sans face throughout."
+    }
+  }
+}

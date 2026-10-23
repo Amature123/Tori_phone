@@ -1,0 +1,2252 @@
+[
+ {
+  "key": "28-15",
+  "vi": "sức mạnh, sức lực",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "彼は力が強いです。",
+    "kana": "かれはちからがつよいです。",
+    "vi": "Anh ấy rất khỏe.",
+    "en": "He is strong."
+   }
+  ]
+ },
+ {
+  "key": "28-16",
+  "vi": "được ưa chuộng, nổi tiếng (người/vật được yêu thích)",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "この歌手は学生に人気があります。",
+    "kana": "このかしゅはがくせいににんきがあります。",
+    "vi": "Ca sĩ này được sinh viên yêu thích.",
+    "en": "This singer is popular with students."
+   }
+  ]
+ },
+ {
+  "key": "28-20",
+  "vi": "kẹo cao su",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "ガムを噛みます。",
+    "kana": "ガムをかみます。",
+    "vi": "Tôi nhai kẹo cao su.",
+    "en": "I chew gum."
+   }
+  ]
+ },
+ {
+  "key": "28-21",
+  "vi": "hàng hóa, đồ vật",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "この店は品物が多いです。",
+    "kana": "このみせはしなものがおおいです。",
+    "vi": "Cửa hàng này có nhiều hàng hóa.",
+    "en": "This shop has a lot of goods."
+   }
+  ]
+ },
+ {
+  "key": "28-30",
+  "vi": "nhà văn (tiểu thuyết gia)",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "兄は小説家です。",
+    "kana": "あにはしょうせつかです。",
+    "vi": "Anh trai tôi là tiểu thuyết gia.",
+    "en": "My older brother is a novelist."
+   }
+  ]
+ },
+ {
+  "key": "28-34",
+  "vi": "con trai (của người khác)",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "息子さんは何歳ですか。",
+    "kana": "むすこさんはなんさいですか。",
+    "vi": "Con trai anh bao nhiêu tuổi vậy?",
+    "en": "How old is your son?"
+   }
+  ]
+ },
+ {
+  "key": "28-36",
+  "vi": "con gái (của người khác)",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "娘さんは学生ですか。",
+    "kana": "むすめさんはがくせいですか。",
+    "vi": "Con gái chị là học sinh phải không?",
+    "en": "Is your daughter a student?"
+   }
+  ]
+ },
+ {
+  "key": "28-39",
+  "vi": "một lúc, một lát",
+  "pos": "adverb",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "しばらく待ってください。",
+    "kana": "しばらくまってください。",
+    "vi": "Xin hãy đợi một lát.",
+    "en": "Please wait a little while."
+   }
+  ]
+ },
+ {
+  "key": "28-40",
+  "vi": "thường, đa số, hầu hết",
+  "pos": "adverb",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "日曜日はたいてい家にいます。",
+    "kana": "にちようびはたいていいえにいます。",
+    "vi": "Chủ nhật tôi thường ở nhà.",
+    "en": "I'm usually at home on Sundays."
+   }
+  ]
+ },
+ {
+  "key": "28-42",
+  "vi": "vì vậy, cho nên, thế rồi",
+  "pos": "conjunction",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "雨が降りました。それで、試合は中止です。",
+    "kana": "あめがふりました。それで、しあいはちゅうしです。",
+    "vi": "Trời mưa. Vì vậy trận đấu bị hủy.",
+    "en": "It rained. So the game is cancelled."
+   }
+  ]
+ },
+ {
+  "key": "28-43",
+  "vi": "Tôi có việc muốn nhờ [một chút].",
+  "pos": "expression",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "「ちょっとお願いがあるんですが。」「はい、何ですか。」",
+    "kana": "「ちょっとおねがいがあるんですが。」「はい、なんですか。」",
+    "vi": "「Tôi có chút việc muốn nhờ anh.」「Vâng, việc gì vậy?」",
+    "en": "\"I have a small favor to ask.\" \"Sure, what is it?\""
+   }
+  ]
+ },
+ {
+  "key": "28-44",
+  "vi": "thật ra là, sự thật là",
+  "pos": "adverb",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "実は、昨日会社を休みました。",
+    "kana": "じつは、きのうかいしゃをやすみました。",
+    "vi": "Thật ra hôm qua tôi đã nghỉ làm.",
+    "en": "Actually, I took the day off from work yesterday."
+   }
+  ]
+ },
+ {
+  "key": "28-45",
+  "vi": "hội thoại, cuộc nói chuyện",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "英語の会話は難しいです。",
+    "kana": "えいごのかいわはむずかしいです。",
+    "vi": "Hội thoại tiếng Anh khó.",
+    "en": "English conversation is difficult."
+   }
+  ]
+ },
+ {
+  "key": "28-48",
+  "vi": "tham gia",
+  "pos": "verb-group3",
+  "verbGroup": 3,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "来週のパーティーに参加します。",
+    "kana": "らいしゅうのパーティーにさんかします。",
+    "vi": "Tôi sẽ tham gia bữa tiệc tuần sau.",
+    "en": "I will take part in the party next week."
+   }
+  ]
+ },
+ {
+  "key": "28-49",
+  "vi": "ngày (ngày tháng cụ thể)",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "パーティーの日にちを決めましょう。",
+    "kana": "パーティーのひにちをきめましょう。",
+    "vi": "Hãy quyết định ngày tổ chức tiệc.",
+    "en": "Let's decide the date of the party."
+   }
+  ]
+ },
+ {
+  "key": "28-51",
+  "vi": "nhà thi đấu thể thao, phòng tập thể dục",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "体育館でバスケットボールをします。",
+    "kana": "たいいくかんでバスケットボールをします。",
+    "vi": "Tôi chơi bóng rổ ở nhà thi đấu.",
+    "en": "I play basketball in the gymnasium."
+   }
+  ]
+ },
+ {
+  "key": "28-53",
+  "vi": "mời, rủ",
+  "pos": "verb-group1",
+  "verbGroup": 1,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "友達を食事に誘います。",
+    "kana": "ともだちをしょくじにさそいます。",
+    "vi": "Tôi rủ bạn đi ăn.",
+    "en": "I invite my friend to a meal."
+   }
+  ]
+ },
+ {
+  "key": "29-1",
+  "vi": "mở (cửa tự mở)",
+  "pos": "verb-group1",
+  "verbGroup": 1,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "ドアが開きます。",
+    "kana": "ドアがあきます。",
+    "vi": "Cửa mở ra.",
+    "en": "The door opens."
+   }
+  ]
+ },
+ {
+  "key": "29-2",
+  "vi": "đóng (cửa tự đóng)",
+  "pos": "verb-group1",
+  "verbGroup": 1,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "ドアが閉まります。",
+    "kana": "ドアがしまります。",
+    "vi": "Cửa đóng lại.",
+    "en": "The door closes."
+   }
+  ]
+ },
+ {
+  "key": "29-3",
+  "vi": "sáng, bật (đèn)",
+  "pos": "verb-group1",
+  "verbGroup": 1,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "電気がつきます。",
+    "kana": "でんきがつきます。",
+    "vi": "Đèn sáng lên.",
+    "en": "The light comes on."
+   }
+  ]
+ },
+ {
+  "key": "29-4",
+  "vi": "tắt (đèn tự tắt)",
+  "pos": "verb-group2",
+  "verbGroup": 2,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "電気が消えます。",
+    "kana": "でんきがきえます。",
+    "vi": "Đèn tắt.",
+    "en": "The light goes off."
+   }
+  ]
+ },
+ {
+  "key": "29-5",
+  "vi": "hỏng, vỡ (đồ vật)",
+  "pos": "verb-group2",
+  "verbGroup": 2,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "いすが壊れます。",
+    "kana": "いすがこわれます。",
+    "vi": "Cái ghế bị hỏng.",
+    "en": "The chair breaks."
+   }
+  ]
+ },
+ {
+  "key": "29-6",
+  "vi": "vỡ (ly, cốc, đồ thủy tinh)",
+  "pos": "verb-group2",
+  "verbGroup": 2,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "コップが割れます。",
+    "kana": "コップがわれます。",
+    "vi": "Cái cốc bị vỡ.",
+    "en": "The glass breaks."
+   }
+  ]
+ },
+ {
+  "key": "29-7",
+  "vi": "gãy (cây, cành)",
+  "pos": "verb-group2",
+  "verbGroup": 2,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "強い風で木が折れます。",
+    "kana": "つよいかぜできがおれます。",
+    "vi": "Cây gãy vì gió mạnh.",
+    "en": "The tree snaps in the strong wind."
+   }
+  ]
+ },
+ {
+  "key": "29-8",
+  "vi": "rách (giấy, vải)",
+  "pos": "verb-group2",
+  "verbGroup": 2,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "紙が破れます。",
+    "kana": "かみがやぶれます。",
+    "vi": "Tờ giấy bị rách.",
+    "en": "The paper tears."
+   }
+  ]
+ },
+ {
+  "key": "29-9",
+  "vi": "bẩn (bị dây bẩn)",
+  "pos": "verb-group2",
+  "verbGroup": 2,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "服が汚れます。",
+    "kana": "ふくがよごれます。",
+    "vi": "Quần áo bị bẩn.",
+    "en": "My clothes get dirty."
+   }
+  ]
+ },
+ {
+  "key": "29-10",
+  "vi": "được gắn vào, có kèm theo",
+  "pos": "verb-group1",
+  "verbGroup": 1,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "このシャツにはポケットが付きます。",
+    "kana": "このシャツにはポケットがつきます。",
+    "vi": "Chiếc áo sơ mi này có gắn túi.",
+    "en": "This shirt has a pocket attached."
+   }
+  ]
+ },
+ {
+  "key": "29-11",
+  "vi": "bung ra, tuột (cúc áo)",
+  "pos": "verb-group2",
+  "verbGroup": 2,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "ボタンが外れます。",
+    "kana": "ボタンがはずれます。",
+    "vi": "Cúc áo bị tuột.",
+    "en": "The button comes undone."
+   }
+  ]
+ },
+ {
+  "key": "29-12",
+  "vi": "dừng, đỗ (xe)",
+  "pos": "verb-group1",
+  "verbGroup": 1,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "車が止まります。",
+    "kana": "くるまがとまります。",
+    "vi": "Xe dừng lại.",
+    "en": "The car stops."
+   }
+  ]
+ },
+ {
+  "key": "29-13",
+  "vi": "nhầm, làm sai",
+  "pos": "verb-group2",
+  "verbGroup": 2,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "電話番号をまちがえます。",
+    "kana": "でんわばんごうをまちがえます。",
+    "vi": "Tôi nhầm số điện thoại.",
+    "en": "I get the phone number wrong."
+   }
+  ]
+ },
+ {
+  "key": "29-14",
+  "vi": "làm rơi, đánh mất",
+  "pos": "verb-group1",
+  "verbGroup": 1,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "財布を落とします。",
+    "kana": "さいふをおとします。",
+    "vi": "Tôi làm rơi ví.",
+    "en": "I drop my wallet."
+   }
+  ]
+ },
+ {
+  "key": "29-16",
+  "vi": "lau",
+  "pos": "verb-group1",
+  "verbGroup": 1,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "テーブルをふきます。",
+    "kana": "テーブルをふきます。",
+    "vi": "Tôi lau bàn.",
+    "en": "I wipe the table."
+   }
+  ]
+ },
+ {
+  "key": "29-17",
+  "vi": "đổi, thay",
+  "pos": "verb-group2",
+  "verbGroup": 2,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "電池を取り替えます。",
+    "kana": "でんちをとりかえます。",
+    "vi": "Tôi thay pin.",
+    "en": "I change the battery."
+   }
+  ]
+ },
+ {
+  "key": "29-20",
+  "vi": "bát cơm, chén",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "お茶わんにご飯を入れます。",
+    "kana": "おちゃわんにごはんをいれます。",
+    "vi": "Tôi xới cơm vào bát.",
+    "en": "I put rice in the bowl."
+   }
+  ]
+ },
+ {
+  "key": "29-25",
+  "vi": "cành cây",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "木の枝が折れました。",
+    "kana": "きのえだがおれました。",
+    "vi": "Cành cây đã bị gãy.",
+    "en": "The branch of the tree broke."
+   }
+  ]
+ },
+ {
+  "key": "29-26",
+  "vi": "nhân viên nhà ga",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "駅員に道を聞きます。",
+    "kana": "えきいんにみちをききます。",
+    "vi": "Tôi hỏi đường nhân viên nhà ga.",
+    "en": "I ask the station attendant for directions."
+   }
+  ]
+ },
+ {
+  "key": "29-29",
+  "vi": "trả lời, hồi âm",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "メールの返事をします。",
+    "kana": "メールのへんじをします。",
+    "vi": "Tôi trả lời email.",
+    "en": "I reply to the email."
+   }
+  ]
+ },
+ {
+  "key": "29-30",
+  "vi": "Xin mời anh/chị đi trước.",
+  "pos": "expression",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "「お先にどうぞ。」「ありがとうございます。」",
+    "kana": "「おさきにどうぞ。」「ありがとうございます。」",
+    "vi": "「Mời anh đi trước.」「Cảm ơn anh.」",
+    "en": "\"After you.\" \"Thank you.\""
+   }
+  ]
+ },
+ {
+  "key": "29-31",
+  "vi": "Truyện Genji (Genji Monogatari)",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "「源氏物語」は有名な小説です。",
+    "kana": "「げんじものがたり」はゆうめいなしょうせつです。",
+    "vi": "\"Truyện Genji\" là một tiểu thuyết nổi tiếng.",
+    "en": "\"The Tale of Genji\" is a famous novel."
+   }
+  ]
+ },
+ {
+  "key": "29-32",
+  "vi": "chuyến tàu vừa rồi",
+  "pos": "expression",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "今の電車は新宿へ行きます。",
+    "kana": "いまのでんしゃはしんじゅくへいきます。",
+    "vi": "Chuyến tàu vừa rồi đi Shinjuku.",
+    "en": "The train that just left goes to Shinjuku."
+   }
+  ]
+ },
+ {
+  "key": "29-34",
+  "vi": "cỡ chừng này",
+  "pos": "adverb",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "このくらいの大きさです。",
+    "kana": "このくらいのおおきさです。",
+    "vi": "Kích cỡ khoảng chừng này.",
+    "en": "It is about this size."
+   }
+  ]
+ },
+ {
+  "key": "29-36",
+  "vi": "túi (áo, quần)",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "ポケットに鍵を入れます。",
+    "kana": "ポケットにかぎをいれます。",
+    "vi": "Tôi bỏ chìa khóa vào túi.",
+    "en": "I put the key in my pocket."
+   }
+  ]
+ },
+ {
+  "key": "29-38",
+  "vi": "Tôi không nhớ.",
+  "pos": "expression",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "どこで落としたか覚えていません。",
+    "kana": "どこでおとしたかおぼえていません。",
+    "vi": "Tôi không nhớ đã làm rơi ở đâu.",
+    "en": "I don't remember where I dropped it."
+   }
+  ]
+ },
+ {
+  "key": "29-39",
+  "vi": "giá để hành lý trên tàu",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "かばんを網棚に置きます。",
+    "kana": "かばんをあみだなにおきます。",
+    "vi": "Tôi để túi lên giá hành lý.",
+    "en": "I put my bag on the overhead rack."
+   }
+  ]
+ },
+ {
+  "key": "29-41",
+  "vi": "Ôi, may quá!",
+  "pos": "expression",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "「財布がありましたよ。」「ああ、よかった。」",
+    "kana": "「さいふがありましたよ。」「ああ、よかった。」",
+    "vi": "「Tìm thấy ví rồi đây.」「Ôi, may quá!」",
+    "en": "\"Your wallet was found.\" \"Oh, thank goodness!\""
+   }
+  ]
+ },
+ {
+  "key": "29-42",
+  "vi": "Shinjuku (khu phố, ga ở Tokyo)",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "新宿で友達に会います。",
+    "kana": "しんじゅくでともだちにあいます。",
+    "vi": "Tôi gặp bạn ở Shinjuku.",
+    "en": "I meet my friend in Shinjuku."
+   }
+  ]
+ },
+ {
+  "key": "29-45",
+  "vi": "kim đồng hồ",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "時計の針は三時を指しています。",
+    "kana": "とけいのはりはさんじをさしています。",
+    "vi": "Kim đồng hồ chỉ ba giờ.",
+    "en": "The hands of the clock point to three o'clock."
+   }
+  ]
+ },
+ {
+  "key": "29-46",
+  "vi": "chỉ, trỏ",
+  "pos": "verb-group1",
+  "verbGroup": 1,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "地図を見て、場所を指します。",
+    "kana": "ちずをみて、ばしょをさします。",
+    "vi": "Tôi nhìn bản đồ và chỉ vào chỗ đó.",
+    "en": "I look at the map and point to the place."
+   }
+  ]
+ },
+ {
+  "key": "29-48",
+  "vi": "đổ, ngã",
+  "pos": "verb-group2",
+  "verbGroup": 2,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "地震で本棚が倒れます。",
+    "kana": "じしんでほんだながたおれます。",
+    "vi": "Giá sách đổ vì động đất.",
+    "en": "The bookshelf falls over in an earthquake."
+   }
+  ]
+ },
+ {
+  "key": "29-49",
+  "vi": "phía tây, hướng tây",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "太陽は西に沈みます。",
+    "kana": "たいようはにしにしずみます。",
+    "vi": "Mặt trời lặn ở phía tây.",
+    "en": "The sun sets in the west."
+   }
+  ]
+ },
+ {
+  "key": "29-50",
+  "vi": "hướng ~, phía ~",
+  "pos": "suffix",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "駅の方へ歩きます。",
+    "kana": "えきのほうへあるきます。",
+    "vi": "Tôi đi bộ về phía nhà ga.",
+    "en": "I walk toward the station."
+   }
+  ]
+ },
+ {
+  "key": "29-51",
+  "vi": "cháy",
+  "pos": "verb-group2",
+  "verbGroup": 2,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "古い家が燃えます。",
+    "kana": "ふるいいえがもえます。",
+    "vi": "Ngôi nhà cũ bị cháy.",
+    "en": "The old house burns."
+   }
+  ]
+ },
+ {
+  "key": "29-52",
+  "vi": "phóng viên",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "レポーターが事故の様子を伝えます。",
+    "kana": "レポーターがじこのようすをつたえます。",
+    "vi": "Phóng viên đưa tin về tình hình vụ tai nạn.",
+    "en": "The reporter tells what happened at the accident."
+   }
+  ]
+ },
+ {
+  "key": "30-1",
+  "vi": "dán, treo (áp phích)",
+  "pos": "verb-group1",
+  "verbGroup": 1,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "壁にポスターをはります。",
+    "kana": "かべにポスターをはります。",
+    "vi": "Tôi dán áp phích lên tường.",
+    "en": "I put a poster on the wall."
+   }
+  ]
+ },
+ {
+  "key": "30-2",
+  "vi": "treo, móc",
+  "pos": "verb-group2",
+  "verbGroup": 2,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "壁に絵を掛けます。",
+    "kana": "かべにえをかけます。",
+    "vi": "Tôi treo bức tranh lên tường.",
+    "en": "I hang a picture on the wall."
+   }
+  ]
+ },
+ {
+  "key": "30-3",
+  "vi": "trang trí, bày biện",
+  "pos": "verb-group1",
+  "verbGroup": 1,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "花を飾ります。",
+    "kana": "はなをかざります。",
+    "vi": "Tôi trang trí hoa.",
+    "en": "I decorate with flowers."
+   }
+  ]
+ },
+ {
+  "key": "30-4",
+  "vi": "xếp, sắp hàng",
+  "pos": "verb-group2",
+  "verbGroup": 2,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "本を棚に並べます。",
+    "kana": "ほんをたなにならべます。",
+    "vi": "Tôi xếp sách lên kệ.",
+    "en": "I arrange the books on the shelf."
+   }
+  ]
+ },
+ {
+  "key": "30-5",
+  "vi": "trồng (cây)",
+  "pos": "verb-group2",
+  "verbGroup": 2,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "庭に木を植えます。",
+    "kana": "にわにきをうえます。",
+    "vi": "Tôi trồng cây trong vườn.",
+    "en": "I plant a tree in the garden."
+   }
+  ]
+ },
+ {
+  "key": "30-6",
+  "vi": "trả lại, để lại chỗ cũ",
+  "pos": "verb-group1",
+  "verbGroup": 1,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "本を元の所に戻します。",
+    "kana": "ほんをもとのところにもどします。",
+    "vi": "Tôi để sách về chỗ cũ.",
+    "en": "I put the book back where it was."
+   }
+  ]
+ },
+ {
+  "key": "30-7",
+  "vi": "tổng hợp, gom lại, tóm tắt",
+  "pos": "verb-group2",
+  "verbGroup": 2,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "意見をまとめます。",
+    "kana": "いけんをまとめます。",
+    "vi": "Tôi tổng hợp các ý kiến.",
+    "en": "I sum up the opinions."
+   }
+  ]
+ },
+ {
+  "key": "30-8",
+  "vi": "cất đi, dọn vào",
+  "pos": "verb-group1",
+  "verbGroup": 1,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "おもちゃを箱にしまいます。",
+    "kana": "おもちゃをはこにしまいます。",
+    "vi": "Tôi cất đồ chơi vào hộp.",
+    "en": "I put the toys away in the box."
+   }
+  ]
+ },
+ {
+  "key": "30-9",
+  "vi": "quyết định, chọn",
+  "pos": "verb-group2",
+  "verbGroup": 2,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "旅行の日を決めます。",
+    "kana": "りょこうのひをきめます。",
+    "vi": "Tôi quyết định ngày đi du lịch.",
+    "en": "I decide the date of the trip."
+   }
+  ]
+ },
+ {
+  "key": "30-10",
+  "vi": "chuẩn bị bài trước",
+  "pos": "verb-group3",
+  "verbGroup": 3,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "毎晩、明日の授業を予習します。",
+    "kana": "まいばん、あしたのじゅぎょうをよしゅうします。",
+    "vi": "Mỗi tối tôi chuẩn bị bài cho buổi học ngày mai.",
+    "en": "Every night I prepare for tomorrow's class."
+   }
+  ]
+ },
+ {
+  "key": "30-11",
+  "vi": "ôn bài",
+  "pos": "verb-group3",
+  "verbGroup": 3,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "授業の後で復習します。",
+    "kana": "じゅぎょうのあとでふくしゅうします。",
+    "vi": "Sau giờ học tôi ôn bài.",
+    "en": "I review after class."
+   }
+  ]
+ },
+ {
+  "key": "30-12",
+  "vi": "để nguyên như thế",
+  "pos": "verb-group3",
+  "verbGroup": 3,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "窓を開けたままにします。",
+    "kana": "まどをあけたままにします。",
+    "vi": "Tôi để nguyên cửa sổ mở.",
+    "en": "I leave the window open as it is."
+   }
+  ]
+ },
+ {
+  "key": "30-15",
+  "vi": "cuộc họp",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "午後、ミーティングがあります。",
+    "kana": "ごご、ミーティングがあります。",
+    "vi": "Buổi chiều có cuộc họp.",
+    "en": "There is a meeting in the afternoon."
+   }
+  ]
+ },
+ {
+  "key": "30-21",
+  "vi": "bảng lịch trình, kế hoạch",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "予定表を見ます。",
+    "kana": "よていひょうをみます。",
+    "vi": "Tôi xem bảng lịch trình.",
+    "en": "I look at the schedule."
+   }
+  ]
+ },
+ {
+  "key": "30-22",
+  "vi": "thùng rác",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "ごみ箱にごみを捨てます。",
+    "kana": "ごみばこにごみをすてます。",
+    "vi": "Tôi vứt rác vào thùng rác.",
+    "en": "I throw the trash in the trash can."
+   }
+  ]
+ },
+ {
+  "key": "30-23",
+  "vi": "búp bê",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "娘は人形で遊んでいます。",
+    "kana": "むすめはにんぎょうであそんでいます。",
+    "vi": "Con gái tôi đang chơi búp bê.",
+    "en": "My daughter is playing with a doll."
+   }
+  ]
+ },
+ {
+  "key": "30-25",
+  "vi": "gương",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "鏡を見て髪を直します。",
+    "kana": "かがみをみてかみをなおします。",
+    "vi": "Tôi nhìn gương chỉnh lại tóc.",
+    "en": "I look in the mirror and fix my hair."
+   }
+  ]
+ },
+ {
+  "key": "30-28",
+  "vi": "hành lang",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "廊下を走らないでください。",
+    "kana": "ろうかをはしらないでください。",
+    "vi": "Xin đừng chạy ở hành lang.",
+    "en": "Please don't run in the hallway."
+   }
+  ]
+ },
+ {
+  "key": "30-30",
+  "vi": "ao, hồ nhỏ",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "池に魚がいます。",
+    "kana": "いけにさかながいます。",
+    "vi": "Trong ao có cá.",
+    "en": "There are fish in the pond."
+   }
+  ]
+ },
+ {
+  "key": "30-34",
+  "vi": "góc",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "部屋の隅にいすを置きます。",
+    "kana": "へやのすみにいすをおきます。",
+    "vi": "Tôi đặt cái ghế ở góc phòng.",
+    "en": "I put a chair in the corner of the room."
+   }
+  ]
+ },
+ {
+  "key": "30-36",
+  "vi": "ba lô",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "リュックに荷物を入れます。",
+    "kana": "リュックににもつをいれます。",
+    "vi": "Tôi bỏ đồ vào ba lô.",
+    "en": "I put my things in the rucksack."
+   }
+  ]
+ },
+ {
+  "key": "30-37",
+  "vi": "túi đồ khẩn cấp",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "非常袋に水と食べ物を入れます。",
+    "kana": "ひじょうぶくろにみずとたべものをいれます。",
+    "vi": "Tôi bỏ nước và đồ ăn vào túi khẩn cấp.",
+    "en": "I put water and food in the emergency kit."
+   }
+  ]
+ },
+ {
+  "key": "30-38",
+  "vi": "lúc khẩn cấp, tình huống khẩn cấp",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "非常時に備えます。",
+    "kana": "ひじょうじにそなえます。",
+    "vi": "Tôi chuẩn bị cho trường hợp khẩn cấp.",
+    "en": "I prepare for emergencies."
+   }
+  ]
+ },
+ {
+  "key": "30-39",
+  "vi": "sống, sinh hoạt",
+  "pos": "verb-group3",
+  "verbGroup": 3,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "私は東京で生活します。",
+    "kana": "わたしはとうきょうでせいかつします。",
+    "vi": "Tôi sống ở Tokyo.",
+    "en": "I live in Tokyo."
+   }
+  ]
+ },
+ {
+  "key": "30-40",
+  "vi": "đèn pin",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "懐中電灯を持って行きます。",
+    "kana": "かいちゅうでんとうをもっていきます。",
+    "vi": "Tôi mang theo đèn pin.",
+    "en": "I take a flashlight with me."
+   }
+  ]
+ },
+ {
+  "key": "30-41",
+  "vi": "~ này ~ kia, chẳng hạn như ~",
+  "pos": "expression",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "果物はりんごとかバナナとかが好きです。",
+    "kana": "くだものはりんごとかバナナとかがすきです。",
+    "vi": "Về trái cây thì tôi thích táo, chuối và những thứ như vậy.",
+    "en": "As for fruit, I like apples, bananas, and so on."
+   }
+  ]
+ },
+ {
+  "key": "30-42",
+  "vi": "tròn",
+  "pos": "adj-i",
+  "verbGroup": null,
+  "adjType": "i",
+  "examples": [
+   {
+    "ja": "月は丸いです。",
+    "kana": "つきはまるいです。",
+    "vi": "Mặt trăng tròn.",
+    "en": "The moon is round."
+   }
+  ]
+ },
+ {
+  "key": "30-43",
+  "vi": "một ~ nọ, nào đó",
+  "pos": "determiner",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "ある日、駅で友達に会いました。",
+    "kana": "あるひ、えきでともだちにあいました。",
+    "vi": "Một hôm nọ, tôi gặp bạn ở nhà ga.",
+    "en": "One day, I met a friend at the station."
+   }
+  ]
+ },
+ {
+  "key": "30-44",
+  "vi": "mơ, nằm mơ",
+  "pos": "verb-group2",
+  "verbGroup": 2,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "昨日、おもしろい夢を見ました。",
+    "kana": "きのう、おもしろいゆめをみました。",
+    "vi": "Hôm qua tôi đã mơ một giấc mơ thú vị.",
+    "en": "I had an interesting dream yesterday."
+   }
+  ]
+ },
+ {
+  "key": "30-46",
+  "vi": "ghét, khó chịu, không thích",
+  "pos": "adj-na",
+  "verbGroup": null,
+  "adjType": "na",
+  "examples": [
+   {
+    "ja": "雨の日は嫌です。",
+    "kana": "あめのひはいやです。",
+    "vi": "Tôi ghét những ngày mưa.",
+    "en": "I hate rainy days."
+   }
+  ]
+ },
+ {
+  "key": "30-47",
+  "vi": "thế rồi, và rồi",
+  "pos": "conjunction",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "ドアを開けました。すると、猫が出てきました。",
+    "kana": "ドアをあけました。すると、ねこがでてきました。",
+    "vi": "Tôi mở cửa. Thế rồi một con mèo chạy ra.",
+    "en": "I opened the door. Then a cat came out."
+   }
+  ]
+ },
+ {
+  "key": "30-48",
+  "vi": "tỉnh dậy, thức giấc",
+  "pos": "verb-group2",
+  "verbGroup": 2,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "朝六時に目が覚めます。",
+    "kana": "あさろくじにめがさめます。",
+    "vi": "Tôi tỉnh dậy lúc sáu giờ sáng.",
+    "en": "I wake up at six in the morning."
+   }
+  ]
+ },
+ {
+  "key": "31-1",
+  "vi": "tiếp tục",
+  "pos": "verb-group2",
+  "verbGroup": 2,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "日本語の勉強を続けます。",
+    "kana": "にほんごのべんきょうをつづけます。",
+    "vi": "Tôi tiếp tục học tiếng Nhật.",
+    "en": "I continue studying Japanese."
+   }
+  ]
+ },
+ {
+  "key": "31-2",
+  "vi": "tìm thấy, phát hiện",
+  "pos": "verb-group2",
+  "verbGroup": 2,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "いい店を見つけます。",
+    "kana": "いいみせをみつけます。",
+    "vi": "Tôi tìm thấy một cửa hàng tốt.",
+    "en": "I find a good shop."
+   }
+  ]
+ },
+ {
+  "key": "31-4",
+  "vi": "thi, dự thi",
+  "pos": "verb-group2",
+  "verbGroup": 2,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "来月、試験を受けます。",
+    "kana": "らいげつ、しけんをうけます。",
+    "vi": "Tháng sau tôi sẽ thi.",
+    "en": "I will take an exam next month."
+   }
+  ]
+ },
+ {
+  "key": "31-5",
+  "vi": "đăng ký, xin",
+  "pos": "verb-group1",
+  "verbGroup": 1,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "日本語の試験に申し込みます。",
+    "kana": "にほんごのしけんにもうしこみます。",
+    "vi": "Tôi đăng ký thi tiếng Nhật.",
+    "en": "I apply for the Japanese exam."
+   }
+  ]
+ },
+ {
+  "key": "31-10",
+  "vi": "triển lãm",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "美術館で展覧会があります。",
+    "kana": "びじゅつかんでてんらんかいがあります。",
+    "vi": "Có triển lãm ở bảo tàng mỹ thuật.",
+    "en": "There is an exhibition at the art museum."
+   }
+  ]
+ },
+ {
+  "key": "31-12",
+  "vi": "đám tang",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "おじさんのお葬式に行きます。",
+    "kana": "おじさんのおそうしきにいきます。",
+    "vi": "Tôi đi dự đám tang của chú.",
+    "en": "I go to my uncle's funeral."
+   }
+  ]
+ },
+ {
+  "key": "31-13",
+  "vi": "buổi lễ, nghi lễ",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "日曜日に結婚式があります。",
+    "kana": "にちようびにけっこんしきがあります。",
+    "vi": "Chủ nhật có lễ cưới.",
+    "en": "There is a wedding ceremony on Sunday."
+   }
+  ]
+ },
+ {
+  "key": "31-14",
+  "vi": "trụ sở chính",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "本社は東京にあります。",
+    "kana": "ほんしゃはとうきょうにあります。",
+    "vi": "Trụ sở chính ở Tokyo.",
+    "en": "The head office is in Tokyo."
+   }
+  ]
+ },
+ {
+  "key": "31-15",
+  "vi": "chi nhánh",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "大阪に支店があります。",
+    "kana": "おおさかにしてんがあります。",
+    "vi": "Có một chi nhánh ở Osaka.",
+    "en": "There is a branch office in Osaka."
+   }
+  ]
+ },
+ {
+  "key": "31-16",
+  "vi": "nhà thờ",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "日曜日に教会へ行きます。",
+    "kana": "にちようびにきょうかいへいきます。",
+    "vi": "Chủ nhật tôi đi nhà thờ.",
+    "en": "I go to church on Sundays."
+   }
+  ]
+ },
+ {
+  "key": "31-20",
+  "vi": "lúc về, chiều về",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "帰りに買い物をします。",
+    "kana": "かえりにかいものをします。",
+    "vi": "Trên đường về tôi mua sắm.",
+    "en": "I do some shopping on the way home."
+   }
+  ]
+ },
+ {
+  "key": "31-22",
+  "vi": "số ~ (số hiệu tàu, bão...)",
+  "pos": "suffix",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "のぞみ42号に乗ります。",
+    "kana": "のぞみよんじゅうにごうにのります。",
+    "vi": "Tôi đi tàu Nozomi số 42.",
+    "en": "I take Nozomi No. 42."
+   }
+  ]
+ },
+ {
+  "key": "31-23",
+  "vi": "hướng về ~, phía ~",
+  "pos": "suffix",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "駅の方へ歩いて行きます。",
+    "kana": "えきのほうへあるいていきます。",
+    "vi": "Tôi đi bộ về phía nhà ga.",
+    "en": "I walk toward the station."
+   }
+  ]
+ },
+ {
+  "key": "31-25",
+  "vi": "Bali (đảo của Indonesia)",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "バリへ旅行に行きます。",
+    "kana": "バリへりょこうにいきます。",
+    "vi": "Tôi đi du lịch Bali.",
+    "en": "I go on a trip to Bali."
+   }
+  ]
+ },
+ {
+  "key": "31-26",
+  "vi": "Picasso (họa sĩ Tây Ban Nha)",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "ピカソの絵を見ました。",
+    "kana": "ピカソのえをみました。",
+    "vi": "Tôi đã xem tranh của Picasso.",
+    "en": "I saw a painting by Picasso."
+   }
+  ]
+ },
+ {
+  "key": "31-27",
+  "vi": "Nozomi (tên một chuyến tàu Shinkansen)",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "のぞみは速い新幹線です。",
+    "kana": "のぞみははやいしんかんせんです。",
+    "vi": "Nozomi là tàu Shinkansen nhanh.",
+    "en": "The Nozomi is a fast Shinkansen."
+   }
+  ]
+ },
+ {
+  "key": "31-28",
+  "vi": "Shin-Kobe (tên ga ở tỉnh Hyogo)",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "新神戸で新幹線を降ります。",
+    "kana": "しんこうべでしんかんせんをおります。",
+    "vi": "Tôi xuống tàu Shinkansen ở Shin-Kobe.",
+    "en": "I get off the Shinkansen at Shin-Kobe."
+   }
+  ]
+ },
+ {
+  "key": "31-29",
+  "vi": "còn lại, ở lại",
+  "pos": "verb-group1",
+  "verbGroup": 1,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "会社に残ります。",
+    "kana": "かいしゃにのこります。",
+    "vi": "Tôi ở lại công ty.",
+    "en": "I stay behind at the office."
+   }
+  ]
+ },
+ {
+  "key": "31-30",
+  "vi": "kỳ thi đầu vào",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "来月、入学試験があります。",
+    "kana": "らいげつ、にゅうがくしけんがあります。",
+    "vi": "Tháng sau có kỳ thi đầu vào.",
+    "en": "There is an entrance exam next month."
+   }
+  ]
+ },
+ {
+  "key": "31-31",
+  "vi": "mỗi tháng",
+  "pos": "adverb",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "月に二回、映画を見ます。",
+    "kana": "つきににかい、えいがをみます。",
+    "vi": "Mỗi tháng tôi xem phim hai lần.",
+    "en": "I watch movies twice a month."
+   }
+  ]
+ },
+ {
+  "key": "31-32",
+  "vi": "làng",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "小さい村に住んでいます。",
+    "kana": "ちいさいむらにすんでいます。",
+    "vi": "Tôi sống ở một ngôi làng nhỏ.",
+    "en": "I live in a small village."
+   }
+  ]
+ },
+ {
+  "key": "31-33",
+  "vi": "tốt nghiệp",
+  "pos": "verb-group3",
+  "verbGroup": 3,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "来年、大学を卒業します。",
+    "kana": "らいねん、だいがくをそつぎょうします。",
+    "vi": "Năm sau tôi sẽ tốt nghiệp đại học.",
+    "en": "I will graduate from university next year."
+   }
+  ]
+ },
+ {
+  "key": "31-35",
+  "vi": "ghét, khó chịu, không thích",
+  "pos": "adj-na",
+  "verbGroup": null,
+  "adjType": "na",
+  "examples": [
+   {
+    "ja": "嫌な天気ですね。",
+    "kana": "いやなてんきですね。",
+    "vi": "Thời tiết khó chịu nhỉ.",
+    "en": "Unpleasant weather, isn't it?"
+   }
+  ]
+ },
+ {
+  "key": "31-37",
+  "vi": "đóng, nhắm (mắt, sách)",
+  "pos": "verb-group2",
+  "verbGroup": 2,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "本を閉じます。",
+    "kana": "ほんをとじます。",
+    "vi": "Tôi gấp sách lại.",
+    "en": "I close the book."
+   }
+  ]
+ },
+ {
+  "key": "31-38",
+  "vi": "thành phố lớn, đô thị",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "都会は人が多いです。",
+    "kana": "とかいはひとがおおいです。",
+    "vi": "Thành phố lớn đông người.",
+    "en": "There are many people in the city."
+   }
+  ]
+ },
+ {
+  "key": "31-39",
+  "vi": "bọn trẻ, các em nhỏ",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "子どもたちは公園で遊んでいます。",
+    "kana": "こどもたちはこうえんであそんでいます。",
+    "vi": "Bọn trẻ đang chơi ở công viên.",
+    "en": "The children are playing in the park."
+   }
+  ]
+ },
+ {
+  "key": "31-40",
+  "vi": "một cách tự do",
+  "pos": "adverb",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "この部屋は自由に使ってください。",
+    "kana": "このへやはじゆうにつかってください。",
+    "vi": "Xin hãy tự do sử dụng căn phòng này.",
+    "en": "Please feel free to use this room."
+   }
+  ]
+ },
+ {
+  "key": "32-1",
+  "vi": "vận động, tập thể dục",
+  "pos": "verb-group3",
+  "verbGroup": 3,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "毎朝、運動します。",
+    "kana": "まいあさ、うんどうします。",
+    "vi": "Mỗi sáng tôi tập thể dục.",
+    "en": "I exercise every morning."
+   }
+  ]
+ },
+ {
+  "key": "32-2",
+  "vi": "thành công",
+  "pos": "verb-group3",
+  "verbGroup": 3,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "仕事で成功します。",
+    "kana": "しごとでせいこうします。",
+    "vi": "Tôi thành công trong công việc.",
+    "en": "I succeed in my work."
+   }
+  ]
+ },
+ {
+  "key": "32-3",
+  "vi": "thất bại, trượt (thi)",
+  "pos": "verb-group3",
+  "verbGroup": 3,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "試験に失敗します。",
+    "kana": "しけんにしっぱいします。",
+    "vi": "Tôi trượt kỳ thi.",
+    "en": "I fail the exam."
+   }
+  ]
+ },
+ {
+  "key": "32-4",
+  "vi": "đỗ, thi đậu",
+  "pos": "verb-group3",
+  "verbGroup": 3,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "試験に合格します。",
+    "kana": "しけんにごうかくします。",
+    "vi": "Tôi thi đậu.",
+    "en": "I pass the exam."
+   }
+  ]
+ },
+ {
+  "key": "32-5",
+  "vi": "tạnh (mưa)",
+  "pos": "verb-group1",
+  "verbGroup": 1,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "雨がやみます。",
+    "kana": "あめがやみます。",
+    "vi": "Mưa tạnh.",
+    "en": "The rain stops."
+   }
+  ]
+ },
+ {
+  "key": "32-6",
+  "vi": "trời quang, nắng ráo",
+  "pos": "verb-group2",
+  "verbGroup": 2,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "明日は晴れます。",
+    "kana": "あしたははれます。",
+    "vi": "Ngày mai trời sẽ nắng.",
+    "en": "It will clear up tomorrow."
+   }
+  ]
+ },
+ {
+  "key": "32-7",
+  "vi": "trời nhiều mây, âm u",
+  "pos": "verb-group1",
+  "verbGroup": 1,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "午後から曇ります。",
+    "kana": "ごごからくもります。",
+    "vi": "Từ chiều trời sẽ nhiều mây.",
+    "en": "It will get cloudy from the afternoon."
+   }
+  ]
+ },
+ {
+  "key": "32-8",
+  "vi": "kéo dài, tiếp diễn (sốt)",
+  "pos": "verb-group1",
+  "verbGroup": 1,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "熱が三日続きます。",
+    "kana": "ねつがみっかつづきます。",
+    "vi": "Cơn sốt kéo dài ba ngày.",
+    "en": "The fever lasts for three days."
+   }
+  ]
+ },
+ {
+  "key": "32-10",
+  "vi": "làm lạnh, ướp lạnh",
+  "pos": "verb-group1",
+  "verbGroup": 1,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "ビールを冷蔵庫で冷やします。",
+    "kana": "ビールをれいぞうこでひやします。",
+    "vi": "Tôi ướp lạnh bia trong tủ lạnh.",
+    "en": "I chill the beer in the fridge."
+   }
+  ]
+ },
+ {
+  "key": "32-11",
+  "vi": "đông, kẹt (đường)",
+  "pos": "verb-group1",
+  "verbGroup": 1,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "道が込みます。",
+    "kana": "みちがこみます。",
+    "vi": "Đường đông xe.",
+    "en": "The road gets crowded."
+   }
+  ]
+ },
+ {
+  "key": "32-13",
+  "vi": "tham gia (trận đấu)",
+  "pos": "verb-group2",
+  "verbGroup": 2,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "来週の試合に出ます。",
+    "kana": "らいしゅうのしあいにでます。",
+    "vi": "Tuần sau tôi sẽ tham gia trận đấu.",
+    "en": "I will take part in next week's match."
+   }
+  ]
+ },
+ {
+  "key": "32-14",
+  "vi": "tham dự (bữa tiệc)",
+  "pos": "verb-group2",
+  "verbGroup": 2,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "友達のパーティーに出ます。",
+    "kana": "ともだちのパーティーにでます。",
+    "vi": "Tôi tham dự bữa tiệc của bạn.",
+    "en": "I attend my friend's party."
+   }
+  ]
+ },
+ {
+  "key": "32-15",
+  "vi": "làm quá sức, cố quá",
+  "pos": "verb-group3",
+  "verbGroup": 3,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "病気のときは無理をしません。",
+    "kana": "びょうきのときはむりをしません。",
+    "vi": "Khi bị bệnh thì tôi không làm quá sức.",
+    "en": "I don't overdo things when I'm sick."
+   }
+  ]
+ },
+ {
+  "key": "32-16",
+  "vi": "đủ, đầy đủ",
+  "pos": "adj-na",
+  "verbGroup": null,
+  "adjType": "na",
+  "examples": [
+   {
+    "ja": "十分です。ありがとうございます。",
+    "kana": "じゅうぶんです。ありがとうございます。",
+    "vi": "Đủ rồi. Cảm ơn bạn.",
+    "en": "That's enough. Thank you."
+   }
+  ]
+ },
+ {
+  "key": "32-26",
+  "vi": "ngôi sao, vì sao",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "夜、星が見えます。",
+    "kana": "よる、ほしがみえます。",
+    "vi": "Ban đêm có thể nhìn thấy sao.",
+    "en": "I can see the stars at night."
+   }
+  ]
+ },
+ {
+  "key": "32-28",
+  "vi": "phía đông, hướng đông",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "太陽は東から出ます。",
+    "kana": "たいようはひがしからでます。",
+    "vi": "Mặt trời mọc ở hướng đông.",
+    "en": "The sun rises from the east."
+   }
+  ]
+ },
+ {
+  "key": "32-29",
+  "vi": "phía tây, hướng tây",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "駅の西に公園があります。",
+    "kana": "えきのにしにこうえんがあります。",
+    "vi": "Phía tây nhà ga có công viên.",
+    "en": "There is a park west of the station."
+   }
+  ]
+ },
+ {
+  "key": "32-30",
+  "vi": "phía nam, hướng nam",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "沖縄は日本の南にあります。",
+    "kana": "おきなわはにほんのみなみにあります。",
+    "vi": "Okinawa nằm ở phía nam Nhật Bản.",
+    "en": "Okinawa is in the south of Japan."
+   }
+  ]
+ },
+ {
+  "key": "32-31",
+  "vi": "phía bắc, hướng bắc",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "北海道は日本の北にあります。",
+    "kana": "ほっかいどうはにほんのきたにあります。",
+    "vi": "Hokkaido nằm ở phía bắc Nhật Bản.",
+    "en": "Hokkaido is in the north of Japan."
+   }
+  ]
+ },
+ {
+  "key": "32-34",
+  "vi": "động cơ",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "車のエンジンをかけます。",
+    "kana": "くるまのエンジンをかけます。",
+    "vi": "Tôi nổ máy xe.",
+    "en": "I start the car's engine."
+   }
+  ]
+ },
+ {
+  "key": "32-39",
+  "vi": "muộn, khuya",
+  "pos": "adverb",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "昨日は遅くまで働きました。",
+    "kana": "きのうはおそくまではたらきました。",
+    "vi": "Hôm qua tôi làm việc đến khuya.",
+    "en": "I worked until late yesterday."
+   }
+  ]
+ },
+ {
+  "key": "32-42",
+  "vi": "đến thế kia, như thế kia",
+  "pos": "adverb",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "あんなに高い車は買えません。",
+    "kana": "あんなにたかいくるまはかえません。",
+    "vi": "Tôi không mua nổi chiếc xe đắt như thế kia.",
+    "en": "I can't buy such an expensive car."
+   }
+  ]
+ },
+ {
+  "key": "32-43",
+  "vi": "châu Âu",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "来年、ヨーロッパへ行きます。",
+    "kana": "らいねん、ヨーロッパへいきます。",
+    "vi": "Năm sau tôi sẽ đi châu Âu.",
+    "en": "I will go to Europe next year."
+   }
+  ]
+ },
+ {
+  "key": "32-45",
+  "vi": "dạ dày",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "胃が痛いです。",
+    "kana": "いがいたいです。",
+    "vi": "Tôi bị đau dạ dày.",
+    "en": "I have a stomachache."
+   }
+  ]
+ },
+ {
+  "key": "32-47",
+  "vi": "Thế thì không ổn rồi nhỉ. (chia sẻ khi người khác bị ốm, gặp chuyện)",
+  "pos": "expression",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "「頭が痛いんです。」「それはいけませんね。」",
+    "kana": "「あたまがいたいんです。」「それはいけませんね。」",
+    "vi": "「Tôi bị đau đầu.」「Vậy thì không ổn rồi nhỉ.」",
+    "en": "\"I have a headache.\" \"I'm sorry to hear that.\""
+   }
+  ]
+ },
+ {
+  "key": "32-48",
+  "vi": "bói theo chòm sao",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "雑誌で星占いを見ます。",
+    "kana": "ざっしでほしうらないをみます。",
+    "vi": "Tôi xem bói chòm sao trên tạp chí.",
+    "en": "I read my horoscope in a magazine."
+   }
+  ]
+ },
+ {
+  "key": "32-49",
+  "vi": "chòm sao Kim Ngưu",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "私は牡牛座です。",
+    "kana": "わたしはおうしざです。",
+    "vi": "Tôi thuộc cung Kim Ngưu.",
+    "en": "I am a Taurus."
+   }
+  ]
+ },
+ {
+  "key": "32-50",
+  "vi": "làm việc quá sức",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "働きすぎは体に悪いです。",
+    "kana": "はたらきすぎはからだにわるいです。",
+    "vi": "Làm việc quá sức có hại cho cơ thể.",
+    "en": "Overworking is bad for your health."
+   }
+  ]
+ },
+ {
+  "key": "32-51",
+  "vi": "gặp khó khăn, rắc rối",
+  "pos": "verb-group1",
+  "verbGroup": 1,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "お金がなくて困ります。",
+    "kana": "おかねがなくてこまります。",
+    "vi": "Tôi gặp khó khăn vì không có tiền.",
+    "en": "I'm in trouble because I have no money."
+   }
+  ]
+ },
+ {
+  "key": "32-53",
+  "vi": "trúng (xổ số)",
+  "pos": "verb-group1",
+  "verbGroup": 1,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "宝くじが当たります。",
+    "kana": "たからくじがあたります。",
+    "vi": "Tôi trúng xổ số.",
+    "en": "I win the lottery."
+   }
+  ]
+ },
+ {
+  "key": "32-55",
+  "vi": "tình yêu, chuyện yêu đương",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "恋愛の相談をします。",
+    "kana": "れんあいのそうだんをします。",
+    "vi": "Tôi nhờ tư vấn về chuyện tình cảm.",
+    "en": "I ask for advice about my love life."
+   }
+  ]
+ },
+ {
+  "key": "32-57",
+  "vi": "vật may mắn",
+  "pos": "noun",
+  "verbGroup": null,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "今日のラッキーアイテムは赤いかばんです。",
+    "kana": "きょうのラッキーアイテムはあかいかばんです。",
+    "vi": "Vật may mắn hôm nay là chiếc túi màu đỏ.",
+    "en": "Today's lucky item is a red bag."
+   }
+  ]
+ },
+ {
+  "key": "33-1",
+  "vi": "chạy trốn, bỏ chạy",
+  "pos": "verb-group2",
+  "verbGroup": 2,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "犬が逃げます。",
+    "kana": "いぬがにげます。",
+    "vi": "Con chó bỏ chạy.",
+    "en": "The dog runs away."
+   }
+  ]
+ },
+ {
+  "key": "33-2",
+  "vi": "làm ồn, náo loạn",
+  "pos": "verb-group1",
+  "verbGroup": 1,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "電車の中で騒ぎません。",
+    "kana": "でんしゃのなかでさわぎません。",
+    "vi": "Tôi không làm ồn trong tàu điện.",
+    "en": "I don't make noise on the train."
+   }
+  ]
+ },
+ {
+  "key": "33-3",
+  "vi": "từ bỏ, bỏ cuộc",
+  "pos": "verb-group2",
+  "verbGroup": 2,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "最後まであきらめません。",
+    "kana": "さいごまであきらめません。",
+    "vi": "Tôi sẽ không bỏ cuộc đến cùng.",
+    "en": "I won't give up until the end."
+   }
+  ]
+ },
+ {
+  "key": "33-4",
+  "vi": "ném",
+  "pos": "verb-group2",
+  "verbGroup": 2,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "ボールを投げます。",
+    "kana": "ボールをなげます。",
+    "vi": "Tôi ném bóng.",
+    "en": "I throw the ball."
+   }
+  ]
+ },
+ {
+  "key": "33-5",
+  "vi": "giữ, tuân thủ",
+  "pos": "verb-group1",
+  "verbGroup": 1,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "約束を守ります。",
+    "kana": "やくそくをまもります。",
+    "vi": "Tôi giữ lời hứa.",
+    "en": "I keep my promise."
+   }
+  ]
+ },
+ {
+  "key": "33-6",
+  "vi": "bắt đầu (buổi lễ)",
+  "pos": "verb-group1",
+  "verbGroup": 1,
+  "adjType": null,
+  "examples": [
+   {
+    "ja": "式は十時に始まります。",
+    "kana": "しきはじゅうじにはじまります。",
+    "vi": "Buổi lễ bắt đầu lúc mười giờ.",
+    "en": "The ceremony starts at ten o'clock."
+   }
+  ]
+ }
+]
