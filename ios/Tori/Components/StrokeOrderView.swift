@@ -6,6 +6,7 @@ struct StrokeOrderView: View {
     let entry: KanjiVGEntry
     var strokeDuration: Double = 0.5
     var showNumbers = true
+    var showsReplayButton = true
 
     @Environment(\.palette) private var p
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
@@ -27,12 +28,16 @@ struct StrokeOrderView: View {
             .accessibilityElement()
             .accessibilityLabel("Stroke order, \(entry.strokes.count) strokes")
 
-            Button { replay() } label: {
-                Label("Replay", systemImage: "arrow.counterclockwise")
+            if showsReplayButton {
+                Button { replay() } label: {
+                    Label("Replay", systemImage: "arrow.counterclockwise")
+                }
+                .buttonStyle(.toriGlass)
+                .accessibilityIdentifier("strokes.replay")
             }
-            .buttonStyle(.toriGlass)
-            .accessibilityIdentifier("strokes.replay")
         }
+        .contentShape(Rectangle())
+        .onTapGesture { replay() }
         .task(id: entry.strokes) {
             strokes = entry.strokes.compactMap(SVGPathParser.parse)
             replay()

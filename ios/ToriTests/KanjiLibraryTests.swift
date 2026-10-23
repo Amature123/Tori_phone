@@ -36,3 +36,22 @@ final class KanjiLibraryTests: XCTestCase {
         XCTAssertEqual(KanjiText.katakanaToHiragana("ニチ"), "にち")
     }
 }
+
+final class OnyomiRulesTests: XCTestCase {
+    func testLoadsRulesAndBuildsQuestions() throws {
+        let rules = try XCTUnwrap(OnyomiRules.load())
+        XCTAssertFalse(rules.finals.isEmpty)
+        XCTAssertFalse(rules.initials.isEmpty)
+        XCTAssertEqual(rules.finals.count + rules.initials.count, rules.rules.count)
+        XCTAssertTrue(rules.rules.allSatisfy { $0.matched <= $0.total && (0...100).contains($0.rate) })
+
+        var rng = SystemRandomNumberGenerator()
+        for _ in 0..<50 {
+            let q = try XCTUnwrap(rules.makeQuestion(using: &rng))
+            XCTAssertEqual(q.options.count, 4)
+            XCTAssertEqual(Set(q.options).count, 4, "options are distinct")
+            XCTAssertTrue(q.options.contains(q.example.on[0]), "the answer is offered")
+            XCTAssertEqual(q.options.filter { q.example.on.contains($0) }.count, 1, "exactly one right option")
+        }
+    }
+}
