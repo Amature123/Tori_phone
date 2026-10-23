@@ -1,7 +1,7 @@
 import SwiftUI
 
 enum Destination: String, CaseIterable, Identifiable, Hashable {
-    case home, vocab, review, grammar, verbForms, transitivity, usage, kanji, radicals, kanjiRules, counters, homophones, settings
+    case home, vocab, review, grammar, verbForms, transitivity, usage, kanji, radicals, kanjiRules, counters, homophones, accent, settings
 
     var id: String { rawValue }
 
@@ -19,6 +19,7 @@ enum Destination: String, CaseIterable, Identifiable, Hashable {
         case .kanjiRules: "pencil.and.list.clipboard"
         case .counters: "number"
         case .homophones: "bubble.left.and.bubble.right"
+        case .accent: "waveform"
         case .settings: "slider.horizontal.3"
         }
     }
@@ -37,6 +38,7 @@ enum Destination: String, CaseIterable, Identifiable, Hashable {
         case .kanjiRules: "nav.rules"
         case .counters: "nav.counters"
         case .homophones: "nav.homophones"
+        case .accent: "nav.accent"
         case .settings: "nav.settings"
         }
     }
@@ -48,7 +50,7 @@ enum Destination: String, CaseIterable, Identifiable, Hashable {
         ("nav.groups.learn", [.home, .vocab, .review]),
         ("nav.groups.grammar", [.grammar, .verbForms, .transitivity, .usage]),
         ("nav.groups.kanji", [.kanji, .radicals, .kanjiRules]),
-        ("nav.groups.more", [.counters, .homophones, .settings]),
+        ("nav.groups.more", [.counters, .homophones, .accent, .settings]),
     ]
 }
 
@@ -137,6 +139,7 @@ struct RootView: View {
         case .kanjiRules: KanjiRulesView()
         case .counters: CountersView()
         case .homophones: HomophonesView()
+        case .accent: AccentView()
         case .settings: SettingsView()
         }
     }

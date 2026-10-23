@@ -28,6 +28,7 @@ targets:
       - path: ../src/data/kanji-readings.json
       - path: ../src/data/radicals.json
       - path: ../src/data/onyomi-rules.json
+      - path: ../src/data/kanjium-accents.tsv
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.tori.app
