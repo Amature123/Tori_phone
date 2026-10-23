@@ -1,4 +1,4 @@
-# Kotodori 🐦
+# Tori 🐦
 
 A personal Japanese study app built around JLPT N5/N4. One place for vocab, grammar, kanji, and spaced-repetition review, no accounts, no subscriptions, opens in a browser tab.
 
