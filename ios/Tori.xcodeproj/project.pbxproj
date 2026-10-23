@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		047F1E54ACA02F24DCBBF98B /* KanjiLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B547329555DD38988272F29 /* KanjiLibrary.swift */; };
 		05A7DA93B114B4F80A70268B /* n5 in Resources */ = {isa = PBXBuildFile; fileRef = 6B3E9561C436AE8D5169AABA /* n5 */; };
+		0CA9C488736C45DDA4820854 /* Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D941AD2A1FE9A22A92D73C /* Usage.swift */; };
 		0F23A0430477AD29195433D2 /* n4 in Resources */ = {isa = PBXBuildFile; fileRef = 69DBBBB0D21DD544F345C300 /* n4 */; };
 		1198D6A13D362A7D7A4F7F18 /* KanjiVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCDECC12178ED3C9F0F3EDD /* KanjiVG.swift */; };
 		1519A14353802FC6DBB837B9 /* ToriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5073C1C357028C50CB8C097 /* ToriUITests.swift */; };
@@ -18,12 +19,14 @@
 		1DC9F527DE4174145304D7A5 /* SRS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AAB600E6D0F0DD99301E58 /* SRS.swift */; };
 		2549F966EF724EB6A193354F /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8753059530ECAB810BB8A1E /* ReviewView.swift */; };
 		2B0E3BE24E8536DFF3E0F305 /* radicals.json in Resources */ = {isa = PBXBuildFile; fileRef = BBF0B7FD2D2CA2C95D13681E /* radicals.json */; };
+		321458DD822C643552EA85AD /* UsageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF36402D46AD00C3EF356D3 /* UsageTests.swift */; };
 		3DFA548DE2EC380C422725C6 /* transitivity.json in Resources */ = {isa = PBXBuildFile; fileRef = 144E8C59E7B04C9BE8AD9B75 /* transitivity.json */; };
 		4013D792B3DD7FA7865260B3 /* ProgressStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EEEF12815219C1C2C50DFB /* ProgressStore.swift */; };
 		4099AEB65A63DE9EA9447801 /* locales in Resources */ = {isa = PBXBuildFile; fileRef = F6CC00C996E76C0057ED3A96 /* locales */; };
 		42243ED80C2653A8870C20BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74F6FBA5F9D71C59F6B9D5C /* Assets.xcassets */; };
 		4822486274788681805014FF /* usage.json in Resources */ = {isa = PBXBuildFile; fileRef = 31AD4EDAE51B6C00F9E83D31 /* usage.json */; };
 		4FFC883E6333D4B0AFE4C36D /* Transitivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55ABD4EF103B3DBD02F361BE /* Transitivity.swift */; };
+		52464174AE973016841DE442 /* UsageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8DD30427B44CD6CEC23FB /* UsageView.swift */; };
 		628605FC9BF9E46132FAE4DF /* GrammarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5E9C992ACBFE2F13BDE26B /* GrammarView.swift */; };
 		65A41A30A8C742E63533E9DA /* onyomi-rules.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E299CCD236343892FCC72DC /* onyomi-rules.json */; };
 		7224F0649FB9EF65DEE0A483 /* ContentRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA8A63D5A3755F3D6297021 /* ContentRepository.swift */; };
@@ -76,6 +79,7 @@
 
 /* Begin PBXFileReference section */
 		035C0CE4DEF7EF6A5F3ADE92 /* OnyomiRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnyomiRules.swift; sourceTree = "<group>"; };
+		0AF8DD30427B44CD6CEC23FB /* UsageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageView.swift; sourceTree = "<group>"; };
 		144E8C59E7B04C9BE8AD9B75 /* transitivity.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = transitivity.json; sourceTree = "<group>"; };
 		19A312D5D0ECC0223E19F47B /* CoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTests.swift; sourceTree = "<group>"; };
 		1EF59E611D3829E623CBB330 /* VocabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabView.swift; sourceTree = "<group>"; };
@@ -113,7 +117,9 @@
 		B24369B16F379E12BB7ADBD7 /* KanjiLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiLibraryTests.swift; sourceTree = "<group>"; };
 		B4B1F30A8F0EB88F8BA92828 /* SVGPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGPath.swift; sourceTree = "<group>"; };
 		BBF0B7FD2D2CA2C95D13681E /* radicals.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = radicals.json; sourceTree = "<group>"; };
+		BBF36402D46AD00C3EF356D3 /* UsageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageTests.swift; sourceTree = "<group>"; };
 		BC5E9C992ACBFE2F13BDE26B /* GrammarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarView.swift; sourceTree = "<group>"; };
+		C4D941AD2A1FE9A22A92D73C /* Usage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usage.swift; sourceTree = "<group>"; };
 		C74F6FBA5F9D71C59F6B9D5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C756A5DA35C3923BDF875A97 /* Speaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
 		CF769FC38BBF8208616AD937 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
@@ -157,6 +163,7 @@
 				22AAB600E6D0F0DD99301E58 /* SRS.swift */,
 				B4B1F30A8F0EB88F8BA92828 /* SVGPath.swift */,
 				55ABD4EF103B3DBD02F361BE /* Transitivity.swift */,
+				C4D941AD2A1FE9A22A92D73C /* Usage.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -200,6 +207,7 @@
 				B24369B16F379E12BB7ADBD7 /* KanjiLibraryTests.swift */,
 				5AA4116167BE71E9687373D9 /* KanjiVGTests.swift */,
 				E07EB7206DB5D4CDD593E970 /* TransitivityTests.swift */,
+				BBF36402D46AD00C3EF356D3 /* UsageTests.swift */,
 			);
 			path = ToriTests;
 			sourceTree = "<group>";
@@ -217,6 +225,7 @@
 				F8753059530ECAB810BB8A1E /* ReviewView.swift */,
 				7F670E23B0C67989ABEDFE34 /* RootView.swift */,
 				974F71744B5B51A44756F2F2 /* TransitivityView.swift */,
+				0AF8DD30427B44CD6CEC23FB /* UsageView.swift */,
 				1EF59E611D3829E623CBB330 /* VocabView.swift */,
 			);
 			path = Views;
@@ -406,6 +415,7 @@
 				B8DB3B9C3B10CAD046192689 /* KanjiLibraryTests.swift in Sources */,
 				BFDC14C570D1217D060F1198 /* KanjiVGTests.swift in Sources */,
 				F545D6E17413F278993F9819 /* TransitivityTests.swift in Sources */,
+				321458DD822C643552EA85AD /* UsageTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +461,8 @@
 				A82487F2B72E360381D53146 /* ToriApp.swift in Sources */,
 				4FFC883E6333D4B0AFE4C36D /* Transitivity.swift in Sources */,
 				E5E87BC18F2825F398273201 /* TransitivityView.swift in Sources */,
+				0CA9C488736C45DDA4820854 /* Usage.swift in Sources */,
+				52464174AE973016841DE442 /* UsageView.swift in Sources */,
 				E2488AA6E8EB7CE242F47D24 /* VocabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
