@@ -292,12 +292,12 @@ struct HomophonesView: View {
             .sheet(item: $selected) { g in
                 HomophoneSheet(group: g, hidden: false, next: nil)
                     .presentationDetents([.medium, .large]).presentationCornerRadius(Radius.sheet)
-                    .presentationBackground(.ultraThinMaterial)
+                    .toriSheetBackground()
             }
             .sheet(isPresented: $challenge) {
                 ChallengeSheet(groups: groups)
                     .presentationDetents([.medium, .large]).presentationCornerRadius(Radius.sheet)
-                    .presentationBackground(.ultraThinMaterial)
+                    .toriSheetBackground()
             }
         }
     }

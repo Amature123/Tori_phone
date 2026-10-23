@@ -112,8 +112,17 @@ struct GlassSurface: ViewModifier {
     @Environment(\.palette) private var p
     @Environment(\.accessibilityReduceTransparency) private var reduceTransparency
 
+    @ViewBuilder
     func body(content: Content) -> some View {
         let shape = RoundedRectangle(cornerRadius: radius, style: .continuous)
+        if #available(iOS 26.0, *), !reduceTransparency {
+            content.glassEffect(strong ? .regular.tint(p.glassStrongFill.opacity(0.35)) : .regular, in: shape)
+        } else {
+            legacy(content, shape: shape)
+        }
+    }
+
+    private func legacy(_ content: Content, shape: RoundedRectangle) -> some View {
         content
             .background {
                 if reduceTransparency {
@@ -156,6 +165,17 @@ extension View {
 
     func solidCard(radius: CGFloat = Radius.card) -> some View {
         modifier(SolidCard(radius: radius))
+    }
+
+    /// Sheets are Liquid Glass by default on iOS 26; earlier systems get the
+    /// frosted material.
+    @ViewBuilder
+    func toriSheetBackground() -> some View {
+        if #available(iOS 26.0, *) {
+            self
+        } else {
+            presentationBackground(.ultraThinMaterial)
+        }
     }
 
     /// Serif face so kanji render as Mincho (Hiragino Mincho on iOS).

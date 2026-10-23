@@ -103,7 +103,7 @@ struct RootView: View {
                 .environment(settings)
                 .presentationDetents([.medium, .large])
                 .presentationCornerRadius(Radius.sheet)
-                .presentationBackground(.ultraThinMaterial)
+                .toriSheetBackground()
                 .preferredColorScheme(settings.theme.isDark ? .dark : .light)
         }
     }

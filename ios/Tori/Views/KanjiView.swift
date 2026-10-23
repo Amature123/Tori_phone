@@ -55,7 +55,7 @@ struct KanjiView: View {
                 KanjiGroupSheet(group: s.group, chapter: s.chapter)
                     .presentationDetents([.large])
                     .presentationCornerRadius(Radius.sheet)
-                    .presentationBackground(.ultraThinMaterial)
+                    .toriSheetBackground()
             }
         }
     }

@@ -54,7 +54,7 @@ struct VocabView: View {
                 VocabDetailView(entry: v)
                     .presentationDetents([.large])
                     .presentationCornerRadius(Radius.sheet)
-                    .presentationBackground(.ultraThinMaterial)
+                    .toriSheetBackground()
             }
         }
     }

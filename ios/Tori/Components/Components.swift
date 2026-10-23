@@ -6,33 +6,47 @@ struct PrimaryButtonStyle: ButtonStyle {
     @Environment(\.palette) private var p
     @Environment(\.isEnabled) private var enabled
 
+    @ViewBuilder
     func makeBody(configuration: Configuration) -> some View {
-        configuration.label
+        let label = configuration.label
             .font(.headline)
             .foregroundStyle(p.accentFg)
             .padding(.horizontal, 22).padding(.vertical, 14)
             .frame(minHeight: 48)
-            .background(Capsule().fill(LinearGradient(colors: [p.accent, p.accent.opacity(0.82)], startPoint: .top, endPoint: .bottom)))
-            .overlay(Capsule().strokeBorder(p.highlight.opacity(0.35), lineWidth: 1))
-            .shadow(color: p.accent.opacity(0.35), radius: 12, y: 6)
-            .opacity(enabled ? 1 : 0.45)
-            .scaleEffect(configuration.isPressed ? 0.97 : 1)
-            .animation(.easeOut(duration: 0.15), value: configuration.isPressed)
+        if #available(iOS 26.0, *) {
+            label
+                .glassEffect(.regular.tint(p.accent).interactive(), in: Capsule())
+                .opacity(enabled ? 1 : 0.45)
+        } else {
+            label
+                .background(Capsule().fill(LinearGradient(colors: [p.accent, p.accent.opacity(0.82)], startPoint: .top, endPoint: .bottom)))
+                .overlay(Capsule().strokeBorder(p.highlight.opacity(0.35), lineWidth: 1))
+                .shadow(color: p.accent.opacity(0.35), radius: 12, y: 6)
+                .opacity(enabled ? 1 : 0.45)
+                .scaleEffect(configuration.isPressed ? 0.97 : 1)
+                .animation(.easeOut(duration: 0.15), value: configuration.isPressed)
+        }
     }
 }
 
 struct GlassButtonStyle: ButtonStyle {
     @Environment(\.palette) private var p
 
+    @ViewBuilder
     func makeBody(configuration: Configuration) -> some View {
-        configuration.label
+        let label = configuration.label
             .font(.subheadline.weight(.semibold))
             .foregroundStyle(p.text)
             .padding(.horizontal, 16).padding(.vertical, 10)
             .frame(minHeight: 44)
-            .glass(radius: 22, shadowed: false)
-            .scaleEffect(configuration.isPressed ? 0.97 : 1)
-            .animation(.easeOut(duration: 0.15), value: configuration.isPressed)
+        if #available(iOS 26.0, *) {
+            label.glassEffect(.regular.interactive(), in: Capsule())
+        } else {
+            label
+                .glass(radius: 22, shadowed: false)
+                .scaleEffect(configuration.isPressed ? 0.97 : 1)
+                .animation(.easeOut(duration: 0.15), value: configuration.isPressed)
+        }
     }
 }
 
@@ -95,13 +109,7 @@ struct GlassSegmented<Value: Hashable>: View {
                         .foregroundStyle(isOn ? p.text : p.muted)
                         .frame(maxWidth: .infinity, minHeight: 34)
                         .background {
-                            if isOn {
-                                Capsule().fill(Material.regularMaterial)
-                                    .overlay(Capsule().fill(p.glassStrongFill).opacity(0.7))
-                                    .overlay(Capsule().strokeBorder(p.edge, lineWidth: 1))
-                                    .shadow(color: p.shadow.opacity(0.25), radius: 5, y: 2)
-                                    .matchedGeometryEffect(id: "thumb", in: thumb)
-                            }
+                            if isOn { thumbShape.matchedGeometryEffect(id: "thumb", in: thumb) }
                         }
                 }
                 .buttonStyle(.plain)
@@ -110,6 +118,18 @@ struct GlassSegmented<Value: Hashable>: View {
         }
         .padding(3)
         .background(Capsule().fill(p.text.opacity(0.06)))
+    }
+
+    @ViewBuilder
+    private var thumbShape: some View {
+        if #available(iOS 26.0, *) {
+            Capsule().fill(.clear).glassEffect(.regular, in: Capsule())
+        } else {
+            Capsule().fill(Material.regularMaterial)
+                .overlay(Capsule().fill(p.glassStrongFill).opacity(0.7))
+                .overlay(Capsule().strokeBorder(p.edge, lineWidth: 1))
+                .shadow(color: p.shadow.opacity(0.25), radius: 5, y: 2)
+        }
     }
 }
 
