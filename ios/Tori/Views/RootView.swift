@@ -1,7 +1,7 @@
 import SwiftUI
 
 enum Destination: String, CaseIterable, Identifiable, Hashable {
-    case home, vocab, review, grammar, verbForms, transitivity, usage, kanji, radicals, kanjiRules, counters, homophones, accent, settings
+    case home, vocab, review, grammar, verbForms, transitivity, usage, kanji, radicals, kanjiLookup, kanjiRules, counters, homophones, accent, settings
 
     var id: String { rawValue }
 
@@ -16,6 +16,7 @@ enum Destination: String, CaseIterable, Identifiable, Hashable {
         case .usage: "text.bubble"
         case .kanji: "character"
         case .radicals: "square.grid.3x3"
+        case .kanjiLookup: "magnifyingglass"
         case .kanjiRules: "pencil.and.list.clipboard"
         case .counters: "number"
         case .homophones: "bubble.left.and.bubble.right"
@@ -35,6 +36,7 @@ enum Destination: String, CaseIterable, Identifiable, Hashable {
         case .usage: "nav.usage"
         case .kanji: "nav.kanji"
         case .radicals: "nav.radicals"
+        case .kanjiLookup: "nav.lookup"
         case .kanjiRules: "nav.rules"
         case .counters: "nav.counters"
         case .homophones: "nav.homophones"
@@ -49,7 +51,7 @@ enum Destination: String, CaseIterable, Identifiable, Hashable {
     static let groups: [(titleKey: String, items: [Destination])] = [
         ("nav.groups.learn", [.home, .vocab, .review]),
         ("nav.groups.grammar", [.grammar, .verbForms, .transitivity, .usage]),
-        ("nav.groups.kanji", [.kanji, .radicals, .kanjiRules]),
+        ("nav.groups.kanji", [.kanji, .radicals, .kanjiLookup, .kanjiRules]),
         ("nav.groups.more", [.counters, .homophones, .accent, .settings]),
     ]
 }
@@ -136,6 +138,7 @@ struct RootView: View {
         case .usage: UsageView()
         case .kanji: KanjiView()
         case .radicals: RadicalsView()
+        case .kanjiLookup: KanjiLookupView()
         case .kanjiRules: KanjiRulesView()
         case .counters: CountersView()
         case .homophones: HomophonesView()
