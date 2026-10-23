@@ -61,3 +61,43 @@ final class BookTests: XCTestCase {
         XCTAssertTrue(hits.allSatisfy { $0.minna == 1 })
     }
 }
+
+@MainActor
+final class SearchVariantTests: XCTestCase {
+    private func words() async -> [VocabEntry] {
+        let data = DataStore()
+        await data.load()
+        return data.allVocab(.all)
+    }
+
+    func testKanaOnlyDuplicateCollapsesIntoTheKanjiEntry() async {
+        let all = await words()
+        let usos = all.filter { $0.kana == "うそ" }
+        XCTAssertEqual(usos.count, 2, "the data holds うそ and 嘘")
+        let collapsed = Search.collapsingVariants(usos)
+        XCTAssertEqual(collapsed.map(\.kanji), ["嘘"])
+        let hazukashii = all.filter { $0.kana == "はずかしい" }
+        XCTAssertEqual(Search.collapsingVariants(hazukashii).map(\.kanji), ["恥ずかしい"])
+    }
+
+    func testDifferentWordsWithTheSameReadingStayApart() async {
+        let all = await words()
+        for kana in ["あつい", "なくなる", "ふたり", "やる", "ええ", "はし", "かえる", "かわく", "こむ"] {
+            let group = all.filter { $0.kana == kana }
+            XCTAssertGreaterThan(group.count, 1, kana)
+            XCTAssertEqual(Search.collapsingVariants(group).count, group.count, "\(kana) has different words and must not merge")
+        }
+    }
+
+    func testOnlyTwoEntriesInTheWholeDatasetCollapse() async {
+        let all = await words()
+        XCTAssertEqual(all.count - Search.collapsingVariants(all).count, 2, "うそ and はずかしい only")
+    }
+
+    func testOrderIsPreserved() async {
+        let all = await words()
+        let collapsed = Search.collapsingVariants(all)
+        let ids = collapsed.map(\.id)
+        XCTAssertEqual(ids, all.map(\.id).filter(Set(ids).contains))
+    }
+}

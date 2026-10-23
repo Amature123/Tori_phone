@@ -16,8 +16,10 @@ struct VocabView: View {
         let vocab = data.vocab(settings.level, book: book)
         let groups = Array(Set(vocab.map { Japanese.groupKey($0, book: book) })).sorted(by: Japanese.compareGroupKeys)
         let posList = Array(Set(vocab.map(\.pos))).sorted()
-        let filtered = Search.vocab(vocab, query: query, group: group, pos: pos,
-                                  groupKey: { Japanese.groupKey($0, book: book) }, romaji: data.romaji(of:))
+        let matches = Search.vocab(vocab, query: query, group: group, pos: pos,
+                                   groupKey: { Japanese.groupKey($0, book: book) }, romaji: data.romaji(of:))
+        // Searching shows a word once even if the list holds it spelled two ways.
+        let filtered = query.trimmingCharacters(in: .whitespaces).isEmpty ? matches : Search.collapsingVariants(matches)
 
         NavigationStack {
             ScrollView {
