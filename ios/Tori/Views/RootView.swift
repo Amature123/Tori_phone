@@ -97,7 +97,7 @@ struct RootView: View {
     var body: some View {
         let palette = Palette.make(settings.theme)
         ZStack {
-            AmbientBackground()
+            AmbientBackground(theme: settings.theme)
 
             switch data.state {
             case .loading:

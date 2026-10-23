@@ -44,6 +44,7 @@
 		9210CEE46D47AEF7C3F01871 /* kanji-readings.json in Resources */ = {isa = PBXBuildFile; fileRef = 8CE79E1009B7FF6F5673C940 /* kanji-readings.json */; };
 		9F893426703443D2CF67E9DE /* Furigana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EA8F46F3445D798D7AFBA6 /* Furigana.swift */; };
 		A3783FE57372D8B7078DEA74 /* FuriganaText.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE687A7B2B7247DB4B5C2AED /* FuriganaText.swift */; };
+		A744482AA70D0C3491D25131 /* ThemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC78F25386A467F8BE10FC6 /* ThemeTests.swift */; };
 		A82487F2B72E360381D53146 /* ToriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1CA3A7CA5C5A6184D522B3 /* ToriApp.swift */; };
 		AB2556B3E17B14A9E4FD17B9 /* ReferenceViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB74D9924DDDD2D556DFE13 /* ReferenceViews.swift */; };
 		AD8C3889F4100450892C4B84 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3F0EE71DC1C6113DFA1E95 /* Theme.swift */; };
@@ -68,6 +69,7 @@
 		E2488AA6E8EB7CE242F47D24 /* VocabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF59E611D3829E623CBB330 /* VocabView.swift */; };
 		E5E87BC18F2825F398273201 /* TransitivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974F71744B5B51A44756F2F2 /* TransitivityView.swift */; };
 		EB1F1B4802108243F4D74FD1 /* KanjiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA339362A1674ACDEC3C984 /* KanjiView.swift */; };
+		EE61C58746816E9DCF0CF89F /* Scenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B6E3E161E977BD7AC96D85 /* Scenes.swift */; };
 		F0F37B298068752512830C56 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF769FC38BBF8208616AD937 /* Search.swift */; };
 		F135DE97B91B995F3E59F308 /* Japanese.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BA6FA4729231F6CB7C0053 /* Japanese.swift */; };
 		F50AE460C5886B03B47DD273 /* Localizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872F17C7441B59EAF8AA12E8 /* Localizer.swift */; };
@@ -96,6 +98,7 @@
 		035C0CE4DEF7EF6A5F3ADE92 /* OnyomiRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnyomiRules.swift; sourceTree = "<group>"; };
 		061D74B640F55AFD1682DD04 /* BookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTests.swift; sourceTree = "<group>"; };
 		0AF8DD30427B44CD6CEC23FB /* UsageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageView.swift; sourceTree = "<group>"; };
+		0FC78F25386A467F8BE10FC6 /* ThemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeTests.swift; sourceTree = "<group>"; };
 		144E8C59E7B04C9BE8AD9B75 /* transitivity.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = transitivity.json; sourceTree = "<group>"; };
 		19A312D5D0ECC0223E19F47B /* CoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTests.swift; sourceTree = "<group>"; };
 		1EF59E611D3829E623CBB330 /* VocabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabView.swift; sourceTree = "<group>"; };
@@ -143,6 +146,7 @@
 		ABA8A63D5A3755F3D6297021 /* ContentRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRepository.swift; sourceTree = "<group>"; };
 		B24369B16F379E12BB7ADBD7 /* KanjiLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiLibraryTests.swift; sourceTree = "<group>"; };
 		B4B1F30A8F0EB88F8BA92828 /* SVGPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGPath.swift; sourceTree = "<group>"; };
+		B4B6E3E161E977BD7AC96D85 /* Scenes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scenes.swift; sourceTree = "<group>"; };
 		BBF0B7FD2D2CA2C95D13681E /* radicals.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = radicals.json; sourceTree = "<group>"; };
 		BBF36402D46AD00C3EF356D3 /* UsageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageTests.swift; sourceTree = "<group>"; };
 		BC5E9C992ACBFE2F13BDE26B /* GrammarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarView.swift; sourceTree = "<group>"; };
@@ -246,6 +250,7 @@
 				B24369B16F379E12BB7ADBD7 /* KanjiLibraryTests.swift */,
 				CF6BDC3E91D8D6D41ECBA2DF /* KanjiRecognizerTests.swift */,
 				5AA4116167BE71E9687373D9 /* KanjiVGTests.swift */,
+				0FC78F25386A467F8BE10FC6 /* ThemeTests.swift */,
 				E07EB7206DB5D4CDD593E970 /* TransitivityTests.swift */,
 				BBF36402D46AD00C3EF356D3 /* UsageTests.swift */,
 			);
@@ -294,6 +299,7 @@
 		F3F3B9FE43153FE99C99DF66 /* Theme */ = {
 			isa = PBXGroup;
 			children = (
+				B4B6E3E161E977BD7AC96D85 /* Scenes.swift */,
 				4E3F0EE71DC1C6113DFA1E95 /* Theme.swift */,
 			);
 			path = Theme;
@@ -466,6 +472,7 @@
 				B8DB3B9C3B10CAD046192689 /* KanjiLibraryTests.swift in Sources */,
 				C1D19D22AAEB4550E380F12C /* KanjiRecognizerTests.swift in Sources */,
 				BFDC14C570D1217D060F1198 /* KanjiVGTests.swift in Sources */,
+				A744482AA70D0C3491D25131 /* ThemeTests.swift in Sources */,
 				F545D6E17413F278993F9819 /* TransitivityTests.swift in Sources */,
 				321458DD822C643552EA85AD /* UsageTests.swift in Sources */,
 			);
@@ -513,6 +520,7 @@
 				7C8FA0126BA96197E8BE9CB4 /* RootView.swift in Sources */,
 				1DC9F527DE4174145304D7A5 /* SRS.swift in Sources */,
 				8436E5570BDB55CAA51CA323 /* SVGPath.swift in Sources */,
+				EE61C58746816E9DCF0CF89F /* Scenes.swift in Sources */,
 				F0F37B298068752512830C56 /* Search.swift in Sources */,
 				1B8D750455962C582A81070A /* SettingsStore.swift in Sources */,
 				7408FA296C7048297F8328CE /* Speaker.swift in Sources */,
@@ -657,7 +665,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 0.0.6;
+				MARKETING_VERSION = 0.0.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -733,7 +741,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 0.0.6;
+				MARKETING_VERSION = 0.0.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -144,7 +144,7 @@ struct GlassSegmented<Value: Hashable>: View {
         if #available(iOS 26.0, *) {
             if isOn {
                 label
-                    .glassEffect(.regular.tint(p.accent.opacity(0.12)).interactive(), in: Capsule())
+                    .glassEffect(.regular.tint(p.clearGlass ? Color.white.opacity(0.16) : p.accent.opacity(0.12)).interactive(), in: Capsule())
                     .glassEffectID("thumb", in: thumb)
             } else {
                 label.contentShape(Capsule())

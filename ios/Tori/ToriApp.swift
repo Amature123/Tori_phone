@@ -12,7 +12,11 @@ struct ToriApp: App {
     init() {
         // UI tests launch with `-uitest` so they start from a clean, in-memory state.
         let isUITest = ProcessInfo.processInfo.arguments.contains("-uitest")
-        _settings = State(initialValue: SettingsStore(defaults: isUITest ? nil : .standard))
+        let store = SettingsStore(defaults: isUITest ? nil : .standard)
+        // `-theme <id>` starts with that theme (screenshots, UI tests).
+        let args = ProcessInfo.processInfo.arguments
+        if let i = args.firstIndex(of: "-theme"), args.indices.contains(i + 1), let id = ThemeID(rawValue: args[i + 1]) { store.theme = id }
+        _settings = State(initialValue: store)
         _progress = State(initialValue: ProgressStore(fileURL: isUITest ? nil : ProgressStore.defaultURL))
     }
 
