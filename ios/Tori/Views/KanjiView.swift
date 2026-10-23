@@ -92,6 +92,7 @@ struct KanjiGroupSheet: View {
     @Environment(SettingsStore.self) private var settings
     @Environment(\.palette) private var p
     @Environment(\.dismiss) private var dismiss
+    @Environment(KanjiVGStore.self) private var kanjiVG
 
     var body: some View {
         ScrollView {
@@ -117,6 +118,10 @@ struct KanjiGroupSheet: View {
                 .frame(maxWidth: .infinity).padding(20)
                 .glass(strong: true, radius: Radius.sheet)
 
+                if let vg = kanjiVG.entry(for: group.anchor) {
+                    StrokeOrderView(entry: vg).frame(maxWidth: 260).frame(maxWidth: .infinity)
+                }
+
                 SectionLabel(text: settings.t("kanji.relatedWords"))
                 ForEach(Array(group.words.enumerated()), id: \.offset) { _, w in
                     HStack(spacing: 12) {
@@ -135,6 +140,7 @@ struct KanjiGroupSheet: View {
             .padding(16)
         }
         .id(group.id)
+        .task { await kanjiVG.loadIfNeeded() }
         .safeAreaInset(edge: .bottom) {
             if let current = list.first(where: { $0.group.id == group.id }),
                let pg = list.pager(around: current, select: select) {

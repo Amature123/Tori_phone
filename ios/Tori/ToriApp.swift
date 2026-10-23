@@ -6,6 +6,7 @@ struct ToriApp: App {
     @State private var settings: SettingsStore
     @State private var progress: ProgressStore
     @State private var speaker = Speaker()
+    @State private var kanjiVG = KanjiVGStore()
 
     init() {
         // UI tests launch with `-uitest` so they start from a clean, in-memory state.
@@ -21,6 +22,7 @@ struct ToriApp: App {
                 .environment(settings)
                 .environment(progress)
                 .environment(speaker)
+                .environment(kanjiVG)
                 .task { await data.load() }
         }
     }

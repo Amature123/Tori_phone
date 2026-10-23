@@ -23,6 +23,7 @@ targets:
         type: folder
       - path: ../src/locales
         type: folder
+      - path: ../src/data/kanjivg.json
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.tori.app
