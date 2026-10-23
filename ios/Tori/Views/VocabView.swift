@@ -156,7 +156,7 @@ struct VocabDetailView: View {
                 }
 
                 VStack(spacing: 10) {
-                    FuriganaWord(kanji: entry.kanji, kana: entry.kana, size: 52)
+                    FuriganaWord(kanji: entry.kanji, kana: entry.kana, size: 52, tappable: true)
                     Text(settings.text(entry.meanings)).font(.title3.weight(.semibold)).multilineTextAlignment(.center)
                     HStack(spacing: 14) {
                         SpeakButton(text: entry.kana)
@@ -172,10 +172,7 @@ struct VocabDetailView: View {
                     ForEach(Array(entry.examples.enumerated()), id: \.offset) { _, ex in
                         HStack(alignment: .top, spacing: 10) {
                             VStack(alignment: .leading, spacing: 4) {
-                                Text(ex.ja).jp(17, weight: .medium)
-                                if let kana = ex.kana, !kana.isEmpty {
-                                    Text(kana).jp(12, weight: .regular).foregroundStyle(p.muted)
-                                }
+                                FuriganaText(kanji: ex.ja, kana: ex.kana, size: 17, weight: .medium, tappable: true)
                                 Text(settings.text(ex.translation)).font(.footnote).foregroundStyle(p.muted)
                             }
                             Spacer(minLength: 0)

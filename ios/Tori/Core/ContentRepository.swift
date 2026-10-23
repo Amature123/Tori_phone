@@ -83,6 +83,8 @@ final class DataStore {
     private(set) var state: State = .loading
     private(set) var content = StudyContent()
     private(set) var vocabByID: [String: VocabEntry] = [:]
+    /// Accent nucleus by "kanji kana", for words that appear outside the vocabulary list (kanji groups).
+    private(set) var pitchByWord: [String: Int] = [:]
     private(set) var grammarByID: [String: GrammarPoint] = [:]
 
     private let repository: ContentRepository
@@ -99,6 +101,7 @@ final class DataStore {
             let loaded = try await Task.detached(priority: .userInitiated) { try repo.load() }.value
             content = loaded
             vocabByID = Dictionary(uniqueKeysWithValues: (loaded.vocabN5 + loaded.vocabN4).map { ($0.id, $0) })
+            for v in loaded.vocabN5 + loaded.vocabN4 { if let pitch = v.pitch { pitchByWord["\(v.kanji) \(v.kana)"] = pitch } }
             grammarByID = Dictionary(uniqueKeysWithValues: (loaded.grammarN5 + loaded.grammarN4).map { ($0.id, $0) })
             state = .ready
         } catch {
@@ -148,6 +151,9 @@ final class DataStore {
         if level != .n5, let d = content.verbFormsN4 { out.append(("N4", d)) }
         return out
     }
+
+    /// Pitch for a kanji-group word, looked up in the vocabulary by exact (kanji, kana).
+    func pitch(kanji: String, kana: String) -> Int? { pitchByWord["\(kanji) \(kana)"] }
 
     func romaji(of v: VocabEntry) -> String { content.romaji[v.id] ?? "" }
 }

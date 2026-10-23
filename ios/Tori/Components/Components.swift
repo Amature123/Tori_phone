@@ -186,24 +186,16 @@ struct SpeakButton: View {
     }
 }
 
-/// Reading above the word, for words that contain kanji.
+/// A single word with furigana over each kanji run (see `FuriganaText`).
 struct FuriganaWord: View {
     let kanji: String
     let kana: String
     var size: CGFloat = 20
-    @Environment(\.palette) private var p
+    var tappable = false
+    var onKanji: ((String) -> Void)?
 
     var body: some View {
-        if kanji.isEmpty || kanji == kana || !Japanese.hasKanji(kanji) {
-            Text(kanji.isEmpty ? kana : kanji).jp(size)
-        } else {
-            VStack(spacing: 1) {
-                Text(kana)
-                    .font(.system(size: max(9, size * 0.42), weight: .medium, design: .serif))
-                    .foregroundStyle(p.muted)
-                Text(kanji).jp(size)
-            }
-        }
+        FuriganaText(kanji: kanji, kana: kana, size: size, wrap: false, tappable: tappable, onKanji: onKanji)
     }
 }
 

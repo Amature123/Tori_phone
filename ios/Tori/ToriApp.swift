@@ -28,6 +28,8 @@ struct ToriApp: App {
                 .task {
                     await data.load()
                     await library.load(chapters: data.kanjiChapters(.all))
+                    // The stroke data is ~2 MB of JSON; decode it now so the first kanji tap does not wait.
+                    await kanjiVG.loadIfNeeded()
                 }
         }
     }

@@ -75,6 +75,8 @@ struct RootView: View {
     /// Screens already opened stay alive (hidden) so a review session or a
     /// scroll position survives switching tabs.
     @State private var visited: Set<Destination>
+    /// `-kanji <char>` opens that kanji's sheet at launch (screenshots, UI tests).
+    @State private var launchKanji: String?
     @State private var showMore = false
 
     init() {
@@ -83,6 +85,7 @@ struct RootView: View {
         let start = args.firstIndex(of: "-open").flatMap { args.indices.contains($0 + 1) ? Destination(rawValue: args[$0 + 1]) : nil } ?? .home
         _selection = State(initialValue: start)
         _visited = State(initialValue: [start])
+        _launchKanji = State(initialValue: args.firstIndex(of: "-kanji").flatMap { args.indices.contains($0 + 1) ? args[$0 + 1] : nil })
     }
 
     var body: some View {
@@ -114,6 +117,7 @@ struct RootView: View {
         }
         .environment(\.palette, palette)
         .environment(\.navigate, go)
+        .kanjiSheet($launchKanji)
         .tint(palette.accent)
         .foregroundStyle(palette.text)
         .preferredColorScheme(settings.theme.isDark ? .dark : .light)

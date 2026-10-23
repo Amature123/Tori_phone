@@ -7,6 +7,8 @@ struct KanjiView: View {
 
     @State private var query = ""
     @State private var selected: SelectedGroup?
+    /// `TaggedKanjiChapter.id` of the chapter to show, nil for all.
+    @State private var chapterFilter: String?
 
     fileprivate struct SelectedGroup: Identifiable {
         let group: KanjiGroup
@@ -18,6 +20,7 @@ struct KanjiView: View {
     var body: some View {
         let chapters = data.kanjiChapters(settings.level)
         let visible: [(TaggedKanjiChapter, [KanjiGroup])] = chapters
+            .filter { chapterFilter == nil || $0.id == chapterFilter }
             .map { c in (c, c.chapter.groups.filter { Search.kanjiGroup($0, matches: query) }) }
             .filter { !$0.1.isEmpty }
         let total = visible.reduce(0) { $0 + $1.1.count }
@@ -27,7 +30,11 @@ struct KanjiView: View {
             ScrollView {
                 LazyVStack(alignment: .leading, spacing: 14) {
                     LevelPicker()
-                    Text(settings.t("kanji.groupsCount", ["n": total])).font(.caption).foregroundStyle(p.muted)
+                    HStack(spacing: 10) {
+                        chapterMenu(chapters)
+                        Spacer(minLength: 0)
+                        Text(settings.t("kanji.groupsCount", ["n": total])).font(.caption).foregroundStyle(p.muted)
+                    }
 
                     if visible.isEmpty {
                         EmptyStateView(symbol: "magnifyingglass", message: settings.t("kanji.noResults"))
@@ -52,6 +59,7 @@ struct KanjiView: View {
             .toriScreen(title: settings.t("nav.kanji"))
             .searchable(text: $query, placement: .navigationBarDrawer(displayMode: .always),
                         prompt: settings.t("kanji.searchPlaceholder"))
+            .onChange(of: settings.level) { chapterFilter = nil }
             .sheet(item: $selected) { s in
                 KanjiGroupSheet(group: s.group, chapter: s.chapter, list: flat) { selected = $0 }
                     .presentationDetents([.large])
@@ -59,6 +67,39 @@ struct KanjiView: View {
                     .toriSheetBackground()
             }
         }
+    }
+}
+
+extension KanjiView {
+    /// "Chương 1 (94)": a chapter and how many words it holds, like the web select.
+    @ViewBuilder
+    fileprivate func chapterMenu(_ chapters: [TaggedKanjiChapter]) -> some View {
+        let label: String = chapterFilter.flatMap { id in chapters.first { $0.id == id } }.map { chapterTitle($0, in: chapters) }
+            ?? settings.t("common.all")
+        Menu {
+            Button(settings.t("common.all")) { chapterFilter = nil }
+            ForEach(chapters) { c in
+                Button("\(chapterTitle(c, in: chapters)) (\(c.chapter.wordCount))") { chapterFilter = c.id }
+            }
+        } label: {
+            HStack(spacing: 6) {
+                Text(settings.l("Chương", "Chapter").uppercased()).font(.system(size: 10, weight: .black)).tracking(0.8).foregroundStyle(p.muted)
+                Text(label).lineLimit(1)
+                Image(systemName: "chevron.down").font(.system(size: 10, weight: .bold))
+            }
+            .font(.footnote.weight(.semibold))
+            .foregroundStyle(chapterFilter == nil ? p.text : p.accentFg)
+            .padding(.horizontal, 14).frame(minHeight: 36)
+            .background(Capsule().fill(chapterFilter == nil ? AnyShapeStyle(p.card) : AnyShapeStyle(p.accent)))
+            .overlay(Capsule().strokeBorder(chapterFilter == nil ? p.hairline : Color.clear, lineWidth: 1))
+        }
+        .accessibilityIdentifier("kanji.chapterFilter")
+    }
+
+    /// With both levels shown, chapter numbers repeat, so the title carries the level.
+    private func chapterTitle(_ c: TaggedKanjiChapter, in all: [TaggedKanjiChapter]) -> String {
+        let name = settings.t("common.chapterN", ["n": c.chapter.chapter])
+        return Set(all.map(\.src)).count > 1 ? "\(c.src.rawValue) · \(name)" : name
     }
 }
 
@@ -123,19 +164,7 @@ struct KanjiGroupSheet: View {
                 }
 
                 SectionLabel(text: settings.t("kanji.relatedWords"))
-                ForEach(Array(group.words.enumerated()), id: \.offset) { _, w in
-                    HStack(spacing: 12) {
-                        FuriganaWord(kanji: w.kanji, kana: w.kana, size: 22).frame(minWidth: 84, alignment: .leading)
-                        VStack(alignment: .leading, spacing: 2) {
-                            Text(settings.text(w.meaning)).font(.footnote)
-                            Text("\(w.hanviet) · \(w.onkun)").font(.caption2).foregroundStyle(p.muted)
-                        }
-                        Spacer(minLength: 0)
-                        SpeakButton(text: w.kana)
-                    }
-                    .padding(.horizontal, 14).padding(.vertical, 10)
-                    .solidCard(radius: Radius.small)
-                }
+                ForEach(Array(group.words.enumerated()), id: \.offset) { _, w in KanjiWordRow(word: w) }
             }
             .padding(16)
         }

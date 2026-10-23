@@ -185,7 +185,7 @@ struct UsageView: View {
     private func synonymCard(_ w: SynonymWord) -> some View {
         VStack(alignment: .leading, spacing: 8) {
             HStack {
-                FuriganaWord(kanji: w.kanji, kana: w.kana, size: 22)
+                FuriganaWord(kanji: w.kanji, kana: w.kana, size: 22, tappable: true)
                 SpeakButton(text: w.kana)
                 Spacer()
                 PosTag(pos: w.pos)
@@ -202,8 +202,7 @@ struct UsageView: View {
     private func exampleBox(_ ex: SentenceExample) -> some View {
         HStack(alignment: .top) {
             VStack(alignment: .leading, spacing: 3) {
-                Text(ex.ja).jp(15, weight: .semibold)
-                if let kana = ex.kana, !kana.isEmpty { Text(kana).jp(11, weight: .regular).foregroundStyle(p.muted) }
+                FuriganaText(kanji: ex.ja, kana: ex.kana, size: 15, tappable: true)
                 Text(settings.text(ex.translation)).font(.caption).foregroundStyle(p.muted)
             }
             Spacer(minLength: 0)
@@ -257,7 +256,7 @@ struct UsageView: View {
                         .background(Circle().fill(particleColor[e.particle].map { p[keyPath: $0] } ?? p.muted))
                 }
                 HStack(spacing: 6) {
-                    FuriganaWord(kanji: e.verb.kanji, kana: e.verb.kana, size: 17)
+                    FuriganaWord(kanji: e.verb.kanji, kana: e.verb.kana, size: 17, tappable: true)
                     SpeakButton(text: e.verb.kana)
                     Text(settings.text(e.verb.meaning)).font(.footnote).foregroundStyle(p.muted)
                 }

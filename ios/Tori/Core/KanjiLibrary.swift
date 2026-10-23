@@ -61,6 +61,11 @@ enum KanjiText {
     }
 }
 
+struct RadicalName: Decodable, Hashable, Sendable {
+    let hanviet: String
+    let meaning: String
+}
+
 private struct ReadingsFallback: Decodable {
     let on: [String]
     let kun: [String]
@@ -73,6 +78,10 @@ private struct ReadingsFallback: Decodable {
 final class KanjiLibrary {
     private(set) var records: [KanjiRecord] = []
     private(set) var radicals: [Radical] = []
+    /// bothu.pdf names for radicals and components (亻, 氵, ...), by glyph.
+    private(set) var radicalNames: [String: RadicalName] = [:]
+    /// Han Viet -> on'yomi rules, for "which rules does this kanji follow".
+    private(set) var onyomi: OnyomiRules?
     /// Kanji the app has data for (anchors + readings), used for radical examples.
     private(set) var known: Set<String> = []
     /// Prev/next order: textbook anchors in chapter order, then everything else.
@@ -83,6 +92,16 @@ final class KanjiLibrary {
 
     func record(_ char: String) -> KanjiRecord? { byChar[char] }
 
+    /// Han Viet for any kanji, including ones outside the app's kanji lists.
+    func hanviet(_ char: String) -> String? { byChar[char]?.hanviet }
+
+    /// Rules this kanji's Han Viet -> on'yomi follows (measured in build-onyomi-rules.mjs).
+    func rules(for char: String) -> [OnyomiRule] {
+        guard let onyomi, let ids = onyomi.kanjiRules[char] else { return [] }
+        let byID = Dictionary(onyomi.rules.map { ($0.id, $0) }, uniquingKeysWith: { a, _ in a })
+        return ids.compactMap { byID[$0] }
+    }
+
     func load(chapters: [TaggedKanjiChapter]) async {
         guard !ready, !loading else { return }
         loading = true
@@ -90,6 +109,8 @@ final class KanjiLibrary {
         let built = await Task.detached(priority: .utility) { Self.build(chapters: chapters) }.value
         records = built.records
         radicals = built.radicals
+        radicalNames = built.radicalNames
+        onyomi = built.onyomi
         known = built.known
         order = built.order
         byChar = Dictionary(built.records.map { ($0.char, $0) }, uniquingKeysWith: { a, _ in a })
@@ -125,6 +146,8 @@ final class KanjiLibrary {
     private struct Built: Sendable {
         var records: [KanjiRecord]
         var radicals: [Radical]
+        var radicalNames: [String: RadicalName]
+        var onyomi: OnyomiRules?
         var known: Set<String>
         var order: [String]
     }
@@ -183,6 +206,8 @@ final class KanjiLibrary {
         let rank = Dictionary(uniqueKeysWithValues: order.enumerated().map { ($1, $0) })
         return Built(records: records.sorted { rank[$0.char]! < rank[$1.char]! },
                      radicals: radicals,
+                     radicalNames: resource("radical-names", as: [String: RadicalName].self) ?? [:],
+                     onyomi: OnyomiRules.load(),
                      known: Set(anchors.keys).union(readings.keys),
                      order: order)
     }

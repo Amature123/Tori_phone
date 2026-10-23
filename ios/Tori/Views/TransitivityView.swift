@@ -68,8 +68,7 @@ struct TransitivityView: View {
 
     private func sentenceBox(_ ja: String, kana: String?, caption: String?) -> some View {
         VStack(alignment: .leading, spacing: 3) {
-            Text(ja).jp(16, weight: .semibold)
-            if let kana, !kana.isEmpty { Text(kana).jp(11, weight: .regular).foregroundStyle(p.muted) }
+            FuriganaText(kanji: ja, kana: kana, size: 16, tappable: true)
             if let caption, !caption.isEmpty { Text(caption).font(.caption).foregroundStyle(p.muted) }
         }
         .padding(10).frame(maxWidth: .infinity, alignment: .leading)
@@ -207,7 +206,7 @@ struct TransitivityView: View {
     private func half(_ h: VerbHalf, tag: String, particle: String, color: Color) -> some View {
         VStack(alignment: .leading, spacing: 8) {
             HStack {
-                FuriganaWord(kanji: h.kanji, kana: h.kana, size: 22)
+                FuriganaWord(kanji: h.kanji, kana: h.kana, size: 22, tappable: true)
                 SpeakButton(text: h.kana)
                 Spacer()
                 Text("\(tag) \(particle)")

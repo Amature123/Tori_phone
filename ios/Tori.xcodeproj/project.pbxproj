@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		047F1E54ACA02F24DCBBF98B /* KanjiLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B547329555DD38988272F29 /* KanjiLibrary.swift */; };
 		05A7DA93B114B4F80A70268B /* n5 in Resources */ = {isa = PBXBuildFile; fileRef = 6B3E9561C436AE8D5169AABA /* n5 */; };
+		05BEA8FCF138C575C0D5DB02 /* radical-names.json in Resources */ = {isa = PBXBuildFile; fileRef = 48B04B6AD5CF3AD9370279E1 /* radical-names.json */; };
 		066BBF6B7605F23003E643C0 /* kanjium-accents.tsv in Resources */ = {isa = PBXBuildFile; fileRef = 55010AA33B44D468E00759F5 /* kanjium-accents.tsv */; };
 		0A33E3290AF2C90912D2E75A /* AccentDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C415F3EBC7CC136844FC6F /* AccentDictionary.swift */; };
 		0CA9C488736C45DDA4820854 /* Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D941AD2A1FE9A22A92D73C /* Usage.swift */; };
@@ -40,6 +41,8 @@
 		8436E5570BDB55CAA51CA323 /* SVGPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B1F30A8F0EB88F8BA92828 /* SVGPath.swift */; };
 		8E481C7A91A7F74BE26CA19F /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7484B913A22203C9AFBD135 /* Models.swift */; };
 		9210CEE46D47AEF7C3F01871 /* kanji-readings.json in Resources */ = {isa = PBXBuildFile; fileRef = 8CE79E1009B7FF6F5673C940 /* kanji-readings.json */; };
+		9F893426703443D2CF67E9DE /* Furigana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EA8F46F3445D798D7AFBA6 /* Furigana.swift */; };
+		A3783FE57372D8B7078DEA74 /* FuriganaText.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE687A7B2B7247DB4B5C2AED /* FuriganaText.swift */; };
 		A82487F2B72E360381D53146 /* ToriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1CA3A7CA5C5A6184D522B3 /* ToriApp.swift */; };
 		AB2556B3E17B14A9E4FD17B9 /* ReferenceViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB74D9924DDDD2D556DFE13 /* ReferenceViews.swift */; };
 		AD8C3889F4100450892C4B84 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3F0EE71DC1C6113DFA1E95 /* Theme.swift */; };
@@ -52,12 +55,15 @@
 		B8DB3B9C3B10CAD046192689 /* KanjiLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24369B16F379E12BB7ADBD7 /* KanjiLibraryTests.swift */; };
 		BC8A866583B7A3AAC8C2B966 /* ReviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993D654517F13DEE614157EC /* ReviewModel.swift */; };
 		BF3B84710A5431F76489673A /* Romaji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DC5D6987A7C38471A9FCE5 /* Romaji.swift */; };
+		BFAC8237D5A14F081CD88770 /* KanjiParts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3202E533E62AB84250D40642 /* KanjiParts.swift */; };
 		BFDC14C570D1217D060F1198 /* KanjiVGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA4116167BE71E9687373D9 /* KanjiVGTests.swift */; };
 		C0B09ECEB5EA94DC967CDE98 /* AccentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C40899C617AC102A8E0CDC7 /* AccentView.swift */; };
 		C1D19D22AAEB4550E380F12C /* KanjiRecognizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6BDC3E91D8D6D41ECBA2DF /* KanjiRecognizerTests.swift */; };
 		C3C8D3098ABF891CAE803D9F /* ContentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7934E0E37B5C80CB0FE40ED0 /* ContentTests.swift */; };
+		C46C0D1CCAC9C00D8AABCF61 /* FuriganaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BBB91E7301B5BF4B1D6EE5 /* FuriganaTests.swift */; };
 		D081301418CD0BC249D490BF /* KanjiRulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693642C0107369031A564563 /* KanjiRulesView.swift */; };
 		D0F3BCA22E227744906A323C /* CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A312D5D0ECC0223E19F47B /* CoreTests.swift */; };
+		D43058A7A9256AD8E0FF6954 /* furigana-map.json in Resources */ = {isa = PBXBuildFile; fileRef = 3604DA35286B83F738EB8D08 /* furigana-map.json */; };
 		E2488AA6E8EB7CE242F47D24 /* VocabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF59E611D3829E623CBB330 /* VocabView.swift */; };
 		E5E87BC18F2825F398273201 /* TransitivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974F71744B5B51A44756F2F2 /* TransitivityView.swift */; };
 		EB1F1B4802108243F4D74FD1 /* KanjiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA339362A1674ACDEC3C984 /* KanjiView.swift */; };
@@ -92,10 +98,14 @@
 		19A312D5D0ECC0223E19F47B /* CoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTests.swift; sourceTree = "<group>"; };
 		1EF59E611D3829E623CBB330 /* VocabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabView.swift; sourceTree = "<group>"; };
 		22AAB600E6D0F0DD99301E58 /* SRS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRS.swift; sourceTree = "<group>"; };
+		25BBB91E7301B5BF4B1D6EE5 /* FuriganaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuriganaTests.swift; sourceTree = "<group>"; };
 		2A1CA3A7CA5C5A6184D522B3 /* ToriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToriApp.swift; sourceTree = "<group>"; };
 		2A5406C983EFBE686E4E5AAC /* KanjiLookupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiLookupView.swift; sourceTree = "<group>"; };
 		31AD4EDAE51B6C00F9E83D31 /* usage.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = usage.json; sourceTree = "<group>"; };
+		3202E533E62AB84250D40642 /* KanjiParts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiParts.swift; sourceTree = "<group>"; };
+		3604DA35286B83F738EB8D08 /* furigana-map.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "furigana-map.json"; sourceTree = "<group>"; };
 		40C415F3EBC7CC136844FC6F /* AccentDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccentDictionary.swift; sourceTree = "<group>"; };
+		48B04B6AD5CF3AD9370279E1 /* radical-names.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "radical-names.json"; sourceTree = "<group>"; };
 		4E299CCD236343892FCC72DC /* onyomi-rules.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "onyomi-rules.json"; sourceTree = "<group>"; };
 		4E3F0EE71DC1C6113DFA1E95 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		51D2C4272EDBEFB95695EA59 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
@@ -118,6 +128,7 @@
 		7A199FA8632548CABC2A1946 /* Tori.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Tori.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F670E23B0C67989ABEDFE34 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		826007EFE927ABEB60DDB92D /* kanjivg.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = kanjivg.json; sourceTree = "<group>"; };
+		85EA8F46F3445D798D7AFBA6 /* Furigana.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Furigana.swift; sourceTree = "<group>"; };
 		872F17C7441B59EAF8AA12E8 /* Localizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizer.swift; sourceTree = "<group>"; };
 		89BA6FA4729231F6CB7C0053 /* Japanese.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Japanese.swift; sourceTree = "<group>"; };
 		8C638F494A998094E679E2B2 /* KanjiDetailSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiDetailSheet.swift; sourceTree = "<group>"; };
@@ -148,6 +159,7 @@
 		F8753059530ECAB810BB8A1E /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
 		FB77B7877CA2C1845065A783 /* hanviet-dictionary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "hanviet-dictionary.json"; sourceTree = "<group>"; };
 		FB9B77BD0E3A40B0BB4D7E0A /* DrawPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawPad.swift; sourceTree = "<group>"; };
+		FE687A7B2B7247DB4B5C2AED /* FuriganaText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuriganaText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -165,6 +177,7 @@
 			children = (
 				40C415F3EBC7CC136844FC6F /* AccentDictionary.swift */,
 				ABA8A63D5A3755F3D6297021 /* ContentRepository.swift */,
+				85EA8F46F3445D798D7AFBA6 /* Furigana.swift */,
 				89BA6FA4729231F6CB7C0053 /* Japanese.swift */,
 				6B547329555DD38988272F29 /* KanjiLibrary.swift */,
 				77EB9486C452CE1E3C49522D /* KanjiRecognizer.swift */,
@@ -191,6 +204,8 @@
 			children = (
 				F704A1F980EFFEE1DFDE9D56 /* Components.swift */,
 				FB9B77BD0E3A40B0BB4D7E0A /* DrawPad.swift */,
+				FE687A7B2B7247DB4B5C2AED /* FuriganaText.swift */,
+				3202E533E62AB84250D40642 /* KanjiParts.swift */,
 				77A21B5DDCE46AD176ED635E /* StrokeOrderView.swift */,
 			);
 			path = Components;
@@ -224,6 +239,7 @@
 				64DE8B7E30710A29C158CCC4 /* AccentTests.swift */,
 				7934E0E37B5C80CB0FE40ED0 /* ContentTests.swift */,
 				19A312D5D0ECC0223E19F47B /* CoreTests.swift */,
+				25BBB91E7301B5BF4B1D6EE5 /* FuriganaTests.swift */,
 				B24369B16F379E12BB7ADBD7 /* KanjiLibraryTests.swift */,
 				CF6BDC3E91D8D6D41ECBA2DF /* KanjiRecognizerTests.swift */,
 				5AA4116167BE71E9687373D9 /* KanjiVGTests.swift */,
@@ -294,6 +310,7 @@
 		F4AC1D06D4E585B26487227D /* data */ = {
 			isa = PBXGroup;
 			children = (
+				3604DA35286B83F738EB8D08 /* furigana-map.json */,
 				FB77B7877CA2C1845065A783 /* hanviet-dictionary.json */,
 				8CE79E1009B7FF6F5673C940 /* kanji-readings.json */,
 				55010AA33B44D468E00759F5 /* kanjium-accents.tsv */,
@@ -301,6 +318,7 @@
 				69DBBBB0D21DD544F345C300 /* n4 */,
 				6B3E9561C436AE8D5169AABA /* n5 */,
 				4E299CCD236343892FCC72DC /* onyomi-rules.json */,
+				48B04B6AD5CF3AD9370279E1 /* radical-names.json */,
 				BBF0B7FD2D2CA2C95D13681E /* radicals.json */,
 			);
 			path = data;
@@ -414,6 +432,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42243ED80C2653A8870C20BE /* Assets.xcassets in Resources */,
+				D43058A7A9256AD8E0FF6954 /* furigana-map.json in Resources */,
 				ADA51C2DCBED56CFD5D3E00A /* hanviet-dictionary.json in Resources */,
 				9210CEE46D47AEF7C3F01871 /* kanji-readings.json in Resources */,
 				066BBF6B7605F23003E643C0 /* kanjium-accents.tsv in Resources */,
@@ -422,6 +441,7 @@
 				0F23A0430477AD29195433D2 /* n4 in Resources */,
 				05A7DA93B114B4F80A70268B /* n5 in Resources */,
 				65A41A30A8C742E63533E9DA /* onyomi-rules.json in Resources */,
+				05BEA8FCF138C575C0D5DB02 /* radical-names.json in Resources */,
 				2B0E3BE24E8536DFF3E0F305 /* radicals.json in Resources */,
 				3DFA548DE2EC380C422725C6 /* transitivity.json in Resources */,
 				4822486274788681805014FF /* usage.json in Resources */,
@@ -438,6 +458,7 @@
 				1F964CD264A1A27CD80637B6 /* AccentTests.swift in Sources */,
 				C3C8D3098ABF891CAE803D9F /* ContentTests.swift in Sources */,
 				D0F3BCA22E227744906A323C /* CoreTests.swift in Sources */,
+				C46C0D1CCAC9C00D8AABCF61 /* FuriganaTests.swift in Sources */,
 				B8DB3B9C3B10CAD046192689 /* KanjiLibraryTests.swift in Sources */,
 				C1D19D22AAEB4550E380F12C /* KanjiRecognizerTests.swift in Sources */,
 				BFDC14C570D1217D060F1198 /* KanjiVGTests.swift in Sources */,
@@ -463,12 +484,15 @@
 				B0CF3E17394EB886171965AC /* Components.swift in Sources */,
 				7224F0649FB9EF65DEE0A483 /* ContentRepository.swift in Sources */,
 				6CA9D7A66A9FEA71D6B6EC42 /* DrawPad.swift in Sources */,
+				9F893426703443D2CF67E9DE /* Furigana.swift in Sources */,
+				A3783FE57372D8B7078DEA74 /* FuriganaText.swift in Sources */,
 				628605FC9BF9E46132FAE4DF /* GrammarView.swift in Sources */,
 				B774B6DA9B1D585C6729A1A6 /* HomeView.swift in Sources */,
 				F135DE97B91B995F3E59F308 /* Japanese.swift in Sources */,
 				FEA0564F25792C4FCF487B62 /* KanjiDetailSheet.swift in Sources */,
 				047F1E54ACA02F24DCBBF98B /* KanjiLibrary.swift in Sources */,
 				4258B34CB58DFFB1EF7ADFDF /* KanjiLookupView.swift in Sources */,
+				BFAC8237D5A14F081CD88770 /* KanjiParts.swift in Sources */,
 				B7583820825526CA6BACAB60 /* KanjiRecognizer.swift in Sources */,
 				D081301418CD0BC249D490BF /* KanjiRulesView.swift in Sources */,
 				1198D6A13D362A7D7A4F7F18 /* KanjiVG.swift in Sources */,
@@ -627,7 +651,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 0.0.3;
+				MARKETING_VERSION = 0.0.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -703,7 +727,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 0.0.3;
+				MARKETING_VERSION = 0.0.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
